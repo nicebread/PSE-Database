@@ -1,0 +1,56 @@
+## This source code is licensed under the FreeBSD license (see "LICENSE" file)
+## (c) 2018 Felix Schönbrodt
+
+## ======================================================================
+## Decline effect at later pictures?
+## Descriptive plot and multilevel models.
+## ======================================================================
+
+source("0-start.R")
+load(file="cache/story.desc.RData")
+
+story.random <- story.desc %>% 
+	filter(scoring_type == "eachSentence", pic_order=="variable") %>% 
+	filter(!grepl("newpic", pic_ID))
+
+# special treatment for MK3: This study had a large break between pic_ID 1-4 and 5-8. Therefore we only use 1-4
+story.random <- story.random[!(story.random$study_ID == "MK3" & story.random$pic_position > 4), ]
+
+# show which picture appears on which position
+table(story.random$pic_ID, story.random$pic_position)
+
+# More or less motive codings in later pictures?
+# We do not use random effects for study_ID, because this has only 7 levels
+picPos.overall <- lmer(overall.sum ~ 1 + study_ID + pic_position + (1 | pic_ID) + (1 |person_ID), data=story.random)
+summary(picPos.overall)
+
+picPos.aff <- lmer(aff.sum ~ 1 + study_ID + pic_position + (1 | pic_ID) + (1 |person_ID), data=story.random)
+summary(picPos.aff)
+
+picPos.ach <- lmer(ach.sum ~ 1 + study_ID + pic_position + (1 | pic_ID) + (1 |person_ID), data=story.random)
+summary(picPos.ach)
+
+picPos.pow <- lmer(pow.sum ~ 1 + study_ID + pic_position + (1 | pic_ID) + (1 |person_ID), data=story.random)
+summary(picPos.pow)
+
+# More or less sentences in later pictures?
+picPos.sc <- lmer(sc.story ~ 1 + study_ID + pic_position + (1 | pic_ID) + (1 |person_ID), data=story.random, control=lmerControl(optimizer="Nelder_Mead", optCtrl=list(maxfun=35000)))
+summary(picPos.sc)
+
+# More or less words in later pictures?
+picPos.wc <- lmer(wc.story ~ 1 + pic_position + (1 | pic_ID) + (1 | person_ID), data=story.random, control=lmerControl(optimizer="Nelder_Mead", optCtrl=list(maxfun=35000)))
+summary(picPos.wc)
+
+
+# convert to long format data frame for plotting
+story.random.long <- story.random %>%
+	ungroup() %>% 
+	select(pic_ID, pic_position, overall.sum, aff.sum, ach.sum, pow.sum, sc.story, wc.story) %>% 
+	gather(variable, value, -pic_ID, -pic_position)
+	
+story.random.long$variable <- factor(story.random.long$variable, labels=c("Overall motive score", "Aff score", "Ach score", "Pow score", "Sentence count", "Word count"))
+	
+picPosPlot <- ggplot(story.random.long, aes(x=pic_position, y=value)) + stat_summary(fun.data=mean_cl_normal) + facet_wrap(~variable, scales="free") + ylab("") + xlab("Story position in PSE task") + theme_bw()
+picPosPlot
+
+save(story.random, picPos.overall, picPos.aff, picPos.ach, picPos.pow, picPos.sc, picPos.wc, picPosPlot, file="cache/Decline.RData")

@@ -1,0 +1,14 @@
+computed a polynomial regression model. The best fitting model for the prediction of overall number of motive scores across all three motives in a PSE story contained a linear predictor for word count and linear, squared, and cubic terms for sentence count. It explained \Sexpr{round(summary(lm.motpred)$adj.r.squared*100, 1)}\% of variance in overall motive scores (adjusted $R^2$, see the supplementary material for the full model details). The polynomial terms induced a decelerating slope of sentence count, with a roughly linear association from one to six sentences and a much flatter slope from 6 sentences on (see Figure~\ref{fig:scpredictorplot})
+
+<<scpredictorplot, echo=FALSE, warnings=FALSE, message=FALSE, fig.width=7, fig.height=3.5, out.width='.9\\textwidth', fig.cap='Predicting overall motive scores at story level with sentence count and word count (polynomial regression model). Figure available at https://osf.io/pqckn/, under a CC-BY4.0 license.', fig.env='figure*'>>=
+print(sc.predictor.plot)
+@ 
+
+In a supplementary analysis, a segmented regression estimated the break point at sentence count = 5.7 (SE = 0.21), with a slope of 0.29 left of the break point and a slope of 0.07 right of the break point. This model of two linear slopes explained the same amount of variance as the polynomial model (adjusted $R^2$ = \Sexpr{round(summary(l1.seg)$adj.r.squared*100, 1)}\%). This indicates that for stories with $\geq 6$ sentences, sentence count only contributed very little beyond the linear effect of word count.
+
+For a more detailed inspection of the predictor's contributions, we 
+
+
+# Discussion
+
+Other coding systems impose other constraints. For example, the Partner-Related Agency and Communion Test (PACT; \nptextcite{hagemeyer_AssessingImplicitMotivational_2012}), which is a relationship-specific variant of PSEs, defines seven content categories for the partner-related need for communion, and each category can be scored maximally once per story. In this case, the number of content categories, but not the number of sentences, limits the sum of motives scores per story.

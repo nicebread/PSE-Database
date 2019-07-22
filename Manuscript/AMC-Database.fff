@@ -1,0 +1,27 @@
+\begin{figure*}
+
+{\centering \includegraphics[width=.9\textwidth]{figure/picPosPlot-1}
+
+}
+
+\caption[Descriptive motive scores, sentence count, and word count for each picture position]{Descriptive motive scores, sentence count, and word count for each picture position. Error bars are 95\% confidence intervals for the mean. Note that this descriptive plot somewhat confounds specific picture stimuli with picture position, as only some picture stimuli where located at positions 6, 7, and 8. Figure available at https://osf.io/dj8g9/, under a CC-BY4.0 license.}\label{fig:picPosPlot}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[htp]
+  \begin{center}
+\includegraphics[width=\linewidth]{demopics/demopic.pdf}
+  \end{center}
+  \caption{Examples of new pictures with an open license. Credits: \emph{newpic04}: CC-BY, MBWA PR GmbH; \emph{newpic07}: CC-BY-SA, Idobi, via Wikimedia Commons; \emph{newpic09}: CC0; \emph{newpic10}: public domain; \emph{newpic12}: CC-BY, Pete Lewis / Department for International Development; \emph{newpic18}: CC0.}
+  \label{fig:demopic}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}
+
+{\centering \includegraphics[width=.9\textwidth]{figure/ternary-1}
+
+}
+
+\caption[Relative motive pull of pictures]{Relative motive pull of pictures. Numbers correspond to picture numbers in Table 8. Figure available at https://osf.io/dj8g9/, under a CC-BY4.0 license.}\label{fig:ternary}
+\end{figure*}

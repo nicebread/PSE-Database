@@ -1,0 +1,2265 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\preamble{%
+\ifdefined\DeclarePrefChars\DeclarePrefChars{'’-}\else\fi%
+}
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{atkinson_studying_1981}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{fullhash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{bibnamehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{authorbibnamehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{authornamehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{authorfullhash}{5b144861d7be1c6c373689b062eae7cf}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The theoretical advance in motivational psychology has exposed flaws in the conceptual foundation of classical test theory as applied in studying personality. Computer simulations of behavioral expression of individual differences in personality based on new motivational principles, the dynamics of action, have shown that the validity of thematic apperceptive measures of motives does not depend on reliability; and correlations among different behavioral expressions of the same trait are expected to be quite modest even prior to consideration of measurement error. These findings resolve 2 long-standing puzzles in the study of personality. The prospects of finally appraising the validity of factor analysis as a method of discovery, and of defining the appropriate relationship between basic theory about psychological processes and the theory of psychological measurement are discussed. (72 ref) (PsycINFO Database Record (c) 2010 APA, all rights reserved)}
+      \field{issn}{0003-066X}
+      \field{journaltitle}{American Psychologist}
+      \field{month}{2}
+      \field{title}{Studying Personality in the Context of an Advanced Motivational Psychology}
+      \field{volume}{36}
+      \field{year}{1981}
+      \field{dateera}{ce}
+      \field{pages}{117\bibrangedash 128}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1037/0003-066X.36.2.117
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/HFCFC6TN/ContentServer.html
+      \endverb
+      \keyw{Motivation,Personality Measures,PERSONALITY,Theories,study of personality in motivational psychology}
+    \endentry
+    \entry{atkinson_dynamics_1970}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=713d9079834d9d8d51823d17ccb744ef}{%
+           family={Birch},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford, England}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley}%
+      }
+      \strng{namehash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \strng{fullhash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \strng{bibnamehash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \strng{authorbibnamehash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \strng{authornamehash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \strng{authorfullhash}{ebe3a2e48caeca9af85db2304fccce9b}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Dynamics of Action}
+      \field{year}{1970}
+      \field{dateera}{ce}
+      \keyw{dynamics of action motivation theory; book; Motivation}
+    \endentry
+    \entry{bates_parsimonious_2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ad39a5326110abac1ef6f23d87230908}{%
+           family={Kliegl},
+           familyi={K\bibinitperiod},
+           given={Reinhold},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb56042649dd26abf6ac80120255ef2d}{%
+           family={Vasishth},
+           familyi={V\bibinitperiod},
+           given={Shravan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=64bc4fd27d01d17c571719d87a8ad9df}{%
+           family={Baayen},
+           familyi={B\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{fullhash}{91ef5539ae6258c57da2da681122b4de}
+      \strng{bibnamehash}{91ef5539ae6258c57da2da681122b4de}
+      \strng{authorbibnamehash}{91ef5539ae6258c57da2da681122b4de}
+      \strng{authornamehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{authorfullhash}{91ef5539ae6258c57da2da681122b4de}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The analysis of experimental data with mixed-effects models requires decisions about the specification of the appropriate random-effects structure. Recently, Barr et al. (2013) recommended fitting 'maximal' models with all possible random effect components included. Estimation of maximal models, however, may not converge. We show that failure to converge typically is not due to a suboptimal estimation algorithm, but is a consequence of attempting to fit a model that is too complex to be properly supported by the data, irrespective of whether estimation is based on maximum likelihood or on Bayesian hierarchical modeling with uninformative or weakly informative priors. Importantly, even under convergence, overparameterization may lead to uninterpretable models. We provide diagnostic tools for detecting overparameterization and guiding model simplification. Finally, we clarify that the simulations on which Barr et al. base their recommendations are atypical for real data. A detailed example is provided of how subject-related attentional fluctuation across trials may further qualify statistical inferences about fixed effects, and of how such nonlinear effects can be accommodated within the mixed-effects modeling framework.}
+      \field{day}{16}
+      \field{eprintclass}{stat}
+      \field{eprinttype}{arxiv}
+      \field{month}{6}
+      \field{title}{Parsimonious Mixed Models}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1506.04967
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1506.04967
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1506.04967
+      \endverb
+    \endentry
+    \entry{blei_LatentDirichletAllocation_2003}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a36116840c7ee55901618c95fd08a58}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{fullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{bibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authorbibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authornamehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{authorfullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model.}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{month}{3}
+      \field{title}{Latent {{Dirichlet Allocation}}}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{993\bibrangedash 1022}
+      \range{pages}{30}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/U45TJSAJ/Blei et al. - 2003 - Latent Dirichlet Allocation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dl.acm.org/citation.cfm?id=944919.944937
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=944919.944937
+      \endverb
+    \endentry
+    \entry{czikmantori_ExperienceIntrinsicMotivation_2018}{unpublished}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f319221a899c02f9da5d39c535652eda}{%
+           family={Czikmantori},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=28de265192a44605f7719688b5b0ad3b}{%
+           family={Hennecke},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dae98beb9577b5e695d9f6819cb36108}{%
+           family={Brandstätter},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {University of Zurich}%
+      }
+      \strng{namehash}{0f9b702cafeb5b444983cee5c87f4e42}
+      \strng{fullhash}{b525c91cee959167b4581a9cac8985d4}
+      \strng{bibnamehash}{b525c91cee959167b4581a9cac8985d4}
+      \strng{authorbibnamehash}{b525c91cee959167b4581a9cac8985d4}
+      \strng{authornamehash}{0f9b702cafeb5b444983cee5c87f4e42}
+      \strng{authorfullhash}{b525c91cee959167b4581a9cac8985d4}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Experience of Intrinsic Motivation as an Individual Difference Construct}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{dabbs_ReliabilitySalivaryTestosterone_1995}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,uniquepart=base,hash=761682cdec5e92f572874d65265a586b}{%
+           family={Dabbs},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ef988dadc3da2131d4ad4ee944e3cc8b}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9a14341acb7f5b3e2522ad0dffaae7d9}{%
+           family={Gladue},
+           familyi={G\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bcf70d429fcbe48a8ddc422a56432645}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f62d36a4ded92157c0597e11a441be02}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=076650abd70cbfb4082a9bea34e50b12}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f6a1621c58f4f6451ca6f21cb5b91e1}{%
+           family={Susman},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c5d241c0f8224456dd8db23b2a72a791}{%
+           family={Swinkels},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8c1aa12270f0c3f0ec262395071a804c}{%
+           family={Worthman},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e40a7440083b46f2aa757159af069fe6}
+      \strng{fullhash}{fcf9dd0e62ca89ba5aba3159c8b14302}
+      \strng{bibnamehash}{85c66276af97d5137f3ea750a97b79c6}
+      \strng{authorbibnamehash}{85c66276af97d5137f3ea750a97b79c6}
+      \strng{authornamehash}{e40a7440083b46f2aa757159af069fe6}
+      \strng{authorfullhash}{fcf9dd0e62ca89ba5aba3159c8b14302}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The reliability of salivary testosterone assays was evaluated by nine laboratories in four countries. Each laboratory used its own RIA procedures to assay samples from a set of 100 male and 100 female subjects. Agreement among the laboratories on mean scores was within the range reported by Read (Ann N Y Acad Sci 1993; 694: 161-76). Overall agreement on individual scores, as indicated by the intraclass correlation coefficient computed within subjects across laboratories, was r = 0.87 for men and r = 0.78 for women. Mean agreement between each laboratory and the combined set of all other laboratories (via Fisher's Z-transformation) was r = 0.61 for men and r = 0.58 for women. We take these latter values to be the best estimates of the average reliability of laboratories in their ordering of individual samples.}
+      \field{day}{1}
+      \field{eprinttype}{pmid}
+      \field{issn}{0009-9147, 1530-8561}
+      \field{journaltitle}{Clinical Chemistry}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shorttitle}{Reliability of Salivary Testosterone Measurements}
+      \field{title}{Reliability of Salivary Testosterone Measurements: {A} Multicenter Evaluation.}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{volume}{41}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1581\bibrangedash 1584}
+      \range{pages}{4}
+      \verb{eprint}
+      \verb 7586546
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/QJEBPSJB/Dabbs et al. - 1995 - Reliability of salivary testosterone measurements.pdf;/Users/felix/Bibs und Backup/Zotero/storage/UCPSMGCH/1581.html
+      \endverb
+      \verb{urlraw}
+      \verb http://clinchem.aaccjnls.org/content/41/11/1581
+      \endverb
+      \verb{url}
+      \verb http://clinchem.aaccjnls.org/content/41/11/1581
+      \endverb
+    \endentry
+    \entry{erceg-hurn_modern_2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=571fb9822a6180d027d899e6a2a0b986}{%
+           family={Erceg-Hurn},
+           familyi={E\bibinithyphendelim H\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=879720e3e5d60468a7e9c16cdf110d33}{%
+           family={Mirosevich},
+           familyi={M\bibinitperiod},
+           given={V.\bibnamedelimi M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1deb8adff4687a7d4414d5973fa4698}
+      \strng{fullhash}{c1deb8adff4687a7d4414d5973fa4698}
+      \strng{bibnamehash}{c1deb8adff4687a7d4414d5973fa4698}
+      \strng{authorbibnamehash}{c1deb8adff4687a7d4414d5973fa4698}
+      \strng{authornamehash}{c1deb8adff4687a7d4414d5973fa4698}
+      \strng{authorfullhash}{c1deb8adff4687a7d4414d5973fa4698}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{shortjournal}{American Psychologist}
+      \field{title}{Modern Robust Statistical Methods: {{An}} Easy Way to Maximize the Accuracy and Power of Your Research}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{591\bibrangedash 601}
+      \range{pages}{11}
+      \keyw{robust statistics; nonparametric statistics; effect size; significance testing; software; Effect Size (Statistical); Statistical Analysis; Statistical Significance; Statistics}
+    \endentry
+    \entry{feldman_TechniquesApplicationsSentiment_2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=46ff4917bf210d9d64ff78c0c9042df0}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Ronen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \strng{fullhash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \strng{bibnamehash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \strng{authorbibnamehash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \strng{authornamehash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \strng{authorfullhash}{46ff4917bf210d9d64ff78c0c9042df0}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The main applications and challenges of one of the hottest research areas in computer science.}
+      \field{journaltitle}{Communications of the ACM}
+      \field{langid}{english}
+      \field{title}{Techniques and {{Applications For Sentiment Analysis}}}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{volume}{56}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{82\bibrangedash 89}
+      \range{pages}{8}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/GBC5GHUX/abstract.html
+      \endverb
+      \verb{urlraw}
+      \verb https://cacm.acm.org/magazines/2013/4/162501-techniques-and-applications-for-sentiment-analysis/abstract
+      \endverb
+      \verb{url}
+      \verb https://cacm.acm.org/magazines/2013/4/162501-techniques-and-applications-for-sentiment-analysis/abstract
+      \endverb
+    \endentry
+    \entry{hamiltonGgternExtensionGgplot22017}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=88535488d5c54ac303f097b1f88524e3}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{88535488d5c54ac303f097b1f88524e3}
+      \strng{fullhash}{88535488d5c54ac303f097b1f88524e3}
+      \strng{bibnamehash}{88535488d5c54ac303f097b1f88524e3}
+      \strng{authorbibnamehash}{88535488d5c54ac303f097b1f88524e3}
+      \strng{authornamehash}{88535488d5c54ac303f097b1f88524e3}
+      \strng{authorfullhash}{88535488d5c54ac303f097b1f88524e3}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.2.1}
+      \field{title}{Ggtern: {{An Extension}} to 'Ggplot2', for the {{Creation}} of {{Ternary Diagrams}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=ggtern
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=ggtern
+      \endverb
+    \endentry
+    \entry{hibbard_critique_2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8ce2e9a485b7c3bace16e53324fe7f1a}{%
+           family={Hibbard},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \strng{fullhash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \strng{bibnamehash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \strng{authorbibnamehash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \strng{authornamehash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \strng{authorfullhash}{8ce2e9a485b7c3bace16e53324fe7f1a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lilienfeld, Wood, and Garb (2000) published a largely negative critique of the validity and reliability of projective methods, concentrating on the Comprehensive System for the Rorschach (Exner, 1993), 3 systems for coding the Thematic Apperception Test (TAT; Murray, 1943) cards, and human figure drawings. This article is an effort to document and correct what I perceive as errors of omission and commission in the Lilienfeld et al. article. When projective measures are viewed in the light of these corrections, the evidence for the validity and clinical usefulness of the Rorschach and TAT methods is more robust than Lilienfeld et al. represented. (PsycINFO Database Record (c) 2010 APA, all rights reserved) (journal abstract)}
+      \field{issn}{0022-3891}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{title}{A Critique of {{Lilienfeld}} et Al.'s (2000) '{{The}} Scientific Status of Projective Techniques'}
+      \field{volume}{80}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{260\bibrangedash 271}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1207/S15327752JPA8003_05
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/DMV3TQT9/Hibbard - 2003 - A critique of Lilienfeld et al.'s (2000) 'The scie.pdf
+      \endverb
+      \keyw{test reliability,test validity,Thematic Apperception Test,Projective Techniques,Human Figures Drawing,Rorschach Test,human figure drawings}
+    \endentry
+    \entry{jacobs_MethodInvestigatingCue_1958}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=367f1973d8081b3a22f5fed891607334}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Van Nostrand}%
+      }
+      \strng{namehash}{633a3366246e4d0db2dd19fc96d127ce}
+      \strng{fullhash}{633a3366246e4d0db2dd19fc96d127ce}
+      \strng{bibnamehash}{633a3366246e4d0db2dd19fc96d127ce}
+      \strng{authorbibnamehash}{633a3366246e4d0db2dd19fc96d127ce}
+      \strng{authornamehash}{633a3366246e4d0db2dd19fc96d127ce}
+      \strng{authorfullhash}{633a3366246e4d0db2dd19fc96d127ce}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Motives in Fantasy, Action, and Society: {{A}} Method of Assessment and Study}
+      \field{title}{A Method for Investigating Cue Characteristics of Pictures}
+      \field{year}{1958}
+      \field{dateera}{ce}
+      \field{pages}{617\bibrangedash 629}
+      \range{pages}{13}
+    \endentry
+    \entry{janson_ImplicitPowerMotive_2017}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=83053a3e9c7870810032df5c36a4ac6c}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={Kevin\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1e70931d157bf54b6c08ff758eb22c79}{%
+           family={Bleck},
+           familyi={B\bibinitperiod},
+           given={Kira},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00b0ebbaa60be6e4eb43ee4e014eb1dd}{%
+           family={Fenkl},
+           familyi={F\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0227498aadb663542d17cfc335bb5551}{%
+           family={Riegl},
+           familyi={R\bibinitperiod},
+           given={Lea\bibnamedelima T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8a284aada6062ca2c0839fafacde1ea}{%
+           family={Jägel},
+           familyi={J\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5505e49f6238688ec4225ab78cee18ac}{%
+           family={Köllner},
+           familyi={K\bibinitperiod},
+           given={Martin\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4205c9b77c4ede4887b3e9f9bc8f588b}
+      \strng{fullhash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{bibnamehash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{authorbibnamehash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{authornamehash}{4205c9b77c4ede4887b3e9f9bc8f588b}
+      \strng{authorfullhash}{714aba43f1674622b86c4f4860e3d2aa}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0306-4530, 1873-3360}
+      \field{journaltitle}{Psychoneuroendocrinology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Psychoneuroendocrinology}
+      \field{title}{The Implicit Power Motive and the Facial Width-to-Height Ratio as Possible Marker of Organizational Hormone Effects during Puberty}
+      \field{volume}{83S}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{69}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.psyneuen.2017.07.424
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/8NWPANUW/fulltext.html
+      \endverb
+    \endentry
+    \entry{janson_InhibitedPowerMotivation_2018a}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=83053a3e9c7870810032df5c36a4ac6c}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={Kevin\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1e70931d157bf54b6c08ff758eb22c79}{%
+           family={Bleck},
+           familyi={B\bibinitperiod},
+           given={Kira},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00b0ebbaa60be6e4eb43ee4e014eb1dd}{%
+           family={Fenkl},
+           familyi={F\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0227498aadb663542d17cfc335bb5551}{%
+           family={Riegl},
+           familyi={R\bibinitperiod},
+           given={Lea\bibnamedelima T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8a284aada6062ca2c0839fafacde1ea}{%
+           family={Jägel},
+           familyi={J\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5505e49f6238688ec4225ab78cee18ac}{%
+           family={Köllner},
+           familyi={K\bibinitperiod},
+           given={Martin\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4205c9b77c4ede4887b3e9f9bc8f588b}
+      \strng{fullhash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{bibnamehash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{authorbibnamehash}{714aba43f1674622b86c4f4860e3d2aa}
+      \strng{authornamehash}{4205c9b77c4ede4887b3e9f9bc8f588b}
+      \strng{authorfullhash}{714aba43f1674622b86c4f4860e3d2aa}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The inhibited power motive is a disposition for obtaining a functional influence on others (Schultheiss 2008) and characterized by a high implicit need for Power (n Power) and high activity inhibition (AI; McClelland Journal of Abnormal Psychology, 88(2), 182–190, 1979). Organizational effects of gonadal steroid hormones on the brain during prenatal development affect the emerging n Power (Schultheiss and Zimni Adaptive Human Behavior and Physiology, 1(4), 387–407, 2015) but it is unknown whether there are similar associations during puberty, a second phase of endocrine organization (Schulz et al. Hormones and Behavior, 55(5), 597–604, 2009). In two studies (combined for analyses; total N = 213, after exclusions), we investigated this relationship using the facial width-to-height ratio (fWHR; Weston et al. PloS One, 2(8), e710, 2007), assessed via anthropometry, as a marker of organizational hormone effects during puberty in a cross-sectional, correlational design. N Power and AI were measured via Picture Story Exercise (PSE; McClelland et al. Psychological Review, 96, 690–702, 1989). Controlling for BMI and age in a multiple regression analysis predicting fWHR, we found a significant n Power x AI-effect, B = 0.15, SE = 0.07, t(207) = 2.03, p = .04, ∆R 2 = .02. N Power and fWHR approached a marginally significant positive association, when AI was high (+1SD; B = 0.16, SE = 0.10, t(207) = 1.64, p = .10) and showed a negative but insignificant association, when AI was low (−1SD; B = −0.14, SE = 0.10, t(207) = −1.40, p = .16). After adding gender to the model on an exploratory basis, we found a significant n Power x AI x Gender-effect (B = 0.34, SE = 0.17, t(203) = 2.00, p = .05, ∆R 2 = .02), predominantly driven by a positive effect of the inhibited power motive in females, B = 0.28, SE = 0.13, t(55) = 2.24, p = .03, ∆R 2 = .08. Compared with past research, this finding was unexpected since fWHR is commonly linked to various criteria in males. Implications for the understanding of the development of n Power are discussed, respecting the limitations of our design.}
+      \field{day}{1}
+      \field{issn}{2198-7335}
+      \field{journaltitle}{Adaptive Human Behavior and Physiology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Adaptive Human Behavior and Physiology}
+      \field{title}{Inhibited {{Power Motivation}} Is {{Associated}} with the {{Facial Width}}-to-{{Height Ratio}} in {{Females}}}
+      \field{volume}{4}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{21\bibrangedash 41}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s40750-017-0075-y
+      \endverb
+      \keyw{Power motivation,Facial width-to-height ratio,Implicit motives,Organizational hormone effects,Picture story exercise,Puberty}
+    \endentry
+    \entry{john_measuring_2012}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d5f16ef6f17dac6acbff250c3c692808}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=340fbd890b26df2202038560ff4b4c57}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4baab76b032b9f5594660ee9f0e80899}{%
+           family={Prelec},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a1e22f842bc80c03dc233ba18ea64d9}
+      \strng{fullhash}{aea911d9c38c09ddef14a3a860742e03}
+      \strng{bibnamehash}{aea911d9c38c09ddef14a3a860742e03}
+      \strng{authorbibnamehash}{aea911d9c38c09ddef14a3a860742e03}
+      \strng{authornamehash}{6a1e22f842bc80c03dc233ba18ea64d9}
+      \strng{authorfullhash}{aea911d9c38c09ddef14a3a860742e03}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cases of clear scientific misconduct have received significant media attention recently, but less flagrantly questionable research practices may be more prevalent and, ultimately, more damaging to the academic enterprise. Using an anonymous elicitation format supplemented by incentives for honest reporting, we surveyed over 2,000 psychologists about their involvement in questionable research practices. The impact of truth-telling incentives on self-admissions of questionable research practices was positive, and this impact was greater for practices that respondents judged to be less defensible. Combining three different estimation methods, we found that the percentage of respondents who have engaged in questionable practices was surprisingly high. This finding suggests that some questionable practices may constitute the prevailing research norm. (PsycINFO Database Record (c) 2012 APA, all rights reserved) (journal abstract)}
+      \field{issn}{1467-9280}
+      \field{journaltitle}{Psychological Science}
+      \field{month}{5}
+      \field{shortjournal}{Psychological Science}
+      \field{title}{Measuring the Prevalence of Questionable Research Practices with Incentives for Truth Telling}
+      \field{volume}{23}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{524\bibrangedash 532}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1177/0956797611430953
+      \endverb
+    \endentry
+    \entry{johnson_extension_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=543a39999d1de90685bd192a4878cbd4}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Paul\bibnamedelima CD},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{543a39999d1de90685bd192a4878cbd4}
+      \strng{fullhash}{543a39999d1de90685bd192a4878cbd4}
+      \strng{bibnamehash}{543a39999d1de90685bd192a4878cbd4}
+      \strng{authorbibnamehash}{543a39999d1de90685bd192a4878cbd4}
+      \strng{authornamehash}{543a39999d1de90685bd192a4878cbd4}
+      \strng{authorfullhash}{543a39999d1de90685bd192a4878cbd4}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nakagawa \& Schielzeth extended the widely used goodness-of-fit statistic R2 to apply to generalized linear mixed models (GLMMs). However, their R2GLMM method is restricted to models with the simplest random effects structure, known as random intercepts models. It is not applicable to another common random effects structure, random slopes models. I show that R2GLMM can be extended to random slopes models using a simple formula that is straightforward to implement in statistical software. This extension substantially widens the potential application of R2GLMM.}
+      \field{eprinttype}{pmid}
+      \field{issn}{2041-210X}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{month}{9}
+      \field{shortjournal}{Methods Ecol Evol}
+      \field{title}{Extension of {{Nakagawa}} \& {{Schielzeth}}'s {{R2GLMM}} to Random Slopes Models}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{944\bibrangedash 946}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1111/2041-210X.12225
+      \endverb
+      \verb{eprint}
+      \verb 25810896
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/Q8AKS8EB/Johnson - 2014 - Extension of Nakagawa & Schielzeth's R2GLMM to ran.pdf
+      \endverb
+    \endentry
+    \entry{keene_LogTransformationSpecial_1995}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49455628becdaf34885865974cf23a5a}{%
+           family={Keene},
+           familyi={K\bibinitperiod},
+           given={Oliver\bibnamedelima N.},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49455628becdaf34885865974cf23a5a}
+      \strng{fullhash}{49455628becdaf34885865974cf23a5a}
+      \strng{bibnamehash}{49455628becdaf34885865974cf23a5a}
+      \strng{authorbibnamehash}{49455628becdaf34885865974cf23a5a}
+      \strng{authornamehash}{49455628becdaf34885865974cf23a5a}
+      \strng{authorfullhash}{49455628becdaf34885865974cf23a5a}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1097-0258}
+      \field{journaltitle}{Statistics in Medicine}
+      \field{langid}{english}
+      \field{title}{The Log Transformation Is Special}
+      \field{volume}{14}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{pages}{811\bibrangedash 819}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/sim.4780140810
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/UMV3S59E/sim.html
+      \endverb
+    \endentry
+    \entry{kollner_SocialBiopsychologyImplicit_2018}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae6e4988a0c567e2d38cf9e462a09eda}{%
+           family={Köllner},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=83053a3e9c7870810032df5c36a4ac6c}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={Kevin\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1e70931d157bf54b6c08ff758eb22c79}{%
+           family={Bleck},
+           familyi={B\bibinitperiod},
+           given={Kira},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4923f0a39717ae1a8c685e7434a23d8d}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Abingdon, UK}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{d1418765def403743c6947747f3e2bc8}
+      \strng{fullhash}{1990394b9614bc765e7f246c19c04106}
+      \strng{bibnamehash}{1990394b9614bc765e7f246c19c04106}
+      \strng{authorbibnamehash}{1990394b9614bc765e7f246c19c04106}
+      \strng{authornamehash}{d1418765def403743c6947747f3e2bc8}
+      \strng{authorfullhash}{1990394b9614bc765e7f246c19c04106}
+      \strng{editorbibnamehash}{09bf51337d6202e8f61edfb1a35347ed}
+      \strng{editornamehash}{09bf51337d6202e8f61edfb1a35347ed}
+      \strng{editorfullhash}{09bf51337d6202e8f61edfb1a35347ed}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Routledge International Handbook of Social Neuroendocrinology is an authoritative reference work providing a balanced overview of current scholarship spanning the full breadth of the rapidly developing field of social neuroendocrinology. Considering…}
+      \field{booktitle}{Routledge {{International Handbook}} of {{Social Neuroendocrinology}}}
+      \field{langid}{english}
+      \field{title}{The Social Biopsychology of Implicit Motive Development}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{568\bibrangedash 585}
+      \range{pages}{18}
+    \endentry
+    \entry{kollner_InfluenceImplicitMotives_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5505e49f6238688ec4225ab78cee18ac}{%
+           family={Köllner},
+           familyi={K\bibinitperiod},
+           given={Martin\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)}%
+      }
+      \list{location}{1}{%
+        {Erlangen}%
+      }
+      \strng{namehash}{5505e49f6238688ec4225ab78cee18ac}
+      \strng{fullhash}{5505e49f6238688ec4225ab78cee18ac}
+      \strng{bibnamehash}{5505e49f6238688ec4225ab78cee18ac}
+      \strng{authorbibnamehash}{5505e49f6238688ec4225ab78cee18ac}
+      \strng{authornamehash}{5505e49f6238688ec4225ab78cee18ac}
+      \strng{authorfullhash}{5505e49f6238688ec4225ab78cee18ac}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{shorttitle}{The Influence of Implicit Motives on Implicit Instrumental Conditioning}
+      \field{title}{The Influence of Implicit Motives on Implicit Instrumental Conditioning: {{Testing}} a Principle Focusing on the Power Motive}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://d-nb.info/1079385363
+      \endverb
+      \verb{url}
+      \verb http://d-nb.info/1079385363
+      \endverb
+      \keyw{Motivation,implicit motives,Emotionsausdruck,facial expression of emotion,Gefühlsausdruck,Hochschulschrift,implicit learning,Implizite Motive,Implizites Lernen,instrumental conditioning,Instrumentelles Konditionieren,Konditionierung,Machtmotiv,power motive}
+    \endentry
+    \entry{kordik_ImplicitNeedAffiliation_2012}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=b6f8c47a5439e60c91e2d487199e7a41}{%
+           family={Kordik},
+           familyi={K\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=60ecf9d2abe2da76b7b02dfc6220402a}{%
+           family={Eska},
+           familyi={E\bibinitperiod},
+           given={Kathrin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ce2d5208353a268cdd13010c0db6079d}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={Oliver\bibnamedelima C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0101cd993204e848b766d659113dc65b}
+      \strng{fullhash}{8a2d3f23b522ce8ffa58072385b279ea}
+      \strng{bibnamehash}{8a2d3f23b522ce8ffa58072385b279ea}
+      \strng{authorbibnamehash}{8a2d3f23b522ce8ffa58072385b279ea}
+      \strng{authornamehash}{0101cd993204e848b766d659113dc65b}
+      \strng{authorfullhash}{8a2d3f23b522ce8ffa58072385b279ea}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Affective changes in response to motive-relevant stimuli are a defining feature of implicit motives. We therefore expected to find an effect of individual differences in the implicit need for affiliation (nAff) on corrugator supercilii activity, an indicator of affect, when participants were confronted with nonverbal indicators of a conversational partner’s withdrawal. Participants’ nAff was assessed with a Picture Story Exercise (PSE). They were then involved in an interaction with a smiling or a neutral experimenter while their corrugator activity was measured with electromyography (EMG). As expected, we found higher corrugator activity for people high in nAff compared to people low in nAff when the experimenter kept a neutral facial expression throughout the interaction but not when he/she was smiling.}
+      \field{day}{1}
+      \field{issn}{0092-6566}
+      \field{journaltitle}{Journal of Research in Personality}
+      \field{month}{10}
+      \field{shortjournal}{Journal of Research in Personality}
+      \field{title}{Implicit Need for Affiliation Is Associated with Increased Corrugator Activity in a Non-Positive, but Not in a Positive Social Interaction}
+      \field{volume}{46}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{604\bibrangedash 608}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.jrp.2012.05.006
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/3PNLCYU8/S0092656612000839.html
+      \endverb
+      \keyw{Affiliation motive,EMG,Implicit motives,Affect,Corrugator supercilii,Facial expressions of emotion,Neutral facial expression}
+    \endentry
+    \entry{lang_DynamicThurstonianItem_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0ef63619c2fd48d9cea08176a519a08e}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ef63619c2fd48d9cea08176a519a08e}
+      \strng{fullhash}{0ef63619c2fd48d9cea08176a519a08e}
+      \strng{bibnamehash}{0ef63619c2fd48d9cea08176a519a08e}
+      \strng{authorbibnamehash}{0ef63619c2fd48d9cea08176a519a08e}
+      \strng{authornamehash}{0ef63619c2fd48d9cea08176a519a08e}
+      \strng{authorfullhash}{0ef63619c2fd48d9cea08176a519a08e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0033-295X, 1939-1471}
+      \field{journaltitle}{Psychological Review}
+      \field{langid}{english}
+      \field{shorttitle}{A Dynamic {{Thurstonian}} Item Response Theory of Motive Expression in the Picture Story Exercise}
+      \field{title}{A Dynamic {{Thurstonian}} Item Response Theory of Motive Expression in the Picture Story Exercise : {S}olving the Internal Consistency Paradox of the {{PSE}}.}
+      \field{volume}{121}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{481\bibrangedash 500}
+      \range{pages}{20}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1037/a0037011
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/X9HKIVTT/8562629.html
+      \endverb
+    \endentry
+    \entry{lin_StandardOperatingProcedures_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=9b056ec9edc061bf548cc3d614b5eb46}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Winston},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b94409b1daef983a140f321ac2f140b}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Donald\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6800f6063be646909e18f6dc89c09197}
+      \strng{fullhash}{6800f6063be646909e18f6dc89c09197}
+      \strng{bibnamehash}{6800f6063be646909e18f6dc89c09197}
+      \strng{authorbibnamehash}{6800f6063be646909e18f6dc89c09197}
+      \strng{authornamehash}{6800f6063be646909e18f6dc89c09197}
+      \strng{authorfullhash}{6800f6063be646909e18f6dc89c09197}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Across the social sciences, growing concerns about research transparency have led to calls for pre-analysis plans (PAPs) that specify in advance how researchers intend to analyze the data they are about to gather. PAPs promote transparency and credibility by helping readers distinguish between exploratory and confirmatory analyses. However, PAPs are time-consuming to write and may fail to anticipate contingencies that arise in the course of data collection. This article proposes the use of “standard operating procedures” (SOPs)—default practices to guide decisions when issues arise that were not anticipated in the PAP. We offer an example of an SOP that can be adapted by other researchers seeking a safety net to support their PAPs.}
+      \field{issn}{1049-0965, 1537-5935}
+      \field{journaltitle}{PS: Political Science \& Politics}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shorttitle}{Standard {{Operating Procedures}}}
+      \field{title}{Standard {{Operating Procedures}}: {{A Safety Net}} for {{Pre}}-{{Analysis Plans}}}
+      \field{volume}{49}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{495\bibrangedash 500}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1017/S1049096516000810
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/CMIK4LDG/Lin und Green - 2016 - Standard Operating Procedures A Safety Net for Pr.pdf;/Users/felix/Bibs und Backup/Zotero/storage/D7NDQIR9/5C5750CD150DC4DAD964263437DB7FA2.html
+      \endverb
+    \endentry
+    \entry{maechler_RobustbaseBasicRobust_2018}{book}{}
+      \name{author}{10}{}{%
+        {{uniquename=0,uniquepart=base,hash=0041cc0eb4aa28929ffbd059d5e4add5}{%
+           family={Maechler},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bbd4b301a3a938b19b510082dd0b797f}{%
+           family={Rousseeuw},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bfe24d7424176c316a13411797a3e71b}{%
+           family={Croux},
+           familyi={C\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42c478fc32001f908a19c52b529c4039}{%
+           family={Todorov},
+           familyi={T\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87491c1f29ea4f1ea76b41d6d9a474df}{%
+           family={Ruckstuhl},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1c81743e12b40c7f4a292be426f184f3}{%
+           family={Salibian-Barrera},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Matias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e712d4ade29c7b64a9b7107a54eb8ac8}{%
+           family={Verbeke},
+           familyi={V\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b58dfa10898b94d493d3a8e4ce985ea}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=404a1e715a07d701bf817530ccc2f5a3}{%
+           family={Conceicao},
+           familyi={C\bibinitperiod},
+           given={Eduardo\bibnamedelimb L.\bibnamedelimi T.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1cfc8c7d96162176319733ea9f2781af}{%
+           family={Palma},
+           familyi={P\bibinitperiod},
+           given={Maria\bibnamedelima Anna},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={di},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c8dca12e98e77105e1819fbf56e81cb}
+      \strng{fullhash}{23143c45bc1e2a6096b32ae65871a08f}
+      \strng{bibnamehash}{58f487fb7c15fba47baae5d9cd897e06}
+      \strng{authorbibnamehash}{58f487fb7c15fba47baae5d9cd897e06}
+      \strng{authornamehash}{3c8dca12e98e77105e1819fbf56e81cb}
+      \strng{authorfullhash}{23143c45bc1e2a6096b32ae65871a08f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robustbase: {{Basic Robust Statistics}}}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://robustbase.r-forge.r-project.org/
+      \endverb
+      \verb{url}
+      \verb http://robustbase.r-forge.r-project.org/
+      \endverb
+    \endentry
+    \entry{mcclelland_human_1987}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
+           family={McClelland},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{fullhash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{bibnamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authorbibnamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authornamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authorfullhash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-521-36951-7}
+      \field{title}{Human Motivation}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \keyw{Consciousness States; Motivation}
+    \endentry
+    \entry{mcclelland_achievement_1953}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
+           family={McClelland},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a4624cfaccf938cd649bf184567ca0fc}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f1ff913b707dbfdb60504e201826b628}{%
+           family={Lowell},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {East Norwalk, CT, US}%
+      }
+      \list{publisher}{1}{%
+        {Appleton-Century-Crofts}%
+      }
+      \strng{namehash}{c62d581c749180679cb99e5a541c84ec}
+      \strng{fullhash}{43c9de171301d4da145af240d7e289ca}
+      \strng{bibnamehash}{43c9de171301d4da145af240d7e289ca}
+      \strng{authorbibnamehash}{43c9de171301d4da145af240d7e289ca}
+      \strng{authornamehash}{c62d581c749180679cb99e5a541c84ec}
+      \strng{authorfullhash}{43c9de171301d4da145af240d7e289ca}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Achievement Motive}
+      \field{year}{1953}
+      \field{dateera}{ce}
+      \keyw{Book}
+    \endentry
+    \entry{morgan_method_1935}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c329e186adedd473c3dacaf35246a1a8}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d6d32f0db13e9b8aa185abbda0f8c1a}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{723d2ab14d80df027d5642a95bb7896a}
+      \strng{fullhash}{723d2ab14d80df027d5642a95bb7896a}
+      \strng{bibnamehash}{723d2ab14d80df027d5642a95bb7896a}
+      \strng{authorbibnamehash}{723d2ab14d80df027d5642a95bb7896a}
+      \strng{authornamehash}{723d2ab14d80df027d5642a95bb7896a}
+      \strng{authorfullhash}{723d2ab14d80df027d5642a95bb7896a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Neurology and Psychiatry}
+      \field{title}{A Method for Examining Fantasies: {{The Thematic Apperception Test}}.}
+      \field{volume}{34}
+      \field{year}{1935}
+      \field{dateera}{ce}
+      \field{pages}{289\bibrangedash 306}
+      \range{pages}{18}
+    \endentry
+    \entry{nakagawa_general_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=efc56ac3a3f2676c9eeed3abcc9dca93}{%
+           family={Nakagawa},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=65ad8454c8bb742dbdadd53a9ca112a2}{%
+           family={Schielzeth},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d23bae60d3226d7ac0926610ef21c743}
+      \strng{fullhash}{d23bae60d3226d7ac0926610ef21c743}
+      \strng{bibnamehash}{d23bae60d3226d7ac0926610ef21c743}
+      \strng{authorbibnamehash}{d23bae60d3226d7ac0926610ef21c743}
+      \strng{authornamehash}{d23bae60d3226d7ac0926610ef21c743}
+      \strng{authorfullhash}{d23bae60d3226d7ac0926610ef21c743}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* The use of both linear and generalized linear mixed-effects models (LMMs and GLMMs) has become popular not only in social and medical sciences, but also in biological sciences, especially in the field of ecology and evolution. Information criteria, such as Akaike Information Criterion (AIC), are usually presented as model comparison tools for mixed-effects models. * The presentation of ‘variance explained’ (R2) as a relevant summarizing statistic of mixed-effects models, however, is rare, even though R2 is routinely reported for linear models (LMs) and also generalized linear models (GLMs). R2 has the extremely useful property of providing an absolute value for the goodness-of-fit of a model, which cannot be given by the information criteria. As a summary statistic that describes the amount of variance explained, R2 can also be a quantity of biological interest. * One reason for the under-appreciation of R2 for mixed-effects models lies in the fact that R2 can be defined in a number of ways. Furthermore, most definitions of R2 for mixed-effects have theoretical problems (e.g. decreased or negative R2 values in larger models) and/or their use is hindered by practical difficulties (e.g. implementation). * Here, we make a case for the importance of reporting R2 for mixed-effects models. We first provide the common definitions of R2 for LMs and GLMs and discuss the key problems associated with calculating R2 for mixed-effects models. We then recommend a general and simple method for calculating two types of R2 (marginal and conditional R2) for both LMMs and GLMMs, which are less susceptible to common problems. * This method is illustrated by examples and can be widely employed by researchers in any fields of research, regardless of software packages used for fitting mixed-effects models. The proposed method has the potential to facilitate the presentation of R2 for a wide range of circumstances.}
+      \field{issn}{2041-210X}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{langid}{english}
+      \field{title}{A General and Simple Method for Obtaining {{R2}} from Generalized Linear Mixed-Effects Models}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{133\bibrangedash 142}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.2041-210x.2012.00261.x
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/WIJHRH9T/abstract.html
+      \endverb
+      \keyw{coefficient of determination,goodness-of-fit,heritability,information criteria,intra-class correlation,linear models,model fit,repeatability,variance explained}
+    \endentry
+    \entry{nimon_r_2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=f08cc05687adbf9b0a7029e62883e2ef}{%
+           family={Nimon},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eba3f37a677ab3ea6cc20da718db7779}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cb2c75bf463a3a9a12a4f18464392058}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1efef1f39058e340c7ced3485d53327a}{%
+           family={Haynes},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26dd932b7c4d9f7b6e6a0bc25e113ba0}
+      \strng{fullhash}{8d84e27898d91afcbcd77013988f8a2f}
+      \strng{bibnamehash}{8d84e27898d91afcbcd77013988f8a2f}
+      \strng{authorbibnamehash}{8d84e27898d91afcbcd77013988f8a2f}
+      \strng{authornamehash}{26dd932b7c4d9f7b6e6a0bc25e113ba0}
+      \strng{authorfullhash}{8d84e27898d91afcbcd77013988f8a2f}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Multiple regression is a widely used technique for data analysis in social and behavioral research. The complexity of interpreting such results increases when correlated predictor variables are involved. Commonality analysis provides a method of determining the variance accounted for by respective predictor variables and is especially useful in the presence of correlated predictors. However, computing commonality coefficients is laborious. To make commonality analysis accessible to more researchers, a program was developed to automate the calculation of unique and common elements in commonality analysis, using the statistical package R. The program is described, and a heuristic example using data from the Holzinger and Swineford (1939) study, readily available in the MBESS R package, is presented.}
+      \field{issn}{1554-351X}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{shorttitle}{An {{R}} Package to Compute Commonality Coefficients in the Multiple Regression Case}
+      \field{title}{An {{R}} Package to Compute Commonality Coefficients in the Multiple Regression Case: {{An}} Introduction to the Package and a Practical Example}
+      \field{volume}{40}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{457\bibrangedash 466}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3758/BRM.40.2.457
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/APIW7DAD/Nimon et al. - 2008 - An R package to compute commonality coefficients i.pdf;/Users/felix/Bibs und Backup/Zotero/storage/NTVVVJ2D/Nimon et al. - 2008 - An R package to compute commonality coefficients i.html
+      \endverb
+      \keyw{Psychologie und Verhalten}
+    \endentry
+    \entry{pang_assessing_2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3ef878ffb06edf2f6efaad6363955c75}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \strng{fullhash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \strng{bibnamehash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \strng{authorbibnamehash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \strng{authornamehash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \strng{authorfullhash}{050cc7ea7964a0b3d59e7c030ae3fadd}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{shortjournal}{Journal of Personality Assessment}
+      \field{title}{Assessing Implicit Motives in {{US}} College Students: {{Effects}} of Picture Type and Position, Gender and Ethnicity, and Cross-Cultural Comparisons}
+      \field{volume}{85}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{280\bibrangedash 294}
+      \range{pages}{15}
+    \endentry
+    \entry{pang_ContentCodingMethods_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cd232688af1f9c70be1a1a76e81ef48f}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Joyce\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
+           family={Brunstein},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{fullhash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{bibnamehash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{authorbibnamehash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{authornamehash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{authorfullhash}{cd232688af1f9c70be1a1a76e81ef48f}
+      \strng{editorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{editornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{editorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter discusses the major topics such as picture selection, administration, coding systems, and data processing that are related to usage of the Picture Story Exercise (PSE), a major content coding method for assessing implicit motives. It offers a step-by-step guide description of different aspects of preparing, administering, scoring, and processing PSE data. Included in the chapter is a discussion about developing multi- and single-motive picture sets for the PSE; such recommendations are followed by previously unpublished cue strength statistics for a PSE picture set that targets the achievement motive.}
+      \field{booktitle}{Content {{Coding Methods}} in {{Implicit Motive Assessment}}: {{Standards}} of {{Measurement}} and {{Best Practices}} for the {{Picture Story Exercise}}}
+      \field{day}{21}
+      \field{isbn}{978-0-19-977695-5}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Content {{Coding Methods}} in {{Implicit Motive Assessment}}: {{Standards}} of {{Measurement}} and {{Best Practices}} for the {{Picture Story Exercise}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{119\bibrangedash 150}
+      \range{pages}{32}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/562BW7Z5/acprof-9780195335156-chapter-5.html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195335156.001.0001/acprof-9780195335156-chapter-5
+      \endverb
+      \verb{url}
+      \verb http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195335156.001.0001/acprof-9780195335156-chapter-5
+      \endverb
+    \endentry
+    \entry{ramsay_SetAmbiguityKey_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0259012da8137c9b65ad5de9de5e3b6c}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cd232688af1f9c70be1a1a76e81ef48f}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Joyce\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ef252b6e14fe1428527407bada84fcf}
+      \strng{fullhash}{2ef252b6e14fe1428527407bada84fcf}
+      \strng{bibnamehash}{2ef252b6e14fe1428527407bada84fcf}
+      \strng{authorbibnamehash}{2ef252b6e14fe1428527407bada84fcf}
+      \strng{authornamehash}{2ef252b6e14fe1428527407bada84fcf}
+      \strng{authorfullhash}{2ef252b6e14fe1428527407bada84fcf}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The picture story exercise (PSE), in which participants write imaginative stories in response to motivationally-arousing images, is the most commonly-used tool for the assessment of implicit motives. Despite decades of research into the qualities of effective individual picture cues, much less is known about the desirable properties of overall picture sets. The present research highlights a previously undocumented methodological consideration—set ambiguity—which has important implications for the reliability and validity of the PSE. In a four-part study of 74 undergraduates, motive scores derived from an ambiguous picture set comprising cues that vary in motivational focus displayed greater test–retest reliability, convergent validity, and predictive validity than those derived from an unambiguous picture set. Researchers are therefore advised to consider set ambiguity when selecting images for use in PSE research.}
+      \field{day}{1}
+      \field{issn}{1573-6644}
+      \field{journaltitle}{Motivation and Emotion}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shortjournal}{Motiv Emot}
+      \field{shorttitle}{Set Ambiguity}
+      \field{title}{Set Ambiguity: {{A}} Key Determinant of Reliability and Validity in the Picture Story Exercise}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{661\bibrangedash 674}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s11031-012-9339-9
+      \endverb
+      \keyw{Methodology,Achievement,Picture story exercise,Implicit motivation,Motive assessment}
+    \endentry
+    \entry{runge_ModelingMotiveActivation_2016}{article}{useprefix=true}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=bc6e35ea4550c9a1511b3fac1de1b650}{%
+           family={Runge},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi Malte},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d8454949c1787b8652c1c860e32092b}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Jonas\bibnamedelimb W.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c8a020b302e4747a207a6c24ba589d28}{%
+           family={Engeser},
+           familyi={E\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=589cfae5c15ddcc4a88be0d71cd4c509}{%
+           family={Schüler},
+           familyi={S\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cc9c36dcd3696d9a36620793af553bca}{%
+           family={Hartog},
+           familyi={H\bibinitperiod},
+           given={Sophie\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={den},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=3e6f6bc9324d63ff6e5ff85702b72f9b}{%
+           family={Zettler},
+           familyi={Z\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d24d73167260cf173fdbbc161f4fde8}
+      \strng{fullhash}{46db43aa2b3590db78094339151ac3d8}
+      \strng{bibnamehash}{46db43aa2b3590db78094339151ac3d8}
+      \strng{authorbibnamehash}{46db43aa2b3590db78094339151ac3d8}
+      \strng{authornamehash}{6d24d73167260cf173fdbbc161f4fde8}
+      \strng{authorfullhash}{46db43aa2b3590db78094339151ac3d8}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Operant Motive Test (OMT) is a picture-based procedure that asks respondents to generate imaginative verbal behavior that is later coded for the presence of affiliation, power, and achievement-related motive content by trained coders. The OMT uses a larger number of pictures and asks respondents to provide more brief answers than earlier and more traditional picture-based implicit motive measures and has therefore become a frequently used measurement instrument in both research and practice. This article focuses on the psychometric response mechanism in the OMT and builds on recent advancements in the psychometric modeling of the response process in implicit motive measures through the use of Thurstonian item-response theory. The contribution of the article is twofold. First, the article builds on a recently developed dynamic Thurstonian model for more traditional implicit motive measures (Lang, 2014) and reports the first analysis of which we are aware that applies this model to OMT data (N = 633) and studies dynamic motive activation in the OMT. Results of this analysis yielded evidence for dynamic motive activation in the OMT and showed that simulated IRT reliabilities based on the dynamic model were .52, .62, and .73 for the affiliation, achievement, and power motive in the OMT, respectively. The second contribution of this article is a tutorial and R code that allows researchers to directly apply the dynamic Thurstonian IRT model to their data. The future use of the OMT in research and potential ways to improve the OMT are discussed. (PsycINFO Database Record (c) 2017 APA, all rights reserved)}
+      \field{issn}{2333-8121(Electronic),2333-8113(Print)}
+      \field{journaltitle}{Motivation Science}
+      \field{shorttitle}{Modeling Motive Activation in the {{Operant Motive Test}}}
+      \field{title}{Modeling Motive Activation in the {{Operant Motive Test}}: {{A}} Psychometric Analysis Using Dynamic {{Thurstonian}} Item Response Theory}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{268\bibrangedash 286}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1037/mot0000041
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/8JCM8XJG/2017-10577-004.html
+      \endverb
+      \keyw{Motivation,Models,Measurement,Item Response Theory}
+    \endentry
+    \entry{schultheiss_are_2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db75caa6c93881a7606a386697add54a}
+      \strng{fullhash}{db75caa6c93881a7606a386697add54a}
+      \strng{bibnamehash}{db75caa6c93881a7606a386697add54a}
+      \strng{authorbibnamehash}{db75caa6c93881a7606a386697add54a}
+      \strng{authornamehash}{db75caa6c93881a7606a386697add54a}
+      \strng{authorfullhash}{db75caa6c93881a7606a386697add54a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Traditionally, implicit motives (i.e., non-conscious preferences for specific classes of incentives) are assessed through semantic coding of imaginative stories. The present research tested the marker-word hypothesis, which states that implicit motives are reflected in the frequencies of specific words. Using Linguistic Inquiry and Word Count (LIWC; Pennebaker et al., ), Study 1 identified word categories that converged with a content-coding measure of the implicit motives for power, achievement, and affiliation in picture stories collected in German and US student samples, showed discriminant validity with self-reported motives, and predicted well-validated criteria of implicit motives (gender difference for the affiliation motive; in interaction with personal-goal progress: emotional well-being). Study 2 demonstrated LIWC-based motive scores' causal validity by documenting their sensitivity to motive arousal.}
+      \field{day}{16}
+      \field{eprinttype}{pmid}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{month}{10}
+      \field{shortjournal}{Front Psychol}
+      \field{shorttitle}{Are Implicit Motives Revealed in Mere Words?}
+      \field{title}{Are Implicit Motives Revealed in Mere Words? {{Testing}} the Marker-Word Hypothesis with Computer-Based Text Analysis}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2013.00748
+      \endverb
+      \verb{eprint}
+      \verb 24137149
+      \endverb
+    \endentry
+    \entry{schultheiss_ImplicitMotives_2010}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=5a8be64b68f7667d6089bb05ed645358}{%
+           family={Brunstein},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{fullhash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{bibnamehash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{authorbibnamehash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{authornamehash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{authorfullhash}{00b32be963be8c9eb884d21d1f39e491}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{isbn}{978-0-19-533515-6}
+      \field{month}{1}
+      \field{title}{Implicit {{Motives}}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/B873BN4Q/9780195335156.003.html
+      \endverb
+    \endentry
+    \entry{schultheiss_AssessmentImplicitMotives_2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
+           family={Brunstein},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{fullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{bibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{shortjournal}{Journal of Personality Assessment}
+      \field{title}{Assessment of Implicit Motives with a Research Version of the {{TAT}}: {{Picture}} Profiles, Gender Differences, and Relations to Other Personality Measures}
+      \field{volume}{77}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{71\bibrangedash 86}
+      \range{pages}{16}
+    \endentry
+    \entry{schultheiss_reliability_2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=31df74083cbeb6604368b4e16646c7f8}{%
+           family={Liening},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f3ae62f4a78a24fcab6700fe95fc952e}{%
+           family={Schad},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8460520c04bfcd346d789915f44e13f4}
+      \strng{fullhash}{b474225ab3e4b28a73f04f01281b579d}
+      \strng{bibnamehash}{b474225ab3e4b28a73f04f01281b579d}
+      \strng{authorbibnamehash}{b474225ab3e4b28a73f04f01281b579d}
+      \strng{authornamehash}{8460520c04bfcd346d789915f44e13f4}
+      \strng{authorfullhash}{b474225ab3e4b28a73f04f01281b579d}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Research in Personality}
+      \field{shortjournal}{Journal of Research in Personality}
+      \field{title}{The Reliability of a {{Picture Story Exercise}} Measure of Implicit Motives: {{Estimates}} of Internal Consistency, Retest Reliability, and Ipsative Stability}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{1560\bibrangedash 1571}
+      \range{pages}{12}
+      \keyw{test reliability; Picture Story Exercise measure; implicit motives; internal consistency; retest reliability; ipsative stability; Motivation; Personality Traits; Projective Personality Measures; Test Reliability}
+    \endentry
+    \entry{schultheiss_MeasuringImplicitMotives_2007}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ef878ffb06edf2f6efaad6363955c75}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=1929d1a28ac5a4a6a539440679df7710}{%
+           family={Robins},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=77419eadb6e2a565318d327a267c5fa4}{%
+           family={Fraley},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ce5e635ee30aa1a051a6cd2e889b8722}{%
+           family={Krueger},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Guilford Press}%
+      }
+      \strng{namehash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{fullhash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{bibnamehash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{authorbibnamehash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{authornamehash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{authorfullhash}{41fe87ed8bf1d44f3e0b1d3c5b6a1e0b}
+      \strng{editorbibnamehash}{1459b48b866b15b1ae0c7284094bb230}
+      \strng{editornamehash}{47abb41168bdd359ab903bdf6fc69713}
+      \strng{editorfullhash}{1459b48b866b15b1ae0c7284094bb230}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Research Methods in Personality Psychology}
+      \field{title}{Measuring Implicit Motives}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{322\bibrangedash 344}
+      \range{pages}{23}
+      \keyw{Motivation,Personality,Personality Measures,Test Reliability,Test Validity,analytic design,assessment,differential validity,implicit motivational needs,implicit motive measures,implicit motives,measurement,motive scores,Book,reliability}
+    \endentry
+    \entry{schultheiss_AreImplicitExplicit_2009}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b767226e8e4116581ca3fd3d62074380}{%
+           family={Yankova},
+           familyi={Y\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=06cd658caa91acbd2fb73a6a519c54d2}{%
+           family={Dirlikov},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f3ae62f4a78a24fcab6700fe95fc952e}{%
+           family={Schad},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8460520c04bfcd346d789915f44e13f4}
+      \strng{fullhash}{2199a1f491b8135774fa3c5e1b5ff920}
+      \strng{bibnamehash}{2199a1f491b8135774fa3c5e1b5ff920}
+      \strng{authorbibnamehash}{2199a1f491b8135774fa3c5e1b5ff920}
+      \strng{authornamehash}{8460520c04bfcd346d789915f44e13f4}
+      \strng{authorfullhash}{2199a1f491b8135774fa3c5e1b5ff920}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0022-3891}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{shorttitle}{Are Implicit and Explicit Motive Measures Statistically Independent?}
+      \field{title}{Are Implicit and Explicit Motive Measures Statistically Independent? {{A}} Fair and Balanced Test Using the {{Picture Story Exercise}} and a Cue-and Response-Matched Questionnaire Measure}
+      \field{volume}{91}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{72\bibrangedash 81}
+      \range{pages}{10}
+    \endentry
+    \entry{smith_motivation_1992}{book}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=5ec755734bc26ca0e6b297ee66c7ac55}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
+           family={McClelland},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=963ae521dd52b21f00d1d34af9cd70fc}{%
+           family={Veroff},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=5ec755734bc26ca0e6b297ee66c7ac55}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
+           family={McClelland},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=963ae521dd52b21f00d1d34af9cd70fc}{%
+           family={Veroff},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY US}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b4c4ab75b12527d1c3723698ffa399f0}
+      \strng{fullhash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \strng{bibnamehash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \strng{authorbibnamehash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \strng{authornamehash}{b4c4ab75b12527d1c3723698ffa399f0}
+      \strng{authorfullhash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \strng{editorbibnamehash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \strng{editornamehash}{b20f18c10c6cd87d35e54e5e2d5ebb47}
+      \strng{editorfullhash}{e5c87bb75c1e46d34e33a09b20340bab}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{(from the jacket) "Motivation and Personality" presents systems for the analysis of verbal content and style for use in the behavioral and social sciences. The measures obtained may be used to characterize individuals, groups, or historical periods. Contributions from leading figures in their fields include general discussions of the merits and uses of content analysis as well as specific coding manuals and practice materials for learning how to use them. (jacket) The volume serves the dual purpose of reference and handbook. Reference material is provided in introductions to each scoring system as well as in discussions of general issues such as the determinants of verbal imagery, the analysis of archival and naturally occurring verbal materials, and the relation of content analysis to other contemporary methods of motivation and personality assessment. Coding manuals are provided for measuring motives (such as achievement, affiliation, intimacy, power), psychosocial orientations (uncertainty orientation, stances toward the environment, self-definition, responsibility), and attributional and cognitive styles (personal causation, explanatory style, conceptual complexity). These coding manuals, together with information on how to obtain and code verbal material, create a handbook for researchers who wish to use these methods for work in psychology, social psychology, sociology, and other social sciences, as well as in such applied areas as education, health, and industrial psychology. (PsycINFO Database Record (c) 2010 APA, all rights reserved) (jacket)}
+      \field{isbn}{0-521-40052-X}
+      \field{shorttitle}{Motivation and Personality}
+      \field{title}{Motivation and Personality: {{Handbook}} of Thematic Content Analysis}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \keyw{Motivation,Personality Measures,examines content analysis in relation to personality assessment & motivation,Content Analysis (Test)}
+    \endentry
+    \entry{smith_MethodologicalConsiderationsSteps_1992}{incollection}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=d2c80bb0238498a4617f1ecd8c23093a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Charles\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6eb8f3a2d239b4420549fed4c8dbc919}{%
+           family={Feld},
+           familyi={F\bibinitperiod},
+           given={Sheila\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8afc7f1a8d6353e08a6d0c1f062a65ea}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Carol\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, US}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3b096276d673ce8209256e239ae40ab6}
+      \strng{fullhash}{5fda78fc0d4355fb629f4a29e9e98522}
+      \strng{bibnamehash}{5fda78fc0d4355fb629f4a29e9e98522}
+      \strng{authorbibnamehash}{5fda78fc0d4355fb629f4a29e9e98522}
+      \strng{authornamehash}{3b096276d673ce8209256e239ae40ab6}
+      \strng{authorfullhash}{5fda78fc0d4355fb629f4a29e9e98522}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{research involving the analysis of verbal material for content analysis and/or style involves the following steps: (1) deciding what type of verbal material (and subject population) to sample, (2) choosing a method for obtaining the material, (3) collecting the material, (4) learning a content analysis system, (5) learning how to measure intercoder agreement, (6) coding (scoring) the material, and (7) analyzing the data / this chapter presents information and recommendations regarding these steps in research (PsycINFO Database Record (c) 2016 APA, all rights reserved)}
+      \field{booktitle}{Motivation and Personality: {{Handbook}} of Thematic Content Analysis.}
+      \field{isbn}{0-521-40052-X (Hardcover)}
+      \field{title}{Methodological Considerations: {{Steps}} in Research Employing Content Analysis Systems.}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{pages}{515\bibrangedash 536}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1017/CBO9780511527937.038
+      \endverb
+      \keyw{Interrater Reliability,Scoring (Testing),Statistical Analysis,*Content Analysis,*Conversation,*Methodology,Data Collection}
+    \endentry
+    \entry{tabachnick_UsingMultivariateStatistics_2013}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=960284e54c0f58c8743dbccde6670f3e}{%
+           family={Tabachnick},
+           familyi={T\bibinitperiod},
+           given={Barbara\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4779d4009ab07469218a8a733d0796d7}{%
+           family={Fidell},
+           familyi={F\bibinitperiod},
+           given={Linda\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Harlow}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft Press}%
+      }
+      \strng{namehash}{c68f7387e157a91ec230be2638335a94}
+      \strng{fullhash}{c68f7387e157a91ec230be2638335a94}
+      \strng{bibnamehash}{c68f7387e157a91ec230be2638335a94}
+      \strng{authorbibnamehash}{c68f7387e157a91ec230be2638335a94}
+      \strng{authornamehash}{c68f7387e157a91ec230be2638335a94}
+      \strng{authorfullhash}{c68f7387e157a91ec230be2638335a94}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Practical Approach to using Multivariate Analyses Using Multivariate Statistics, 6th edition provides advanced undergraduate as well as graduate students with a timely and comprehensive introduction to today's most commonly encountered statistical and multivariate techniques, while assuming only a limited knowledge of higher-level mathematics. This text's practical approach focuses on the benefits and limitations of applications of a technique to a data set - when, why, and how to do it. Learning Goals Upon completing this book, readers should be able to: Learn to conduct numerous types of multivariate statistical analyses Find the best technique to use Understand Limitations to applications Learn how to use SPSS and SAS syntax and output}
+      \field{day}{23}
+      \field{edition}{6th}
+      \field{isbn}{978-1-292-02131-7}
+      \field{langid}{Englisch}
+      \field{month}{7}
+      \field{pagetotal}{1072}
+      \field{title}{Using Multivariate Statistics}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{tuerlinckx_measuring_2002}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=cfc2551e6d72558a69e9f54482f529b5}{%
+           family={Tuerlinckx},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=32690ac47828e40ba18a097c339e5acb}{%
+           family={De\bibnamedelima Boeck},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=252a244fb7cb6dd97986fc6d827c0e22}{%
+           family={Lens},
+           familyi={L\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a930923bec31d8ec0b2bf1cdb1bc0294}
+      \strng{fullhash}{20d2c1119f42c19ee65dcda1da323cf7}
+      \strng{bibnamehash}{20d2c1119f42c19ee65dcda1da323cf7}
+      \strng{authorbibnamehash}{20d2c1119f42c19ee65dcda1da323cf7}
+      \strng{authornamehash}{a930923bec31d8ec0b2bf1cdb1bc0294}
+      \strng{authorfullhash}{20d2c1119f42c19ee65dcda1da323cf7}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Personality and Social Psychology}
+      \field{shortjournal}{Journal of Personality and Social Psychology}
+      \field{title}{Measuring Needs with the {{Thematic Apperception Test}}: {{A}} Psychometric Study}
+      \field{volume}{82}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{448\bibrangedash 461}
+      \range{pages}{14}
+      \keyw{apperception theories; drop-out apperception theory; Thematic Apperception Test; item-response model; need for achievement; Achievement Motivation; Apperception; Item Response Theory; Needs Assessment; Thematic Apperception Test}
+    \endentry
+    \entry{winter_ManualScoringMotive_1994}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1378e19355666697e86832dfa801c8ce}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Ann Arbor}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan}%
+      }
+      \strng{namehash}{1378e19355666697e86832dfa801c8ce}
+      \strng{fullhash}{1378e19355666697e86832dfa801c8ce}
+      \strng{bibnamehash}{1378e19355666697e86832dfa801c8ce}
+      \strng{authorbibnamehash}{1378e19355666697e86832dfa801c8ce}
+      \strng{authornamehash}{1378e19355666697e86832dfa801c8ce}
+      \strng{authorfullhash}{1378e19355666697e86832dfa801c8ce}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manual for Scoring Motive Imagery in Running Text (4th Edition)}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{winter_MeasuringPersonalityDistance_1991}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c7ff5132369274ebee37ddcc614042be}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {Jessica Kingsley Publishers}%
+      }
+      \strng{namehash}{c7ff5132369274ebee37ddcc614042be}
+      \strng{fullhash}{c7ff5132369274ebee37ddcc614042be}
+      \strng{bibnamehash}{c7ff5132369274ebee37ddcc614042be}
+      \strng{authorbibnamehash}{c7ff5132369274ebee37ddcc614042be}
+      \strng{authornamehash}{c7ff5132369274ebee37ddcc614042be}
+      \strng{authorfullhash}{c7ff5132369274ebee37ddcc614042be}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{a new integrated method for scoring achievement, affiliation-intimacy, and power motive imagery in verbal running text (speeches, interviews, literary works, and so forth) is introduced as an aid to personality research at a distance / systematic studies demonstrate that the new scoring system has interscorer and temporal reliability, validity, and convergence with scores from the original TAT [Thematic Apperception Test]-based scoring systems / group and individual studies of political leaders, as well as studies of conflict escalation, illustrate its range of application / overall, the performance of the new integrated running text system, which is nonreactive and can be applied to any naturally-occurring verbal material, suggests an alternative to the testing procedures of traditional personality research and assessment (PsycINFO Database Record (c) 2016 APA, all rights reserved)}
+      \field{booktitle}{Perspectives in Personality, {{Vol}}. 3: {{Part A}}: {{Self}} and Emotion; {{Part B}}: {{Approaches}} to Understanding Lives}
+      \field{isbn}{978-1-85302-085-8}
+      \field{shorttitle}{Measuring Personality at a Distance}
+      \field{title}{Measuring Personality at a Distance: {{Development}} of an Integrated System for Scoring Motives in Running Text}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{59\bibrangedash 89}
+      \range{pages}{31}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/DRKBZK5L/1991-98189-014.html
+      \endverb
+      \keyw{Personality Measures,Achievement Motivation,Intimacy,Imagery,Scoring (Testing),Interpersonal Control,Affiliation Motivation,Verbal Communication}
+    \endentry
+    \entry{yu_RobustLinearRegression_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=6fbbc40a69a7321b2d6cdaa3a80e2663}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ec926e4e72f6ce10d9b3d3de3d148f3c}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Weixin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4d71f2d6afe6d1a731b6ba957f46f2c5}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xue},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82363539eec9657344f1ef6640e5cab1}
+      \strng{fullhash}{5a17690741ad0abb7bcc79f4b6dc3978}
+      \strng{bibnamehash}{5a17690741ad0abb7bcc79f4b6dc3978}
+      \strng{authorbibnamehash}{5a17690741ad0abb7bcc79f4b6dc3978}
+      \strng{authornamehash}{82363539eec9657344f1ef6640e5cab1}
+      \strng{authorfullhash}{5a17690741ad0abb7bcc79f4b6dc3978}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ordinary least-squares (OLS) estimators for a linear model are very sensitive to unusual values in the design space or outliers among y values. Even one single atypical value may have a large effect on the parameter estimates. This article aims to review and describe some available and popular robust techniques, including some recent developed ones, and compare them in terms of breakdown point and efficiency. In addition, we also use a simulation study and a real data application to compare the performance of existing robust methods under different scenarios.}
+      \field{day}{24}
+      \field{eprintclass}{stat}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{shorttitle}{Robust {{Linear Regression}}}
+      \field{title}{Robust {{Linear Regression}}: {{A Review}} and {{Comparison}}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1404.6274
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/8EJKS84P/Yu et al. - 2014 - Robust Linear Regression A Review and Comparison.pdf;/Users/felix/Bibs und Backup/Zotero/storage/SMSV64UT/1404.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1404.6274
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1404.6274
+      \endverb
+      \keyw{Statistics - Methodology}
+    \endentry
+    \entry{zygar_EinflussEmotionalerIntelligenz_2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ccc223ee081762ff41f54dd352be07a}{%
+           family={Zygar},
+           familyi={Z\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ccc223ee081762ff41f54dd352be07a}
+      \strng{fullhash}{4ccc223ee081762ff41f54dd352be07a}
+      \strng{bibnamehash}{4ccc223ee081762ff41f54dd352be07a}
+      \strng{authorbibnamehash}{4ccc223ee081762ff41f54dd352be07a}
+      \strng{authornamehash}{4ccc223ee081762ff41f54dd352be07a}
+      \strng{authorfullhash}{4ccc223ee081762ff41f54dd352be07a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In dieser Studie wurde untersucht, ob emotionale Intelligenz (EI) als Ability zur Befriedigung impliziter Motive beitragen kann. Ein solcher Einfluss wurde für implizit hoch macht- und anschlussmotivierten Personen vermutet, jedoch nicht für implizit niedrig Macht- und Anschlussmotivierte, sowie auch nicht für implizit leistungsmotivierte Menschen unabhängig von der Ausprägung des Leistungsmotivs. Die impliziten Motive wurden über die Picture Story Exercise (vgl. Pang, 2010) gemessen und die EI mit Hilfe der Kurzform des Situational Test of Emotional Understanding und der des Situational Test of Emotion Management erhoben (vgl. MacCann \& Roberts, 2008a). Für die Motivbefriedigung wurde ein Fragebogen entwickelt, der das Auftreten motivbefriedigender Situationen in der letzten Gruppenarbeit abfragt. Die vermuteten Zusammenhänge konnten nicht gefunden werden: für implizit machtmotivierte Personen fand sich überhaupt keine Interaktion mit EI; für implizit anschlussmotivierte Personen fand sich eine Interaktion mit EI, jedoch in anderer Richtung als vermutet. Sie gestaltete sich so, dass hoch emotional intelligente,implizit aber niedrig anschlussmotivierte Personeneine größere Motivbefriedigung berichteten, als entsprechend implizit niedrig anschlussmotivierte Personen mit niedriger EI. Dieser Effekt von EI wurde ursprünglich für implizit stark anschlussmotivierte Personen vermutet. Für implizit Leistungsmotivierte fand sich wie bei implizit Machtmotivierten kein signifikanter Prädiktor. Dies wurde so vermutet, es kann jedoch nicht mit Sicherheit gesagt werden, dass dies die Hypothesen bestätigt, da das 95\%-Konfidenzintervall der Regressionsgewichte zu breit ausfällt. Mögliche Erklärungen für die resultierten Ergebnisse werden dargestellt und Anregungen für zukünftige Studien diskutiert.}
+      \field{journaltitle}{Thesis Commons}
+      \field{title}{Der {{Einfluss}} Emotionaler {{Intelligenz}} Auf Die {{Befriedigung}} Impliziter {{Motive}}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.31237/osf.io/6csf7
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/ZPREJZ9Z/Zygar - 2018 - Der Einfluss emotionaler Intelligenz auf die Befri.pdf;/Users/felix/Bibs und Backup/Zotero/storage/C4MQSSDT/6csf7.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

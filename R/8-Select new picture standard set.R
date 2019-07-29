@@ -17,7 +17,7 @@ standardSix <- c("women in laboratory", "boxer", "trapeze artists", "couple by r
 
 stories <- PSE %>% 
 	filter(scoring_type == "eachSentence") %>% 
-	group_by(USID, pic_ID) %>% 
+	group_by(USID, pic_id) %>% 
 	summarise(
 		aff = sum(aff),
 		ach = sum(ach),
@@ -32,7 +32,7 @@ stories <- PSE %>%
 	select(-fullText)
 
 
-pics <- stories %>% group_by(pic_ID) %>% summarise(
+pics <- stories %>% group_by(pic_id) %>% summarise(
 	aff.sum = sum(aff),
 	ach.sum = sum(ach),
 	pow.sum = sum(pow),
@@ -55,17 +55,17 @@ pics <- stories %>% group_by(pic_ID) %>% summarise(
 
 # new 6 pics: This is our suggestion for a balanced set.
 pics %>% 
-filter(pic_ID %in% c("newpic12", "applause", "newpic10", "newpic9", "newpic22", "newpic1")) %>% 
+filter(pic_id %in% c("newpic12", "applause", "newpic10", "newpic9", "newpic22", "newpic1")) %>% 
 select(aff.mean, ach.mean, pow.mean, overallPull) %>% colMeans
 	
 pics %>% 
-filter(pic_ID %in% standardSix) %>% 
+filter(pic_id %in% standardSix) %>% 
 select(aff.mean, ach.mean, pow.mean, overallPull) %>% colMeans
 
 
 # locate in ternary plot
 
-pic_comp <- pics %>% filter(pic_ID %in% c("newpic12", "applause", "newpic10", "newpic9", "newpic22", "newpic1", standardSix))
+pic_comp <- pics %>% filter(pic_id %in% c("newpic12", "applause", "newpic10", "newpic9", "newpic22", "newpic1", standardSix))
 
 pic_comp <- pic_comp %>% mutate(
 	aff.norm = aff.sum / overallPull,
@@ -79,7 +79,7 @@ pic_comp <- pic_comp %>% mutate(
 library(ggtern)
 ternary.plot <- ggtern(data=pic_comp, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=overallPull, color=overallPull)) + 
 	geom_point() + 
-	geom_text(aes(x=ach.label, y=aff.label, z=pow.label, label=pic_ID), hjust=0.5, size=3, color="black") + 
+	geom_text(aes(x=ach.label, y=aff.label, z=pow.label, label=pic_id), hjust=0.5, size=3, color="black") + 
 	scale_colour_gradient(low="lightgreen", high="red") + 
 	labs(x="ACH", y="AFF", z="POW") + theme_rgbw()
 ternary.plot

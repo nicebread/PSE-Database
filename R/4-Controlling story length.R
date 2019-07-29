@@ -7,32 +7,37 @@
 
 # person.RData is computed in 2-Story length descriptives.R
 source("0-start.R")
-load(file="cache/person.RData")
+load(file="processed_data/person.RData")
 
+# compute scales variables for better fits
+person$sc.person.z <- scale(person$sc.person)
+person$wc.person.z <- scale(person$wc.person)
+person$sc.person2.z <- person$sc.person.z^2
+person$wc.person2.z <- person$wc.person.z^2
 # ---------------------------------------------------------------------
 # Models including the squared term
 # Random effects are uncorrelated to avoid onvergence problems and singular fits
 
-mlm.aff2 <- lmer(aff.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_ID), data=person, control=lmerControl(optCtrl=list(maxfun=35000)))
+mlm.aff2 <- lmer(aff.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_id), data=person, control=lmerControl(optCtrl=list(maxfun=35000)))
 summary(mlm.aff2)
 
-mlm.ach2 <- lmer(ach.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_ID), data=person)
+mlm.ach2 <- lmer(ach.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_id), data=person)
 summary(mlm.ach2)
 
-mlm.pow2 <- lmer(pow.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_ID), data=person)
+mlm.pow2 <- lmer(pow.sum ~ sc.person.z + wc.person.z + sc.person2.z + wc.person2.z + (1 + sc.person.z + wc.person.z || study_id), data=person)
 summary(mlm.pow2)
 
 
 # ---------------------------------------------------------------------
 # Models with only linear terms: These are reported in the published table
 
-mlm.aff <- lmer(aff.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_ID), data=person)
+mlm.aff <- lmer(aff.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_id), data=person)
 summary(mlm.aff)
 
-mlm.ach <- lmer(ach.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_ID), data=person)
+mlm.ach <- lmer(ach.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_id), data=person)
 summary(mlm.ach)
 
-mlm.pow <- lmer(pow.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_ID), data=person)
+mlm.pow <- lmer(pow.sum ~ sc.person.z + wc.person.z + (1 + sc.person.z + wc.person.z || study_id), data=person)
 summary(mlm.pow)
 
 
@@ -41,7 +46,7 @@ summary(mlm.pow)
 (LR.ach <- anova(mlm.ach2, mlm.ach))
 (LR.pow <- anova(mlm.pow2, mlm.pow))
 
-save(mlm.aff2, mlm.ach2, mlm.pow2, mlm.aff, mlm.ach, mlm.pow, LR.aff, LR.ach, LR.pow, file="cache/MLMs.RData")
+save(mlm.aff2, mlm.ach2, mlm.pow2, mlm.aff, mlm.ach, mlm.pow, LR.aff, LR.ach, LR.pow, file="processed_data/MLMs.RData")
 
 # get marginal R^2 for all models
 library(MuMIn)
@@ -56,16 +61,16 @@ r.squaredGLMM(mlm.pow2)
 r.squaredGLMM(mlm.pow)
 
 # extract random slope variance
-SD=attr(VarCorr(mlm.aff)$study_ID, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
-SD=attr(VarCorr(mlm.ach)$study_ID, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
-SD=attr(VarCorr(mlm.pow)$study_ID, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
+SD=attr(VarCorr(mlm.aff)$study_id.1, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
+SD=attr(VarCorr(mlm.ach)$study_id.1, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
+SD=attr(VarCorr(mlm.pow)$study_id.1, "stddev")["sc.person.z"];paste0(f2(SD^2, 2), " (", f2(SD, 2), ")")
 
 # extract fixed effects (SE)
 paste0(f2(fixef(mlm.aff)["sc.person.z"], 2), " (", f2(sqrt(diag(vcov(mlm.aff))[2]), 2),")")
 paste0(f2(fixef(mlm.aff)["wc.person.z"], 2), " (", f2(sqrt(diag(vcov(mlm.aff))[3]), 2),")")
 
 # exemplary range of random effects
-range(coef(mlm.aff)$study_ID$sc.person.z)
+range(coef(mlm.aff)$study_id$sc.person.z)
 
 
 
@@ -76,13 +81,13 @@ range(coef(mlm.aff)$study_ID$sc.person.z)
 
 CA.MLM <- function(DV="aff.sum", data=person) {
 	print("Computing 'sc only' model ...")
-	MLM.only_sc <- lmer(formula(paste0(DV, " ~ sc.person.z + (1 + sc.person.z || study_ID)")), data=data)	
+	MLM.only_sc <- lmer(formula(paste0(DV, " ~ sc.person.z + (1 + sc.person.z || study_id)")), data=data)	
 	
 	print("Computing 'wc only' model ...")
-	MLM.only_wc <- lmer(formula(paste0(DV, " ~ wc.person.z + (1 + wc.person.z || study_ID)")), data=data)	
+	MLM.only_wc <- lmer(formula(paste0(DV, " ~ wc.person.z + (1 + wc.person.z || study_id)")), data=data)	
 	
 	print("Computing 'sc and wc' model ...")
-	MLM.both <- lmer(formula(paste0(DV, " ~ sc.person.z + wc.person.z + (1 + sc.person.z || study_ID)")), data=data)	
+	MLM.both <- lmer(formula(paste0(DV, " ~ sc.person.z + wc.person.z + (1 + sc.person.z || study_id)")), data=data)	
 	
 	full.R2 <- r.squaredGLMM(MLM.both)[1, "R2m"]
 	unique.R2.sc <- full.R2 - r.squaredGLMM(MLM.only_wc)[1, "R2m"]
@@ -100,7 +105,7 @@ CA.aff <- CA.MLM("aff.sum", data=person)
 CA.ach <- CA.MLM("ach.sum", data=person)
 CA.pow <- CA.MLM("pow.sum", data=person)
 
-save(CA.aff, CA.ach, CA.pow, file="cache/CAs.RData")
+save(CA.aff, CA.ach, CA.pow, file="processed_data/CAs.RData")
 
 
 
@@ -114,18 +119,18 @@ save(CA.aff, CA.ach, CA.pow, file="cache/CAs.RData")
 
 person$wc.person.1000 <- person$wc.person/1000
 
-mlm.aff.simple <- lmer(aff.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_ID), data=person)
+mlm.aff.simple <- lmer(aff.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_id), data=person)
 summary(mlm.aff.simple)
 
-mlm.ach.simple <- lmer(ach.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_ID), data=person)
+mlm.ach.simple <- lmer(ach.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_id), data=person)
 summary(mlm.ach.simple)
 
 # uncorrelated random effects to avoid singular fit
-mlm.pow.simple <- lmer(pow.sum ~ wc.person.1000 + (1 + wc.person.1000 || study_ID), data=person)
+mlm.pow.simple <- lmer(pow.sum ~ wc.person.1000 + (1 + wc.person.1000 || study_id), data=person)
 summary(mlm.pow.simple)
 
 brm.aff <- brm(
-	aff.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_ID), 
+	aff.sum ~ wc.person.1000 + (1 + wc.person.1000 | study_id), 
 	prior = c(prior(normal(0, 10), class = Intercept),
 	          prior(normal(0, 20), class = b)),
 	data=person)
@@ -161,9 +166,9 @@ sd(intercept_samples_aug)
 # for each single data set: Compute Bayesian wc regression
 
 res <- data.frame()
-for (s in unique(person$study_ID)) {
+for (s in unique(person$study_id)) {
 	print(s)
-	dat0 <- person %>% filter(study_ID == s)
+	dat0 <- person %>% filter(study_id == s)
 	
 	l1 <- lm(aff.sum ~ wc.person.1000, dat0)
 	r1 <- lmrob(aff.sum ~ wc.person.1000, dat0, setting="KS2014")

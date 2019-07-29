@@ -13,7 +13,7 @@ library(dplyr)
 library(fitdistrplus)
 
 # load the data
-load(file="cache/person.RData")
+load(file="processed_data/person.RData")
 df <- person	# assign shorter variable name
 
 ## ======================================================================

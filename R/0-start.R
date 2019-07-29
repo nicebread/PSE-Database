@@ -1,3 +1,4 @@
+library(rio)
 library(xtable)
 library(tidyverse)
 library(stringr)
@@ -11,11 +12,12 @@ library(rstanarm)
 source("0-helpers.R")
 
 
-PSE_file <- "database_releases/PSE_0.2.RData"
-
-# PSE is the database of stories and codings
-load(file=PSE_file)
+PSE_file <- "database_releases/PSE_0.2_redacted.tsv"
 
 # ensure integrity/correct version of file: MD5 checksum from 
 # 0.2 version of database.
-# md5sum("data/PSE.RData") == "7b1d1ce62498402f9b176d7573ec53a3"
+md5sum(PSE_file) == "312140eb6d077880be8b15374eed6732"
+
+# PSE is the database of stories and codings
+PSE <- import(PSE_file)
+

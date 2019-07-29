@@ -22,24 +22,24 @@ df$wc.story3.z <- scale(df$wc.story^3)
 library(lmerTest)
 
 # maxfun is calibrated to the bobyqa recommendation of "10 * length(par)^2"
-# (56 parameters with both random effects pic_ID and study_ID)
+# (56 parameters with both random effects pic_id and study_id)
 
 # ---------------------------------------------------------------------
 # Modes including the squared term
 
 system.time({
-mlm.aff2 <- lmer(aff.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z | pic_ID) + (1 + sc.story.z + wc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.aff2 <- lmer(aff.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z | pic_id) + (1 + sc.story.z + wc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.aff2)
 
-# have to remove random slope for wc|study_ID due to convergence problems
+# have to remove random slope for wc|study_id due to convergence problems
 system.time({
-mlm.ach2 <- lmer(ach.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z  | pic_ID) + (1 + sc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.ach2 <- lmer(ach.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z  | pic_id) + (1 + sc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.ach2)
 
 system.time({
-mlm.pow2 <- lmer(pow.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z | pic_ID) + (1 + sc.story.z + wc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.pow2 <- lmer(pow.sum ~ sc.story.z + wc.story.z + sc.story2.z + wc.story2.z + (1 + sc.story.z + wc.story.z | pic_id) + (1 + sc.story.z + wc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.pow2)
 
@@ -47,17 +47,17 @@ summary(mlm.pow2)
 
 
 system.time({
-mlm.aff <- lmer(aff.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_ID) + (1 + sc.story.z + wc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.aff <- lmer(aff.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_id) + (1 + sc.story.z + wc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.aff)
 
 system.time({
-mlm.ach <- lmer(ach.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_ID) + (1 + sc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.ach <- lmer(ach.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_id) + (1 + sc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.ach)
 
 system.time({
-mlm.pow <- lmer(pow.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_ID) + (1 + sc.story.z + wc.story.z | study_ID), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
+mlm.pow <- lmer(pow.sum ~ sc.story.z + wc.story.z + (1 + sc.story.z + wc.story.z | pic_id) + (1 + sc.story.z + wc.story.z | study_id), data=df, control=lmerControl(optCtrl=list(maxfun=35000)), verbose=1)
 })
 summary(mlm.pow)
 
@@ -66,7 +66,7 @@ summary(mlm.pow)
 (LR.ach <- anova(mlm.ach2, mlm.ach))
 (LR.pow <- anova(mlm.pow2, mlm.pow))
 
-save(mlm.aff2, mlm.ach2, mlm.pow2, mlm.aff, mlm.ach, mlm.pow, LR.aff, LR.ach, LR.pow, file="cache/MLMs.RData")
+save(mlm.aff2, mlm.ach2, mlm.pow2, mlm.aff, mlm.ach, mlm.pow, LR.aff, LR.ach, LR.pow, file="processed_data/MLMs.RData")
 
 # get marginal R^2 for all models
 library(MuMIn)
@@ -82,17 +82,17 @@ r.squaredGLMM(mlm.pow)
 summary(mlm.aff2)
 VarCorr(mlm.aff2)
 
-SD=attr(VarCorr(mlm.aff)$pic_ID, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
-SD=attr(VarCorr(mlm.ach)$pic_ID, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
-SD=attr(VarCorr(mlm.pow)$pic_ID, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
+SD=attr(VarCorr(mlm.aff)$pic_id, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
+SD=attr(VarCorr(mlm.ach)$pic_id, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
+SD=attr(VarCorr(mlm.pow)$pic_id, "stddev")["sc.story.z"];paste0(f2(SD^2), " (", f2(SD), ")")
 
 # extract fixed effects (SE)
 paste0(f2(fixef(mlm.aff)["sc.story.z"]), " (", f2(sqrt(diag(vcov(mlm.aff))[2])),")")
 paste0(f2(fixef(mlm.aff)["wc.story.z"]), " (", f2(sqrt(diag(vcov(mlm.aff))[3])),")")
 
 # exemplary range of random effects
-range(coef(mlm.aff)$pic_ID$sc.story.z)
-range(coef(mlm.aff)$study_ID$sc.story.z)
+range(coef(mlm.aff)$pic_id$sc.story.z)
+range(coef(mlm.aff)$study_id$sc.story.z)
 
 
 
@@ -162,12 +162,12 @@ ggplot(ST.long, aes(x=unit, y=value, color=variable)) + geom_point() + geom_path
 
 
 person <- PSE %>% 
-	filter(scoring_type == "eachSentence" & !grepl("newpic", pic_ID)) %>% 
-	group_by(study_ID, person_ID) %>% 
+	filter(scoring_type == "eachSentence" & !grepl("newpic", pic_id)) %>% 
+	group_by(study_id, participant_id) %>% 
 	summarise(
 		sc = n(),
 		wc = sum(wc),
-		n.pic_ID = length(unique(pic_ID)),
+		n.pic_id = length(unique(pic_id)),
 		aff.sum = sum(aff),
 		ach.sum = sum(ach),
 		pow.sum = sum(pow),
@@ -268,7 +268,7 @@ xtable(tab.sent, caption="Descriptive statistics for overall motive, word, and s
 ## ======================================================================
 
 
-dat0 <- person %>% filter(study_ID == "OCS_smofee8")
+dat0 <- person %>% filter(study_id == "OCS_smofee8")
 b1 <- stan_glm(aff.sum ~ wc.person.1000, family=gaussian(), data = dat0, 
                            chains = 1, seed = 12345, iter = 250, # for speed only
                            prior = normal(11.7, 3.80), # prior is for slopes

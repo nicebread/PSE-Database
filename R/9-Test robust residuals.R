@@ -10,25 +10,25 @@ library(dplyr)
 library(purrr)
 library(robustbase) 
 
-load(file="cache/person.RData")
+load(file="processed_data/person.RData")
 
 # ---------------------------------------------------------------------
 # OLS residualization, within study
 
 person$aff.resid <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lm(aff.sum ~ wc.person.z, data = ., na.action=na.omit)) %>%
   map(resid) %>% 
 	unlist()
 
 person$ach.resid <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lm(ach.sum ~ wc.person.z, data = ., na.action=na.omit)) %>%
   map(resid) %>% 
 	unlist()
 
 person$pow.resid <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lm(pow.sum ~ wc.person.z, data = ., na.action=na.omit)) %>%
   map(resid) %>% 
 	unlist()
@@ -39,19 +39,19 @@ person$pow.resid <- person %>%
 # Apply the recommended procedure
 
 person$aff.resid.robust <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lmrob(aff.sum ~ wc.person.z, data = ., na.action=na.omit, setting="KS2014")) %>%
   map(resid) %>% 
 	unlist()
 
 person$ach.resid.robust <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lmrob(ach.sum ~ wc.person.z, data = ., na.action=na.omit, setting="KS2014")) %>%
   map(resid) %>% 
 	unlist()
 
 person$pow.resid.robust <- person %>%
-  split(.$study_ID) %>% # from base R
+  split(.$study_id) %>% # from base R
   map(~ lmrob(pow.sum ~ wc.person.z, data = ., na.action=na.omit, setting="KS2014")) %>%
   map(resid) %>% 
 	unlist()
@@ -73,7 +73,7 @@ plot(sel$pow.resid, sel$pow.resid.robust)
 ## ======================================================================
 
 # use a part of real data set, then add some outliers
-df <- person %>% filter(study_ID=="OCS_smofee8") %>% slice(1:80)
+df <- person %>% filter(study_id=="OCS_smofee8") %>% slice(1:80)
 
 cor(df$wc.person, df$aff.sum)
 lm1 <- lm(aff.sum~wc.person, df)
@@ -183,7 +183,7 @@ hist(df2$aff.resid.OCS2)
 
 
 # use a real data set, then add some outliers
-df2 <- person %>% filter(study_ID=="OCS_smofee8") %>% slice(1:80)
+df2 <- person %>% filter(study_id=="OCS_smofee8") %>% slice(1:80)
 
 # change one data point into outliers
 df2[1, "wc.person"] <- 1100

@@ -4,15 +4,16 @@
 ## ======================================================================
 ## Picture pulls: Descriptive table and Ternary Plot
 ## using only studies where the second-sentence-rule has *not* been applied
+## (1 picture, "couple sitting opposite a woman", was only in a study with 2n-sentence-rule and therefore does not appear in the table)
 ## ======================================================================
 
 library(ggtern)
 source("0-start.R")
 
 # summarise PSE sentences and codings on story level
-stories <- PSE %>% 
+stories.each <- PSE %>% 
 	filter(scoring_type == "eachSentence") %>% 
-	group_by(USID, pic_ID) %>% 
+	group_by(USID, pic_id) %>% 
 	summarise(
 		aff = sum(aff),
 		ach = sum(ach),
@@ -31,7 +32,7 @@ stories <- PSE %>%
 
 
 # even more aggregation: summarise stories across picture stimuli
-pics <- stories %>% group_by(pic_ID) %>% summarise(
+pics <- stories.each %>% group_by(pic_id) %>% summarise(
 	aff.mean = mean(aff),
 	aff.sd = sd(aff, na.rm=TRUE),
 	aff.meanPresent = mean(aff.present),
@@ -59,16 +60,16 @@ pics %>% arrange(-overallPull) %>% print(n=100)
 
 pics %>% filter(n.stories > 50) %>% arrange(-overallPull) %>% print(n=100)
 
-pics %>% filter(pic_ID %in% standardSix)
+pics %>% filter(pic_id %in% standardSix)
 
 pics.round <- pics
 pics.round[, -1] <- round(pics.round[, -1], 2)
 
 # which new pictures have the highest motive pull?
-pics %>% filter(grepl("newpic", pic_ID)) %>% arrange(-overallPull) %>% print(n=100)
+pics %>% filter(grepl("newpic", pic_id)) %>% arrange(-overallPull) %>% print(n=100)
 
 library(rio)
-export(pics.round, file="export/picturePulls.xlsx")
+export(pics.round, file="processed_data/picturePulls.xlsx")
 
 
 # ---------------------------------------------------------------------
@@ -93,29 +94,27 @@ t1dat <- pics %>%
 		pow.norm = pow.mean/overallPull		# we need this for the ternary plot
 	) 
 
-save(t1dat, file="cache/t1dat.RData")
+save(t1dat, file="processed_data/t1dat.RData")
 
 	
 # select columns for table in publication
-t1 <- t1dat	%>% select(picNumber, pic_ID, aff.output, ach.output, pow.output, overall.output, AI.output, wc.output, n.stories)
+t1 <- t1dat	%>% select(picNumber, pic_id, aff.output, ach.output, pow.output, overall.output, AI.output, wc.output, n.stories)
 
 # mark standard six pictures with a *
-t1$pic_ID[t1$pic_ID %in% standardSix] <- paste0("*", t1$pic_ID[t1$pic_ID %in% standardSix])
+t1$pic_id[t1$pic_id %in% standardSix] <- paste0("*", t1$pic_id[t1$pic_id %in% standardSix])
 
 # sanitize picture names for Latex:
-t1$pic_ID <- gsub("_", "\\_", t1$pic_ID, fixed=TRUE)
-t1$pic_ID <- gsub("&", "\\&", t1$pic_ID, fixed=TRUE)
+t1$pic_id <- gsub("_", "\\_", t1$pic_id, fixed=TRUE)
+t1$pic_id <- gsub("&", "\\&", t1$pic_id, fixed=TRUE)
 
 colnames(t1) <- c("", "Pic ID", "Aff", "Ach", "Pow", "Overall", "Activity Inhib.", "Word count", "\\emph{n}")
-
 
 
 tab.norm <- xtable(t1, 
 	caption = "Means (SDs) of Motive Raw Scores and Activity Inhibition for Picture Stimuli.", 
 	label = "tab:norms",
 	)
-	
-	
+
 	
 # ---------------------------------------------------------------------
 # Produce the picture norm table for all pictures 
@@ -138,7 +137,7 @@ wikitable <- pics %>%
 	) 
 
 # select columns for table in wiki
-wikitable <- wikitable	%>% select(pic_ID, aff.output, ach.output, pow.output, overall.output, AI.output, n.stories, sc.output, wc.output)
+wikitable <- wikitable	%>% select(pic_id, aff.output, ach.output, pow.output, overall.output, AI.output, n.stories, sc.output, wc.output)
 
 colnames(wikitable) <- c("Pic ID", "Aff", "Ach", "Pow", "Overall", "Activity Inhibition", "n", "Sentence count", "Word count")
 
@@ -146,9 +145,10 @@ kable(wikitable, format="markdown")
 
 # ---------------------------------------------------------------------
 # Compare norms to Schultheiss norms (not printed in paper)
+# FIXME: ATTENTION: THE NUMBERS GOT MIXED UP HERE; NEEDS REVISION
 
 t1.compare <- pics %>% 
-	filter(pic_ID %in% standardSix) %>% 
+	filter(pic_id %in% standardSix) %>% 
 	mutate(
 		# strings for the norm table
 		aff.new = paste0(f2(aff.mean, 2), " (", f2(aff.sd, 2), ")"),
@@ -160,7 +160,7 @@ t1.compare <- pics %>%
 		pow.new = paste0(f2(pow.mean, 2), " (", f2(pow.sd, 2), ")"),
 		pow.SB = c("0.86 (0.83)", "0.80 (0.84)", "0.43 (0.72)", "--", "0.79 (0.85)", "1.16 (0.92)")
 	)  %>% 
-	select(pic_ID, aff.new, aff.SB, ach.new, ach.SB, pow.new, pow.SB)
+	select(pic_id, aff.new, aff.SB, ach.new, ach.SB, pow.new, pow.SB)
 	
 t1.compare	
 	
@@ -170,7 +170,7 @@ t1.compare
 ## Ternary Plot
 ## ======================================================================
 
-load(file="cache/t1dat.RData")
+load(file="processed_data/t1dat.RData")
 
 # hmm, currently needs an older version of ggplot because of incompability
 #devtools::install_version("ggplot2", version = "2.2.1", repos = "http://cran.us.r-project.org")
@@ -204,5 +204,5 @@ ternary.plot <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=
 	labs(x="ACH", y="AFF", z="POW") + theme_rgbw()
 ternary.plot
 
-save(t1dat, ternary.plot, tab.norm, file="cache/picture_norms.RData")	
+save(t1dat, ternary.plot, tab.norm, file="processed_data/picture_norms.RData")	
 

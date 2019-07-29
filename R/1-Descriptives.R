@@ -12,8 +12,8 @@ source("0-start.R")
 # USID = unique story ID
 # Each row is one story
 
-story.desc <- PSE %>% 
-	group_by(study_ID, person_ID, pic_ID, USID) %>% 
+story <- PSE %>% 
+	group_by(study_id, participant_id, pic_id, USID) %>% 
 	summarise(
 		sc.story = n(),
 		wc.story = sum(wc),
@@ -21,32 +21,39 @@ story.desc <- PSE %>%
 		ach.sum = sum(ach),
 		pow.sum = sum(pow),
 		overall.sum = sum(aff) + sum(ach) + sum(pow),
-		newpic = grepl("newpic", pic_ID[1]),
+		newpic = grepl("newpic", pic_id[1]),
 		scoring_type = scoring_type[1],
 		coding_lab = coding_lab[1],
 		pic_position = pic_position[1],
 		pic_order = pic_order[1],
-		sex = sex[1]
-	) %>% arrange(study_ID, person_ID, pic_ID, pic_position)
-	
-# how many stories are based on newpic?
-table(story.desc$newpic)
-table(story.desc$newpic) %>% prop.table
-round(prop.table(table(story.desc$newpic))["TRUE"]*100, 1)
+		gender = gender[1]
+	) %>% 
+	group_by(pic_id) %>% 
+	mutate(
+		n.stories = n()
+	) %>% 
+	ungroup() %>% 
+	arrange(study_id, participant_id, pic_position)
 
-# The following descriptive stats are based on the classic pics only
-story.desc.noNewpic <- story.desc %>% filter(newpic==FALSE)
+# how many stories per pic_id?
+sort(table(story$pic_id))
+
+# % of stories from new pictures witzh <= 50 stories
+round(prop.table(table(story$n.stories <= 50))["TRUE"]*100, 1)
+
+# The following descriptive stats are based on the pics with > 50 stories only
+story.gt50 <- story %>% filter(n.stories>50)
 	
 # show sentence counts	
-table(story.desc.noNewpic$sc.story)
-table(story.desc.noNewpic$sc.story) %>% prop.table %>% round(., 2)
+table(story.gt50$sc.story)
+table(story.gt50$sc.story) %>% prop.table %>% round(., 2)
 
-# sanity check: Print the longest story with 42 sentences
+# sanity check: Print the longest story with 41 sentences
 PSE %>% filter(sc==41) %>% pull("text") %>% paste()
 
-# sentence count split by pic_ID
-sentenceCountByPic <- story.desc.noNewpic %>% 
-	group_by(pic_ID) %>% 
+# sentence count split by pic_id
+sentenceCountByPic <- story.gt50 %>% 
+	group_by(pic_id) %>% 
 	summarise(
 		sc.story.mean=mean(sc.story),
 		wc.story.mean=mean(wc.story)
@@ -58,24 +65,24 @@ sentenceCountByPic %>% print(n=100)
 range(sentenceCountByPic[-1, "wc.story.mean"])
 
 # How many stories are coded according to the 2nd-sentence-rule?
-prop.table(table(story.desc$scoring_type))
+prop.table(table(story$scoring_type))
 
 # ---------------------------------------------------------------------
 #  number of pictures
-length(unique(PSE$pic_ID))
-table(PSE$pic_ID)
+length(unique(PSE$pic_id))
+table(PSE$pic_id)
 
 # number of stories
-nrow(story.desc)
+nrow(story)
 
 # number of sentences
 nrow(PSE)
 
 # number of persons
-length(unique(PSE$person_ID))
+length(unique(PSE$participant_id))
 
 # number of included studies
-length(unique(PSE$study_ID))
+length(unique(PSE$study_id))
 
 # ---------------------------------------------------------------------
 # TABLE motive categories
@@ -91,21 +98,21 @@ tab.mot.dat
 
 
 # average length (M and SD) of stories, in terms of words and sentences
-mean(story.desc$sc.story)
-sd(story.desc$sc.story)
-mean(story.desc$wc.story)
-sd(story.desc$wc.story)
+mean(story$sc.story)
+sd(story$sc.story)
+mean(story$wc.story)
+sd(story$wc.story)
 
 # number of stories per person
-person.desc <- story.desc %>% 
-	group_by(person_ID, study_ID) %>% 
+person.desc <- story %>% 
+	group_by(participant_id, study_id) %>% 
 	summarise(
 		n.stories = n()
 	)
 	
 summary(person.desc$n.stories)
 prop.table(table(person.desc$n.stories))
-table(person.desc$n.stories, person.desc$study_ID) %>% prop.table(margin=2)*100 %>% round(., 1)
+table(person.desc$n.stories, person.desc$study_id) %>% prop.table(margin=2)*100 %>% round(., 1)
 
 
 
@@ -164,33 +171,35 @@ demosentences <- demosentences0 %>% select(
 ## Descriptive tables on study level
 ## ======================================================================
 
-study.desc <- story.desc %>% 
-	group_by(study_ID) %>% 
+study.desc <- story %>% 
+	group_by(study_id) %>% 
 	summarise(
 		n.story = n(),
-		n.persons = length(unique(person_ID)),
-		n.pictures = length(unique(pic_ID)),
+		n.persons = length(unique(participant_id)),
+		n.pictures = length(unique(pic_id)),
 		scoring_type = scoring_type[1],
 		coding_lab = coding_lab[1],
 		pic_order = pic_order[1],
-		gender_ratio = sum(sex=="f", na.rm=TRUE) / sum(!is.na(sex))
+		gender_ratio = sum(gender=="f", na.rm=TRUE) / sum(!is.na(gender))
 	)
-	
+
+
 print(study.desc, n=100)
 
 # enrich the table with the meta-information from data/PSE-Database_ Study level descriptives.xlsx
 library(rio)
-study.meta <- import("data/PSE-Database_Study_level_descriptives.xlsx")[, 1:12]
-colnames(study.meta)[c(1, 8:12)] <- c("study_ID", "date_of_collection", "location", "administration", "test_setting", "population")
-study.desc2 <- merge(study.desc, study.meta[, c(1, 8:12)], by="study_ID") %>% arrange(study_ID)
+study.meta <- import("raw_data/source_Data/PSE-Database_Study_level_descriptives.xlsx")[, 1:12]
+colnames(study.meta)[c(1, 8:12)] <- c("study_id", "date_of_collection", "location", "administration", "test_setting", "population")
+study.desc2 <- merge(study.desc, study.meta[, c(1, 8:12)], by="study_id") %>% arrange(study_id)
 	
 # format gender ratio
 study.desc2$gender_ratio <- paste0(round(study.desc2$gender_ratio*100), "%")
+study.desc2$gender_ratio[study.desc2$gender_ratio == "NaN%"] <- "-"
 	
 ## format as nice Latex table	
 # escape underscores for Latex
 
-study.desc2$study_ID <- gsub("_", "\\_", study.desc2$study_ID, fixed=TRUE)
+study.desc2$study_id <- gsub("_", "\\_", study.desc2$study_id, fixed=TRUE)
 study.desc2$scoring_type <- gsub("_", "\\_", study.desc2$scoring_type, fixed=TRUE)
 study.desc2$gender_ratio <- gsub("%", "\\%", study.desc2$gender_ratio, fixed=TRUE)
 
@@ -199,6 +208,47 @@ colnames(study.desc2) <- c("Study ID", "{\\#} stories", "{\\#} participants", "{
 tab.study.desc2 <- xtable(study.desc2, 
 	caption = "Descriptives of Studies in the Database.", 
 	label = "tab:studies")
+	
+	
+## ======================================================================
+## Person level aggregation
+## ======================================================================
+
+# all persons
+
+person <- PSE %>% 
+	group_by(study_id, participant_id) %>% 
+	summarise(
+		gender = gender[1],
+		scoring_type = scoring_type[1],
+		n.pic_id = length(unique(pic_id)),
+		aff.sum = sum(aff),
+		ach.sum = sum(ach),
+		pow.sum = sum(pow),
+		overall.sum = sum(aff) + sum(ach) + sum(pow),
+		sc.person = n(),
+		wc.person = sum(wc),
+		n.pics = length(unique(pic_id)),
 		
-save.image("cache/1-Descriptives.RData")	
-save(story.desc, file="cache/story.desc.RData")
+		# density scores per 1000 words / per sentence
+		aff.wc.dens = aff.sum / (wc.person/1000),
+		aff.sc.dens = aff.sum / sc.person,
+		ach.wc.dens = ach.sum / (wc.person/1000),
+		ach.sc.dens = ach.sum / sc.person,
+		pow.wc.dens = pow.sum / (wc.person/1000),
+		pow.sc.dens = pow.sum / sc.person
+	) %>% 
+	ungroup()
+
+	
+# persons with stories >= 50, and eachSentence coding style	
+person.gt50.each <- person %>% filter(study_id != "FS_newpic", scoring_type == "eachSentence")
+		
+# ---------------------------------------------------------------------
+# Save the stuff
+		
+save.image("processed_data/1-Descriptives.RData")	
+save(story, file="processed_data/story.RData")
+save(story.gt50, file="processed_data/story.gt50.RData")
+save(person, file="processed_data/person.RData")
+save(person.gt50.each, file="processed_data/person.gt50.each.RData")

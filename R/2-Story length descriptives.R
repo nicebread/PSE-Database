@@ -3,13 +3,16 @@
 
 ## ======================================================================
 ## Relations of word count, sentence count, and motive raw scores
-# We want these correlations on person level, as this is the level of analysis
+# We want these correlations on person.gt50.each level, as this is the level of analysis
 # in practice. 
 # Problem: Nested in studies with differing number of pictures
 # Solution: Do the analysis within each study, do a meta-analysis to aggregate
 #
+# We do not include study FS_newPic, because to few person.gt50.eachs/stories per pic are present.
+# We only include studies with the eachSentence coding style.
+#
 # This script computes Table 6: "Descriptive Statistics for Raw Motive Scores, 
-# Word Count, and Sentence Count per Picture Story, and Correlations on Person Level."
+# Word Count, and Sentence Count per Picture Story, and Correlations on Person.gt50.each Level."
 ## ======================================================================
 
 source("0-start.R")
@@ -19,68 +22,46 @@ source("0-start.R")
 ## Compute the residuals and the correlation table in each study, and meta-analytically aggregate the tables
 ## ======================================================================
 
-person <- PSE %>% 
-	filter(scoring_type == "eachSentence" & !grepl("newpic", pic_ID)) %>% 
-	group_by(study_ID, person_ID) %>% 
-	summarise(
-		sex = sex[1],
-		sc = n(),
-		wc = sum(wc),
-		n.pic_ID = length(unique(pic_ID)),
-		aff.sum = sum(aff),
-		ach.sum = sum(ach),
-		pow.sum = sum(pow),
-		n.pics = length(unique(pic_ID)),
-		aff.perPic = aff.sum / n.pics,
-		ach.perPic = ach.sum / n.pics,
-		pow.perPic = pow.sum / n.pics,
-		overall.sum = sum(aff) + sum(ach) + sum(pow),
-		sc.person = n(),
-		wc.person = sum(wc)
-	) %>% 
-	ungroup()
-	
-person$sc.person.z <- scale(person$sc.person)	
-person$wc.person.z <- scale(person$wc.person)	
-person$sc.person2.z <- scale(person$sc.person^2)	
-person$wc.person2.z <- scale(person$wc.person^2)	
 
-
-studies <- unique(person$study_ID)
+studies <- unique(person.gt50.each$study_id)
 corTable <- matrix(NA, nrow=289, ncol=length(studies))
 ns <- c()
+resids <- tibble()
 for (s in 1:length(studies)) {
 	print(s)
-	df <- person[person$study_ID == studies[s], ] %>% 
+	df <- person.gt50.each[person.gt50.each$study_id == studies[s], ] %>% 
 		ungroup() %>% 
 		mutate(
-			aff.wc.resid = resid(lm(aff.sum ~ wc)),
-			aff.sc.resid = resid(lm(aff.sum ~ sc)),
-			aff.wc.dens = aff.sum / (wc/1000),
-			aff.sc.dens = aff.sum / sc,
+			aff.wc.resid = resid(lm(aff.sum ~ wc.person)),
+			aff.sc.resid = resid(lm(aff.sum ~ sc.person)),
+			aff.wc.dens = aff.sum / (wc.person/1000),
+			aff.sc.dens = aff.sum / sc.person,
 	
-			ach.wc.resid = resid(lm(ach.sum ~ wc)),
-			ach.sc.resid = resid(lm(ach.sum ~ sc)),
-			ach.wc.dens = ach.sum / (wc/1000),
-			ach.sc.dens = ach.sum / sc,
+			ach.wc.resid = resid(lm(ach.sum ~ wc.person)),
+			ach.sc.resid = resid(lm(ach.sum ~ sc.person)),
+			ach.wc.dens = ach.sum / (wc.person/1000),
+			ach.sc.dens = ach.sum / sc.person,
 	
-			pow.wc.resid = resid(lm(pow.sum ~ wc)),
-			pow.sc.resid = resid(lm(pow.sum ~ sc)),
-			pow.wc.dens = pow.sum / (wc/1000),
-			pow.sc.dens = pow.sum / sc		
+			pow.wc.resid = resid(lm(pow.sum ~ wc.person)),
+			pow.sc.resid = resid(lm(pow.sum ~ sc.person)),
+			pow.wc.dens = pow.sum / (wc.person/1000),
+			pow.sc.dens = pow.sum / sc.person		
 		) %>% 
 		select(
+			study_id, participant_id,
 			aff.sum, aff.wc.resid, aff.sc.resid, aff.wc.dens, aff.sc.dens, 
 			ach.sum, ach.wc.resid, ach.sc.resid, ach.wc.dens, ach.sc.dens, 
 			pow.sum, pow.wc.resid, pow.sc.resid, pow.wc.dens, pow.sc.dens, 
-			wc, sc
+			wc.person, sc.person
 		)
+
+	resids <- rbind(resids, df)
 
 	# store the ns for each study; necessary to compute the standard error for meta-analysis
 	ns <- c(ns, nrow(df))
 	
 	# store the correlation table; serialized as a vector
-	C1 <- cor(df, use="p")
+	C1 <- cor(df[, -c(1:2)], use="p")
 	
 	corTable[, s] <- as.vector(C1)
 }
@@ -121,25 +102,16 @@ diag(corMeta.string) <- "-"
 # ---------------------------------------------------------------------
 #  Add means and SDs
 
-storylength.table <- person %>% ungroup() %>% 
+# add residual scores to the person.gt50.each object
+person.gt50.each2 <- left_join(person.gt50.each, resids %>% select(study_id, participant_id, contains(".resid")), by=c("study_id", "participant_id"))
+
+storylength.table <- person.gt50.each2 %>% ungroup() %>% 
 	mutate(
-		aff.wc.resid = resid(lm(aff.sum ~ wc)),
-		aff.sc.resid = resid(lm(aff.sum ~ sc)),
-		aff.wc.dens = aff.sum / (wc/1000),
-		aff.sc.dens = aff.sum / sc,
-	
-		ach.wc.resid = resid(lm(ach.sum ~ wc)),
-		ach.sc.resid = resid(lm(ach.sum ~ sc)),
-		ach.wc.dens = ach.sum / (wc/1000),
-		ach.sc.dens = ach.sum / sc,
-	
-		pow.wc.resid = resid(lm(pow.sum ~ wc)),
-		pow.sc.resid = resid(lm(pow.sum ~ sc)),
-		pow.wc.dens = pow.sum / (wc/1000),
-		pow.sc.dens = pow.sum / sc,
-		
-		wc.perPic = wc / n.pic_ID,
-		sc.perPic = sc / n.pic_ID
+		wc.perPic = wc.person / n.pic_id,
+		sc.perPic = sc.person / n.pic_id,
+		aff.perPic = aff.sum / n.pics,
+		ach.perPic = ach.sum / n.pics,
+		pow.perPic = pow.sum / n.pics
 	) %>% 
 	select(
 	aff.perPic, aff.wc.resid, aff.sc.resid, aff.wc.dens, aff.sc.dens, 
@@ -197,6 +169,7 @@ colnames(tab.sent) <- c(
 
 xtable(tab.sent, caption="Descriptive statistics for overall motive, word, and sentence count.")
 
+# ---------------------------------------------------------------------
+# Save processed object
 
-save(person, file="cache/person.RData")
-save(tab.sent, file="cache/tab.sent.RData")
+save(tab.sent, file="processed_data/tab.sent.RData")

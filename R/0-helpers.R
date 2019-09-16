@@ -1,5 +1,5 @@
 ## This source code is licensed under the FreeBSD license (see "LICENSE" file)
-## (c) 2018 Felix Schönbrodt
+## (c) 2019 Felix Schönbrodt
 ##-----------------------------------------------------------------------------
 ## Purpose: Helper functions
 ##-----------------------------------------------------------------------------

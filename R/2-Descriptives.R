@@ -1,11 +1,11 @@
 ## This source code is licensed under the FreeBSD license (see "LICENSE" file)
-## (c) 2018 Felix Schönbrodt
+## (c) 2019 Felix Schönbrodt
 ##-----------------------------------------------------------------------------
 ## Purpose: This file computes summary statistics and some tables
 ## displayed in the paper.
 ##-----------------------------------------------------------------------------
 
-source("0-start.R")
+source("1-start.R")
 
 # ---------------------------------------------------------------------
 # Story descriptives
@@ -38,7 +38,7 @@ story <- PSE %>%
 # how many stories per pic_id?
 sort(table(story$pic_id))
 
-# % of stories from new pictures witzh <= 50 stories
+# % of stories from pictures with <= 50 stories (all of them are "newpic" pictures)
 round(prop.table(table(story$n.stories <= 50))["TRUE"]*100, 1)
 
 # The following descriptive stats are based on the pics with > 50 stories only
@@ -51,7 +51,7 @@ table(story.gt50$sc.story) %>% prop.table %>% round(., 2)
 # sanity check: Print the longest story with 41 sentences
 PSE %>% filter(sc==41) %>% pull("text") %>% paste()
 
-# sentence count split by pic_id
+# sentence count, split by pic_id
 sentenceCountByPic <- story.gt50 %>% 
 	group_by(pic_id) %>% 
 	summarise(
@@ -61,8 +61,6 @@ sentenceCountByPic <- story.gt50 %>%
 	arrange(sc.story.mean)
 	
 sentenceCountByPic %>% print(n=100)
-
-range(sentenceCountByPic[-1, "wc.story.mean"])
 
 # How many stories are coded according to the 2nd-sentence-rule?
 prop.table(table(story$scoring_type))
@@ -190,7 +188,7 @@ print(study.desc, n=100)
 library(rio)
 study.meta <- import("raw_data/source_Data/PSE-Database_Study_level_descriptives.xlsx")[, 1:12]
 colnames(study.meta)[c(1, 8:12)] <- c("study_id", "date_of_collection", "location", "administration", "test_setting", "population")
-study.desc2 <- merge(study.desc, study.meta[, c(1, 8:12)], by="study_id") %>% arrange(study_id)
+study.desc2 <- merge(study.desc, study.meta[, c(1, 8:10, 12)], by="study_id") %>% arrange(study_id)
 	
 # format gender ratio
 study.desc2$gender_ratio <- paste0(round(study.desc2$gender_ratio*100), "%")
@@ -199,11 +197,12 @@ study.desc2$gender_ratio[study.desc2$gender_ratio == "NaN%"] <- "-"
 ## format as nice Latex table	
 # escape underscores for Latex
 
-study.desc2$study_id <- gsub("_", "\\_", study.desc2$study_id, fixed=TRUE)
-study.desc2$scoring_type <- gsub("_", "\\_", study.desc2$scoring_type, fixed=TRUE)
-study.desc2$gender_ratio <- gsub("%", "\\%", study.desc2$gender_ratio, fixed=TRUE)
+# study.desc2$study_id <- gsub("_", "\\_", study.desc2$study_id, fixed=TRUE)
+# study.desc2$scoring_type <- gsub("_", "\\_", study.desc2$scoring_type, fixed=TRUE)
+# study.desc2$gender_ratio <- gsub("%", "\\%", study.desc2$gender_ratio, fixed=TRUE)
+# study.desc2$administration <- gsub("&", "\\&", study.desc2$administration, fixed=TRUE)
 
-colnames(study.desc2) <- c("Study ID", "{\\#} stories", "{\\#} participants", "{\\#} pictures", "Scoring type", "Coding lab", "Picture order", "\\% female", "Date", "Location", "Administration", "Setting", "Population")
+colnames(study.desc2) <- c("Study ID", "# stories", "n", "# pic", "Scoring type", "Coding lab", "Pic. order", "% female", "Date", "Location", "Admin.", "Population")
 
 tab.study.desc2 <- xtable(study.desc2, 
 	caption = "Descriptives of Studies in the Database.", 
@@ -247,8 +246,7 @@ person.gt50.each <- person %>% filter(study_id != "FS_newpic", scoring_type == "
 # ---------------------------------------------------------------------
 # Save the stuff
 		
-save.image("processed_data/1-Descriptives.RData")	
-save(story, file="processed_data/story.RData")
-save(story.gt50, file="processed_data/story.gt50.RData")
-save(person, file="processed_data/person.RData")
-save(person.gt50.each, file="processed_data/person.gt50.each.RData")
+#save.image("processed_data/1-Descriptives.RData")	
+save(story, story.gt50, file="processed_data/story.RData")
+save(person, person.gt50.each, file="processed_data/person.RData")
+save(tab.study.desc2, person.gt50.each, file="processed_data/Descriptives.RData")

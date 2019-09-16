@@ -7,7 +7,7 @@
 
 library(metafor)
 
-source("0-start.R")
+source("1-start.R")
 load(file="processed_data/person.RData")
 
 getGroupDiff <- function(df, DV){
@@ -115,11 +115,7 @@ person$pow.resid.robust <- person %>%
 
 
 # ---------------------------------------------------------------------
-#  density scores
-
-person$aff.dens <- person$aff.sum/(person$wc.person/1000)
-person$ach.dens <- person$ach.sum/(person$wc.person/1000)
-person$pow.dens <- person$pow.sum/(person$wc.person/1000)
+#  density scores are already computed in 2-Descriptives.R
 
 sel <- person %>% select(contains("aff"), contains("ach"), contains("pow"), wc.person)
 C1 <- cor(sel) %>% round(3)
@@ -132,21 +128,21 @@ C1
 res.aff.resid <- person %>%
 	filter(!is.na(gender)) %>%
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "aff.resid")) %>% 
+	group_modify(~ getGroupDiff(.x, "aff.resid")) %>% 
 	mutate(correction="resid") %>% 
 	ungroup()
 
 res.aff.robust <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "aff.resid.robust")) %>% 
+	group_modify(~ getGroupDiff(.x, "aff.resid.robust")) %>% 
 	mutate(correction="robust") %>% 
 	ungroup()
 
 res.aff.density <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "aff.dens")) %>% 
+	group_modify(~ getGroupDiff(.x, "aff.wc.dens")) %>% 
 	mutate(correction="density") %>% 
 	ungroup()
 	
@@ -154,42 +150,42 @@ res.aff.density <- person %>%
 res.ach.resid <- person %>%
 	filter(!is.na(gender)) %>%
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "ach.resid")) %>% 
+	group_modify(~ getGroupDiff(.x, "ach.resid")) %>% 
 	mutate(correction="resid") %>% 
 	ungroup()
 
 res.ach.robust <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "ach.resid.robust")) %>% 
+	group_modify(~ getGroupDiff(.x, "ach.resid.robust")) %>% 
 	mutate(correction="robust") %>% 
 	ungroup()
 
 res.ach.density <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "ach.dens")) %>% 
+	group_modify(~ getGroupDiff(.x, "ach.wc.dens")) %>% 
 	mutate(correction="density") %>% 
 	ungroup()	
 
 res.pow.resid <- person %>%
 	filter(!is.na(gender)) %>%
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "pow.resid")) %>% 
+	group_modify(~ getGroupDiff(.x, "pow.resid")) %>% 
 	mutate(correction="resid") %>% 
 	ungroup()
 
 res.pow.robust <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "pow.resid.robust")) %>% 
+	group_modify(~ getGroupDiff(.x, "pow.resid.robust")) %>% 
 	mutate(correction="robust") %>% 
 	ungroup()
 
 res.pow.density <- person %>%
 	filter(!is.na(gender)) %>% 
 	group_by(study_id) %>% 
-	group_map(~ getGroupDiff(.x, "pow.dens")) %>% 
+	group_modify(~ getGroupDiff(.x, "pow.wc.dens")) %>% 
 	mutate(correction="density") %>% 
 	ungroup()	
 
@@ -215,12 +211,12 @@ ES.ach <- escalc(measure="SMD", m1i=res.ach$m1, m2i=res.ach$m2, sd1i=res.ach$sd1
 
 ES.pow <- escalc(measure="SMD", m1i=res.pow$m1, m2i=res.pow$m2, sd1i=res.pow$sd1, sd2i=res.pow$sd2, n1i=res.pow$n1, n2i=res.pow$n2)
 
+# combine ES estimates and original data frame
 res.aff <- data.frame(res.aff, ES.aff)
 res.ach <- data.frame(res.ach, ES.ach)
 res.pow <- data.frame(res.pow, ES.pow)
 
 # get meta-analytic effect size for each correction method
-library(metafor)
 (MA.resid.aff <- rma(yi=res.aff %>% filter(correction=="resid") %>% pull("yi"), vi=res.aff %>% filter(correction=="resid") %>% pull("vi"), method="FE"))
 (MA.robust.aff <- rma(yi=res.aff %>% filter(correction=="robust") %>% pull("yi"), vi=res.aff %>% filter(correction=="robust") %>% pull("vi"), method="FE"))
 (MA.density.aff <- rma(yi=res.aff %>% filter(correction=="density") %>% pull("yi"), vi=res.aff %>% filter(correction=="density") %>% pull("vi"), method="FE"))
@@ -252,15 +248,20 @@ FE_to_string <- function(obj) {
 	paste0("$g = ", f2(obj$b, 2),"$ (\\emph{SE} = ", f2(obj$se, 2), ", ", p0(obj$pval, latex=TRUE), ")")
 }
 
+# a shorter version
+FE_to_string2 <- function(obj) {
+	paste0(f2(obj$b, 2)," (", f2(obj$se, 2), ", ", p0(obj$pval, latex=TRUE), ")")
+}
 
-FE_to_string(MA.density.aff)
 
-data.frame(
+tab.gender_MA <- data.frame(
 	correction = c("Density scores", "OLS residuals", "Robust residuals"),
-	aff.MA = c(FE_to_string(MA.density.aff), FE_to_string(MA.resid.aff), FE_to_string(MA.robust.aff)),
-	ach.MA = c(FE_to_string(MA.density.ach), FE_to_string(MA.resid.ach), FE_to_string(MA.robust.ach)),
-	pow.MA = c(FE_to_string(MA.density.pow), FE_to_string(MA.resid.pow), FE_to_string(MA.robust.pow))
+	aff.MA = c(FE_to_string2(MA.density.aff), FE_to_string2(MA.resid.aff), FE_to_string2(MA.robust.aff)),
+	ach.MA = c(FE_to_string2(MA.density.ach), FE_to_string2(MA.resid.ach), FE_to_string2(MA.robust.ach)),
+	pow.MA = c(FE_to_string2(MA.density.pow), FE_to_string2(MA.resid.pow), FE_to_string2(MA.robust.pow))
 )
+
+colnames(tab.gender_MA) <- c("Correction", "aff", "ach", "pow")
 
 
 
@@ -280,7 +281,8 @@ legend("bottomright", legend=c(
 	), lty=c("solid", "dashed", "dotted"), col=c("black", "grey40", "grey60"), lwd=2
 )	
 
-pwr.t.test(n=60, d=MA.robust.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")
+pwr.t.test(n=60, d=MA.robust.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")$power
 pwr.t.test(n=60, d=MA.resid.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")
 pwr.t.test(n=60, d=MA.density.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")
 
+save(MA.resid.aff, MA.resid.ach, MA.resid.pow, MA.robust.aff, MA.robust.ach, MA.robust.pow, MA.density.aff, MA.density.ach, MA.density.pow, tab.gender_MA, file="processed_data/gender_MA.RData")

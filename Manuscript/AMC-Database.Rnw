@@ -180,19 +180,20 @@ options(formatR.arrow=TRUE,width=90)
 
 # load the computed environment
 source("../R/0-helpers.R")
-load("../R/cache/1-Descriptives.RData")
-load("../R/data/tab.codebook.RData")
-load("../R/cache/MLMs.RData")
-load("../R/cache/CAs.RData")
-load("../R/cache/picture_norms.RData")
-load("../R/cache/tab.sent.RData")
-load("../R/cache/person.RData")
-load("../R/cache/Decline.RData")
-source("../R/0-helpers.R")
+load("../R/raw_data/source_data/tab.codebook.RData")
+load("../R/processed_data/Descriptives.RData")
+load("../R/processed_data/MLMs.RData")
+load("../R/processed_data/CAs.RData")
+load("../R/processed_data/picture_norms.RData")
+load("../R/processed_data/tab.sent.RData")
+load("../R/processed_data/person.RData")
+load("../R/processed_data/Decline.RData")
+load("../R/processed_data/gender_MA.RData")
+load("../R/processed_data/story.RData")
 @
 
 We present two openly accessible databases related to the assessment of implicit motives using Picture Story Exercises (PSEs): (a) A database of \Sexpr{big(nrow(PSE))} German sentences, nested in \Sexpr{big(nrow(story))} stories provided by \Sexpr{big(length(unique(PSE$participant_id)))} participants, which have been coded by experts using Winter's (1994) coding system for the implicit affiliation/intimacy, achievement, and power motives, and (b) a database of \Sexpr{length(unique(PSE$pic_id))} classic and new pictures which have been used as PSE stimuli. Updated picture norms are provided which can be used to select appropriate pictures for PSE applications.
-Based on an analysis of the relations between raw motive scores, word count, and sentence count, we give recommendations on how to control motive scores for story length.
+Based on an analysis of the relations between raw motive scores, word count, and sentence count, we give recommendations on how to control motive scores for story length, and validate the recommendation with a meta-analysis on gender differences in the implicit affiliation motive that replicates existing findings.
 Several potential applications of the databases are discussed, including (un)supervised machine learning of text content, psychometrics, and better reproducibility of PSE research.
 
 %\todo[inline,color=blue!20!white]{Unpublished manuscript, draft version 0.2, 2018-07-10.}
@@ -202,12 +203,11 @@ Several potential applications of the databases are discussed, including (un)sup
 
 \begin{document}
 \maketitle	%First line of text directly after \maketitle (no blank line)
+Implicit motives are nonconscious motivational needs that orient, select, and energize behavior \parencite{mcclelland_human_1987}. A common approach to measuring implicit motives, such as affiliation, power, or achievement motives, is the Picture Story Exercise (PSE; \nptextcite{schultheiss_MeasuringImplicitMotives_2007,smith_motivation_1992}). The PSE is a modern, experimentally validated version of the classic Thematic Apperception Test (TAT; \nptextcite{morgan_method_1935}). In this task, several ambiguous pictures are presented to participants who are asked to write an imaginative story in response to each picture. These stories are then coded by trained coders using empirically derived and validated content coding systems, which quantify the amount of motive imagery in each story. Motive-related imagery is used as an indicator for the strength of the implicit motive.
 
-Implicit motives are nonconscious motivational needs that orient, select, and energize behavior \parencite{mcclelland_human_1987}. A common approach to measuring implicit motives, such as affiliation, power, or achievement motives, is the Picture Story Exercise (PSE; \nptextcite{schultheiss_MeasuringImplicitMotives_2007,smith_motivation_1992}). The PSE is a modern, experimentally validated version of the classic Thematic Apperception Test \parencite{morgan_method_1935}. In this task, several ambiguous pictures are presented to participants who are asked to write an imaginative story in response to each picture. These stories are then coded by trained coders using empirically derived and validated content coding systems, which quantify the amount of motive imagery in each story. Motive-related imagery is used as an indicator for the strength of the implicit motive.
+``Picture Story Exercise'' is a rather generic term as instructions, pictures, and coding systems can vary between applications. However, some standardization has taken place in recent years. For example, a standard set of six pictures has been suggested, which provides a roughly balanced motivational pull for each of the achievement, affiliation, and power motives \parencite{schultheiss_MeasuringImplicitMotives_2007}. However, the existence of such a standard picture set does not mean that other pictures should not be used: \textcite{schultheiss_MeasuringImplicitMotives_2007} recommended using other, specific picture sets if only one motive is assessed or one wants to predict behavior in a specific situational context based on pictures related to this context. Furthermore, multiple coding systems exist for several motives (for an overview, see \nptextcite{schultheiss_ImplicitMotives_2010}, or \nptextcite{smith_motivation_1992}). Many coding systems focus on one single motive, but one prominent exception is David Winter's (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}. This integrated coding system allows to assess three implicit motives simultaneously \parencite{winter_MeasuringPersonalityDistance_1991}: the needs for achievement (\emph{ach}), power (\emph{pow}), and affiliation/intimacy (\emph{aff}).\footnote{Affiliation/intimacy is a fusion of originally separate coding systems for affiliation and intimacy. Here we use the abbreviation \emph{aff} for the combined affiliation/intimacy category.} It currently has been the most commonly employed system, and will be the focus of this publication.
 
-``Picture Story Exercise'' is a rather generic term as instructions, pictures, and coding systems can vary between applications. However, some standardization has taken place in recent years. For example, a standard set of six pictures has been suggested, which provides a roughly balanced motivational pull for each of the achievement, affiliation, and power motives \parencite{schultheiss_MeasuringImplicitMotives_2007}. However, the existence of such a standard picture set does not mean that other pictures should not be used: \textcite{schultheiss_MeasuringImplicitMotives_2007} recommended using other, specific picture sets if only one motive is assessed or one wants to predict behavior in a specific situational context based on pictures related to this context. Furthermore, multiple coding systems exist for several motives (for an overview, see \nptextcite{schultheiss_ImplicitMotives_2010}, or \nptextcite{smith_motivation_1992}). Many coding systems focus on one single motive, but one prominent exception is David Winter's (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}. This integrated coding system allows to assess three implicit motives simultaneously \parencite{winter_MeasuringPersonalityDistance_1991}: the needs for achievement, power, and affiliation/intimacy.\footnote{Affiliation/intimacy is a fusion of originally separate coding systems for affiliation and intimacy. Here we use the abbreviation \emph{aff} for the combined affiliation/intimacy category.} It currently has been the most commonly employed system, and will be the focus of this publication.
-
-The current paper has three goals: (1) To present a large database of stories that have been coded for implicit motives using the Winter coding system, (2) to provide a systematic database of \Sexpr{length(unique(PSE$pic_id))} classic and new picture stimuli that have been used in PSEs, and (3) to provide updated norms for picture pulls (i.e., the propensity of a picture to elicit a certain kind of motive image).
+The current paper has four goals: (1) To present a large database of stories that have been coded for implicit motives using the Winter coding system, (2) to provide a systematic database of \Sexpr{length(unique(PSE$pic_id))} classic and new picture stimuli that have been used in PSEs, (3) to provide updated norms for picture pulls (i.e., the propensity of a picture to elicit a certain kind of motive image), and (4) to provide a recommended approach for how motive scores should be corrected for story length.
 
 The text database can be used for several research topics, both within and beyond the field of implicit motives. These can include, for example, psychometric analyses of PSE measures, but also automated text analysis systems that replicate human codings in the Winter system. More generally, the text database can be used as training material for machine learning algorithms. The picture database allows to create specific stimulus sets for targeted PSE measurements. More details on potential applications are given below in the discussion.
 
@@ -215,9 +215,7 @@ The text database can be used for several research topics, both within and beyon
 \section{A Database of Coded PSE Stories}
 
 Several labs contributed datasets for building a large database of coded PSE stories in German. The inclusion criteria were (a) the stories were coded using the Winter coding system, (b) all coders were trained by experts, had extensive coding experience, and achieved good convergence with training material coded by experts (such as ICC $\geq .85$, category agreement $\geq .85$), and (c) the stories were coded sentence-wise.
-The included datasets come from a diverse range of studies, including lab and online administrations of the PSE tasks, differing numbers and types of pictures, and diverse samples. Some of the datasets come from published work \parencite{kollner_SocialBiopsychologyImplicit_2018,kollner_InfluenceImplicitMotives_2015,janson_InhibitedPowerMotivation_2018a,janson_ImplicitPowerMotive_2017,zygar_EinflussEmotionalerIntelligenz_2013,czikmantori_ExperienceIntrinsicMotivation_2018}, others are hitherto undocumented new or archival datasets. For some of these archival datasets no sample descriptives could be recovered. 
-
-One of the primary purposes of collecting these expert-coded text data is to provide an extensive, annotated training dataset for automatic text analysis. Therefore, the focus of this database is the text data itself and its relation to the codings according to the coding system. As we aimed to compile a database that is as large as possible, we decided to include all available datasets without providing sample characteristics such as age and gender. Table~\ref{tab:codebook} explains all variables of the database and their meaning, Table~\ref{tab:studies} provides an overview of all included primary raw data sources.
+The included datasets come from a diverse range of studies, including lab and online administrations of the PSE tasks, differing numbers and types of pictures, and diverse samples. Some of the datasets come from published work \parencite{kollner_SocialBiopsychologyImplicit_2018,kollner_InfluenceImplicitMotives_2015,janson_InhibitedPowerMotivation_2018a,janson_ImplicitPowerMotive_2017,zygar_EinflussEmotionalerIntelligenz_2013,czikmantori_ExperienceIntrinsicMotivation_2018}, others are hitherto undocumented new or archival datasets. For a few of these archival datasets no person-level sample descriptives could be recovered. Table~\ref{tab:codebook} explains all variables of the database and their meaning, Table~\ref{tab:studies} provides an overview of all included primary raw data sources and some study-level descriptives.
 
 \begin{table*}
 \begin{threeparttable}
@@ -241,7 +239,7 @@ One of the primary purposes of collecting these expert-coded text data is to pro
 			{\small
 			\vspace*{0.75em}
 			\textit{Note.} In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8.}
-      \end{tablenotes}
+    \end{tablenotes}
 \end{threeparttable}
 \end{table*}
 
@@ -252,26 +250,31 @@ One of the primary purposes of collecting these expert-coded text data is to pro
 
 
 \begin{sidewaystable*}
-%\begin{table*}
+\begin{threeparttable}
 		\caption{Descriptives of Studies in the Database.}
 		\label{tab:studies}
-		\footnotesize
-		\begin{tabularx}{\textwidth}{lrrrlll}
+		\scriptsize
+		\begin{tabularx}{\textwidth}{lrrrlllrrllll}
 		\toprule
 
 
-<<tab.studies, echo=FALSE, results="asis">>=
-print(tab.study.desc2, 
-	include.rownames=FALSE, 
-	include.colnames=TRUE, 
-	sanitize.text.function = identity,
-	only.contents = TRUE
-	)	
-@ 
+		<<tab.studies, echo=FALSE, results="asis">>=
+		print(tab.study.desc2, 
+			include.rownames=FALSE, 
+			include.colnames=TRUE, 
+			#sanitize.text.function = identity,
+			only.contents = TRUE
+			)	
+		@ 
 
 		\bottomrule
 		\end{tabularx}
-%\end{table*}
+		\begin{tablenotes}[para,flushleft]
+			{\small
+			\vspace*{0.75em}
+			\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS_ErlSem which was in a group test setting.}
+    \end{tablenotes}
+\end{threeparttable}
 \end{sidewaystable*}
 
 
@@ -301,10 +304,11 @@ All stories were coded according to the Winter (\citeyear{winter_ManualScoringMo
 
 
 
-The unit of coding is the sentence. Each sentence can be independently coded for the presence of any of the three motive categories \emph{aff}, \emph{ach}, or \emph{pow}. The manual defines an exception to this rule: If a certain motive has been coded (e.g., \emph{aff}), then another motive image is present (e.g., \emph{pow}) and then the first motive category \emph{aff} is present again in the same sentence, it can be coded twice in a sentence. The current database, however, does not incorporate such double codings of a motive in a single sentence and only codes the dichotomous presence (= 1) or absence (= 0) of a motive image for each sentence. This method of coding allows to combine the slightly different lab-specific coding conventions, and furthermore facilitates later use of the database for automatic text analyses.
+The unit of coding is the sentence. Each sentence can be independently coded for the presence of any of the three motive categories \emph{aff}, \emph{ach}, or \emph{pow}. The manual defines an exception to this rule: If a certain motive has been coded (e.g., \emph{aff}), then another motive image is present (e.g., \emph{pow}) and then the first motive category \emph{aff} is present again in the same sentence, it can be coded twice in a sentence. However, such a combination of motives happens very rarely (in about 0.5\% of all sentences in the current database). Therefore, the current database does not incorporate such double codings of a motive in a single sentence and only codes the dichotomous presence (= 1) or absence (= 0) of a motive image for each sentence. This method of coding allows to combine the slightly different lab-specific coding conventions, and furthermore facilitates later use of the database for automatic text analyses and psychometric analyses. 
 Following from the combinations of the three motive categories, a sentence can belong to no category (\emph{null}), a single category (e.g., \emph{ach}), or multiple categories (e.g., \emph{achaff} or \emph{achaffpow}).
 
-A second deviation from the manual concerns the ``2nd-sentence-rule''. This coding convention states that a motive of a certain category cannot be coded in two consecutive sentences. For example, if \emph{ach} imagery is present in three consecutive sentences, it is only coded in the first and the third sentence. However, the same motive can be coded in both of two consecutive sentences if the two categories are separated by codings for another motive. Several labs abandoned this 2nd-sentence rule, as it unnecessarily increases the frequency of the \emph{null} category and distorts analyses for psychometric models. The majority of all stories (\Sexpr{f2(prop.table(table(story$scoring_type))["eachSentence"]*100, 1)}\%) was coded without applying the 2nd-sentence-rule. Hence, in these stories each sentence is coded independently of the codings of the previous sentence.
+A second deviation from the manual concerns the ``2nd-sentence-rule''. This coding convention states that a motive of a certain category cannot be coded in two consecutive sentences. For example, if \emph{ach} imagery is present in three consecutive sentences, it is only coded in the first and the third sentence. However, the same motive can be coded in both of two consecutive sentences if the two categories are separated by codings for another motive. 
+This convention, which was not present in the original coding systems for the TAT, has been introduced by \textcite{winter_ManualScoringMotive_1994) for scoring historical text material and speeches. An omission of the second sentence rule brings the coding system for PSE stories closer to the original intention of coding fantasy stories. Furthermore, omitting codings might lead to a loss of relevant diagnostic information. For these reasons, several labs abandoned this 2nd-sentence rule, as it unnecessarily increases the frequency of the \emph{null} category and distorts analyses for psychometric models. The majority of all stories (\Sexpr{f2(prop.table(table(story$scoring_type))["eachSentence"]*100, 1)}\%) was coded without applying the 2nd-sentence-rule. Hence, in these stories each sentence is coded independently of the codings of the previous sentence.
 
 Finally, some of the stories of the included studies were coded by multiple coders. In some cases, differences were resolved via discussion and coders agreed on a final coding. In other cases, however, the diverging scores were averaged, which could lead to fractional scores, such as 0.5 \emph{aff}. As one main purpose of the database is to provide training data for automatic text analysis, which requires unambiguous assignments of sentences to categories, we decided to enter only distinct scores of 0 or 1. In cases where multiple experts coded the same stories and did not agree, we either relied on the coder who demonstrated the better performance, measured by agreement with expert-coded material, who had more experience in coding PSE stories, or, for consistency, used a coder who coded multiple included PSE datasets.
 
@@ -392,7 +396,7 @@ As the number of pictures differed between included studies, the correlations we
 		\begin{tablenotes}[para,flushleft]
 			{\small
 			\vspace*{0.75em}
-			\textit{Note.} Analyses in this table are based on \Sexpr{nrow(person)} persons, nested in \Sexpr{length(unique(person$study_id))} studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study on person level and then meta-analytically aggregated across studies.}
+			\textit{Note.} Analyses in this table are based on \Sexpr{nrow(person.gt50.each)} persons, nested in \Sexpr{length(unique(person.gt50.each$study_id))} studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study on person level and then meta-analytically aggregated across studies.}
 	      \end{tablenotes}
 	  \end{threeparttable}
 %\end{table*}
@@ -400,9 +404,9 @@ As the number of pictures differed between included studies, the correlations we
 
 
 \subsubsection{The joint impact of sentence and word counts on overall motive scores}
-Concerning potential indicators of story length, sentence count sets an upper limit of attainable motive codings in our database.\footnote{Again, this applies because we allowed a maximum of one coding per sentence per motive. In the original Winter coding system, multiple codings per motive are possible if two motive images are separated by another motive image within the same sentence.} But word count could have an incremental contribution, as longer sentences might have a higher chance of getting a motive coding. Therefore, we analyze the impact of both indicators of story length. Again, we performed the analyses on person level by aggregating raw motive scores, word counts, and sentence counts across all pictures stories of each person.
+Concerning potential indicators of story length, sentence count sets an upper limit of attainable motive codings in our database.\footnote{Again, this applies because we allowed a maximum of one coding per sentence per motive. In the original Winter coding system, multiple codings per motive are possible if two motive images are separated by another motive image within the same sentence.} But word count could have an incremental contribution, as longer sentences might have a higher chance of getting a motive coding. Therefore, we analyze the unique and common impact of both indicators of story length. Again, we performed the analyses on person level by aggregating raw motive scores, word counts, and sentence counts across all pictures stories of each person.
 
-Furthermore, slopes for word and sentence count might vary between studies. To allow and account for such variations, we computed mixed effects models with sentence and word count as predictors, and random intercepts and slopes for the grouping variable \emph{study\_id}. In order to attain model convergence, we $z$-standardized sentence and word count and excluded covariances between random effects \parencite{bates_parsimonious_2015}. Finally, we explored the incremental contribution of squared sentence and word count. We added squared predictors as fixed effects, but did not add random slopes for the squared terms due to convergence problems.
+Furthermore, slopes for word and sentence count might vary between studies. To allow and account for such variations and the nested structure of the data set, we computed mixed effects models with sentence and word count as predictors, and random intercepts and slopes for the grouping variable \emph{study\_id}. In order to attain model convergence, we $z$-standardized sentence and word count and excluded covariances between random effects \parencite{bates_parsimonious_2015}. Finally, we explored the incremental contribution of squared sentence and word count. We added squared predictors as fixed effects, but did not add random slopes for the squared terms due to convergence problems.
 
 Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (marginal $R^2$, \nptextcite{nakagawa_general_2013,johnson_extension_2014}) and the random variance of the linear slopes.
 
@@ -423,7 +427,7 @@ Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (m
 
 
 
-\multirow{3}{*}{\makecell[l]{Commonality analysis: How much of the\\ explained variance can be attributed\\to unique and common parts of predictors?}}   & Common to $sc + wc$ & \Sexpr{f2(CA.aff$common.R2.perc*100, 1)}\% & \Sexpr{f2(CA.ach$common.R2.perc*100, 1)}\% & \Sexpr{f2(CA.pow$common.R2.perc*100, 1)}\%\\
+\multirow{3}{*}{\makecell[l]{Commonality analysis: How much of the\\ explained variance (100\%) can be attributed\\to unique and common parts of predictors?}}   & Common to $sc + wc$ & \Sexpr{f2(CA.aff$common.R2.perc*100, 1)}\% & \Sexpr{f2(CA.ach$common.R2.perc*100, 1)}\% & \Sexpr{f2(CA.pow$common.R2.perc*100, 1)}\%\\
                                   & Unique to $sc$ &  \Sexpr{f2(CA.aff$unique.R2.sc.perc*100, 1)}\% & \Sexpr{f2(CA.ach$unique.R2.sc.perc*100, 1)}\% & \Sexpr{f2(CA.pow$unique.R2.sc.perc*100, 1)}\%\\
                                   & Unique to $wc$ &  \Sexpr{f2(CA.aff$unique.R2.wc.perc*100, 1)}\% & \Sexpr{f2(CA.ach$unique.R2.wc.perc*100, 1)}\% & \Sexpr{f2(CA.pow$unique.R2.wc.perc*100, 1)}\%\\
 \midrule
@@ -450,14 +454,14 @@ Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (m
 \end{table*}
 
 
-For all three motives, models including the squared terms showed a better fit than models without ($\Delta$AIC > 6, all $\chi^2$ likelihood ratio test $p$s < .006). However, given the very small increase in $R^2$, for parsimony and simplicity we decided to focus on models with only linear main effects for further analyses and application in practice.
+For all three motives, models including the squared terms showed a better fit than models without ($\Delta$AIC > 6, all $\chi^2$ likelihood ratio test $p$s < .008). However, given the very small increase in $R^2$, for parsimony and simplicity we decided to focus on models with only linear main effects for further analyses and application in practice.
 
 
 To disentangle the shared and unique contributions of sentence and word count, we performed a commonality analysis \parencite{nimon_r_2008}. This analysis allows to partition the explained variance into parts that are unique to certain predictor variables or common to the shared variance of predictors. Table~\ref{tab:mlmtab} shows how much of the explained variance in each motive raw score could be attributed to the shared variance of sentence and word count, or uniquely to either word or sentence count. The largest explanatory power could be attributed to the common variance of both length indicators, and word count made unique contributions to the prediction of raw motive scores. Sentence count had no or only negligible unique contributions.\footnote{Unique variances can be negative due to suppression effects in the regression.}
 
 
 \subsubsection{Recommendation: How to control for story length in the Winter coding system}
-Having multiple ways of controlling for story length is a potential researcher's degree of freedom \parencite{john_measuring_2012} and allows tweaking a data analysis towards more favorable results by trying out multiple alternative analytical pipelines, and choosing the one that ``works best.'' We see three incremental steps to ensure result-independent preprocessing of data, which in turn reduces false-positive results in the literature and increases generalizability and robustness of analyses. 
+Having multiple ways of controlling for story length could be a researcher's degree of freedom \parencite{john_measuring_2012} that potentially allows tweaking a data analysis towards more favorable results by trying out multiple alternative analytical pipelines, and choosing the one that ``works best.'' We see three incremental steps to ensure result-independent preprocessing of data, which in turn reduces false-positive results in the literature and increases generalizability and robustness of analyses. 
 
 First, the specific method of controlling for story length can be preregistered before data collection. Second, as such analytical pipelines presumably do not change between studies of a lab, each lab can develop standard operating procedures (SOPs) that define a standard workflow which is routinely applied in all similar studies \parencite{lin_StandardOperatingProcedures_2016}. Deviations from this lab-internal standard are of course possible, but have to be justified. Third, such SOPs are ideally harmonized across labs towards a field-wide standard. Below, we suggest such a general approach.
 
@@ -478,7 +482,7 @@ The final recommendation comes in three variants. Linear regression in small sam
 \emph{4a. Transform variables to normalize extreme values.} It has been suggested that the distributions of word count and raw motive count should be tested and inspected for non-normality. If necessary, they should be transformed using square root or logarithmic transformations if that improves normality (\nptextcite{tabachnick_UsingMultivariateStatistics_2013}; for an application to PSE data see, for example, \nptextcite{kordik_ImplicitNeedAffiliation_2012}). Residuals from regressions with such transformed variables often are less influenced by outliers, as they are pulled to the center of the distribution. However, one has to keep in mind that the meaning of transformed variables also changes. A log transformation, for example, weights observations according to a ratio scale and approximately implies a ``percentage change'' interpretation \parencite{keene_LogTransformationSpecial_1995}. Furthermore, the tests for non-normality (such as Shapiro-Wilk or Kolmogorov-Smirnov) have their own problems and have been criticized to be ``fatally flawed'' and it has been recommended ``that these tests never be used'' (cf. \nptextcite{erceg-hurn_modern_2008}, p. 594).
 
 \emph{4b. Use a robust regression approach.}
-A robust regression approach automatically takes care of outliers and is robust to non-normality, such as MM-estimators implemented in the \emph{lmrob} function of the \emph{R} package \emph{robustbase} (\nptextcite{maechler_RobustbaseBasicRobust_2018}; for an overview, see \nptextcite{yu_RobustLinearRegression_2014}), or the robust regression ROBREG in SYSTAT. The robust regression is a safeguard against outlier values distorting the relationship of word count and motive scores for the majority of participants. However, residualized outliers will still be outliers and can get even more extreme after residualization. Therefore it is very important to check the resulting residuals for suspicious values when using this approach.
+A robust regression approach automatically takes care of outliers and is robust to non-normality, such as MM-estimators implemented in the \emph{lmrob} function of the \emph{R} package \emph{robustbase} (\nptextcite{maechler_RobustbaseBasicRobust_2018}; for an overview, see \nptextcite{yu_RobustLinearRegression_2014}), or the robust regression ROBREG in SYSTAT, or ROBUSTREG in SAS.\footnote{SPPS does not offer a robust regression module, but using the R Essentials plugin, the R function could be used.} The robust regression is a safeguard against outlier values distorting the relationship of word count and motive scores for the majority of participants. However, residualized outliers will still be outliers and can get even more extreme after residualization. Therefore it is very important to check the resulting residuals for suspicious values when using this approach.
 
 \emph{4c. Use a Bayesian regression.} This database provides prior knowledge about the range and the typical value of regression coefficients in word-count corrections. This information can be used as prior information in a Bayesian linear regression analysis. Priors in Bayesian regression have the property to ``shrink'' regression estimates towards the prior. The shrinkage is stronger when the analyzed sample is small and has a high uncertainty about the parameter estimates. In this case it is pulled towards the fixed effect in our large scale analysis across multiple data sets. In large samples, which provide precise estimates of the regression coefficients, the prior has a negligible impact, which is a desirable feature in the current context. 
 Practically, one can take the posterior from a Bayesian hierarchical model of the word count correction (with random effects across studies) as priors for the analysis of new samples. 
@@ -532,20 +536,45 @@ aff.residual2.z <- scale(aff.residual2)
 
 Of course more complex ways of correcting can be envisioned. For example, additional analyses (not reported here) revealed substantial random slopes of word counts across picture IDs. This could suggest that the correction is applied separately for each picture (for example, when pictures are the level of analysis in profile correlations). The squared terms also have a small but significant contribution. However, we aimed to arrive at a recommendation that is both \emph{easy} and \emph{robust} to apply. Major concerns in practical application are about overfitting and unstable regression estimates in small samples, which would be much more severe if each picture would get its own regression. Aggregating across pictures promises more robust and stable regressions. Furthermore, instead of doing this two-step approach where residuals are extracted in step 1, one could also enter the word count as additional covariate in the actual model.
 
-The current recommendation is very close to typical current practices in the field, but it is substantiated by new insights from the current large scale data analysis. It has to be kept in mind that, strictly speaking, the current analysis and recommendation only applies to the specific coding rules of this database (i.e., no 2nd-sentence-rule and only one coding per motive per sentence). However, we think that in practice, other minor variations in coding rules will have only minor impact.
+\added{The current recommendation is very close to typical current practices in the field, but it is substantiated and empirically validated by new insights from the current large scale data analysis. It has to be kept in mind that, strictly speaking, the current analysis and recommendation only applies to the specific coding rules of this database (i.e., no 2nd-sentence-rule and only one coding per motive per sentence; sentences are the unit of coding). We think that in practice, other minor variations in coding rules of the Winter coding system will have only minor impact, and that the recommendations generalize to those.
+Furthermore, some other coding systems for text data are structurally quite similar. For example, the widely used Linguistic Enquire and Word Count program (LIWC; \nptextcite{tausczik_PsychologicalMeaningWords_2010}) categorizes words in a text based on a dictionary and returns the percentage of words in each category relative to total words in a text. This is equivalent to density scores, and it would be interesting to investigate whether other ways of controlling for text length are also benefitial for LIWC and other dictionary-style analyses.
+
+Other coding systems for narrative materials, however, use different rules, which might change the recommendations. For example, the Partner-Related Agency and Communion Test (PACT; \nptextcite{hagemeyer_AssessingImplicitMotivational_2012}) scores each possible motive category maximally once per story (even if it occurs multiple times). Here, longer texts might still increase the probability for scoring multiple categories, but the effect of story length might be more limited.}
+
 
 
 \subsubsection{Effect of correction type on the affiliation gender effect}
-It is a well established finding that, after word count correction, women have higher motive scores in the implicit affiliation motive than men (see the meta-analysis by XXX). 
-For the power and the achievement motive, in contrast, the same meta-analysis did not find significant gender differences.
+It is a well established finding that, after word count correction, women have higher motive scores in the implicit affiliation motive than men (Cohen's $d$ = 0.45, see meta-analysis by \nptextcite{drescher_MetaanalyticEvidenceHigher_2016} based on $k$ = 13 to 33 primary studies). 
+For the power and the achievement motive, in contrast, the gender differences in the same meta-analysis were smaller and not significant (pow: $d$ = -0.19, ach: $d$ = 0.14).
 
-Based on the $k$ = \Sexpr{MA.resid$k} primary studies in the database which provide the subject's gender and do have variation in gender we (a) tried to replicate the reported gender differences, and (b) investigated the impact of the different ways of controlling for story length.
+Based on the $k$ = \Sexpr{MA.resid.aff$k} primary studies in the database which provide the subject's gender and do have variation in gender we (a) tried to replicate the reported gender differences (female minus male), and (b) investigated the impact of the different ways of controlling for story length.
+We compared three different ways of correcting: OLS residuals and density scores as established procedures, and one of recommended procedures, namely robust regression residuals. We ran a fixed effects meta-analyses using the \emph{metafor} package \parencite{viechtbauer_conducting_2010}, with Hedge's $g$ as effect size measure. Table~\ref{tab:MA} reports the results. 
 
-We ran a random effects meta-analysis using the \emph{metafor} package \parencite{viechtbauer_conducting_2010}, with Hedge's $g$ as effect size measure. Table~\ref{tab:MA} reports the results.
+\begin{table*}
+		\caption{Meta-Analysis for Gender Differences in Implicit Affiliation Motive in Hedge's $g$ (SE).}
+		\label{tab:MA}
+		\footnotesize
+		\begin{tabularx}{\textwidth}{lrrr}
+		\toprule
 
-These results mirror
+<<tab_MA, echo=FALSE, results="asis">>=
+
+	print(xtable(tab.gender_MA), 
+		include.rownames=FALSE, 
+		include.colnames=TRUE, 
+		floating.environment = "table",
+		only.contents = TRUE,
+		sanitize.text.function=identity
+		)
+@ 
+		\bottomrule
+		\end{tabularx}
+\end{table*}
 
 
+
+These results relicate the published meta-analysis from \textcite{drescher_MetaanalyticEvidenceHigher_2016} very closely for all three motives. Focusing on the clearly existing effect on the affiliation motive, the recommended procedure with robust regression yielded the strongest effect size (though, only slightly larger than the OLS regression), while the discouraged density score showed a considerably smaller effect size. Even slight increases in effect size have the practical advantage of increasing the power to detect an existing effect. In the current case, for example a study with 60 participants in each group would have a power of \Sexpr{round(pwr.t.test(n=60, d=MA.robust.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")$power*100)}\% with robust residuals, \Sexpr{round(pwr.t.test(n=60, d=MA.resid.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")$power*100)}\% with OLS residuals, and only \Sexpr{round(pwr.t.test(n=60, d=MA.density.aff$b[1], sig.level=.05, type = "two.sample", alternative = "greater")$power*100, 1)}\% with density scores. 
+Although this is only one specific case, we interpret this as an encouraging result for the validity of the recommended procedure.
 
 \subsection{No Decrease in Motive Imagery or Story Length for Later Pictures in the PSE Task}
 Writing imaginative stories can be exhausting, and one could speculate that pictures that are administered later during the PSE task elicit shorter stories with less motive imagery. For example, \textcite{smith_MethodologicalConsiderationsSteps_1992} suggested that responses to earlier pictures are more meaningful (although, not necessarily shorter). In contrast, \textcite[][Table 7.1]{mcclelland_achievement_1953} explicitly ruled out such a decrease for later pictures for need for achievement using a Latin square design.
@@ -558,8 +587,9 @@ print(picPosPlot)
 
 Note that this descriptive plot to some extent confounds specific picture stimuli with picture position, as only some picture stimuli where located at positions 6, 7, and 8. For a formal test that controls for this counfound and the cross-classified data structure in general, we conducted mixed effect models with picture position as predictor, raw motive scores, sentence count, and word count as dependent variables, and random intercepts for \emph{pic\_id}, and \emph{person\_id}.\footnote{We had to remove random slopes for \emph{pic\_position} and random effects for \emph{study\_id} to achieve model convergence. Instead we added \emph{study\_id} as categorical fixed effect to control for mean level differences.} 
 
-Also in this analysis, no consistent decrease of motive imagery for later pictures could be found. In contrast, later picture positions had a trend towards longer stories with more motive codings, resulting in positive effects of picture position on overall motive scores \Sexpr{lme4_coef(picPos.overall, "pic_position")}, \emph{ach} scores \Sexpr{lme4_coef(picPos.ach, "pic_position")}, \emph{pow} motive scores \Sexpr{lme4_coef(picPos.pow, "pic_position")}, sentence counts \Sexpr{lme4_coef(picPos.sc, "pic_position")}, or word counts \Sexpr{lme4_coef(picPos.wc, "pic_position")}. Only for \emph{aff} scores a significant but small negative effect could be found \Sexpr{lme4_coef(picPos.aff, "pic_position")}.
+Also in this analysis, no consistent decrease of motive imagery for later pictures could be found. In contrast, later picture positions showed a trend towards longer stories with more motive codings, resulting in positive effects of picture position on overall motive scores \Sexpr{lme4_coef(picPos.overall, "pic_position")}, \emph{ach} motive scores \Sexpr{lme4_coef(picPos.ach, "pic_position")}, \emph{pow} motive scores \Sexpr{lme4_coef(picPos.pow, "pic_position")}, sentence counts \Sexpr{lme4_coef(picPos.sc, "pic_position")}, or word counts \Sexpr{lme4_coef(picPos.wc, "pic_position")}. Only for \emph{aff} scores a significant but small negative effect could be found \Sexpr{lme4_coef(picPos.aff, "pic_position")}.
 
+\added{This analysis on potential fatigue effect not necessarily generalizes to other types of text content analysis; but the research question is potentially equally relevant.}
 
 \section{A Database of Pictures Used in PSEs}
 
@@ -581,14 +611,14 @@ This collection of pictures includes some classic pictures (such as the ``standa
 
 Descriptive picture pull statistics have been published for the six standard pictures by \citeauthor{schultheiss_AssessmentImplicitMotives_2001} (\citeyear{schultheiss_AssessmentImplicitMotives_2001}; $n$ = 424, German stories), \citeauthor{pang_assessing_2005} (\citeyear{pang_assessing_2005}; $n$ = 320, English stories), \citeauthor{pang_ContentCodingMethods_2010} (\citeyear{pang_ContentCodingMethods_2010}; $n$ = 81, English stories), and \citeauthor{schultheiss_AreImplicitExplicit_2009} (\citeyear{schultheiss_AreImplicitExplicit_2009}; $n$ = 190, English stories). All of these norms employed the 2nd-sentence rule.
 
-Here we present updated norms for German PSE stories, which are based on larger samples and sentence-wise coding without the 2nd-sentence rule. Sample sizes vary between pictures, depending on how often a picture has been used in the studies included in the database. Table~\ref{tab:norms} shows descriptive statistics for all pictures that had at least 50 stories, ordered by overall motive pull, which is computed as the sum of all three raw motive scores. Furthermore, we present descriptive statistics for activity inhibition, which is computed by counting the frequency of the word ``not'' in each story.\footnote{Descriptive statistics for all pictures, including the new pictures, are at \url{https://osf.io/pqckn}.}
+Here we present updated norms for German PSE stories, which are based on larger samples and sentence-wise coding without the 2nd-sentence rule. Sample sizes vary between pictures, depending on how often a picture has been used in the studies included in the database. Table~\ref{tab:norms} shows descriptive statistics for all pictures that had at least 50 stories, ordered by overall motive pull, which is computed as the sum of all three raw motive scores. \added{Furthermore, we present descriptive statistics for activity inhibition, which is computed by counting the frequency of the word ``not'' in each story, and is supposed to be a moderating factor in the expression of motives \parencite{langens_ActivityInhibition_2010}.}\footnote{Descriptive statistics for all pictures, including the new pictures, are at \url{https://osf.io/pqckn}.}
 
 \begin{table*}
 	\begin{threeparttable}
 		\caption{Means and Standard Deviations of Raw Motive Scores Across Coding Categories and Pictures.}
 		\label{tab:norms}
-		\footnotesize
-		\begin{tabular}{rllllllr}
+		\tiny
+		\begin{tabularx}{\textwidth}{rllllllr}
 		\toprule
 <<T2, echo=FALSE, results="asis">>=
 	print(tab.norm, 
@@ -600,7 +630,7 @@ Here we present updated norms for German PSE stories, which are based on larger 
 @ 
 		
 		\bottomrule
-		\end{tabular}
+		\end{tabularx}
 		\begin{tablenotes}[para,flushleft]
 			{\small
 			\vspace*{0.75em}
@@ -638,7 +668,7 @@ Finally, now a systematic (though indirect) investigation of differences between
 The updated picture norms allow to select appropriate sets of pictures for a PSE. For example, it has been recommended to select pictures with a high motivational pull for the targeted motives \parencite{schultheiss_MeasuringImplicitMotives_2007,smith_MethodologicalConsiderationsSteps_1992}, but also some pull for other motives (``picture cue ambiguity'', \nptextcite{pang_ContentCodingMethods_2010}). Beyond ambiguity on the picture level, it has also been argued that ambiguity on the level of the picture \emph{set} is important for reliability and validity of a PSE \parencite{ramsay_SetAmbiguityKey_2013}. 
 
 With the large collection of available pictures and their updated norms, such choices can be empirically informed. We encourage researchers who use a PSE to refer to the unique IDs of the picture database in their methods section. A common and standardized catalogue of PSE pictures enhances the replicability of studies, but also the reusability and interoperability of research results, as such clear identifiers allow the aggregation and reanalysis of datasets. 
-This picture database is intended to be a ``living document'' which is constantly updated with new pictures and updated norms. Therefore we suggest that researchers who use new pictures contact the first author of this paper if they want to add a new picture to the database. (Preferably use pictures with a permissive license that allows reuse.) 
+This picture database is intended to be a ``living document'' which is constantly updated with new pictures and updated norms. Therefore we suggest that researchers who use new pictures contact the first author of this paper if they want to add a new picture to the database. (Preferably pictures with a permissive license that allows reuse.) 
 
 An obvious limitation is that the presented databases, picture norms, and recommendations only apply to the Winter (\citeyear{winter_ManualScoringMotive_1994}) coding system, and strictly speaking only applied to PSE stories written in German. We recommend that such large data collections should also be done for other languages and other coding systems.
 

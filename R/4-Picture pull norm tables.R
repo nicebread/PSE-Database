@@ -7,8 +7,7 @@
 ## (1 picture, "couple sitting opposite a woman", was only in a study with 2n-sentence-rule and therefore does not appear in the table)
 ## ======================================================================
 
-library(ggtern)
-source("0-start.R")
+source("1-start.R")
 
 # summarise PSE sentences and codings on story level
 stories.each <- PSE %>% 
@@ -68,7 +67,6 @@ pics.round[, -1] <- round(pics.round[, -1], 2)
 # which new pictures have the highest motive pull?
 pics %>% filter(grepl("newpic", pic_id)) %>% arrange(-overallPull) %>% print(n=100)
 
-library(rio)
 export(pics.round, file="processed_data/picturePulls.xlsx")
 
 
@@ -119,9 +117,6 @@ tab.norm <- xtable(t1,
 # ---------------------------------------------------------------------
 # Produce the picture norm table for all pictures 
 # (for the online appendix at https://osf.io/pqckn/wiki/Norm%20values%20for%20each%20picture/), including sc and wc
-
-
-library(knitr)
 
 wikitable <- pics %>% 
 	arrange(-overallPull) %>% 
@@ -183,18 +178,23 @@ t1dat <- t1dat %>% mutate(
 )
 
 # manually adjust labels that they do not overlap
-t1dat$pow.label[22] <- t1dat$pow.norm[22] - .02
-t1dat$ach.label[22] <- t1dat$ach.norm[22] + .02
+t1dat$pow.label[11] <- t1dat$pow.norm[11] - .02
+t1dat$ach.label[11] <- t1dat$ach.norm[11] + .02
 
-t1dat$pow.label[20] <- t1dat$pow.norm[20] + .04
-t1dat$ach.label[20] <- t1dat$ach.norm[20] + .01
+t1dat$pow.label[6] <- t1dat$pow.norm[6] - .02
+t1dat$ach.label[6] <- t1dat$ach.norm[6] + .02
 
-t1dat$pow.label[5] <- t1dat$pow.norm[5] - .03
-t1dat$pow.label[9] <- t1dat$pow.norm[9] - .03
-t1dat$ach.label[5] <- t1dat$ach.norm[5] + .02
-t1dat$ach.label[9] <- t1dat$ach.norm[9] + .02
+t1dat$pow.label[24] <- t1dat$pow.norm[24] + .16
+t1dat$aff.label[24] <- t1dat$aff.norm[24] + .07
 
-t1dat$pow.label[2] <- t1dat$pow.norm[2] + .03
+t1dat$aff.label[3] <- t1dat$aff.norm[3] - .01
+t1dat$pow.label[3] <- t1dat$pow.norm[3] + .02
+#t1dat$ach.label[5] <- t1dat$ach.norm[5] + .02
+
+#t1dat$pow.label[9] <- t1dat$pow.norm[9] - .03
+#t1dat$ach.label[9] <- t1dat$ach.norm[9] + .02
+
+#t1dat$pow.label[2] <- t1dat$pow.norm[2] + .03
 
 
 ternary.plot <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=overallPull, color=overallPull)) + 

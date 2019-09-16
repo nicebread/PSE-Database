@@ -3,19 +3,19 @@
 
 ## ======================================================================
 ## Relations of word count, sentence count, and motive raw scores
-# We want these correlations on person.gt50.each level, as this is the level of analysis
+# We want these correlations on person level, as this is the level of analysis
 # in practice. 
 # Problem: Nested in studies with differing number of pictures
 # Solution: Do the analysis within each study, do a meta-analysis to aggregate
 #
-# We do not include study FS_newPic, because to few person.gt50.eachs/stories per pic are present.
+# We do not include study FS_newPic, because to few persons/stories per pic are present.
 # We only include studies with the eachSentence coding style.
 #
 # This script computes Table 6: "Descriptive Statistics for Raw Motive Scores, 
-# Word Count, and Sentence Count per Picture Story, and Correlations on Person.gt50.each Level."
+# Word Count, and Sentence Count per Picture Story, and Correlations on Person Level."
 ## ======================================================================
 
-source("0-start.R")
+source("1-start.R")
 
 ## ======================================================================
 ## Meta-analytic approach
@@ -24,7 +24,10 @@ source("0-start.R")
 
 
 studies <- unique(person.gt50.each$study_id)
-corTable <- matrix(NA, nrow=289, ncol=length(studies))
+
+# corTable store the correlations of each study; 
+# each row is one study, the columns contain the serialized correlation  matrix of this study
+corTable <- matrix(NA, nrow=length(studies), ncol=289)
 ns <- c()
 resids <- tibble()
 for (s in 1:length(studies)) {
@@ -55,6 +58,7 @@ for (s in 1:length(studies)) {
 			wc.person, sc.person
 		)
 
+	# we need to save the residuals for the descriptive statistics
 	resids <- rbind(resids, df)
 
 	# store the ns for each study; necessary to compute the standard error for meta-analysis
@@ -63,33 +67,27 @@ for (s in 1:length(studies)) {
 	# store the correlation table; serialized as a vector
 	C1 <- cor(df[, -c(1:2)], use="p")
 	
-	corTable[, s] <- as.vector(C1)
+	corTable[s, ] <- as.vector(C1)
 }
 
 # ---------------------------------------------------------------------
 #  do the meta-analysis
 
-r2Z <- function(r) {
-	return(0.5 * log((1 + r)/(1 - r)))
-}
-
-# Helper: REcode Fisher's Z to correlation
-Z2r <- function(Z) {
-	return((exp(2*Z)-1)/(exp(2*Z)+1))
-}
-
 corMeta.vec <- p.values <- corTable[, 1]
 
 library(metafor)
-for (i in 1:nrow(corTable)) {
-	yi <- r2Z(corTable[i, ])
-	if (any(is.infinite(yi))) {
+# compute for each correlation, compute a meta-analysis across the 17 studies
+# (i.e., for each column of corTable)
+for (i in 1:ncol(corTable)) {
+	print(i)
+	ri <- corTable[, i]
+	if (any(ri == 1)) {
 		corMeta.vec[i] <- NA
 		p.values[i] <- NA
 	} else {
-		vi <- 1 / (ns-3)
-		M <- rma(yi, vi=vi, method="REML")
-		corMeta.vec[i] <- as.numeric(Z2r(M$b))
+		ES <- escalc(ri=ri, ni=ns, measure="UCOR", vtype = "UB")
+		M <- rma(yi=ES$yi, vi=ES$vi, method="REML")
+		corMeta.vec[i] <- as.numeric(M$b)
 		p.values[i] <- M$pval
 	}
 }

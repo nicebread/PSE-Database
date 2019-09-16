@@ -6,7 +6,7 @@
 ##-----------------------------------------------------------------------------
 
 # person.RData is computed in 2-Story length descriptives.R
-source("0-start.R")
+source("1-start.R")
 load(file="processed_data/person.RData")
 
 # compute scales variables for better fits

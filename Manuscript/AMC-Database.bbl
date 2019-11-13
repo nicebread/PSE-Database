@@ -362,6 +362,48 @@
       \verb http://clinchem.aaccjnls.org/content/41/11/1581
       \endverb
     \endentry
+    \entry{drescher_MetaanalyticEvidenceHigher_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2e2288c2ca5d3aa9c3ac2ec5418d8546}{%
+           family={Drescher},
+           familyi={D\bibinitperiod},
+           given={Amely},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce2d5208353a268cdd13010c0db6079d}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={Oliver\bibnamedelima C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \strng{fullhash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \strng{bibnamehash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \strng{authorbibnamehash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \strng{authornamehash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \strng{authorfullhash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00926566}
+      \field{journaltitle}{Journal of Research in Personality}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Meta-Analytic Evidence for Higher Implicit Affiliation and Intimacy Motivation Scores in Women, Compared to Men}
+      \field{volume}{64}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jrp.2016.06.019
+      \endverb
+    \endentry
     \entry{erceg-hurn_modern_2008}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=571fb9822a6180d027d899e6a2a0b986}{%
@@ -445,6 +487,56 @@
       \verb https://cacm.acm.org/magazines/2013/4/162501-techniques-and-applications-for-sentiment-analysis/abstract
       \endverb
     \endentry
+    \entry{hagemeyer_AssessingImplicitMotivational_2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=53afaf76079780380091989e001331e4}{%
+           family={Hagemeyer},
+           familyi={H\bibinitperiod},
+           given={Birk},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dbf178133724eb85b53ae9fc9c823c0}{%
+           family={Neyer},
+           familyi={N\bibinitperiod},
+           given={Franz\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e21ecc9189819d4f5242720bac98dc4}
+      \strng{fullhash}{8e21ecc9189819d4f5242720bac98dc4}
+      \strng{bibnamehash}{8e21ecc9189819d4f5242720bac98dc4}
+      \strng{authorbibnamehash}{8e21ecc9189819d4f5242720bac98dc4}
+      \strng{authornamehash}{8e21ecc9189819d4f5242720bac98dc4}
+      \strng{authorfullhash}{8e21ecc9189819d4f5242720bac98dc4}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Partner-Related Agency and Communion Test (PACT) was developed to measure implicit agentic and communal needs in the domain of couple relationships through content analyses of fantasy stories. Study 1 (N = 125) confirmed that the new thematic coding system captured experimentally induced differences in partner-related motivation and showed expected relations with D. G. Winter's (1994) motive scoring system. Study 2 confirmed the discriminant and incremental validity of the implicit partner-related needs compared with self-report measures of the Big Five traits and adult attachment in a sample of 499 couples. In addition, dyadic analyses revealed expected associations of the partner-related needs with relationship satisfaction as experienced by oneself and by one's partner. The studies lend initial support to the validity of the relationship-specific needs for agency and communion as assessed by the PACT and introduce dyadic data analyses to the study of implicit motives.}
+      \field{eprinttype}{pmid}
+      \field{issn}{1939-134X}
+      \field{journaltitle}{Psychological Assessment}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Psychol Assess}
+      \field{shorttitle}{Assessing Implicit Motivational Orientations in Couple Relationships}
+      \field{title}{Assessing Implicit Motivational Orientations in Couple Relationships: {T}he {{Partner}}-{{Related Agency}} and {{Communion Test}} ({{PACT}})}
+      \field{volume}{24}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{114\bibrangedash 128}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1037/a0024822
+      \endverb
+      \verb{eprint}
+      \verb 21787092
+      \endverb
+      \keyw{Motivation,Self Concept,Analysis of Variance,Spouses,Cues,Adolescent,Adult,Female,Humans,Male,Psychometrics,Models; Psychological,Aged,Fantasy,Middle Aged,Personal Satisfaction,Data Interpretation; Statistical,Interpersonal Relations,Memory; Episodic,Object Attachment,Personality Tests,Power (Psychology),Psychological Theory,Sex Characteristics,Young Adult}
+    \endentry
     \entry{hamiltonGgternExtensionGgplot22017}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88535488d5c54ac303f097b1f88524e3}{%
@@ -503,7 +595,7 @@
       \field{abstract}{Lilienfeld, Wood, and Garb (2000) published a largely negative critique of the validity and reliability of projective methods, concentrating on the Comprehensive System for the Rorschach (Exner, 1993), 3 systems for coding the Thematic Apperception Test (TAT; Murray, 1943) cards, and human figure drawings. This article is an effort to document and correct what I perceive as errors of omission and commission in the Lilienfeld et al. article. When projective measures are viewed in the light of these corrections, the evidence for the validity and clinical usefulness of the Rorschach and TAT methods is more robust than Lilienfeld et al. represented. (PsycINFO Database Record (c) 2010 APA, all rights reserved) (journal abstract)}
       \field{issn}{0022-3891}
       \field{journaltitle}{Journal of Personality Assessment}
-      \field{title}{A Critique of {{Lilienfeld}} et Al.'s (2000) '{{The}} Scientific Status of Projective Techniques'}
+      \field{title}{A Critique of {{Lilienfeld}} et al.'s (2000) '{{The}} Scientific Status of Projective Techniques'}
       \field{volume}{80}
       \field{year}{2003}
       \field{dateera}{ce}
@@ -681,7 +773,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The inhibited power motive is a disposition for obtaining a functional influence on others (Schultheiss 2008) and characterized by a high implicit need for Power (n Power) and high activity inhibition (AI; McClelland Journal of Abnormal Psychology, 88(2), 182–190, 1979). Organizational effects of gonadal steroid hormones on the brain during prenatal development affect the emerging n Power (Schultheiss and Zimni Adaptive Human Behavior and Physiology, 1(4), 387–407, 2015) but it is unknown whether there are similar associations during puberty, a second phase of endocrine organization (Schulz et al. Hormones and Behavior, 55(5), 597–604, 2009). In two studies (combined for analyses; total N = 213, after exclusions), we investigated this relationship using the facial width-to-height ratio (fWHR; Weston et al. PloS One, 2(8), e710, 2007), assessed via anthropometry, as a marker of organizational hormone effects during puberty in a cross-sectional, correlational design. N Power and AI were measured via Picture Story Exercise (PSE; McClelland et al. Psychological Review, 96, 690–702, 1989). Controlling for BMI and age in a multiple regression analysis predicting fWHR, we found a significant n Power x AI-effect, B = 0.15, SE = 0.07, t(207) = 2.03, p = .04, ∆R 2 = .02. N Power and fWHR approached a marginally significant positive association, when AI was high (+1SD; B = 0.16, SE = 0.10, t(207) = 1.64, p = .10) and showed a negative but insignificant association, when AI was low (−1SD; B = −0.14, SE = 0.10, t(207) = −1.40, p = .16). After adding gender to the model on an exploratory basis, we found a significant n Power x AI x Gender-effect (B = 0.34, SE = 0.17, t(203) = 2.00, p = .05, ∆R 2 = .02), predominantly driven by a positive effect of the inhibited power motive in females, B = 0.28, SE = 0.13, t(55) = 2.24, p = .03, ∆R 2 = .08. Compared with past research, this finding was unexpected since fWHR is commonly linked to various criteria in males. Implications for the understanding of the development of n Power are discussed, respecting the limitations of our design.}
+      \field{abstract}{The inhibited power motive is a disposition for obtaining a functional influence on others (Schultheiss 2008) and characterized by a high implicit need for Power (n Power) and high activity inhibition (AI; McClelland Journal of Abnormal Psychology, 88(2), 182–{}190, 1979). Organizational effects of gonadal steroid hormones on the brain during prenatal development affect the emerging n Power (Schultheiss and Zimni Adaptive Human Behavior and Physiology, 1(4), 387–{}407, 2015) but it is unknown whether there are similar associations during puberty, a second phase of endocrine organization (Schulz et al. Hormones and Behavior, 55(5), 597–{}604, 2009). In two studies (combined for analyses; total N = 213, after exclusions), we investigated this relationship using the facial width-to-height ratio (fWHR; Weston et al. PloS One, 2(8), e710, 2007), assessed via anthropometry, as a marker of organizational hormone effects during puberty in a cross-sectional, correlational design. N Power and AI were measured via Picture Story Exercise (PSE; McClelland et al. Psychological Review, 96, 690–{}702, 1989). Controlling for BMI and age in a multiple regression analysis predicting fWHR, we found a significant n Power x AI-effect, B = 0.15, SE = 0.07, t(207) = 2.03, p = .04, {$\increment$}R 2 = .02. N Power and fWHR approached a marginally significant positive association, when AI was high (+1SD; B = 0.16, SE = 0.10, t(207) = 1.64, p = .10) and showed a negative but insignificant association, when AI was low (-1SD; B = -0.14, SE = 0.10, t(207) = -1.40, p = .16). After adding gender to the model on an exploratory basis, we found a significant n Power x AI x Gender-effect (B = 0.34, SE = 0.17, t(203) = 2.00, p = .05, {$\increment$}R 2 = .02), predominantly driven by a positive effect of the inhibited power motive in females, B = 0.28, SE = 0.13, t(55) = 2.24, p = .03, {$\increment$}R 2 = .08. Compared with past research, this finding was unexpected since fWHR is commonly linked to various criteria in males. Implications for the understanding of the development of n Power are discussed, respecting the limitations of our design.}
       \field{day}{1}
       \field{issn}{2198-7335}
       \field{journaltitle}{Adaptive Human Behavior and Physiology}
@@ -884,7 +976,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The Routledge International Handbook of Social Neuroendocrinology is an authoritative reference work providing a balanced overview of current scholarship spanning the full breadth of the rapidly developing field of social neuroendocrinology. Considering…}
+      \field{abstract}{The Routledge International Handbook of Social Neuroendocrinology is an authoritative reference work providing a balanced overview of current scholarship spanning the full breadth of the rapidly developing field of social neuroendocrinology. Considering\ldots{}}
       \field{booktitle}{Routledge {{International Handbook}} of {{Social Neuroendocrinology}}}
       \field{langid}{english}
       \field{title}{The Social Biopsychology of Implicit Motive Development}
@@ -967,7 +1059,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Affective changes in response to motive-relevant stimuli are a defining feature of implicit motives. We therefore expected to find an effect of individual differences in the implicit need for affiliation (nAff) on corrugator supercilii activity, an indicator of affect, when participants were confronted with nonverbal indicators of a conversational partner’s withdrawal. Participants’ nAff was assessed with a Picture Story Exercise (PSE). They were then involved in an interaction with a smiling or a neutral experimenter while their corrugator activity was measured with electromyography (EMG). As expected, we found higher corrugator activity for people high in nAff compared to people low in nAff when the experimenter kept a neutral facial expression throughout the interaction but not when he/she was smiling.}
+      \field{abstract}{Affective changes in response to motive-relevant stimuli are a defining feature of implicit motives. We therefore expected to find an effect of individual differences in the implicit need for affiliation (nAff) on corrugator supercilii activity, an indicator of affect, when participants were confronted with nonverbal indicators of a conversational partner's withdrawal. Participants' nAff was assessed with a Picture Story Exercise (PSE). They were then involved in an interaction with a smiling or a neutral experimenter while their corrugator activity was measured with electromyography (EMG). As expected, we found higher corrugator activity for people high in nAff compared to people low in nAff when the experimenter kept a neutral facial expression throughout the interaction but not when he/she was smiling.}
       \field{day}{1}
       \field{issn}{0092-6566}
       \field{journaltitle}{Journal of Research in Personality}
@@ -1026,6 +1118,69 @@
       \verb /Users/felix/Bibs und Backup/Zotero/storage/X9HKIVTT/8562629.html
       \endverb
     \endentry
+    \entry{langens_ActivityInhibition_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73a3d6430a608c7e62c569f09e1b1cb5}{%
+           family={Langens},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
+           family={Brunstein},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{fullhash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{bibnamehash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{authorbibnamehash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{authornamehash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{authorfullhash}{73a3d6430a608c7e62c569f09e1b1cb5}
+      \strng{editorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{editornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{editorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{McClelland and his colleagues first introduced the notion that spontaneously using the negation not in speech or writing indicates a stable tendency to restrain or inhibit motivational impulses, which they termed activity inhibition (AI). This chapter will start out with a brief summary of the history of the concept of AI and its measurement in verbal material, followed by an investigation of the role of AI in the expression of implicit motives and emotion regulation and some speculations about the developmental precursors of AI. Finally, the chapter presents a model that integrates the various findings on AI, suggesting that AI does not neutralize emotional or motivational impulses, but rather leads to their intensification and a delayed and refined expression in behavior.}
+      \field{booktitle}{Implicit {{Motives}}}
+      \field{day}{21}
+      \field{isbn}{978-0-19-977695-5}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Activity {{Inhibition}}}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/AMV5XPN5/acprof-9780195335156-chapter-4.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195335156.001.0001/acprof-9780195335156-chapter-4
+      \endverb
+      \verb{url}
+      \verb https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195335156.001.0001/acprof-9780195335156-chapter-4
+      \endverb
+    \endentry
     \entry{lin_StandardOperatingProcedures_2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9b056ec9edc061bf548cc3d614b5eb46}{%
@@ -1054,7 +1209,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Across the social sciences, growing concerns about research transparency have led to calls for pre-analysis plans (PAPs) that specify in advance how researchers intend to analyze the data they are about to gather. PAPs promote transparency and credibility by helping readers distinguish between exploratory and confirmatory analyses. However, PAPs are time-consuming to write and may fail to anticipate contingencies that arise in the course of data collection. This article proposes the use of “standard operating procedures” (SOPs)—default practices to guide decisions when issues arise that were not anticipated in the PAP. We offer an example of an SOP that can be adapted by other researchers seeking a safety net to support their PAPs.}
+      \field{abstract}{Across the social sciences, growing concerns about research transparency have led to calls for pre-analysis plans (PAPs) that specify in advance how researchers intend to analyze the data they are about to gather. PAPs promote transparency and credibility by helping readers distinguish between exploratory and confirmatory analyses. However, PAPs are time-consuming to write and may fail to anticipate contingencies that arise in the course of data collection. This article proposes the use of ``standard operating procedures'' (SOPs)—{}default practices to guide decisions when issues arise that were not anticipated in the PAP. We offer an example of an SOP that can be adapted by other researchers seeking a safety net to support their PAPs.}
       \field{issn}{1049-0965, 1537-5935}
       \field{journaltitle}{PS: Political Science \& Politics}
       \field{langid}{english}
@@ -1308,7 +1463,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{* The use of both linear and generalized linear mixed-effects models (LMMs and GLMMs) has become popular not only in social and medical sciences, but also in biological sciences, especially in the field of ecology and evolution. Information criteria, such as Akaike Information Criterion (AIC), are usually presented as model comparison tools for mixed-effects models. * The presentation of ‘variance explained’ (R2) as a relevant summarizing statistic of mixed-effects models, however, is rare, even though R2 is routinely reported for linear models (LMs) and also generalized linear models (GLMs). R2 has the extremely useful property of providing an absolute value for the goodness-of-fit of a model, which cannot be given by the information criteria. As a summary statistic that describes the amount of variance explained, R2 can also be a quantity of biological interest. * One reason for the under-appreciation of R2 for mixed-effects models lies in the fact that R2 can be defined in a number of ways. Furthermore, most definitions of R2 for mixed-effects have theoretical problems (e.g. decreased or negative R2 values in larger models) and/or their use is hindered by practical difficulties (e.g. implementation). * Here, we make a case for the importance of reporting R2 for mixed-effects models. We first provide the common definitions of R2 for LMs and GLMs and discuss the key problems associated with calculating R2 for mixed-effects models. We then recommend a general and simple method for calculating two types of R2 (marginal and conditional R2) for both LMMs and GLMMs, which are less susceptible to common problems. * This method is illustrated by examples and can be widely employed by researchers in any fields of research, regardless of software packages used for fitting mixed-effects models. The proposed method has the potential to facilitate the presentation of R2 for a wide range of circumstances.}
+      \field{abstract}{* The use of both linear and generalized linear mixed-effects models (LMMs and GLMMs) has become popular not only in social and medical sciences, but also in biological sciences, especially in the field of ecology and evolution. Information criteria, such as Akaike Information Criterion (AIC), are usually presented as model comparison tools for mixed-effects models. * The presentation of `variance explained' (R2) as a relevant summarizing statistic of mixed-effects models, however, is rare, even though R2 is routinely reported for linear models (LMs) and also generalized linear models (GLMs). R2 has the extremely useful property of providing an absolute value for the goodness-of-fit of a model, which cannot be given by the information criteria. As a summary statistic that describes the amount of variance explained, R2 can also be a quantity of biological interest. * One reason for the under-appreciation of R2 for mixed-effects models lies in the fact that R2 can be defined in a number of ways. Furthermore, most definitions of R2 for mixed-effects have theoretical problems (e.g. decreased or negative R2 values in larger models) and/or their use is hindered by practical difficulties (e.g. implementation). * Here, we make a case for the importance of reporting R2 for mixed-effects models. We first provide the common definitions of R2 for LMs and GLMs and discuss the key problems associated with calculating R2 for mixed-effects models. We then recommend a general and simple method for calculating two types of R2 (marginal and conditional R2) for both LMMs and GLMMs, which are less susceptible to common problems. * This method is illustrated by examples and can be widely employed by researchers in any fields of research, regardless of software packages used for fitting mixed-effects models. The proposed method has the potential to facilitate the presentation of R2 for a wide range of circumstances.}
       \field{issn}{2041-210X}
       \field{journaltitle}{Methods in Ecology and Evolution}
       \field{langid}{english}
@@ -1512,7 +1667,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The picture story exercise (PSE), in which participants write imaginative stories in response to motivationally-arousing images, is the most commonly-used tool for the assessment of implicit motives. Despite decades of research into the qualities of effective individual picture cues, much less is known about the desirable properties of overall picture sets. The present research highlights a previously undocumented methodological consideration—set ambiguity—which has important implications for the reliability and validity of the PSE. In a four-part study of 74 undergraduates, motive scores derived from an ambiguous picture set comprising cues that vary in motivational focus displayed greater test–retest reliability, convergent validity, and predictive validity than those derived from an unambiguous picture set. Researchers are therefore advised to consider set ambiguity when selecting images for use in PSE research.}
+      \field{abstract}{The picture story exercise (PSE), in which participants write imaginative stories in response to motivationally-arousing images, is the most commonly-used tool for the assessment of implicit motives. Despite decades of research into the qualities of effective individual picture cues, much less is known about the desirable properties of overall picture sets. The present research highlights a previously undocumented methodological consideration—{}set ambiguity—{}which has important implications for the reliability and validity of the PSE. In a four-part study of 74 undergraduates, motive scores derived from an ambiguous picture set comprising cues that vary in motivational focus displayed greater test–{}retest reliability, convergent validity, and predictive validity than those derived from an unambiguous picture set. Researchers are therefore advised to consider set ambiguity when selecting images for use in PSE research.}
       \field{day}{1}
       \field{issn}{1573-6644}
       \field{journaltitle}{Motivation and Emotion}
@@ -2046,6 +2201,97 @@
       \field{year}{2013}
       \field{dateera}{ce}
     \endentry
+    \entry{tausczik_PsychologicalMeaningWords_2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9cd4775ff10c9808e053bfea51af5d97}{%
+           family={Tausczik},
+           familyi={T\bibinitperiod},
+           given={Yla\bibnamedelima R.},
+           giveni={Y\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86bdb0549f961a432ca631374fd9a114}{%
+           family={Pennebaker},
+           familyi={P\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb26c6dc97c17338228295ed71786685}
+      \strng{fullhash}{fb26c6dc97c17338228295ed71786685}
+      \strng{bibnamehash}{fb26c6dc97c17338228295ed71786685}
+      \strng{authorbibnamehash}{fb26c6dc97c17338228295ed71786685}
+      \strng{authornamehash}{fb26c6dc97c17338228295ed71786685}
+      \strng{authorfullhash}{fb26c6dc97c17338228295ed71786685}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0261-927X, 1552-6526}
+      \field{journaltitle}{Journal of Language and Social Psychology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{The {{Psychological Meaning}} of {{Words}}}
+      \field{title}{The {{Psychological Meaning}} of {{Words}}: {{LIWC}} and {{Computerized Text Analysis Methods}}}
+      \field{volume}{29}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{24\bibrangedash 54}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1177/0261927X09351676
+      \endverb
+    \endentry
+    \entry{templ_StatisticalDisclosureControl_2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=faaed83ab21bd48aa70346a9a1a0fa99}{%
+           family={Templ},
+           familyi={T\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1057b18840bc38e2470bda6cba6d55e}{%
+           family={Kowarik},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ff8c9963b9ebb356c03f0de644efc0}{%
+           family={Meindl},
+           familyi={M\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4087a0205115694fe5d10e86a4aa6f74}
+      \strng{fullhash}{5006190cefb73bd83bf3e37be61e8659}
+      \strng{bibnamehash}{5006190cefb73bd83bf3e37be61e8659}
+      \strng{authorbibnamehash}{5006190cefb73bd83bf3e37be61e8659}
+      \strng{authornamehash}{4087a0205115694fe5d10e86a4aa6f74}
+      \strng{authorfullhash}{5006190cefb73bd83bf3e37be61e8659}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1548-7660}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{langid}{english}
+      \field{title}{Statistical {{Disclosure Control}} for {{Micro}}-{{Data Using}} the {{{\emph{R}}}} {{Package}} {{{\textbf{sdcMicro}}}}}
+      \field{volume}{67}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.18637/jss.v067.i04
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/IFSTRXAK/Templ et al. - 2015 - Statistical Disclosure Control for Micro-Data Usin.pdf
+      \endverb
+    \endentry
     \entry{tuerlinckx_measuring_2002}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cfc2551e6d72558a69e9f54482f529b5}{%
@@ -2296,7 +2542,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{drescher_MetaanalyticEvidenceHigher_2016}
 \endrefsection
 \endinput
 

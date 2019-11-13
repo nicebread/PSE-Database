@@ -6,7 +6,7 @@
 \begin{tabularx}{\textwidth}{llXX}
 \toprule
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:47 2019
+% Mon Sep 16 13:41:31 2019
 Variable name & Data type & Comment & Values \\
   \hline
 row\_id & numeric & Unique row id &  \\
@@ -53,7 +53,7 @@ row\_id & numeric & Unique row id &  \\
 
 
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:48 2019
+% Mon Sep 16 13:41:31 2019
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\
   \hline
 BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de & CL & mostly students \\
@@ -90,7 +90,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting.}
+\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
     \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable*}
@@ -126,7 +126,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \toprule
 
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:48 2019
+% Mon Sep 16 13:41:31 2019
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\
   \hline
 der reporter im bild versucht sich einen eindruck vom leben der besch\IeC {\"a}ftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
@@ -180,7 +180,7 @@ null & 58.7\% \\
 \begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 \toprule
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:49 2019
+% Mon Sep 16 13:41:31 2019
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\
   \hline
 (1) Aff motive score & 1.13 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\
@@ -231,9 +231,9 @@ null & 58.7\% \\
 
 
 
-\multirow{3}{*}{\makecell[l]{Commonality analysis: How much of the\\ explained variance (100\%) can be attributed\\to unique and common parts of predictors?}}   & Common to $sc + wc$ & 69.7\% & 63.0\% & 62.3\%\\
-                                  & Unique to $sc$ &  2.0\% & -0.0\% & 3.1\%\\
-                                  & Unique to $wc$ &  28.2\% & 37.1\% & 34.6\%\\
+\multirow{3}{*}{\makecell[l]{Commonality analysis: How much of the\\ explained variance (100\%) can be attributed\\to unique and common parts of predictors?}}   & Common to $sc + wc$ & 69.4\% & 64.9\% & 64.6\%\\
+                                  & Unique to $sc$ &  2.3\% & 1.2\% & 2.5\%\\
+                                  & Unique to $wc$ &  28.4\% & 33.9\% & 32.9\%\\
 \midrule
 
 
@@ -266,7 +266,7 @@ null & 58.7\% \\
 \toprule
 
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:49 2019
+% Mon Sep 16 13:41:31 2019
 Correction & aff & ach & pow \\
   \hline
 Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & -0.13 (0.03, \emph{p} < .001) \\
@@ -287,7 +287,7 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 \begin{tabularx}{\textwidth}{rllllllr}
 \toprule
 % latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Fri Sep 13 16:21:51 2019
+% Mon Sep 16 13:41:32 2019
  & Pic ID & Aff & Ach & Pow & Overall & Activity Inhib. & Word count & \emph{n} \\
   \hline
   1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 & 0.40 (0.70) & 84 (33) & 198 \\

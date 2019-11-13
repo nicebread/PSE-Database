@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'AMC-Database.blg'
-[46] biber-darwin:315> INFO - === Fri Sep 13, 2019, 16:23:57
-[68] Biber.pm:375> INFO - Reading 'AMC-Database.bcf'
-[195] Biber.pm:905> INFO - Found 47 citekeys in bib section 0
-[216] Biber.pm:4196> INFO - Processing section 0
-[216] Utils.pm:75> INFO - Globbing data source 'Zotero.bib'
-[217] Utils.pm:91> INFO - Globbed data source 'Zotero.bib' to Zotero.bib
-[226] Biber.pm:4373> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
-[426] bibtex.pm:1462> INFO - LaTeX decoding ...
-[5475] bibtex.pm:1281> INFO - Found BibTeX data source 'Zotero.bib'
-[6114] Utils.pm:300> WARN - I didn't find a database entry for 'drescher_MetaanalyticEvidenceHigher_2016' (section 0)
-[6227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6227] Biber.pm:4024> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[6227] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[6297] bbl.pm:648> INFO - Writing 'AMC-Database.bbl' with encoding 'UTF-8'
-[6352] bbl.pm:751> INFO - Output to AMC-Database.bbl
-[6352] Biber.pm:110> INFO - WARNINGS: 1
+[56] biber-darwin:315> INFO - === Mon Sep 16, 2019, 13:42:27
+[80] Biber.pm:375> INFO - Reading 'AMC-Database.bcf'
+[257] Biber.pm:905> INFO - Found 51 citekeys in bib section 0
+[279] Biber.pm:4196> INFO - Processing section 0
+[281] Utils.pm:75> INFO - Globbing data source 'Zotero.bib'
+[282] Utils.pm:91> INFO - Globbed data source 'Zotero.bib' to Zotero.bib
+[293] Biber.pm:4373> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
+[566] bibtex.pm:1462> INFO - LaTeX decoding ...
+[9151] bibtex.pm:1281> INFO - Found BibTeX data source 'Zotero.bib'
+[9513] Utils.pm:300> WARN - Possible typo (case mismatch) between datasource keys: 'klasnja_MicrorandomizedTrialsExperimental_2015' and 'klasnja_MicroRandomizedTrialsExperimental_2015' in file 'Zotero.bib'
+[10358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[10358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[10359] Biber.pm:4024> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[10359] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[10474] bbl.pm:648> INFO - Writing 'AMC-Database.bbl' with encoding 'UTF-8'
+[10542] bbl.pm:751> INFO - Output to AMC-Database.bbl
+[10542] Biber.pm:110> INFO - WARNINGS: 1

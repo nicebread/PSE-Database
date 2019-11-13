@@ -1,0 +1,144 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+  "name": "PSE Database v0.2",
+	"schemaVersion":"Psych-DS 0.2.0",
+  "creator": [
+    {
+      "@type": "Person",
+      "id": "0000-0002-8282-3910",
+      "name": "Felix Schönbrodt",
+      "email": "felix.schoenbrodt@psy.lmu.de",
+      "affiliation": "Ludwig-Maximilians-Universität München"
+    }
+  ],
+  "description": "A database of expert-coded German PSE stories. These stories have been coded with David Winter's 1994 \"Manual for scoring motive imagery in running text\" for the presence of implicit affiliation/intimacy, achievement, and power motives.",
+  "datePublished": "2019-09-25",
+  "keywords": ["implicit motives", "picture story exercise", "PSE", "Winter"],
+  "temporalCoverage": "2010/2019",
+  "license": "CC-BY4.0",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "row_id",
+      "description": "Consecutive unique ID for each row"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "study_id",
+      "description": "Identifier for the original study/data set"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": "Munich, Erlangen, Osnabrueck, Trier",
+      "name": "coding_lab",
+      "description": "Lab where the coders were trained"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": "eachSentence, 2nd_sentence_rule",
+      "name": "scoring_type",
+      "description": "Second sentence rule applied?"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "participant_id",
+      "description": "Unique person identifier"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": "m=male,f=female,NA=miss- ing/other",
+      "name": "gender",
+      "description": "Gender"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": "<=25,25<age<=35,35<age <= 45, 45 < age <= 55, age > 55",
+      "name": "age",
+      "description": "Age category"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "USID",
+      "description": "Unique story identifier"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "UTID",
+      "description": "Unique text identifier (each sen- tence is one ’text’)"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "pic_id"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "pic_position"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "pic_order"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "unit"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "wc"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "sc"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "pow"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "ach"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "aff"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "motclass"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "motclassfull"
+    },
+    {
+      "@type": "PropertyValue",
+      "unitText": null,
+      "name": "text"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Database of German PSE stories, coded with the Winter (1994) coding system",
+      "contentUrl": "https://github.com/nicebread/PSE-Database",
+      "fileFormat": "txt"
+    }
+  ]
+}

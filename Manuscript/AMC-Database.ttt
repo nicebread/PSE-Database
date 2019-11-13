@@ -5,8 +5,8 @@
 \footnotesize
 \begin{tabularx}{\textwidth}{llXX}
 \toprule
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:31 2019
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:10 2019
 Variable name & Data type & Comment & Values \\
   \hline
 row\_id & numeric & Unique row id &  \\
@@ -34,11 +34,6 @@ row\_id & numeric & Unique row id &  \\
 
 \bottomrule
 \end{tabularx}
-\begin{tablenotes}[para,flushleft]
-{\small
-\vspace*{0.75em}
-\textit{Note.} In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8.}
-    \end{tablenotes}
 \end{threeparttable}
 \end{table*}
 \efloatseparator
@@ -52,8 +47,8 @@ row\_id & numeric & Unique row id &  \\
 \toprule
 
 
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:31 2019
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:10 2019
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\
   \hline
 BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de & CL & mostly students \\
@@ -90,7 +85,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
+\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
     \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable*}
@@ -125,23 +120,23 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \begin{tabularx}{\textwidth}{XXrrrl}
 \toprule
 
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:31 2019
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:11 2019
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\
   \hline
-der reporter im bild versucht sich einen eindruck vom leben der besch\IeC {\"a}ftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
-  als er erf\IeC {\"a}hrt, dass dieser kapit\IeC {\"a}n bei einem unwetter \IeC {\"u}ber 100 leben gerettet hat, beginnt er aufgeregt der sache auf den grund zu gehen. & When he finds out that this captain saved more than 100 lives during a storm, he excitedly begins to investigate the matter. &   0 &   0 &   1 & pow \\
-  immerhin k\IeC {\"o}nnte das die geschichte sein, auf die er seit langem wartet. & After all, this could be the story he has been waiting for for a long time. &   0 &   0 &   0 & null \\
+der reporter im bild versucht sich einen eindruck vom leben der beschäftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
+  als er erfährt, dass dieser kapitän bei einem unwetter über 100 leben gerettet hat, beginnt er aufgeregt der sache auf den grund zu gehen. & When he finds out that this captain saved more than 100 lives during a storm, he excitedly begins to investigate the matter. &   0 &   0 &   1 & pow \\
+  immerhin könnte das die geschichte sein, auf die er seit langem wartet. & After all, this could be the story he has been waiting for for a long time. &   0 &   0 &   0 & null \\
   zwei freundinnen treffen sich um eine party vorzubereiten. & Two friends get together and prepare a party. &   0 &   1 &   0 & aff \\
-  dazu sitzen auf der terasse in einem restaurant und sammeln ideen f\IeC {\"u}r ein motto. & For this purpose, they are sitting on the terrace of a restaurant collecting ideas for the party\IeC {\textquoteright }s theme. &   0 &   1 &   0 & aff \\
-  au\IeC {\ss }erdem wollen kurz aufteilen wer welche aufgaben bei der vorbereitung \IeC {\"u}bernimmt. & Besides, they want to divvy up what needs to be done in preparation. &   0 &   0 &   0 & null \\
+  dazu sitzen auf der terasse in einem restaurant und sammeln ideen für ein motto. & For this purpose, they are sitting on the terrace of a restaurant collecting ideas for the party’s theme. &   0 &   1 &   0 & aff \\
+  außerdem wollen kurz aufteilen wer welche aufgaben bei der vorbereitung übernimmt. & Besides, they want to divvy up what needs to be done in preparation. &   0 &   0 &   0 & null \\
   hinzu kommt ein weiterer freund, der die beiden erkannt hat. & Another friend, who has recognized them, joins. &   0 &   1 &   0 & aff \\
-  er m\IeC {\"o}chte kurz eine minute aufmerksamkeit der beiden haben um hallo zu sagen. & He wants to get the girls\IeC {\textquoteright } attention for a bit to say hello. &   0 &   1 &   0 & aff \\
+  er möchte kurz eine minute aufmerksamkeit der beiden haben um hallo zu sagen. & He wants to get the girls’ attention for a bit to say hello. &   0 &   1 &   0 & aff \\
   die beiden sind so vertieft in ihre arbeit, dass sie ihn gar nicht erst wahrnehmen. & Both girls are so absorbed in their work that they do not even notice him. &   0 &   0 &   0 & null \\
-  da er scheinbar schon l\IeC {\"a}nger steht ist er bereits etwas genervt. & It looks like he has been standing there for a while now and he is already somewhat annoyed. &   0 &   0 &   0 & null \\
+  da er scheinbar schon länger steht ist er bereits etwas genervt. & It looks like he has been standing there for a while now and he is already somewhat annoyed. &   0 &   0 &   0 & null \\
   wir befinden uns im zirkus rogalli. & We are at circus Rogalli. &   0 &   0 &   0 & null \\
-  die zwei akrobaten im bild sind bekannt f\IeC {\"u}r ihre gef\IeC {\"a}hrlichen kunstst\IeC {\"u}cke am trapez. & The two acrobats in the picture are famous for their dangerous feats on the trapeze. &   1 &   0 &   1 & achpow \\
-  mit ihrer neuen nummer gehen sie noch ein st\IeC {\"u}ck weiter. & They go one step further with their new stunt. &   1 &   0 &   0 & ach \\
+  die zwei akrobaten im bild sind bekannt für ihre gefährlichen kunststücke am trapez. & The two acrobats in the picture are famous for their dangerous feats on the trapeze. &   1 &   0 &   1 & achpow \\
+  mit ihrer neuen nummer gehen sie noch ein stück weiter. & They go one step further with their new stunt. &   1 &   0 &   0 & ach \\
    \hline
 
 \bottomrule
@@ -173,14 +168,14 @@ null & 58.7\% \\
 \begin{sidewaystable*}
 %\begin{table*}
 \begin{threeparttable}
-\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Correlations on Person Level.}
+\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations on Person Level.}
 \label{tab:descCor}
 \footnotesize
 %\begin{tabular}{lrrlllllllllllllllll}
 \begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 \toprule
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:31 2019
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:11 2019
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\
   \hline
 (1) Aff motive score & 1.13 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\
@@ -259,14 +254,14 @@ null & 58.7\% \\
 \efloatseparator
  
 \begin{table*}
-\caption{Meta-Analysis for Gender Differences in Implicit Affiliation Motive in Hedge's $g$ (SE).}
+\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, calculated as Hedge's $g$ (SE).}
 \label{tab:MA}
 \footnotesize
 \begin{tabularx}{\textwidth}{lrrr}
 \toprule
 
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:31 2019
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:12 2019
 Correction & aff & ach & pow \\
   \hline
 Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & -0.13 (0.03, \emph{p} < .001) \\
@@ -281,43 +276,43 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
  
 \begin{table*}
 \begin{threeparttable}
-\caption{Means and Standard Deviations of Raw Motive Scores Across Coding Categories and Pictures.}
+\caption{Means and Standard Deviations of Raw Motive Scores, Coded Without 2nd-Sentence Rule.}
 \label{tab:norms}
 \tiny
 \begin{tabularx}{\textwidth}{rllllllr}
 \toprule
-% latex table generated in R 3.5.2 by xtable 1.8-4 package
-% Mon Sep 16 13:41:32 2019
- & Pic ID & Aff & Ach & Pow & Overall & Activity Inhib. & Word count & \emph{n} \\
+% latex table generated in R 3.6.1 by xtable 1.8-4 package
+% Wed Nov 13 14:46:14 2019
+ & Pic ID & Aff & Ach & Pow & Overall & AI & Word count & \emph{n} \\
   \hline
-  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 & 0.40 (0.70) & 84 (33) & 198 \\
-    2 & applause & \textbf{1.88} (1.47) & 0.81 (1.12) & \textbf{1.77} (1.53) & 4.47 & 0.59 (0.91) & 90 (34) & 1195 \\
-    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 & 1.18 (1.17) & 90 (33) & 141 \\
-    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 & 1.11 (1.46) & 97 (62) &  83 \\
-    5 & beachcombers & 0.62 (1.10) & 0.14 (0.50) & \textbf{3.41} (1.87) & 4.17 & 0.75 (0.96) & 97 (34) & 797 \\
-    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 & 0.89 (0.99) & 96 (28) &  81 \\
-    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 & 0.66 (0.89) & 86 (29) & 141 \\
-    8 & *nightclub scene & \textbf{2.39} (1.67) & 0.14 (0.41) & \textbf{1.08} (1.25) & 3.61 & 0.57 (0.96) & 93 (37) & 2311 \\
-    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 & 0.98 (1.31) & 92 (31) & 141 \\
-   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 & 0.91 (1.19) & 94 (40) & 119 \\
-   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.72) & 3.41 & 0.72 (1.11) & 94 (40) & 1854 \\
-   12 & newpic10 & \textbf{1.71} (1.22) & 0.68 (1.08) & \textbf{0.92} (1.05) & 3.32 & 0.35 (0.59) & 87 (35) & 196 \\
-   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 & 0.44 (0.74) & 85 (31) & 799 \\
-   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 & 0.38 (0.80) & 107 (35) & 408 \\
-   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 & 0.69 (1.02) & 91 (34) & 2331 \\
-   16 & *boxer & 0.34 (0.79) & \textbf{1.68} (1.38) & 0.81 (1.11) & 2.83 & 0.67 (1.02) & 89 (37) & 1724 \\
-   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 & 1.01 (1.29) & 99 (46) & 143 \\
-   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 & 0.52 (0.87) & 91 (37) & 2316 \\
-   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 & 0.65 (0.95) & 83 (34) & 196 \\
-   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 & 0.41 (0.74) & 78 (34) & 200 \\
-   21 & lacrosse duel & 0.20 (0.47) & \textbf{1.95} (1.36) & 0.30 (0.52) & 2.44 & 0.73 (0.98) & 92 (36) &  97 \\
-   22 & neymar \& marcelo & 0.35 (0.79) & \textbf{1.20} (1.13) & \textbf{0.86} (1.11) & 2.41 & 0.50 (0.73) & 59 (25) & 354 \\
-   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 & 0.78 (1.12) & 94 (36) & 2612 \\
-   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 & 0.79 (1.08) & 89 (40) & 125 \\
-   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 & 0.98 (1.18) & 82 (35) & 202 \\
-   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 & 0.93 (1.05) & 90 (43) & 123 \\
-   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 & 0.59 (0.90) & 81 (44) & 111 \\
-   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 & 0.36 (0.73) & 86 (27) &  95 \\
+  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.40 (0.70) & 84 (33) & 198 \\
+    2 & applause & \textbf{1.88} (1.47) & 0.81 (1.12) & \textbf{1.77} (1.53) & 4.47 (2.07) & 0.59 (0.91) & 90 (34) & 1195 \\
+    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 (3.00) & 1.18 (1.17) & 90 (33) & 141 \\
+    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 (2.70) & 1.11 (1.46) & 97 (62) &  83 \\
+    5 & beachcombers & 0.62 (1.10) & 0.14 (0.50) & \textbf{3.41} (1.87) & 4.17 (2.13) & 0.75 (0.96) & 97 (34) & 797 \\
+    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 (1.99) & 0.89 (0.99) & 96 (28) &  81 \\
+    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 (2.20) & 0.66 (0.89) & 86 (29) & 141 \\
+    8 & *nightclub scene & \textbf{2.39} (1.67) & 0.14 (0.41) & \textbf{1.08} (1.25) & 3.61 (2.07) & 0.57 (0.96) & 93 (37) & 2311 \\
+    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 (2.34) & 0.98 (1.31) & 92 (31) & 141 \\
+   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 (2.63) & 0.91 (1.19) & 94 (40) & 119 \\
+   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.72) & 3.41 (1.93) & 0.72 (1.11) & 94 (40) & 1854 \\
+   12 & newpic10 & \textbf{1.71} (1.22) & 0.68 (1.08) & \textbf{0.92} (1.05) & 3.32 (1.92) & 0.35 (0.59) & 87 (35) & 196 \\
+   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 (1.99) & 0.44 (0.74) & 85 (31) & 799 \\
+   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 (2.13) & 0.38 (0.80) & 107 (35) & 408 \\
+   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 (2.04) & 0.69 (1.02) & 91 (34) & 2331 \\
+   16 & *boxer & 0.34 (0.79) & \textbf{1.68} (1.38) & 0.81 (1.11) & 2.83 (1.98) & 0.67 (1.02) & 89 (37) & 1724 \\
+   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 (2.14) & 1.01 (1.29) & 99 (46) & 143 \\
+   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 (1.91) & 0.52 (0.87) & 91 (37) & 2316 \\
+   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 (2.41) & 0.65 (0.95) & 83 (34) & 196 \\
+   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 (2.11) & 0.41 (0.74) & 78 (34) & 200 \\
+   21 & lacrosse duel & 0.20 (0.47) & \textbf{1.95} (1.36) & 0.30 (0.52) & 2.44 (1.41) & 0.73 (0.98) & 92 (36) &  97 \\
+   22 & neymar \& marcelo & 0.35 (0.79) & \textbf{1.20} (1.13) & \textbf{0.86} (1.11) & 2.41 (1.62) & 0.50 (0.73) & 59 (25) & 354 \\
+   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 (1.72) & 0.78 (1.12) & 94 (36) & 2612 \\
+   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 (1.85) & 0.79 (1.08) & 89 (40) & 125 \\
+   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 (1.75) & 0.98 (1.18) & 82 (35) & 202 \\
+   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 (1.97) & 0.93 (1.05) & 90 (43) & 123 \\
+   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 (1.87) & 0.59 (0.90) & 81 (44) & 111 \\
+   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 (1.10) & 0.36 (0.73) & 86 (27) &  95 \\
    \hline
 
 

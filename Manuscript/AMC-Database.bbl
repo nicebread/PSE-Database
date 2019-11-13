@@ -220,6 +220,57 @@
       \verb http://dl.acm.org/citation.cfm?id=944919.944937
       \endverb
     \endentry
+    \entry{borsboom_concept_2004}{article}{useprefix=true}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2eef2bede90808639e60afb4bf1b0af5}{%
+           family={Borsboom},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=892aacb84cb76e4c6a3896896fb303f6}{%
+           family={Mellenbergh},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6dd5e044432c502a1ab716c0796091d0}{%
+           family={Heerden},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{1188c28c8381ee644c8c2160497f1a59}
+      \strng{fullhash}{865ca527bd9ac313b62febff3402daed}
+      \strng{bibnamehash}{865ca527bd9ac313b62febff3402daed}
+      \strng{authorbibnamehash}{865ca527bd9ac313b62febff3402daed}
+      \strng{authornamehash}{1188c28c8381ee644c8c2160497f1a59}
+      \strng{authorfullhash}{865ca527bd9ac313b62febff3402daed}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-295X}
+      \field{journaltitle}{Psychological Review}
+      \field{title}{The Concept of Validity}
+      \field{volume}{111}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1061\bibrangedash 1071}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/0033-295X.111.4.1061
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/PSJURS2D/psycnet.apa.org.html
+      \endverb
+    \endentry
     \entry{czikmantori_ExperienceIntrinsicMotivation_2018}{unpublished}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f319221a899c02f9da5d39c535652eda}{%
@@ -370,12 +421,12 @@
            given={Amely},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce2d5208353a268cdd13010c0db6079d}{%
+        {{un=1,uniquepart=given,hash=ce2d5208353a268cdd13010c0db6079d}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={Oliver\bibnamedelima C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
       \strng{fullhash}{ae5c3d33f6df1f0aec48aba1fdf2b82d}
@@ -486,56 +537,6 @@
       \verb{url}
       \verb https://cacm.acm.org/magazines/2013/4/162501-techniques-and-applications-for-sentiment-analysis/abstract
       \endverb
-    \endentry
-    \entry{hagemeyer_AssessingImplicitMotivational_2012}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=53afaf76079780380091989e001331e4}{%
-           family={Hagemeyer},
-           familyi={H\bibinitperiod},
-           given={Birk},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2dbf178133724eb85b53ae9fc9c823c0}{%
-           family={Neyer},
-           familyi={N\bibinitperiod},
-           given={Franz\bibnamedelima J.},
-           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8e21ecc9189819d4f5242720bac98dc4}
-      \strng{fullhash}{8e21ecc9189819d4f5242720bac98dc4}
-      \strng{bibnamehash}{8e21ecc9189819d4f5242720bac98dc4}
-      \strng{authorbibnamehash}{8e21ecc9189819d4f5242720bac98dc4}
-      \strng{authornamehash}{8e21ecc9189819d4f5242720bac98dc4}
-      \strng{authorfullhash}{8e21ecc9189819d4f5242720bac98dc4}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The Partner-Related Agency and Communion Test (PACT) was developed to measure implicit agentic and communal needs in the domain of couple relationships through content analyses of fantasy stories. Study 1 (N = 125) confirmed that the new thematic coding system captured experimentally induced differences in partner-related motivation and showed expected relations with D. G. Winter's (1994) motive scoring system. Study 2 confirmed the discriminant and incremental validity of the implicit partner-related needs compared with self-report measures of the Big Five traits and adult attachment in a sample of 499 couples. In addition, dyadic analyses revealed expected associations of the partner-related needs with relationship satisfaction as experienced by oneself and by one's partner. The studies lend initial support to the validity of the relationship-specific needs for agency and communion as assessed by the PACT and introduce dyadic data analyses to the study of implicit motives.}
-      \field{eprinttype}{pmid}
-      \field{issn}{1939-134X}
-      \field{journaltitle}{Psychological Assessment}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{shortjournal}{Psychol Assess}
-      \field{shorttitle}{Assessing Implicit Motivational Orientations in Couple Relationships}
-      \field{title}{Assessing Implicit Motivational Orientations in Couple Relationships: {T}he {{Partner}}-{{Related Agency}} and {{Communion Test}} ({{PACT}})}
-      \field{volume}{24}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{pages}{114\bibrangedash 128}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1037/a0024822
-      \endverb
-      \verb{eprint}
-      \verb 21787092
-      \endverb
-      \keyw{Motivation,Self Concept,Analysis of Variance,Spouses,Cues,Adolescent,Adult,Female,Humans,Male,Psychometrics,Models; Psychological,Aged,Fantasy,Middle Aged,Personal Satisfaction,Data Interpretation; Statistical,Interpersonal Relations,Memory; Episodic,Object Attachment,Personality Tests,Power (Psychology),Psychological Theory,Sex Characteristics,Young Adult}
     \endentry
     \entry{hamiltonGgternExtensionGgplot22017}{book}{}
       \name{author}{1}{}{%
@@ -773,7 +774,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The inhibited power motive is a disposition for obtaining a functional influence on others (Schultheiss 2008) and characterized by a high implicit need for Power (n Power) and high activity inhibition (AI; McClelland Journal of Abnormal Psychology, 88(2), 182–{}190, 1979). Organizational effects of gonadal steroid hormones on the brain during prenatal development affect the emerging n Power (Schultheiss and Zimni Adaptive Human Behavior and Physiology, 1(4), 387–{}407, 2015) but it is unknown whether there are similar associations during puberty, a second phase of endocrine organization (Schulz et al. Hormones and Behavior, 55(5), 597–{}604, 2009). In two studies (combined for analyses; total N = 213, after exclusions), we investigated this relationship using the facial width-to-height ratio (fWHR; Weston et al. PloS One, 2(8), e710, 2007), assessed via anthropometry, as a marker of organizational hormone effects during puberty in a cross-sectional, correlational design. N Power and AI were measured via Picture Story Exercise (PSE; McClelland et al. Psychological Review, 96, 690–{}702, 1989). Controlling for BMI and age in a multiple regression analysis predicting fWHR, we found a significant n Power x AI-effect, B = 0.15, SE = 0.07, t(207) = 2.03, p = .04, {$\increment$}R 2 = .02. N Power and fWHR approached a marginally significant positive association, when AI was high (+1SD; B = 0.16, SE = 0.10, t(207) = 1.64, p = .10) and showed a negative but insignificant association, when AI was low (-1SD; B = -0.14, SE = 0.10, t(207) = -1.40, p = .16). After adding gender to the model on an exploratory basis, we found a significant n Power x AI x Gender-effect (B = 0.34, SE = 0.17, t(203) = 2.00, p = .05, {$\increment$}R 2 = .02), predominantly driven by a positive effect of the inhibited power motive in females, B = 0.28, SE = 0.13, t(55) = 2.24, p = .03, {$\increment$}R 2 = .08. Compared with past research, this finding was unexpected since fWHR is commonly linked to various criteria in males. Implications for the understanding of the development of n Power are discussed, respecting the limitations of our design.}
+      \field{abstract}{The inhibited power motive is a disposition for obtaining a functional influence on others (Schultheiss 2008) and characterized by a high implicit need for Power (n Power) and high activity inhibition (AI; McClelland Journal of Abnormal Psychology, 88(2), 182–190, 1979). Organizational effects of gonadal steroid hormones on the brain during prenatal development affect the emerging n Power (Schultheiss and Zimni Adaptive Human Behavior and Physiology, 1(4), 387–407, 2015) but it is unknown whether there are similar associations during puberty, a second phase of endocrine organization (Schulz et al. Hormones and Behavior, 55(5), 597–604, 2009). In two studies (combined for analyses; total N = 213, after exclusions), we investigated this relationship using the facial width-to-height ratio (fWHR; Weston et al. PloS One, 2(8), e710, 2007), assessed via anthropometry, as a marker of organizational hormone effects during puberty in a cross-sectional, correlational design. N Power and AI were measured via Picture Story Exercise (PSE; McClelland et al. Psychological Review, 96, 690–702, 1989). Controlling for BMI and age in a multiple regression analysis predicting fWHR, we found a significant n Power x AI-effect, B = 0.15, SE = 0.07, t(207) = 2.03, p = .04, ∆R 2 = .02. N Power and fWHR approached a marginally significant positive association, when AI was high (+1SD; B = 0.16, SE = 0.10, t(207) = 1.64, p = .10) and showed a negative but insignificant association, when AI was low (−1SD; B = −0.14, SE = 0.10, t(207) = −1.40, p = .16). After adding gender to the model on an exploratory basis, we found a significant n Power x AI x Gender-effect (B = 0.34, SE = 0.17, t(203) = 2.00, p = .05, ∆R 2 = .02), predominantly driven by a positive effect of the inhibited power motive in females, B = 0.28, SE = 0.13, t(55) = 2.24, p = .03, ∆R 2 = .08. Compared with past research, this finding was unexpected since fWHR is commonly linked to various criteria in males. Implications for the understanding of the development of n Power are discussed, respecting the limitations of our design.}
       \field{day}{1}
       \field{issn}{2198-7335}
       \field{journaltitle}{Adaptive Human Behavior and Physiology}
@@ -922,7 +923,7 @@
       \verb /Users/felix/Bibs und Backup/Zotero/storage/UMV3S59E/sim.html
       \endverb
     \endentry
-    \entry{kollner_SocialBiopsychologyImplicit_2018}{incollection}{}
+    \entry{kollner_SocialBiopsychologyImplicit_2019}{incollection}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ae6e4988a0c567e2d38cf9e462a09eda}{%
            family={Köllner},
@@ -976,11 +977,11 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The Routledge International Handbook of Social Neuroendocrinology is an authoritative reference work providing a balanced overview of current scholarship spanning the full breadth of the rapidly developing field of social neuroendocrinology. Considering\ldots{}}
+      \field{abstract}{The Routledge International Handbook of Social Neuroendocrinology is an authoritative reference work providing a balanced overview of current scholarship spanning the full breadth of the rapidly developing field of social neuroendocrinology. Considering…}
       \field{booktitle}{Routledge {{International Handbook}} of {{Social Neuroendocrinology}}}
       \field{langid}{english}
       \field{title}{The Social Biopsychology of Implicit Motive Development}
-      \field{year}{2018}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{pages}{568\bibrangedash 585}
       \range{pages}{18}
@@ -1059,7 +1060,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Affective changes in response to motive-relevant stimuli are a defining feature of implicit motives. We therefore expected to find an effect of individual differences in the implicit need for affiliation (nAff) on corrugator supercilii activity, an indicator of affect, when participants were confronted with nonverbal indicators of a conversational partner's withdrawal. Participants' nAff was assessed with a Picture Story Exercise (PSE). They were then involved in an interaction with a smiling or a neutral experimenter while their corrugator activity was measured with electromyography (EMG). As expected, we found higher corrugator activity for people high in nAff compared to people low in nAff when the experimenter kept a neutral facial expression throughout the interaction but not when he/she was smiling.}
+      \field{abstract}{Affective changes in response to motive-relevant stimuli are a defining feature of implicit motives. We therefore expected to find an effect of individual differences in the implicit need for affiliation (nAff) on corrugator supercilii activity, an indicator of affect, when participants were confronted with nonverbal indicators of a conversational partner’s withdrawal. Participants’ nAff was assessed with a Picture Story Exercise (PSE). They were then involved in an interaction with a smiling or a neutral experimenter while their corrugator activity was measured with electromyography (EMG). As expected, we found higher corrugator activity for people high in nAff compared to people low in nAff when the experimenter kept a neutral facial expression throughout the interaction but not when he/she was smiling.}
       \field{day}{1}
       \field{issn}{0092-6566}
       \field{journaltitle}{Journal of Research in Personality}
@@ -1209,7 +1210,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Across the social sciences, growing concerns about research transparency have led to calls for pre-analysis plans (PAPs) that specify in advance how researchers intend to analyze the data they are about to gather. PAPs promote transparency and credibility by helping readers distinguish between exploratory and confirmatory analyses. However, PAPs are time-consuming to write and may fail to anticipate contingencies that arise in the course of data collection. This article proposes the use of ``standard operating procedures'' (SOPs)—{}default practices to guide decisions when issues arise that were not anticipated in the PAP. We offer an example of an SOP that can be adapted by other researchers seeking a safety net to support their PAPs.}
+      \field{abstract}{Across the social sciences, growing concerns about research transparency have led to calls for pre-analysis plans (PAPs) that specify in advance how researchers intend to analyze the data they are about to gather. PAPs promote transparency and credibility by helping readers distinguish between exploratory and confirmatory analyses. However, PAPs are time-consuming to write and may fail to anticipate contingencies that arise in the course of data collection. This article proposes the use of “standard operating procedures” (SOPs)—default practices to guide decisions when issues arise that were not anticipated in the PAP. We offer an example of an SOP that can be adapted by other researchers seeking a safety net to support their PAPs.}
       \field{issn}{1049-0965, 1537-5935}
       \field{journaltitle}{PS: Political Science \& Politics}
       \field{langid}{english}
@@ -1316,6 +1317,51 @@
       \verb http://robustbase.r-forge.r-project.org/
       \endverb
     \endentry
+    \entry{mcclelland_MethodsMeasuringHuman_1958}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
+           family={McClelland},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=5b144861d7be1c6c373689b062eae7cf}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Van Nostrand}%
+      }
+      \strng{namehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{fullhash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{bibnamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authorbibnamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authornamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{authorfullhash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \strng{editorbibnamehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{editornamehash}{5b144861d7be1c6c373689b062eae7cf}
+      \strng{editorfullhash}{5b144861d7be1c6c373689b062eae7cf}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Motives in Fantasy, Action, and Society: {{A}} Method of Assessment and Study}
+      \field{title}{Methods of Measuring Human Motivation}
+      \field{year}{1958}
+      \field{dateera}{ce}
+      \field{pages}{7\bibrangedash 42}
+      \range{pages}{36}
+    \endentry
     \entry{mcclelland_human_1987}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8d7df79dfa72c13a9764021b3d6a1aa}{%
@@ -1337,6 +1383,7 @@
       \strng{authorbibnamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
       \strng{authornamehash}{a8d7df79dfa72c13a9764021b3d6a1aa}
       \strng{authorfullhash}{a8d7df79dfa72c13a9764021b3d6a1aa}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
@@ -1435,6 +1482,38 @@
       \field{pages}{289\bibrangedash 306}
       \range{pages}{18}
     \endentry
+    \entry{murray_thematic_1943}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d6d32f0db13e9b8aa185abbda0f8c1a}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \strng{fullhash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \strng{bibnamehash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \strng{authorbibnamehash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \strng{authornamehash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \strng{authorfullhash}{3d6d32f0db13e9b8aa185abbda0f8c1a}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thematic {{Apperception Test Manual}}.}
+      \field{year}{1943}
+      \field{dateera}{ce}
+    \endentry
     \entry{nakagawa_general_2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=efc56ac3a3f2676c9eeed3abcc9dca93}{%
@@ -1463,7 +1542,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{* The use of both linear and generalized linear mixed-effects models (LMMs and GLMMs) has become popular not only in social and medical sciences, but also in biological sciences, especially in the field of ecology and evolution. Information criteria, such as Akaike Information Criterion (AIC), are usually presented as model comparison tools for mixed-effects models. * The presentation of `variance explained' (R2) as a relevant summarizing statistic of mixed-effects models, however, is rare, even though R2 is routinely reported for linear models (LMs) and also generalized linear models (GLMs). R2 has the extremely useful property of providing an absolute value for the goodness-of-fit of a model, which cannot be given by the information criteria. As a summary statistic that describes the amount of variance explained, R2 can also be a quantity of biological interest. * One reason for the under-appreciation of R2 for mixed-effects models lies in the fact that R2 can be defined in a number of ways. Furthermore, most definitions of R2 for mixed-effects have theoretical problems (e.g. decreased or negative R2 values in larger models) and/or their use is hindered by practical difficulties (e.g. implementation). * Here, we make a case for the importance of reporting R2 for mixed-effects models. We first provide the common definitions of R2 for LMs and GLMs and discuss the key problems associated with calculating R2 for mixed-effects models. We then recommend a general and simple method for calculating two types of R2 (marginal and conditional R2) for both LMMs and GLMMs, which are less susceptible to common problems. * This method is illustrated by examples and can be widely employed by researchers in any fields of research, regardless of software packages used for fitting mixed-effects models. The proposed method has the potential to facilitate the presentation of R2 for a wide range of circumstances.}
+      \field{abstract}{* The use of both linear and generalized linear mixed-effects models (LMMs and GLMMs) has become popular not only in social and medical sciences, but also in biological sciences, especially in the field of ecology and evolution. Information criteria, such as Akaike Information Criterion (AIC), are usually presented as model comparison tools for mixed-effects models. * The presentation of ‘variance explained’ (R2) as a relevant summarizing statistic of mixed-effects models, however, is rare, even though R2 is routinely reported for linear models (LMs) and also generalized linear models (GLMs). R2 has the extremely useful property of providing an absolute value for the goodness-of-fit of a model, which cannot be given by the information criteria. As a summary statistic that describes the amount of variance explained, R2 can also be a quantity of biological interest. * One reason for the under-appreciation of R2 for mixed-effects models lies in the fact that R2 can be defined in a number of ways. Furthermore, most definitions of R2 for mixed-effects have theoretical problems (e.g. decreased or negative R2 values in larger models) and/or their use is hindered by practical difficulties (e.g. implementation). * Here, we make a case for the importance of reporting R2 for mixed-effects models. We first provide the common definitions of R2 for LMs and GLMs and discuss the key problems associated with calculating R2 for mixed-effects models. We then recommend a general and simple method for calculating two types of R2 (marginal and conditional R2) for both LMMs and GLMMs, which are less susceptible to common problems. * This method is illustrated by examples and can be widely employed by researchers in any fields of research, regardless of software packages used for fitting mixed-effects models. The proposed method has the potential to facilitate the presentation of R2 for a wide range of circumstances.}
       \field{issn}{2041-210X}
       \field{journaltitle}{Methods in Ecology and Evolution}
       \field{langid}{english}
@@ -1547,12 +1626,12 @@
            given={J.\bibnamedelimi S.},
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{050cc7ea7964a0b3d59e7c030ae3fadd}
       \strng{fullhash}{050cc7ea7964a0b3d59e7c030ae3fadd}
@@ -1615,7 +1694,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This chapter discusses the major topics such as picture selection, administration, coding systems, and data processing that are related to usage of the Picture Story Exercise (PSE), a major content coding method for assessing implicit motives. It offers a step-by-step guide description of different aspects of preparing, administering, scoring, and processing PSE data. Included in the chapter is a discussion about developing multi- and single-motive picture sets for the PSE; such recommendations are followed by previously unpublished cue strength statistics for a PSE picture set that targets the achievement motive.}
-      \field{booktitle}{Content {{Coding Methods}} in {{Implicit Motive Assessment}}: {{Standards}} of {{Measurement}} and {{Best Practices}} for the {{Picture Story Exercise}}}
+      \field{booktitle}{Implicit Motives}
       \field{day}{21}
       \field{isbn}{978-0-19-977695-5}
       \field{langid}{american}
@@ -1667,7 +1746,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The picture story exercise (PSE), in which participants write imaginative stories in response to motivationally-arousing images, is the most commonly-used tool for the assessment of implicit motives. Despite decades of research into the qualities of effective individual picture cues, much less is known about the desirable properties of overall picture sets. The present research highlights a previously undocumented methodological consideration—{}set ambiguity—{}which has important implications for the reliability and validity of the PSE. In a four-part study of 74 undergraduates, motive scores derived from an ambiguous picture set comprising cues that vary in motivational focus displayed greater test–{}retest reliability, convergent validity, and predictive validity than those derived from an unambiguous picture set. Researchers are therefore advised to consider set ambiguity when selecting images for use in PSE research.}
+      \field{abstract}{The picture story exercise (PSE), in which participants write imaginative stories in response to motivationally-arousing images, is the most commonly-used tool for the assessment of implicit motives. Despite decades of research into the qualities of effective individual picture cues, much less is known about the desirable properties of overall picture sets. The present research highlights a previously undocumented methodological consideration—set ambiguity—which has important implications for the reliability and validity of the PSE. In a four-part study of 74 undergraduates, motive scores derived from an ambiguous picture set comprising cues that vary in motivational focus displayed greater test–retest reliability, convergent validity, and predictive validity than those derived from an unambiguous picture set. Researchers are therefore advised to consider set ambiguity when selecting images for use in PSE research.}
       \field{day}{1}
       \field{issn}{1573-6644}
       \field{journaltitle}{Motivation and Emotion}
@@ -1760,12 +1839,12 @@
     \endentry
     \entry{schultheiss_are_2013}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{db75caa6c93881a7606a386697add54a}
       \strng{fullhash}{db75caa6c93881a7606a386697add54a}
@@ -1798,30 +1877,68 @@
       \verb 24137149
       \endverb
     \endentry
-    \entry{schultheiss_ImplicitMotives_2010}{book}{}
+    \entry{schultheiss_AssessmentImplicitMotives_2001}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=5a8be64b68f7667d6089bb05ed645358}{%
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
            family={Brunstein},
            familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{fullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{bibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{shortjournal}{Journal of Personality Assessment}
+      \field{title}{Assessment of Implicit Motives with a Research Version of the {{TAT}}: {{Picture}} Profiles, Gender Differences, and Relations to Other Personality Measures}
+      \field{volume}{77}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{71\bibrangedash 86}
+      \range{pages}{16}
+    \endentry
+    \entry{schultheiss_ImplicitMotives_2010}{book}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=1}}%
+        {{un=0,uniquepart=base,hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
+           family={Brunstein},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Oxford University Press}%
       }
-      \strng{namehash}{00b32be963be8c9eb884d21d1f39e491}
-      \strng{fullhash}{00b32be963be8c9eb884d21d1f39e491}
-      \strng{bibnamehash}{00b32be963be8c9eb884d21d1f39e491}
-      \strng{authorbibnamehash}{00b32be963be8c9eb884d21d1f39e491}
-      \strng{authornamehash}{00b32be963be8c9eb884d21d1f39e491}
-      \strng{authorfullhash}{00b32be963be8c9eb884d21d1f39e491}
+      \strng{namehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{fullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{bibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \strng{authorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
@@ -1838,50 +1955,14 @@
       \verb /Users/felix/Bibs und Backup/Zotero/storage/B873BN4Q/9780195335156.003.html
       \endverb
     \endentry
-    \entry{schultheiss_AssessmentImplicitMotives_2001}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
-           family={Schultheiss},
-           familyi={S\bibinitperiod},
-           given={O.\bibnamedelimi C.},
-           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=1ebc5f15b792858ed0ed7f164b9890e6}{%
-           family={Brunstein},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \strng{fullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \strng{bibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \strng{authorbibnamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \strng{authornamehash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \strng{authorfullhash}{c5151e319ce14dca2e3b7d1c06b7c1f0}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Personality Assessment}
-      \field{shortjournal}{Journal of Personality Assessment}
-      \field{title}{Assessment of Implicit Motives with a Research Version of the {{TAT}}: {{Picture}} Profiles, Gender Differences, and Relations to Other Personality Measures}
-      \field{volume}{77}
-      \field{year}{2001}
-      \field{dateera}{ce}
-      \field{pages}{71\bibrangedash 86}
-      \range{pages}{16}
-    \endentry
     \entry{schultheiss_reliability_2008}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=31df74083cbeb6604368b4e16646c7f8}{%
            family={Liening},
            familyi={L\bibinitperiod},
@@ -1920,12 +2001,12 @@
     \endentry
     \entry{schultheiss_MeasuringImplicitMotives_2007}{incollection}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=3ef878ffb06edf2f6efaad6363955c75}{%
            family={Pang},
            familyi={P\bibinitperiod},
@@ -1978,12 +2059,12 @@
     \endentry
     \entry{schultheiss_AreImplicitExplicit_2009}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+        {{un=1,uniquepart=given,hash=db75caa6c93881a7606a386697add54a}{%
            family={Schultheiss},
            familyi={S\bibinitperiod},
            given={O.\bibnamedelimi C.},
            giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=b767226e8e4116581ca3fd3d62074380}{%
            family={Yankova},
            familyi={Y\bibinitperiod},
@@ -2025,6 +2106,51 @@
       \field{dateera}{ce}
       \field{pages}{72\bibrangedash 81}
       \range{pages}{10}
+    \endentry
+    \entry{schultheiss_implicit_2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=ce2d5208353a268cdd13010c0db6079d}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={Oliver\bibnamedelima C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=eb7781fe0d028b16a7a6b4337b640dbb}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{63242d92eed7307c297f9d535934c806}
+      \strng{fullhash}{63242d92eed7307c297f9d535934c806}
+      \strng{bibnamehash}{63242d92eed7307c297f9d535934c806}
+      \strng{authorbibnamehash}{63242d92eed7307c297f9d535934c806}
+      \strng{authornamehash}{63242d92eed7307c297f9d535934c806}
+      \strng{authorfullhash}{63242d92eed7307c297f9d535934c806}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Picture-story exercise (PSE) measures of implicit motives provide objective, stable, and valid scores. However, PSE scores are also characterized by substantial variability from one picture to the next, resulting in low internal consistency estimates. We argue that this variability is a critical source of the PSE's validity because it reveals stable if-then contingencies between the situational contexts represented by the picture cues and individuals' motivational responses to them. We also present the correspondence hypothesis, according to which the situational cues in the PSE are representative of specific real-life situations and a person's imaginative-story responses to the PSE cues therefore also reflect his or her real-life responses to such situations. We review corroborating research and discuss the implications of the if-then contingency approach for assessment, prediction, and for the measurement of motivational congruence.}
+      \field{day}{1}
+      \field{issn}{1751-9004}
+      \field{journaltitle}{Social and Personality Psychology Compass}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Social and Personality Psychology Compass}
+      \field{shorttitle}{Implicit {{Motive Profile Analysis}}}
+      \field{title}{Implicit Motive Profile Analysis: {{An If}}-{{Then}} Contingency Approach to the {{Picture}}-{{Story Exercise}}}
+      \field{volume}{8}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/spc3.12082
+      \endverb
     \endentry
     \entry{smith_motivation_1992}{book}{}
       \name{author}{4}{ul=2}{%
@@ -2370,6 +2496,367 @@
       \endverb
       \verb{url}
       \verb http://www.jstatsoft.org/v36/i03/
+      \endverb
+    \endentry
+    \entry{wilkinson_FAIRGuidingPrinciples_2016}{article}{useprefix=true}
+      \name{author}{53}{}{%
+        {{un=0,uniquepart=base,hash=e88185c2eca4405ce11cb8920f485660}{%
+           family={Wilkinson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93badcbcd9ff0747849763affb474199}{%
+           family={Dumontier},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda28834d0f69262ef00bb56bd87a0c0}{%
+           family={Aalbersberg},
+           familyi={A\bibinitperiod},
+           given={IJsbrand\bibnamedelima Jan},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8bd3ce56531164a76d2447bea864837}{%
+           family={Appleton},
+           familyi={A\bibinitperiod},
+           given={Gabrielle},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f12336d71cec892ed279b160d6fcd07d}{%
+           family={Axton},
+           familyi={A\bibinitperiod},
+           given={Myles},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24f9e2bf2d8c89090eef143a51d01653}{%
+           family={Baak},
+           familyi={B\bibinitperiod},
+           given={Arie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=372112f8c145373974f902b8035baa7f}{%
+           family={Blomberg},
+           familyi={B\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=311117127e85a09450298e1cb378cc6d}{%
+           family={Boiten},
+           familyi={B\bibinitperiod},
+           given={Jan-Willem},
+           giveni={J\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd75fc4b7a3c5f7d6d42f7728f3f7d0c}{%
+           family={Silva\bibnamedelima Santos},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Luiz\bibnamedelima Bonino},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=e8f011b361a44c99e0b3cd105b7553dc}{%
+           family={Bourne},
+           familyi={B\bibinitperiod},
+           given={Philip\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9488da8da5659df63bf99117fa2f9ee}{%
+           family={Bouwman},
+           familyi={B\bibinitperiod},
+           given={Jildau},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e180982f46493f6cb439a7bbd53f1af}{%
+           family={Brookes},
+           familyi={B\bibinitperiod},
+           given={Anthony\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bba4464ec5239427fac65cbdc01ac51}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a865493d8d32c6c8389526ac3db1094}{%
+           family={Crosas},
+           familyi={C\bibinitperiod},
+           given={Mercè},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb366b6058a04fe1ea1c863ef8c4dfad}{%
+           family={Dillo},
+           familyi={D\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5564ab842d98ada0438556f362c580d0}{%
+           family={Dumon},
+           familyi={D\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db3d00c1b751ab8f17377a6bf2efaa58}{%
+           family={Edmunds},
+           familyi={E\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6fb79f1c7b2c722d8da4e7a3722ff95}{%
+           family={Evelo},
+           familyi={E\bibinitperiod},
+           given={Chris\bibnamedelima T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a453f75d20f5c037ff3fd7b51bfaa4e6}{%
+           family={Finkers},
+           familyi={F\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc4c620883ee689cae65514ada231031}{%
+           family={Gonzalez-Beltran},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={Alejandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=469caa523876395d326def24d8bdac8d}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Alasdair\bibnamedelimb J.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d7e1f159093aa2ea8379d9b6bc6911}{%
+           family={Groth},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fae216475918e7d5a3fd11e334229e70}{%
+           family={Goble},
+           familyi={G\bibinitperiod},
+           given={Carole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9925b6a1596ccb7afcbbb01088b03876}{%
+           family={Grethe},
+           familyi={G\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0f707f5c85369ff12d6de8401c06be8}{%
+           family={Heringa},
+           familyi={H\bibinitperiod},
+           given={Jaap},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d9da13ed30e61644812e95642c929f5}{%
+           family={’t\bibnamedelima Hoen},
+           familyi={’\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Peter\bibnamedelimb A.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9dd97174300b10ac2034b39183863158}{%
+           family={Hooft},
+           familyi={H\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74d3522e91542051f26a4f98e94e2dc2}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc80a1a1784786b7fda18de16a5e8ae0}{%
+           family={Kok},
+           familyi={K\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3309ce5cd9060784c66cdc407cda4727}{%
+           family={Kok},
+           familyi={K\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b41307e9ec9e7a7330d83c3ada394f22}{%
+           family={Lusher},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9981013b5d636d7d01a6c304a9987904}{%
+           family={Martone},
+           familyi={M\bibinitperiod},
+           given={Maryann\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5428e75345796ac8e0bfe94e02203521}{%
+           family={Mons},
+           familyi={M\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0820d0abfb09b8a8d078b1d62c4cbca9}{%
+           family={Packer},
+           familyi={P\bibinitperiod},
+           given={Abel\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5e0b4d9215464126ab0ea279dcd42ca}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Bengt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5b9fa79dbb410a262d0944983ad71df}{%
+           family={Rocca-Serra},
+           familyi={R\bibinithyphendelim S\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2344e24f2e1e899651e65b125b76751e}{%
+           family={Roos},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9d8fc238610fcb30363164c89676fa6}{%
+           family={Schaik},
+           familyi={S\bibinitperiod},
+           given={Rene},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=1547ffdade7927d77c2e093fa8e4a751}{%
+           family={Sansone},
+           familyi={S\bibinitperiod},
+           given={Susanna-Assunta},
+           giveni={S\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50211e54acbb1f0a8b95712201e8e5c5}{%
+           family={Schultes},
+           familyi={S\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2c7d4bcdecd1b3de24af9fff656ad59}{%
+           family={Sengstag},
+           familyi={S\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b94dcda5ebae27c0012282aa255271d6}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4e243341e196cfc3361dbce9bd32d5e}{%
+           family={Strawn},
+           familyi={S\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44a68b189975ed6286a098d883dda6ef}{%
+           family={Swertz},
+           familyi={S\bibinitperiod},
+           given={Morris\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d16b02cf7ec69e3e95adecbb4e27cba}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de4d220d5abb86a89a83a5fdc6ac03d5}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=598e2753c9c6e071736c51e9e779e934}{%
+           family={Mulligen},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=34ae9ef8db900714e7a946ad3b1e482a}{%
+           family={Velterop},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cbf23b7864d72cafcd29753f1ffa48d}{%
+           family={Waagmeester},
+           familyi={W\bibinitperiod},
+           given={Andra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acf94d0e2887f580cae18ae08141005d}{%
+           family={Wittenburg},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7166c9ffe9aea2997923b3e54f99d253}{%
+           family={Wolstencroft},
+           familyi={W\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3313b0fb30c52802abe615a883198713}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=086ef7669a7dc6d647b7a650d7da0a15}{%
+           family={Mons},
+           familyi={M\bibinitperiod},
+           given={Barend},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f324cd0f485d0aaf63321d014f1f638f}
+      \strng{fullhash}{9c313fbfbf53ede1d73315c9ef8507c7}
+      \strng{bibnamehash}{56e59ba72bdd71b064419a0e1864d169}
+      \strng{authorbibnamehash}{56e59ba72bdd71b064419a0e1864d169}
+      \strng{authornamehash}{f324cd0f485d0aaf63321d014f1f638f}
+      \strng{authorfullhash}{9c313fbfbf53ede1d73315c9ef8507c7}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders—representing academia, industry, funding agencies, and scholarly publishers—have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.}
+      \field{day}{15}
+      \field{issn}{2052-4463}
+      \field{journaltitle}{Scientific Data}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{The {{FAIR Guiding Principles}} for Scientific Data Management and Stewardship}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{160018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/sdata.2016.18
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/GQDTLTWF/Wilkinson et al. - 2016 - The FAIR Guiding Principles for scientific data ma.pdf;/Users/felix/Bibs und Backup/Zotero/storage/PKM4KA8X/sdata201618.html
       \endverb
     \endentry
     \entry{winter_ManualScoringMotive_1994}{book}{}

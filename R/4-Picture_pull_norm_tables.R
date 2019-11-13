@@ -17,6 +17,7 @@ stories.each <- PSE %>%
 		aff = sum(aff),
 		ach = sum(ach),
 		pow = sum(pow),
+		overall = aff + ach + pow,
 		aff.present = as.numeric(any(aff > 0)),	# is there any aff coding present? We need it for bolding the table cells
 		ach.present = as.numeric(any(ach > 0)),
 		pow.present = as.numeric(any(pow > 0)),
@@ -41,7 +42,8 @@ pics <- stories.each %>% group_by(pic_id) %>% summarise(
 	pow.mean = mean(pow),
 	pow.sd = sd(pow, na.rm=TRUE),
 	pow.meanPresent = mean(pow.present),
-	overallPull = aff.mean + ach.mean + pow.mean,
+	overall.mean = mean(overall),
+	overall.sd = sd(overall, na.rm=TRUE),
 	sc.mean = mean(sc),
 	sc.sd = sd(sc, na.rm=TRUE),
 	wc.mean = mean(wc),
@@ -51,13 +53,13 @@ pics <- stories.each %>% group_by(pic_id) %>% summarise(
 	n.stories=n()
 )
 
-pics %>% arrange(-overallPull) %>% print(n=100)
+pics %>% arrange(-overall.mean) %>% print(n=100)
 
 
 # final table use only pictures with at least 50 stories in the data set
 # order by overall pull
 
-pics %>% filter(n.stories > 50) %>% arrange(-overallPull) %>% print(n=100)
+pics %>% filter(n.stories > 50) %>% arrange(-overall.mean) %>% print(n=100)
 
 pics %>% filter(pic_id %in% standardSix)
 
@@ -65,7 +67,7 @@ pics.round <- pics
 pics.round[, -1] <- round(pics.round[, -1], 2)
 
 # which new pictures have the highest motive pull?
-pics %>% filter(grepl("newpic", pic_id)) %>% arrange(-overallPull) %>% print(n=100)
+pics %>% filter(grepl("newpic", pic_id)) %>% arrange(-overall.mean) %>% print(n=100)
 
 export(pics.round, file="processed_data/picturePulls.xlsx")
 
@@ -75,21 +77,21 @@ export(pics.round, file="processed_data/picturePulls.xlsx")
 
 t1dat <- pics %>% 
 	filter(n.stories > 50) %>% 
-	arrange(-overallPull) %>% 
+	arrange(-overall.mean) %>% 
 	mutate(
 		picNumber = 1:n(),
 		# strings for the norm table
 		aff.output = paste0(f2bold.y(aff.mean, aff.meanPresent, 2), " (", f2(aff.sd, 2), ")"),
 		ach.output = paste0(f2bold.y(ach.mean, ach.meanPresent, 2), " (", f2(ach.sd, 2), ")"),
 		pow.output = paste0(f2bold.y(pow.mean, pow.meanPresent, 2), " (", f2(pow.sd, 2), ")"),
-		overall.output = f2(overallPull, 2),
+		overall.output = paste0(f2(overall.mean, 2), " (", f2(overall.sd, digits=2), ")"),
 		sc.output =  paste0(f2(sc.mean, 1), " (", f2(sc.sd, 1), ")"),
 		wc.output =  paste0(f2(wc.mean, 0), " (", f2(wc.sd, 0), ")"),
 		AI.output =  paste0(f2(AI.mean, 2), " (", f2(AI.sd, 2), ")"),
 		
-		aff.norm = aff.mean/overallPull,	# we need this for the ternary plot
-		ach.norm = ach.mean/overallPull,	# we need this for the ternary plot
-		pow.norm = pow.mean/overallPull		# we need this for the ternary plot
+		aff.norm = aff.mean/overall.mean,	# we need this for the ternary plot
+		ach.norm = ach.mean/overall.mean,	# we need this for the ternary plot
+		pow.norm = pow.mean/overall.mean		# we need this for the ternary plot
 	) 
 
 save(t1dat, file="processed_data/t1dat.RData")
@@ -105,7 +107,7 @@ t1$pic_id[t1$pic_id %in% standardSix] <- paste0("*", t1$pic_id[t1$pic_id %in% st
 t1$pic_id <- gsub("_", "\\_", t1$pic_id, fixed=TRUE)
 t1$pic_id <- gsub("&", "\\&", t1$pic_id, fixed=TRUE)
 
-colnames(t1) <- c("", "Pic ID", "Aff", "Ach", "Pow", "Overall", "Activity Inhib.", "Word count", "\\emph{n}")
+colnames(t1) <- c("", "Pic ID", "Aff", "Ach", "Pow", "Overall", "AI", "WC", "\\emph{n}")
 
 
 tab.norm <- xtable(t1, 
@@ -119,7 +121,7 @@ tab.norm <- xtable(t1,
 # (for the online appendix at https://osf.io/pqckn/wiki/Norm%20values%20for%20each%20picture/), including sc and wc
 
 wikitable <- pics %>% 
-	arrange(-overallPull) %>% 
+	arrange(-overall.mean) %>% 
 	mutate(
 		# strings for the norm table
 		aff.output = paste0(f2(aff.mean, 2), " (", f2(aff.sd, 2), ")"),
@@ -127,7 +129,7 @@ wikitable <- pics %>%
 		pow.output = paste0(f2(pow.mean, 2), " (", f2(pow.sd, 2), ")"),
 		sc.output = paste0(f2(sc.mean, digits=1), " (", f2(sc.sd, digits=1), ")"),
 		wc.output = paste0(f2(wc.mean, digits=0), " (", f2(wc.sd, digits=0), ")"),
-		overall.output = f2(overallPull, 2),
+		overall.output = paste0(f2(overall.mean, 2), " (", f2(overall.sd, digits=2), ")"),
 		AI.output =  paste0(f2(AI.mean, 2), " (", f2(AI.sd, 2), ")")
 	) 
 
@@ -197,7 +199,7 @@ t1dat$pow.label[3] <- t1dat$pow.norm[3] + .02
 #t1dat$pow.label[2] <- t1dat$pow.norm[2] + .03
 
 
-ternary.plot <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=overallPull, color=overallPull)) + 
+ternary.plot <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=overall.mean, color=overall.mean)) + 
 	geom_point() + 
 	geom_text(aes(x=ach.label, y=aff.label, z=pow.label, label=picNumber), hjust=0.5, size=3, color="black") + 
 	scale_colour_gradient(low="lightgreen", high="red") + 

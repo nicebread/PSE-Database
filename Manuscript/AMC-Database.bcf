@@ -2288,3 +2288,139 @@
     <bcf:datasource type="file" datatype="bibtex">Zotero.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">mcclelland_human_1987</bcf:citekey>
+    <bcf:citekey order="2">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="2">smith_motivation_1992</bcf:citekey>
+    <bcf:citekey order="3">mcclelland_MethodsMeasuringHuman_1958</bcf:citekey>
+    <bcf:citekey order="3">borsboom_concept_2004</bcf:citekey>
+    <bcf:citekey order="4">morgan_method_1935</bcf:citekey>
+    <bcf:citekey order="5">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="6">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="7">schultheiss_ImplicitMotives_2010</bcf:citekey>
+    <bcf:citekey order="8">smith_motivation_1992</bcf:citekey>
+    <bcf:citekey order="9">winter_ManualScoringMotive_1994</bcf:citekey>
+    <bcf:citekey order="10">winter_MeasuringPersonalityDistance_1991</bcf:citekey>
+    <bcf:citekey order="11">schultheiss_ImplicitMotivesShow_inpress</bcf:citekey>
+    <bcf:citekey order="11">kollner_SocialBiopsychologyImplicit_2019</bcf:citekey>
+    <bcf:citekey order="11">kollner_InfluenceImplicitMotives_2015</bcf:citekey>
+    <bcf:citekey order="11">janson_InhibitedPowerMotivation_2018a</bcf:citekey>
+    <bcf:citekey order="11">janson_ImplicitPowerMotive_2017</bcf:citekey>
+    <bcf:citekey order="11">zygar_EinflussEmotionalerIntelligenz_2013</bcf:citekey>
+    <bcf:citekey order="11">czikmantori_ExperienceIntrinsicMotivation_2018</bcf:citekey>
+    <bcf:citekey order="12">templ_StatisticalDisclosureControl_2015</bcf:citekey>
+    <bcf:citekey order="13">winter_ManualScoringMotive_1994</bcf:citekey>
+    <bcf:citekey order="14">pang_ContentCodingMethods_2010</bcf:citekey>
+    <bcf:citekey order="14">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="15">schultheiss_reliability_2008</bcf:citekey>
+    <bcf:citekey order="15">mcclelland_human_1987</bcf:citekey>
+    <bcf:citekey order="16">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="17">bates_parsimonious_2015</bcf:citekey>
+    <bcf:citekey order="18">nakagawa_general_2013</bcf:citekey>
+    <bcf:citekey order="18">johnson_extension_2014</bcf:citekey>
+    <bcf:citekey order="19">nimon_r_2008</bcf:citekey>
+    <bcf:citekey order="20">john_measuring_2012</bcf:citekey>
+    <bcf:citekey order="21">lin_StandardOperatingProcedures_2016</bcf:citekey>
+    <bcf:citekey order="22">winter_MeasuringPersonalityDistance_1991</bcf:citekey>
+    <bcf:citekey order="23">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="24">tabachnick_UsingMultivariateStatistics_2013</bcf:citekey>
+    <bcf:citekey order="25">kordik_ImplicitNeedAffiliation_2012</bcf:citekey>
+    <bcf:citekey order="26">keene_LogTransformationSpecial_1995</bcf:citekey>
+    <bcf:citekey order="27">erceg-hurn_modern_2008</bcf:citekey>
+    <bcf:citekey order="28">maechler_RobustbaseBasicRobust_2018</bcf:citekey>
+    <bcf:citekey order="29">yu_RobustLinearRegression_2014</bcf:citekey>
+    <bcf:citekey order="30">tausczik_PsychologicalMeaningWords_2010</bcf:citekey>
+    <bcf:citekey order="31">drescher_MetaanalyticEvidenceHigher_2016</bcf:citekey>
+    <bcf:citekey order="32">viechtbauer_conducting_2010</bcf:citekey>
+    <bcf:citekey order="33">drescher_MetaanalyticEvidenceHigher_2016</bcf:citekey>
+    <bcf:citekey order="34">smith_MethodologicalConsiderationsSteps_1992</bcf:citekey>
+    <bcf:citekey order="35">mcclelland_achievement_1953</bcf:citekey>
+    <bcf:citekey order="36">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="37">murray_thematic_1943</bcf:citekey>
+    <bcf:citekey order="38">schultheiss_AssessmentImplicitMotives_2001</bcf:citekey>
+    <bcf:citekey order="39">schultheiss_AssessmentImplicitMotives_2001</bcf:citekey>
+    <bcf:citekey order="40">pang_assessing_2005</bcf:citekey>
+    <bcf:citekey order="41">pang_assessing_2005</bcf:citekey>
+    <bcf:citekey order="42">pang_ContentCodingMethods_2010</bcf:citekey>
+    <bcf:citekey order="43">pang_ContentCodingMethods_2010</bcf:citekey>
+    <bcf:citekey order="44">schultheiss_AreImplicitExplicit_2009</bcf:citekey>
+    <bcf:citekey order="45">schultheiss_AreImplicitExplicit_2009</bcf:citekey>
+    <bcf:citekey order="46">langens_ActivityInhibition_2010</bcf:citekey>
+    <bcf:citekey order="47">pang_ContentCodingMethods_2010</bcf:citekey>
+    <bcf:citekey order="47">smith_MethodologicalConsiderationsSteps_1992</bcf:citekey>
+    <bcf:citekey order="47">jacobs_MethodInvestigatingCue_1958</bcf:citekey>
+    <bcf:citekey order="48">hamiltonGgternExtensionGgplot22017</bcf:citekey>
+    <bcf:citekey order="49">winter_ManualScoringMotive_1994</bcf:citekey>
+    <bcf:citekey order="50">feldman_TechniquesApplicationsSentiment_2013</bcf:citekey>
+    <bcf:citekey order="51">schultheiss_are_2013</bcf:citekey>
+    <bcf:citekey order="52">blei_LatentDirichletAllocation_2003</bcf:citekey>
+    <bcf:citekey order="53">atkinson_studying_1981</bcf:citekey>
+    <bcf:citekey order="53">hibbard_critique_2003</bcf:citekey>
+    <bcf:citekey order="53">schultheiss_reliability_2008</bcf:citekey>
+    <bcf:citekey order="54">tuerlinckx_measuring_2002</bcf:citekey>
+    <bcf:citekey order="54">lang_DynamicThurstonianItem_2014</bcf:citekey>
+    <bcf:citekey order="54">runge_ModelingMotiveActivation_2016</bcf:citekey>
+    <bcf:citekey order="54">schultheiss_reliability_2008</bcf:citekey>
+    <bcf:citekey order="54">schultheiss_implicit_2014</bcf:citekey>
+    <bcf:citekey order="55">tuerlinckx_measuring_2002</bcf:citekey>
+    <bcf:citekey order="55">lang_DynamicThurstonianItem_2014</bcf:citekey>
+    <bcf:citekey order="56">schultheiss_implicit_2014</bcf:citekey>
+    <bcf:citekey order="57">atkinson_dynamics_1970</bcf:citekey>
+    <bcf:citekey order="58">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="59">dabbs_ReliabilitySalivaryTestosterone_1995</bcf:citekey>
+    <bcf:citekey order="60">schultheiss_MeasuringImplicitMotives_2007</bcf:citekey>
+    <bcf:citekey order="60">smith_MethodologicalConsiderationsSteps_1992</bcf:citekey>
+    <bcf:citekey order="61">pang_ContentCodingMethods_2010</bcf:citekey>
+    <bcf:citekey order="62">ramsay_SetAmbiguityKey_2013</bcf:citekey>
+    <bcf:citekey order="63">wilkinson_FAIRGuidingPrinciples_2016</bcf:citekey>
+    <bcf:citekey order="64">winter_ManualScoringMotive_1994</bcf:citekey>
+    <bcf:citekey order="65">winter_MeasuringPersonalityDistance_1991</bcf:citekey>
+    <bcf:citekey order="65">winter_ManualScoringMotive_1994</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="apa">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">writer</bcf:sortitem>
+      <bcf:sortitem order="6">director</bcf:sortitem>
+      <bcf:sortitem order="7">producer</bcf:sortitem>
+      <bcf:sortitem order="8">execproducer</bcf:sortitem>
+      <bcf:sortitem order="9">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="10">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">pubstate</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+      <bcf:sortitem literal="1" order="3">-2000000000</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="7">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="apa/global//global/global"
+                type="entry"
+                sortingtemplatename="apa"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

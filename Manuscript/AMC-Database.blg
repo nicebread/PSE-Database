@@ -1,5 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'AMC-Database.blg'
-[82] biber-darwin:315> INFO - === Wed Dec  4, 2019, 09:59:17
-[109] Utils.pm:316> ERROR - AMC-Database.bcf is malformed, last biblatex run probably failed. Deleted AMC-Database.bbl
-[109] Biber.pm:114> INFO - ERRORS: 1
+[77] biber-darwin:315> INFO - === Wed Dec  4, 2019, 10:56:35
+[108] Biber.pm:375> INFO - Reading 'AMC-Database.bcf'
+[503] Biber.pm:905> INFO - Found 56 citekeys in bib section 0
+[532] Biber.pm:4196> INFO - Processing section 0
+[533] Utils.pm:75> INFO - Globbing data source 'Zotero.bib'
+[533] Utils.pm:91> INFO - Globbed data source 'Zotero.bib' to Zotero.bib
+[552] Biber.pm:4373> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
+[936] bibtex.pm:1462> INFO - LaTeX decoding ...
+[14775] bibtex.pm:1281> INFO - Found BibTeX data source 'Zotero.bib'
+[16202] Utils.pm:300> WARN - Possible typo (case mismatch) between datasource keys: 'klasnja_MicrorandomizedTrialsExperimental_2015' and 'klasnja_MicroRandomizedTrialsExperimental_2015' in file 'Zotero.bib'
+[16775] Utils.pm:300> WARN - year field 'in press' in entry 'schultheiss_ImplicitMotivesShow_inpress' is not an integer - this will probably not sort properly.
+[18465] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[18466] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[18466] Biber.pm:4024> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[18466] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[18612] bbl.pm:648> INFO - Writing 'AMC-Database.bbl' with encoding 'UTF-8'
+[18742] bbl.pm:751> INFO - Output to AMC-Database.bbl
+[18743] Biber.pm:110> INFO - WARNINGS: 2

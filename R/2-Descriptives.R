@@ -118,26 +118,11 @@ table(person.desc$n.stories, person.desc$study_id) %>% prop.table(margin=2)*100 
 ## Some demo sentences
 ## ======================================================================
 
-start <- which(str_detect(PSE$text, fixed("der reporter im bild")))
+start <- which(str_detect(PSE$text, fixed("Der Reporter im Bild")))
 demosentences0 <- PSE %>%
 	slice(start:(start+12)) %>% 
-	select(text, ach, aff, pow, motclassfull)
+	select(text_original, ach, aff, pow, motclassfull)
 	
-
-# correct some typos for the publication
-demosentences0$text <- c("der reporter im bild versucht sich einen eindruck vom leben der beschäftigten der schifffahrt in der vergangenheit zu machen.",
-"als er erfährt, dass dieser kapitän bei einem unwetter über 100 leben gerettet hat, beginnt er aufgeregt der sache auf den grund zu gehen.",
-"immerhin könnte das die geschichte sein, auf die er seit langem wartet.",
-"zwei freundinnen treffen sich um eine party vorzubereiten.",
-"dazu sitzen auf der terasse in einem restaurant und sammeln ideen für ein motto.",
-"außerdem wollen kurz aufteilen wer welche aufgaben bei der vorbereitung übernimmt.",
-"hinzu kommt ein weiterer freund, der die beiden erkannt hat.",
-"er möchte kurz eine minute aufmerksamkeit der beiden haben um hallo zu sagen.",
-"die beiden sind so vertieft in ihre arbeit, dass sie ihn gar nicht erst wahrnehmen.",
-"da er scheinbar schon länger steht ist er bereits etwas genervt.",
-"wir befinden uns im zirkus rogalli.",
-"die zwei akrobaten im bild sind bekannt für ihre gefährlichen kunststücke am trapez.",
-"mit ihrer neuen nummer gehen sie noch ein stück weiter.")
 
 # translation
 demosentences0$translation <- c(
@@ -158,7 +143,7 @@ demosentences0$translation <- c(
 
 # rearrange and define new column names
 demosentences <- demosentences0 %>% select(
-	"Text (original)" = text,
+	"Text (original)" = text_original,
 	"Text (translation)" = translation,
 	ach, aff, pow, motclassfull
 )

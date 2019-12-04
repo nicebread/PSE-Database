@@ -190,6 +190,15 @@
 \date{\today}
 
 
+% @article{schoenbrodt_pse_database,
+%   author  = {Schönbrodt, F. D. and Hagemeyer, B. and Brandstätter, V. and Czikmantori, T. and Gröpel, P. and Hennecke, M. and Israel, L. S. F. and Janson, K. and Kemper, N. and Köllner, M. and Kopp, P. M. and Mojzisch, A. and Müller-Hotop, R. and Prüfer, J. and Quirin, M. and Scheidemann, B. and Schiestel, L. and Schulz-Hardt, S. and Sust, L. and Zygar, C. and Schultheiss, O. C.},
+%   title   = {Measuring implicit motives with the Picture Story Exercise (PSE): Databases of expert-coded german stories, pictures, and updated picture norms},
+%   journal = {Journal of Personality Assessment},
+%   volume  = {},
+%   year    = {2019},
+%   pages   = {},
+% }
+
 % Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar, C., Schultheiss, O. C. (2018). Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms.
 % Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., ..., Schultheiss, O. C. (2018). Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms.
 
@@ -221,7 +230,7 @@ Correspondence concerning this article should be addressed to Felix Schönbrodt,
 
 
 
-We present two openly accessible databases related to the assessment of implicit motives using Picture Story Exercises (PSEs): (a) A database of 183,408 German sentences, nested in 26,389 stories provided by 4,570 participants, which have been coded by experts using Winter's (1994) coding system for the implicit affiliation/intimacy, achievement, and power motives, and (b) a database of 54 classic and new pictures which have been used as PSE stimuli. Updated picture norms are provided which can be used to select appropriate pictures for PSE applications.
+We present two openly accessible databases related to the assessment of implicit motives using Picture Story Exercises (PSEs): (a) A database of 183,415 German sentences, nested in 26,389 stories provided by 4,570 participants, which have been coded by experts using Winter's (1994) coding system for the implicit affiliation/intimacy, achievement, and power motives, and (b) a database of 54 classic and new pictures which have been used as PSE stimuli. Updated picture norms are provided which can be used to select appropriate pictures for PSE applications.
 Based on an analysis of the relations between raw motive scores, word count, and sentence count, we give recommendations on how to control motive scores for story length\added{, and validate the recommendation with a meta-analysis on gender differences in the implicit affiliation motive that replicates existing findings.} \added{We discuss to what extent the guiding principles of the story length correction can be generalized to other content coding systems for narrative material.}
 Several potential applications of the databases are discussed, including (un)supervised machine learning of text content, psychometrics, and better reproducibility of PSE research.
 
@@ -234,7 +243,7 @@ Several potential applications of the databases are discussed, including (un)sup
 \maketitle	%First line of text directly after \maketitle (no blank line)
 Implicit motives are nonconscious motivational needs that orient, select, and energize behavior \parencite{mcclelland_human_1987}. A common approach to measuring implicit motives, such as affiliation, power, or achievement motives, is the Picture Story Exercise (PSE; \nptextcite{schultheiss_MeasuringImplicitMotives_2007,smith_motivation_1992}). The PSE is a modern, experimentally validated \parencite{mcclelland_MethodsMeasuringHuman_1958,borsboom_concept_2004} version of the classic Thematic Apperception Test (TAT; \nptextcite{morgan_method_1935}). In this task, several ambiguous pictures are presented to participants who are asked to write an imaginative story in response to each picture. These stories are then coded by trained coders using empirically derived and validated content coding systems, which quantify the amount of motive imagery in each story. Motive-related imagery is used as an indicator for the strength of the implicit motive.
 
-``Picture Story Exercise'' is a rather generic term as instructions, pictures, and coding systems can vary between applications. However, some standardization has taken place in recent years. For example, a standard set of six pictures has been suggested, which provides a roughly balanced motivational pull for each of the achievement, affiliation, and power motives \parencite{schultheiss_MeasuringImplicitMotives_2007}. However, the existence of such a standard picture set does not mean that other pictures should not be used: \textcite{schultheiss_MeasuringImplicitMotives_2007} recommended using other, specific picture sets if only one motive is assessed or one wants to predict behavior in a specific situational context based on pictures related to this context. Furthermore, multiple coding systems exist for several motives (for an overview, see \nptextcite{schultheiss_ImplicitMotives_2010}, or \nptextcite{smith_motivation_1992}). Many coding systems focus on one single motive, but one prominent exception is David Winter's (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}. This integrated coding system allows to assess three implicit motives simultaneously \parencite{winter_MeasuringPersonalityDistance_1991}: the needs for achievement (\emph{ach}), power (\emph{pow}), and affiliation/intimacy (\emph{aff}).\footnote{Affiliation/intimacy is a fusion of originally separate coding systems for affiliation and intimacy. Here we use the abbreviation \emph{aff} for the combined affiliation/intimacy category.} It currently has been the most commonly employed system, and will be the focus of this publication.
+``Picture Story Exercise'' is a rather generic term as instructions, pictures, and coding systems can vary between applications. However, some standardization has taken place in recent years. For example, a standard set of six pictures has been suggested, which provides a roughly balanced motivational pull for each of the achievement, affiliation, and power motives \parencite{schultheiss_MeasuringImplicitMotives_2007}. However, the existence of such a standard picture set does not mean that other pictures should not be used: \textcite{schultheiss_MeasuringImplicitMotives_2007} recommended using other, specific picture sets if only one motive is assessed or one wants to predict behavior in a specific situational context based on pictures related to this context. Furthermore, multiple coding systems exist for several motives (for an overview, see \nptextcite{schultheiss_ImplicitMotives_2010}, or \nptextcite{smith_motivation_1992}). Many coding systems focus on one single motive, but one prominent exception is David Winter's (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}. This integrated coding system allows three implicit motives to be assessed simultaneously \parencite{winter_MeasuringPersonalityDistance_1991}: the needs for achievement (\emph{ach}), power (\emph{pow}), and affiliation/intimacy (\emph{aff}).\footnote{Affiliation/intimacy is a fusion of originally separate coding systems for affiliation and intimacy. Here we use the abbreviation \emph{aff} for the combined affiliation/intimacy category.} Currently, it is the most commonly employed system and will be the focus of this publication.
 
 The current paper has four goals: (1) To present a large database of stories that have been coded for implicit motives using the Winter coding system, (2) to provide a systematic database of 54 classic and new picture stimuli that have been used in PSEs, (3) to provide updated norms for picture pulls (i.e., the propensity of a picture to elicit a certain kind of motive image), and \added{(4) to provide a recommended approach for how motive scores should be corrected for story length.}
 
@@ -244,7 +253,7 @@ The text database can be used for several research topics, both within and beyon
 \section{A Database of Coded PSE Stories}
 
 Several labs contributed datasets for building a large database of coded PSE stories in German. The inclusion criteria were (a) the stories were coded using the Winter coding system, (b) all coders were trained by experts, had extensive coding experience, and achieved good convergence with training material coded by experts (such as ICC $\geq .85$, category agreement $\geq .85$), and (c) the stories were coded sentence-wise.
-The included datasets come from a diverse range of studies, including lab and online administrations of the PSE tasks, differing numbers and types of pictures, and diverse samples. Some of the datasets come from published work \parencite{kollner_SocialBiopsychologyImplicit_2019,kollner_InfluenceImplicitMotives_2015,janson_InhibitedPowerMotivation_2018a,janson_ImplicitPowerMotive_2017,zygar_EinflussEmotionalerIntelligenz_2013,czikmantori_ExperienceIntrinsicMotivation_2018}, others are hitherto undocumented new or archival datasets. For a few of these archival datasets no person-level sample descriptives could be recovered. Table~\ref{tab:codebook} explains all variables of the database and their meaning, Table~\ref{tab:studies} provides an overview of all included primary raw data sources and some study-level descriptives. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.
+The included datasets come from a diverse range of studies, including lab and online administrations of the PSE tasks, differing numbers and types of pictures, and diverse samples. Some of the datasets come from published work \parencite[e.g.][]{schultheiss_ImplicitMotivesShow_inpress,kollner_SocialBiopsychologyImplicit_2019,kollner_InfluenceImplicitMotives_2015,janson_InhibitedPowerMotivation_2018a,janson_ImplicitPowerMotive_2017,zygar_EinflussEmotionalerIntelligenz_2013,czikmantori_ExperienceIntrinsicMotivation_2018}, others are hitherto undocumented new or archival datasets. For a few of these archival datasets no person-level sample descriptives could be recovered. Table~\ref{tab:codebook} explains all variables of the database and their meaning, Table~\ref{tab:studies} provides an overview of all included primary raw data sources and some study-level descriptives. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender. \added{Furthermore, we defined around 20\% of the data set as a hold out set, which should be used for cross-validation in future machine learning studies. The hold out set consists of three entire studies (MK1, TC\_TAI1, RMH), each coded in another location. In addition, a random sample of 10\% of all persons from the other studies was added, excluding the FS\_newpic study, which only has very few scorings per picture. The story text from the holdout set has been redacted, but all other information (such as gender, age, motive categories, etc.) is still present.}
 
 \begin{table*}
 \begin{threeparttable}
@@ -254,7 +263,7 @@ The included datasets come from a diverse range of studies, including lab and on
 		\begin{tabularx}{\textwidth}{llXX}
 		\toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:00 2019
+% Wed Dec  4 10:48:41 2019
 Variable name & Data type & Comment & Values \\ 
   \hline
 row\_id & numeric & Unique row id &  \\ 
@@ -263,7 +272,7 @@ row\_id & numeric & Unique row id &  \\
   scoring\_type & factor & Second sentence rule applied? & eachSentence, 2nd\_sentence\_rule \\ 
   participant\_id & factor & Unique person identifier &  \\ 
   gender & factor & Gender & m = male, f = female, NA = missing/other \\ 
-  age & factor & Age category & $<$= 25, 25 $<$ age $<$= 35, 35 $<$ age $<$= 45, 45 $<$ age $<$= 55, age $>$ 55 \\ 
+  age & factor & Age category & age $<$= 25, 25 $<$ age $<$= 35, 35 $<$ age $<$= 45, 45 $<$ age $<$= 55, age $>$ 55 \\ 
   USID & factor & Unique story identifier &  \\ 
   UTID & factor & Unique text identifier (each sentence is one 'text') &  \\ 
   pic\_id & factor & Unique picture identifier & See https://osf.io/pqckn/ \\ 
@@ -303,15 +312,15 @@ row\_id & numeric & Unique row id &  \\
 
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:00 2019
+% Wed Dec  4 10:48:41 2019
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\ 
   \hline
-BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de & CL & mostly students \\ 
-  CZ & 987 & 141 &   7 & eachSentence & Munich & fixed & 73\% & 2013 & de & CO & students \\ 
-  FS\_ErlSem & 287 &  41 &   7 & eachSentence & Munich & fixed & - & 2015 & de & H & students \\ 
-  FS\_MOCO & 1009 & 144 &   8 & eachSentence & Munich & fixed & 79\% & 2013 & de & CO & mostly non-students \\ 
-  FS\_newpic & 275 &  53 &  30 & eachSentence & Munich & variable & - & 2016 & de & CO & mostly non-students \\ 
-  FS\_TSST & 578 &  97 &   6 & 2nd\_sentence\_rule & Munich & fixed & 53\% & 2011-2012 & de & CL & students \\ 
+BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & DE & CL & mostly students \\ 
+  CZ & 987 & 141 &   7 & eachSentence & Munich & fixed & 73\% & 2013 & DE & CO & students \\ 
+  FS\_ErlSem & 287 &  41 &   7 & eachSentence & Munich & fixed & - & 2015 & DE & H & students \\ 
+  FS\_MOCO & 1009 & 144 &   8 & eachSentence & Munich & fixed & 79\% & 2013 & DE & CO & mostly non-students \\ 
+  FS\_newpic & 275 &  53 &  30 & eachSentence & Munich & variable & - & 2016 & DE & CO & mostly non-students \\ 
+  FS\_TSST & 578 &  97 &   6 & 2nd\_sentence\_rule & Munich & fixed & 53\% & 2011-2012 & DE & CL & students \\ 
   JP & 3989 & 800 &   5 & eachSentence & Munich & variable & 50\% & 2016-2018 & DE & CL \& CO & students \\ 
   KJ & 671 & 112 &   6 & eachSentence & Erlangen & variable & 58\% & 2015 & DE & CL & mostly non-students \\ 
   LI & 1140 & 192 &   6 & eachSentence & Munich & fixed & 63\% & 2018-2019 & DE & CO & mostly students \\ 
@@ -340,7 +349,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 		\begin{tablenotes}[para,flushleft]
 			{\small
 			\vspace*{0.75em}
-			\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8.}
+			\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. DE = Germany, CH = Switzerland.  \emph{students} in the \emph{Population} column are university students. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8.}
     \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable*}
@@ -372,15 +381,15 @@ All stories were coded according to the Winter (\citeyear{winter_ManualScoringMo
 
 
 
-The unit of coding is the sentence. Each sentence can be independently coded for the presence of any of the three motive categories \emph{aff}, \emph{ach}, or \emph{pow}. The manual defines an exception to this rule: If a certain motive has been coded (e.g., \emph{aff}), then another motive image is present (e.g., \emph{pow}) and then the first motive category \emph{aff} is present again in the same sentence, it can be coded twice in a sentence. \added{However, such a combination of motives happens very rarely (in about 0.5\% of all sentences in the current database). Therefore, the current database does not incorporate such double codings of a motive in a single sentence and only codes the dichotomous presence (= 1) or absence (= 0) of a motive image for each sentence. This method of coding allows to combine the slightly different lab-specific coding conventions, and furthermore facilitates later use of the database for automatic text analyses and psychometric analyses.} 
+The unit of coding is the sentence. Each sentence can be independently coded for the presence of any of the three motive categories \emph{aff}, \emph{ach}, or \emph{pow}. The manual defines an exception to this rule: If a certain motive has been coded (e.g., \emph{aff}), then another motive image is present (e.g., \emph{pow}) and then the first motive category \emph{aff} is present again in the same sentence, it can be coded twice in a sentence. \added{However, such a combination of motives happens very rarely (in about 0.5\% of all sentences in the current database). Therefore, the current database does not incorporate such double codings of a motive in a single sentence and only codes the dichotomous presence (= 1) or absence (= 0) of a motive image for each sentence. This method of coding allows to unify the slightly different lab-specific coding conventions, and furthermore facilitates later use of the database for automatic text analyses and psychometric analyses.} 
 Following from the combinations of the three motive categories, a sentence can belong to no category (\emph{null}), a single category (e.g., \emph{ach}), or multiple categories (e.g., \emph{achaff} or \emph{achaffpow}).
 
 A second deviation from the manual concerns the ``2nd-sentence-rule''. This coding convention states that a motive of a certain category cannot be coded in two consecutive sentences. For example, if \emph{ach} imagery is present in three consecutive sentences, it is only coded in the first and the third sentence. However, the same motive can be coded in both of two consecutive sentences if the two categories are separated by codings for another motive. 
 \added{However, omitting codings in such a way might lead to a loss of relevant diagnostic information. For this reason, several labs abandoned the 2nd-sentence rule, as it unnecessarily increases the frequency of the \emph{null} category and distorts analyses for psychometric models.} The majority of all stories (73.2\%) was coded without applying the 2nd-sentence-rule. Hence, in these stories each sentence is coded independently of the codings of the previous sentence.
 
-Finally, some of the stories of the included studies were coded by multiple coders. In some cases, differences were resolved via discussion and coders agreed on a final coding. In other cases, however, the diverging scores were averaged, which could lead to fractional scores, such as 0.5 \emph{aff}. As one main purpose of the database is to provide training data for automatic text analysis, which requires unambiguous assignments of sentences to categories, we decided to enter only distinct scores of 0 or 1. In cases where multiple experts coded the same stories and did not agree, we either relied on the coder who demonstrated the better performance, measured by agreement with expert-coded material, who had more experience in coding PSE stories, or, for consistency, used a coder who coded multiple included PSE datasets.
+Finally, some of the stories of the included studies were coded by multiple coders. In some cases, differences were resolved via discussion and coders agreed on a final coding. In other cases, however, the diverging scores were averaged, which could lead to fractional scores, such as 0.5 \emph{aff}. As one main purpose of the database is to provide training data for automatic text analysis, which requires unambiguous assignments of sentences to categories, we decided to enter only distinct scores of 0 or 1. In cases where multiple experts coded the same stories and did not agree, we either relied on the coder who demonstrated the better performance, measured by agreement with expert-coded material, who had more experience in coding PSE stories, or, for consistency, used data from a coder who coded multiple included PSE datasets.
 
-Stories were minimally preprocessed by automatically splitting them into sentences, converting all words to lowercase, and by removing trailing and leading whitespace. Furthermore we put in some effort to correct spelling errors. However, given the size of the database and that no fully automatic correction is possible, some typographical errors may remain in the stories. Table~\ref{tab:dathead} shows some rows of the dataset, and how sentences are coded (Note: Grammatical errors are from the original texts, as provided by participants.).
+Stories were minimally preprocessed by automatically splitting them into sentences and by removing trailing and leading whitespace and special characters. Furthermore we put in some effort to correct spelling errors. However, given the size of the database and that no fully automatic correction is possible, some typographical errors may remain in the stories. Table~\ref{tab:dathead} shows some rows of the dataset, and how sentences are coded (Note: Grammatical errors are from the original texts, as provided by participants.).
 
 
 \begin{table*}
@@ -392,22 +401,22 @@ Stories were minimally preprocessed by automatically splitting them into sentenc
 		\toprule
 		
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:00 2019
+% Wed Dec  4 10:48:41 2019
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\ 
   \hline
-der reporter im bild versucht sich einen eindruck vom leben der beschäftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\ 
-  als er erfährt, dass dieser kapitän bei einem unwetter über 100 leben gerettet hat, beginnt er aufgeregt der sache auf den grund zu gehen. & When he finds out that this captain saved more than 100 lives during a storm, he excitedly begins to investigate the matter. &   0 &   0 &   1 & pow \\ 
-  immerhin könnte das die geschichte sein, auf die er seit langem wartet. & After all, this could be the story he has been waiting for for a long time. &   0 &   0 &   0 & null \\ 
-  zwei freundinnen treffen sich um eine party vorzubereiten. & Two friends get together and prepare a party. &   0 &   1 &   0 & aff \\ 
-  dazu sitzen auf der terasse in einem restaurant und sammeln ideen für ein motto. & For this purpose, they are sitting on the terrace of a restaurant collecting ideas for the party’s theme. &   0 &   1 &   0 & aff \\ 
-  außerdem wollen kurz aufteilen wer welche aufgaben bei der vorbereitung übernimmt. & Besides, they want to divvy up what needs to be done in preparation. &   0 &   0 &   0 & null \\ 
-  hinzu kommt ein weiterer freund, der die beiden erkannt hat. & Another friend, who has recognized them, joins. &   0 &   1 &   0 & aff \\ 
-  er möchte kurz eine minute aufmerksamkeit der beiden haben um hallo zu sagen. & He wants to get the girls’ attention for a bit to say hello. &   0 &   1 &   0 & aff \\ 
-  die beiden sind so vertieft in ihre arbeit, dass sie ihn gar nicht erst wahrnehmen. & Both girls are so absorbed in their work that they do not even notice him. &   0 &   0 &   0 & null \\ 
-  da er scheinbar schon länger steht ist er bereits etwas genervt. & It looks like he has been standing there for a while now and he is already somewhat annoyed. &   0 &   0 &   0 & null \\ 
-  wir befinden uns im zirkus rogalli. & We are at circus Rogalli. &   0 &   0 &   0 & null \\ 
-  die zwei akrobaten im bild sind bekannt für ihre gefährlichen kunststücke am trapez. & The two acrobats in the picture are famous for their dangerous feats on the trapeze. &   1 &   0 &   1 & achpow \\ 
-  mit ihrer neuen nummer gehen sie noch ein stück weiter. & They go one step further with their new stunt. &   1 &   0 &   0 & ach \\ 
+Der Reporter im Bild versucht sich einen Eindruck vom Leben der Beschäftigten der Schiffahrt in der Vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\ 
+  Als er erfährt, dass dieser Kapitän bei einem Unwetter über 100 Leben gerettet hat, beginnt er aufgeregt der Sache auf den Grund zu gehen. & When he finds out that this captain saved more than 100 lives during a storm, he excitedly begins to investigate the matter. &   0 &   0 &   1 & pow \\ 
+  Immerhin könnte das die Geschichte sein, auf die er seit langem wartet. & After all, this could be the story he has been waiting for for a long time. &   0 &   0 &   0 & null \\ 
+  Zwei Freundinnen  treffen sich um eine Party vorzubereiten. & Two friends get together and prepare a party. &   0 &   1 &   0 & aff \\ 
+  Dazu sitzen auf der Terasse in einem Restaurant und Sammeln Ideen für ein Motto. & For this purpose, they are sitting on the terrace of a restaurant collecting ideas for the party’s theme. &   0 &   1 &   0 & aff \\ 
+  Außerdem wollen kurz aufteilen wer welche Aufgaben bei der Vorbereitung übernimmt. & Besides, they want to divvy up what needs to be done in preparation. &   0 &   0 &   0 & null \\ 
+  Hinzu kommt ein weiterer Freund, der die beiden erkannt hat. & Another friend, who has recognized them, joins. &   0 &   1 &   0 & aff \\ 
+  Er möchte kurz eine Minute Aufmerksamkeit der beiden haben um Hallo zu sagen. & He wants to get the girls’ attention for a bit to say hello. &   0 &   1 &   0 & aff \\ 
+  Die beiden sind so vertieft in ihre Arbeit, dass sie ihn gar nicht erst wahrnehmen. & Both girls are so absorbed in their work that they do not even notice him. &   0 &   0 &   0 & null \\ 
+  Da er scheinbar schon länger steht ist er bereits etwas genervt. & It looks like he has been standing there for a while now and he is already somewhat annoyed. &   0 &   0 &   0 & null \\ 
+  Wir befinden uns im Zirkus Rogalli. & We are at circus Rogalli. &   0 &   0 &   0 & null \\ 
+  Die zwei Acrobaten im Bild sind bekannt für ihre gefährlichen Kunststücke am Trapez. & The two acrobats in the picture are famous for their dangerous feats on the trapeze. &   1 &   0 &   1 & achpow \\ 
+  Mit ihrer neuen Nummer gehen sie noch ein Stück weiter. & They go one step further with their new stunt. &   1 &   0 &   0 & ach \\ 
    \hline
 
 		\bottomrule
@@ -418,13 +427,13 @@ der reporter im bild versucht sich einen eindruck vom leben der beschäftigten d
 
 The database combines coded PSE stories from 26 studies. Overall, 54 different pictures were used, although 30 of them (``newpic'') were just recently added and some of them have only very few coded stories (see Table~\ref{tab:norms}). Therefore all picture-related descriptive statistics below have been computed for pictures that have at least 50 coded stories.
 
-Overall, the database consists of 183,408 sentences coded with the Winter system, which are nested in 26,389 stories provided by 4,570 participants. Most participants wrote stories to 5 pictures (29.2\%) or 6 pictures (52.7\%) during their PSE task. The other studies had four, seven, or eight pictures. A story had on average 6.9 (\emph{SD} = 3.3) sentences and 92.3 (\emph{SD} = 35.6) words. These counts were roughly comparable for all pictures, ranging from an average sentence count of 5.1 for picture \emph{neymar \& marcelo} to 7.6 for \emph{sorrow}. The average word count was between 78 and 107, except for picture \emph{neymar \& marcelo} which had only 59 words on average.
+Overall, the database consists of 183,415 sentences coded with the Winter system, which are nested in 26,389 stories provided by 4,570 participants. Most participants wrote stories to 5 pictures (29.2\%) or 6 pictures (52.7\%) during their PSE task. The other studies had four, seven, or eight pictures. A story had on average 6.9 (\emph{SD} = 3.3) sentences and 92.3 (\emph{SD} = 35.6) words. These counts were roughly comparable for all pictures, ranging from an average sentence count of 5.1 for picture \emph{neymar \& marcelo} to 7.6 for \emph{sorrow}. The average word count was between 78 and 107, except for picture \emph{neymar \& marcelo} which had only 59 words on average.
 
 
 Table~\ref{tab:motcat} shows the frequency of codings for each of the three motives. These proportions were only computed on studies that did not apply the 2nd-sentence-rule. Most sentences did not receive any motive category, and only a few sentences had simultaneously two or even all three motive categories.
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:01 2019
+% Wed Dec  4 10:48:41 2019
 \begin{table}[ht]
 \centering
 \caption{Frequency of motive codes and their combinations.} 
@@ -453,45 +462,45 @@ It has been shown that motive counts have a positive correlation with the length
 (B) A confounding with unrelated variables, such as verbal fluency, typing speed, creativity, or general vividness of fantasy can cause the relationship. From this perspective, persons who have more experience in typing on a computer keyboard have longer stories and are consequently ascribed stronger motives in the absence of a control for story length.
 (C) The length of the story can also contain an actual signal related to implicit motives. Persons with a strong implicit motive are assumed to have a dense associative network which connects autobiographical experiences, situational cues, emotional experiences, and behavioral strategies around a motivational theme \parencite{schultheiss_reliability_2008,mcclelland_human_1987}. It is plausible that such a dense associative network makes it easier to generate rapidly available motive-related imagery, which results in more elaborate stories. From this perspective, an increased number of codings due to longer stories may be viewed as a valid indicator of motive strength.
 
-In practice, every PSE dataset probably features a mixture of all factors. The challenge is that motive researchers typically want to control for A and B, but not for C. But any attempt to control for one factor probably has unwanted side-effects on factors that contain a true signal (``overcontrolling''). Consequently, there is no easy solution to this problem. Typically two methods have been employed to deal with these confounds \parencite{schultheiss_MeasuringImplicitMotives_2007}: Either (linearly) residualizing motive scores for word count, or computing density scores (i.e., motive codings per 1000 words). Since the unit of coding is the sentence, however, both residuals and density scores could arguably be computed with sentence count instead of word count.\footnote{Given that the modeled outcome variable (i.e., raw motive codings) represents strictly non-negative count data, more specific regression approaches would be appropriate. The distributions of raw motive scores of all three motives follow very closely a negative binomial distribution, which suggests a corresponding generalized linear model for count data. However, the main focus of the current analysis is not the hypothesis test, and the residuals on person level from a Gaussian linear regression correlate $\geq .90$ with residuals from a negative binomial regression. Therefore, we focus on the traditionally applied Gaussian linear models and acknowledge the model misspecification, in order to increase the simplicity of practically applying the correction.}
+In practice, every PSE dataset probably features a mixture of all factors. The challenge is that motive researchers typically want to control for A and B, but not for C. But any attempt to control for one factor probably has unwanted side-effects on factors that contain a true signal (``overcontrolling''). Consequently, there is no easy solution to this problem. Typically two methods have been employed to deal with these confounds \parencite{schultheiss_MeasuringImplicitMotives_2007}: Either (linearly) residualizing motive scores for word count, or computing density scores (i.e., motive codings per 1000 words). Since the unit of coding is the sentence, however, both residuals and density scores could arguably be computed with sentence count instead of word count.\footnote{Given that the modeled outcome variable (i.e., raw motive codings) represents strictly non-negative count data, more specific regression approaches would be appropriate. The distributions of raw motive scores of all three motives follow very closely a negative binomial distribution, which suggests a corresponding generalized linear model for count data. However, the main focus of the current analysis is not the hypothesis test, and the residuals at the person level from a Gaussian linear regression correlate $\geq .90$ with residuals from a negative binomial regression. Therefore, we focus on the traditionally applied Gaussian linear models and acknowledge the model misspecification, in order to increase the simplicity of practically applying the correction.}
 
-For an empirical analysis of the word/sentence count and raw motive scores relations, we reduced the dataset to 3,332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use pictures with too few stories. 
+For an empirical analysis of the word/sentence count and raw motive scores relations, we reduced the dataset to 3,332 persons, nested in 17 studies that did not apply the 2nd-sentence rule and did not use pictures with too few stories. 
 Table~\ref{tab:descCor} shows descriptive statistics and bivariate correlations between key variables. 
-Traditionally, story length correction has been done on person level, by aggregating both the raw motive scores and the word counts across all picture stories of a person. 
-Therefore, the correlations in Table~\ref{tab:descCor} also are on person level. 
+Traditionally, story length correction has been done at the person level, by aggregating both the raw motive scores and the word counts across all picture stories of a person. 
+Therefore, the correlations in Table~\ref{tab:descCor} also are at the person level. 
 As the number of pictures differed between included studies, the correlations were computed within study and then meta-analytically aggregated across studies. Means and \emph{SD}s, in contrast, were computed per picture story, as the number of pictures varies between studies. 
 
 
 \begin{sidewaystable*}
 %\begin{table*}
 	\begin{threeparttable}
-		\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations on Person Level.}
+		\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations at the Person Level.}
 		\label{tab:descCor}
 		\footnotesize
 		%\begin{tabular}{lrrlllllllllllllllll}
 		\begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 		\toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:01 2019
+% Wed Dec  4 10:48:41 2019
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\ 
   \hline
-(1) Aff motive score & 1.13 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\ 
+(1) Aff motive score & 1.14 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\ 
   (2) Aff motive score, word count resid. & 0.00 & 3.08 &  & - & .93 & .91 & .80 & .06 & .06 & .04 & .05 & .01 & -.04 & -.05 & -.09 & -.06 & -.11 & .00 & .07 \\ 
   (3) Aff motive score, sentence count resid. & 0.00 & 3.22 &  &  & - & .82 & .87 & .10 & .04 & .11 & -.01 & .07 & .04 & -.09 & .04 & -.08 & .02 & .18 & .00 \\ 
   (4) Aff motive density (per 1000 words) & 12.95 & 7.57 &  &  &  & - & .84 & -.01 & .05 & .01 & .09 & .01 & -.13 & -.06 & -.13 & -.07 & -.13 & -.16 & -.05 \\ 
   (5) Aff motive density (per sentence) & 0.18 & 0.10 &  &  &  &  & - & -.01 & .01 & .07 & .02 & .18 & -.10 & -.10 & .02 & -.09 & .10 & -.04 & -.28 \\ 
-  (6) Ach motive score & 0.78 & 0.51 &  &  &  &  &  & - & .94 & .96 & .80 & .76 & .21 & .02 & .08 & .03 & .01 & .34 & .29 \\ 
+  (6) Ach motive score & 0.78 & 0.51 &  &  &  &  &  & - & .94 & .95 & .80 & .76 & .21 & .02 & .08 & .03 & .01 & .34 & .29 \\ 
   (7) Ach motive score, word count resid. & 0.00 & 2.49 &  &  &  &  &  &  & - & .97 & .91 & .84 & .02 & .02 & .00 & .02 & -.03 & .00 & .05 \\ 
   (8) Ach motive score, sentence count resid. & 0.00 & 2.52 &  &  &  &  &  &  &  & - & .86 & .87 & .07 & .00 & .08 & .00 & .05 & .11 & .00 \\ 
-  (9) Ach motive density (per 1000 words) & 9.18 & 6.06 &  &  &  &  &  &  &  &  & - & .89 & -.09 & .01 & -.05 & .01 & -.06 & -.21 & -.12 \\ 
+  (9) Ach motive density (per 1000 words) & 9.18 & 6.06 &  &  &  &  &  &  &  &  & - & .89 & -.09 & .01 & -.05 & .01 & -.06 & -.21 & -.11 \\ 
   (10) Ach motive density (per sentence) & 0.12 & 0.08 &  &  &  &  &  &  &  &  &  & - & -.08 & -.03 & .05 & -.03 & .10 & -.12 & -.29 \\ 
   (11) Pow motive score & 1.23 & 0.90 &  &  &  &  &  &  &  &  &  &  & - & .84 & .88 & .81 & .75 & .56 & .48 \\ 
   (12) Pow motive score, word count resid. & 0.00 & 3.21 &  &  &  &  &  &  &  &  &  &  &  & - & .91 & .94 & .81 & .00 & .09 \\ 
   (13) Pow motive score, sentence count resid. & 0.00 & 3.37 &  &  &  &  &  &  &  &  &  &  &  &  & - & .86 & .91 & .21 & .00 \\ 
   (14) Pow motive density (per 1000 words) & 13.58 & 8.93 &  &  &  &  &  &  &  &  &  &  &  &  &  & - & .86 & .03 & .09 \\ 
   (15) Pow motive density (per sentence) & 0.19 & 0.13 &  &  &  &  &  &  &  &  &  &  &  &  &  &  & - & .11 & -.14 \\ 
-  (16) Word count per story & 90.65 & 31.87 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & - & .76 \\ 
-  (17) Sentence count per story & 6.75 & 2.72 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & - \\ 
+  (16) Word count per story & 90.66 & 31.94 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & - & .76 \\ 
+  (17) Sentence count per story & 6.76 & 2.73 &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & - \\ 
    \hline
 
 		\bottomrule
@@ -499,7 +508,7 @@ As the number of pictures differed between included studies, the correlations we
 		\begin{tablenotes}[para,flushleft]
 			{\small
 			\vspace*{0.75em}
-			\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study on person level and then meta-analytically aggregated across studies.}
+			\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study at the person level and then meta-analytically aggregated across studies.}
 	      \end{tablenotes}
 	  \end{threeparttable}
 %\end{table*}
@@ -507,11 +516,11 @@ As the number of pictures differed between included studies, the correlations we
 
 
 \subsubsection{The joint impact of sentence and word counts on overall motive scores}
-Concerning potential indicators of story length, sentence count sets an upper limit of attainable motive codings in our database.\footnote{Again, this applies because we allowed a maximum of one coding per sentence per motive. In the original Winter coding system, multiple codings per motive are possible if two motive images are separated by another motive image within the same sentence.} But word count could have an incremental contribution, as longer sentences might have a higher chance of getting a motive coding. Therefore, we analyze the unique and common impact of both indicators of story length. Again, we performed the analyses on person level by aggregating raw motive scores, word counts, and sentence counts across all stories of each person.
+Concerning potential indicators of story length, sentence count sets an upper limit of attainable motive codings in our database.\footnote{Again, this applies because we allowed a maximum of one coding per sentence per motive. In the original Winter coding system, multiple codings per motive are possible if two motive images are separated by another motive image within the same sentence.} But word count could have an incremental contribution, as longer sentences might have a higher chance of getting a motive coding. Therefore, we analyze the unique and common impact of both indicators of story length. Again, we performed the analyses at the person level by aggregating raw motive scores, word counts, and sentence counts across all stories of each person.
 
 Furthermore, slopes for word and sentence count might vary between studies. To allow and account for such variations and the nested structure of the data set, we computed mixed effects models with sentence and word count as predictors, and random intercepts and slopes for the grouping variable \emph{study\_id}. In order to attain model convergence, we $z$-standardized sentence and word count and excluded covariances between random effects \parencite{bates_parsimonious_2015}. Finally, we explored the incremental contributions of squared sentence and word count. We added squared predictors as fixed effects, but did not add random slopes for the squared terms due to convergence problems.
 
-Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (marginal $R^2$, \nptextcite{nakagawa_general_2013,johnson_extension_2014}) and the random variance of the linear slopes.
+Table~\ref{tab:mlmtab} summarizes the explained variance of the fixed effects (marginal $R^2$, \nptextcite{nakagawa_general_2013,johnson_extension_2014}) and the random variance of the linear slopes.
 
 \begin{table*}
 	\begin{threeparttable}
@@ -524,8 +533,8 @@ Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (m
  & Model / predictor & aff & ach & pow \\
 \midrule
 
-\multirow{2}{*}{marginal $R^2$}   & $sc + wc$ & 27.5\% & 12.4\% & 26.3\%\\
-                                  & $sc + wc + sc^2 + wc^2$ &  28.0\% & 13.3\% & 26.5\%\\
+\multirow{2}{*}{marginal $R^2$}   & $sc + wc$ & 27.6\% & 12.4\% & 26.3\%\\
+                                  & $sc + wc + sc^2 + wc^2$ &  28.0\% & 13.4\% & 26.5\%\\
 \midrule
 
 
@@ -541,8 +550,8 @@ Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (m
  \midrule
 
 
-\multirow{2}{*}{\makecell[l]{Random slope variances (\emph{SD}s)\\based on \emph{study\_id}\textsuperscript{a}}}   & $sc$ & 0.05 (0.23)& 0.07 (0.26) & 0.37 (0.60) \\
-                                  & $wc$ & 0.33 (0.58)& 0.10 (0.31) & 0.42 (0.64) \\
+\multirow{2}{*}{\makecell[l]{Random slope variances (\emph{SD}s)\\based on \emph{study\_id}\textsuperscript{a}}}   & $sc$ & 0.05 (0.23)& 0.07 (0.26) & 0.36 (0.60) \\
+                                  & $wc$ & 0.33 (0.58)& 0.10 (0.31) & 0.41 (0.64) \\
 \midrule
 		
 		\bottomrule
@@ -560,7 +569,7 @@ Table~\ref{tab:mlmtab} summarises the explained variance of the fixed effects (m
 For all three motives, models including the squared terms showed a better fit than models without ($\Delta$AIC > 6, all $\chi^2$ likelihood ratio test $p$s < .008). However, given the very small increase in $R^2$, for parsimony and simplicity we decided to focus on models with only linear main effects for further analyses and application in practice.
 
 
-To disentangle the shared and unique contributions of sentence and word count, we performed a commonality analysis \parencite{nimon_r_2008}. This analysis allows to partition the explained variance into parts that are unique to certain predictor variables or common to the shared variance of predictors. Table~\ref{tab:mlmtab} shows how much of the explained variance in each motive raw score could be attributed to the shared variance of sentence and word count, or uniquely to either word or sentence count. The largest explanatory power could be attributed to the common variance of both length indicators, and word count made unique contributions to the prediction of raw motive scores. Sentence count had only negligible unique contributions.\footnote{Unique variances can be negative due to suppression effects in the regression.}
+To disentangle the shared and unique contributions of sentence and word count, we performed a commonality analysis \parencite{nimon_r_2008}. This analysis allows the explained variance to be partitioned into parts that are unique to certain predictor variables or common to the shared variance of predictors. Table~\ref{tab:mlmtab} shows how much of the explained variance in each motive raw score could be attributed to the shared variance of sentence and word count, or uniquely to either word or sentence count. The largest explanatory power could be attributed to the common variance of both length indicators, and word count made unique contributions to the prediction of raw motive scores. Sentence count had only negligible unique contributions.\footnote{Unique variances can be negative due to suppression effects in the regression.}
 
 
 \subsubsection{Recommendation: How to control for story length in the Winter coding system}
@@ -572,7 +581,7 @@ A potential goal of the current analysis was to recommend a fixed, ``global'' li
 
 Hence, based on the present most extensive available analysis, we suggest some general recommendations and a specific procedure regarding how to control for story length in the Winter coding system:
 
-\emph{1. Use density scores only with caution, if at all.} Although previous publications suggested the use of density scores \parencite[e.g., ][]{winter_MeasuringPersonalityDistance_1991}, we recommend \emph{not} to use them. On the one hand, they have a desirable property: The resulting corrected scores are sample-independent and can be directly compared between studies \parencite{schultheiss_MeasuringImplicitMotives_2007}. On the other hand, they do not remove the relationships between story length and motive counts, but rather reverse them in some cases (see Table~\ref{tab:descCor}). In addtion, they overemphasize very short stories and punish long stories. A single-sentence story with a motive coding receives the maximally attainable density of 100\% (given that sentence count is used for the correction), while a long, elaborate story that has many codings in most, but not all sentences, has a lower density. This directly contradicts assumption (C) which states that dense implicit motive networks are supposed to lead to longer stories.
+\emph{1. Use density scores only with caution, if at all.} Although previous publications have suggested the use of density scores \parencite[e.g., ][]{winter_MeasuringPersonalityDistance_1991}, we recommend \emph{not} to use them. On the one hand, they have a desirable property: The resulting corrected scores are sample-independent and can be directly compared between studies \parencite{schultheiss_MeasuringImplicitMotives_2007}. On the other hand, they do not remove the relationships between story length and motive counts, but rather reverse them in some cases (see Table~\ref{tab:descCor}). In addtion, they overemphasize very short stories and punish long stories. A single-sentence story with a motive coding receives the maximally attainable density of 100\% (given that sentence count is used for the correction), while a long, elaborate story that has many codings in most, but not all sentences, has a lower density. This directly contradicts assumption (C) which states that dense implicit motive networks are supposed to lead to longer stories.
 
 \emph{2. Control for linear word count only.} Sentence count makes no substantial contribution in predicting raw motive scores beyond the shared variance with word count. Therefore we suggest only controlling for word count. Controlling for the linear effect is sufficient for practical purposes.
 
@@ -580,22 +589,22 @@ Hence, based on the present most extensive available analysis, we suggest some g
 
 
 \emph{4. Use a regression method that is robust against outliers and/or small sample effects.}
-The final recommendation comes in three variants. Linear regression in small samples is prone to overfitting and susceptible to outliers. As reported above, there is considerable between-study variance, and we want to adapt a word-count correction to the specific sample at hand. At the same time, implausible regression estimates, for example driven by extreme or outlier values in small samples, should be avoided. We suggest three regression approaches that all promise to mitigate the effects of outliers or other atypical configurations in small samples to some extent.
+The final recommendation comes in three variants. Linear regression in small samples is prone to overfitting and susceptible to outliers. As reported above, there is considerable between-study variance, and we want to adapt a word-count correction to the specific sample at hand. At the same time, implausible regression estimates, for example, driven by extreme or outlier values in small samples, should be avoided. We suggest three regression approaches that all promise to mitigate the effects of outliers or other atypical configurations in small samples to some extent.
 
-\emph{4a. Transform variables to normalize extreme values.} It has been suggested that the distributions of word count and raw motive count should be tested and inspected for non-normality. If necessary, they should be transformed using square root or logarithmic transformations if that improves normality (\nptextcite{tabachnick_UsingMultivariateStatistics_2013}; for an application to PSE data see, for example, \nptextcite{kordik_ImplicitNeedAffiliation_2012}). Residuals from regressions with such transformed variables often are less influenced by outliers, as they are pulled to the center of the distribution. However, one has to keep in mind that the meaning of transformed variables also changes. A log transformation, for example, weights observations according to a ratio scale and approximately implies a ``percentage change'' interpretation \parencite{keene_LogTransformationSpecial_1995}. Furthermore, the tests for non-normality (such as Shapiro-Wilk or Kolmogorov-Smirnov) have their own problems and have been criticized to be ``fatally flawed'' and it has been recommended ``that these tests never be used'' (cf. \nptextcite{erceg-hurn_modern_2008}, p. 594).
+\emph{4a. Transform variables to normalize extreme values.} It has been suggested that the distributions of word count and raw motive count should be tested and inspected for non-normality. If necessary, they should be transformed using square root or logarithmic transformations if that improves normality (\nptextcite{tabachnick_UsingMultivariateStatistics_2013}; for an application to PSE data see, for example, \nptextcite{kordik_ImplicitNeedAffiliation_2012}). Residuals from regressions with such transformed variables are often less influenced by outliers, as they are pulled to the center of the distribution. However, one has to keep in mind that the meaning of transformed variables also changes. A log transformation, for example, weights observations according to a ratio scale and approximately implies a ``percentage change'' interpretation \parencite{keene_LogTransformationSpecial_1995}. Furthermore, the tests for non-normality (such as Shapiro-Wilk or Kolmogorov-Smirnov) have their own problems and have been criticized to be ``fatally flawed'' and it has been recommended ``that these tests never be used'' (cf. \nptextcite{erceg-hurn_modern_2008}, p. 594).
 
 \emph{4b. Use a robust regression approach.}
-A robust regression approach automatically takes care of outliers and is robust to non-normality, such as MM-estimators implemented in the \emph{lmrob} function of the \emph{R} package \emph{robustbase} (\nptextcite{maechler_RobustbaseBasicRobust_2018}; for an overview, see \nptextcite{yu_RobustLinearRegression_2014}), the robust regression ROBREG in SYSTAT, or ROBUSTREG in SAS.\footnote{SPPS does not offer a robust regression module, but using the R Essentials plugin, the R function could be used.} The robust regression is a safeguard against outlier values distorting the relationship of word count and motive scores for the majority of participants. However, residualized outliers will still be outliers and can get even more extreme after residualization. Therefore it is very important to check the resulting residuals for suspicious values when using this approach.
+A robust regression approach automatically takes care of outliers and is robust to non-normality, such as MM-estimators implemented in the \emph{lmrob} function of the \emph{R} package \emph{robustbase} (\nptextcite{maechler_RobustbaseBasicRobust_2018}; for an overview, see \nptextcite{yu_RobustLinearRegression_2014}), the robust regression ROBREG in SYSTAT, or \added{ROBUSTREG in SAS}.\footnote{SPSS does not offer a robust regression module, but using the R Essentials plugin, the R function could be used.} The robust regression is a safeguard against outlier values distorting the relationship of word count and motive scores for the majority of participants. However, residualized outliers will still be outliers and can get even more extreme after residualization. Therefore it is very important to check the resulting residuals for suspicious values when using this approach.
 
-\emph{4c. Use a Bayesian regression.} This database features all the necessary prerequisites to obtain representative regression parameters for the relationship between word count and motive score (i.e., intercept and regression weight) for any picture set comprised of pictures featured in the database. This information can be used as prior information in a Bayesian linear regression analysis. Priors in Bayesian regression have the property to ``shrink'' regression estimates towards the prior. The shrinkage is stronger when the analyzed sample is small and has a high uncertainty about the parameter estimates. In this case it is pulled towards the fixed effect in our large scale analysis across multiple data sets. In large samples, which provide precise estimates of the regression coefficients, the prior has a negligible impact, which is a desirable feature in the current context. 
+\emph{4c. Use a Bayesian regression.}\added{ This database features all the necessary prerequisites to obtain representative regression parameters for the relationship between word count and motive score (i.e., intercept and regression weight) for any picture set comprised of pictures featured in the database. This information can be used as prior information in a Bayesian linear regression analysis.} Priors in Bayesian regression have the property to ``shrink'' regression estimates towards the prior. The shrinkage is stronger when the analyzed sample is small and has a high uncertainty about the parameter estimates. In this case it is pulled towards the fixed effect in our large scale analysis across multiple data sets. In large samples, which provide precise estimates of the regression coefficients, the prior has a negligible impact, which is a desirable feature in the current context. 
 Practically, one can take the posterior from a Bayesian hierarchical model of the word count correction (with random effects across studies) as priors for the analysis of new samples. 
 %We applied such a model to the database, but divided word count by 1000 to achieve more stable model convergence. The following normally distributed posteriors are suggested to be used as priors in subsequent analyses: Intercept: $M = 1.35$, $SD = 1.05$; Slope for word count/1000: $M = 11.7$ and $SD = 3.80$. 
 As in robust regression approach 4b, it is important to check for outliers after residualization with a Bayesian regression.
 
 
-We are confident about recommendations 1 to 3, and recommend to the field to follow them. Our group of authors, however, is not prepared yet to make a final call regarding recommendations 4a to 4c. We suggest that more experiences in practical applications of these alternative approaches have to be gained before a more definite recommendation can be made. We are aware that these alternative approaches represent a source of analytical degrees of freedom, which goes against our original intent of standardizing the approach. On the other hand, we want to emphasize that we consider all three alternatives to be improvements over a naive linear regression which is prone to overfitting and susceptible to outliers in small samples. Furthermore, in ``well-behaved'' samples all three approaches will lead to nearly identical results.
+We are confident about recommendations 1 to 3, and recommend to the field to follow them. Our group of authors, however, is not yet prepared to make a final call regarding recommendations 4a to 4c. We suggest that more experiences in practical applications of these alternative approaches have to be gained before a more definite recommendation can be made. We are aware that these alternative approaches represent a source of analytical degrees of freedom, which goes against our original intent of standardizing the approach. On the other hand, we want to emphasize that we consider all three alternatives to be improvements over a naive linear regression which is prone to overfitting and susceptible to outliers in small samples. Furthermore, in ``well-behaved'' samples all three approaches will lead to nearly identical results.
 
-To reduce analytical flexibility, we urge researchers to decide upon the best approach for correcting story length without knowledge about their downstream effects on the substantive hypothesis test. That means, one should only look at the bivariate relationship between word count and raw PSE motive scores before making the decision how to control for story length. Additionally, one could run all three variants in a robustness check and report all three results in the supplementary material.
+To reduce analytical flexibility, we urge researchers to decide upon the best approach for correcting story length without knowledge about their downstream effects on the substantive hypothesis test. This means, that one should only look at the bivariate relationship between word count and raw PSE motive scores before making the decision about how to control for story length. Additionally, one could run all three variants in a robustness check and report all three results in the supplementary material.
 
 
 
@@ -637,33 +646,33 @@ aff.residual1.z <- scale(aff.residual1)
 aff.residual2.z <- scale(aff.residual2)
 \end{lstlisting}
 
-Of course more complex ways of correcting can be envisioned. For example, additional analyses (not reported here) revealed substantial random slopes of word counts across picture IDs. This could suggest that the correction is applied separately for each picture (for example, when pictures are the level of analysis in profile correlations). The squared terms also have a small but significant contribution. However, we aimed to arrive at a recommendation that is both \emph{easy} and \emph{robust} to apply. Major concerns in practical application are about overfitting and unstable regression estimates in small samples, which would be much more severe if each picture would get its own regression. Aggregating across pictures promises more robust and stable regressions. Furthermore, instead of doing this two-step approach where residuals are extracted in step 1, one could also enter the word count as additional covariate in the actual model.
+Of course more complex ways of correcting can be envisioned. For example, additional analyses (not reported here) revealed substantial random slopes of word counts across picture IDs. This could suggest that the correction is applied separately for each picture (for example, when pictures are the level of analysis in profile correlations). The squared terms also have a small but significant contribution. However, we aimed to arrive at a recommendation that is both \emph{easy} and \emph{robust} to apply. Major concerns in practical application are about overfitting and unstable regression estimates in small samples, which would be much more severe if each picture would get its own regression. Aggregating across pictures promises more robust and stable regressions. Furthermore, instead of doing this two-step approach where residuals are extracted in step 1, one could also enter the word count as an additional covariate in the actual model.
 
-\added{The current recommendation is very close to typical current practices in the field, but it is substantiated and empirically validated by new insights from the current large scale data analysis. It has to be kept in mind that, strictly speaking, the current analysis and recommendation only applies to the specific coding rules of this database (i.e., no 2nd-sentence-rule and only one coding per motive per sentence; sentences are the unit of coding). We think that in practice, other minor variations in coding rules of the Winter coding system will have only minor impact, and that the recommendations generalize to those.
+\added{The current recommendation is very close to typical current practices in the field, but it is substantiated and empirically validated by new insights from the current large scale data analysis. It has to be kept in mind that, strictly speaking, the current analysis and recommendation only apply to the specific coding rules of this database (i.e., no 2nd-sentence-rule and only one coding per motive per sentence; sentences are the unit of coding). We think that in practice, other minor variations in coding rules of the Winter coding system will have only a minor impact, and that the recommendations generalize to those.}
 
-Some other coding systems for text data are structurally quite similar to the Winter coding system. For example, the widely used Linguistic Inquiry and Word Count program (LIWC; \nptextcite{tausczik_PsychologicalMeaningWords_2010}) categorizes words in a text based on a dictionary and returns the percentage of words in each category relative to total words in a text. This is equivalent to density scores, and it would be interesting to investigate whether other ways of controlling for text length are also benefitial for LIWC and other dictionary-style analyses. Other coding systems for narrative materials, however, use different rules for scoring. For these cases, we generally caution against adopting our current recommendations uncritically to other coding systems.}
+\added{Some other coding systems for text data are structurally quite similar to the Winter coding system. For example, the widely used Linguistic Inquiry and Word Count program (LIWC; \nptextcite{tausczik_PsychologicalMeaningWords_2010}) categorizes words in a text based on a dictionary and returns the percentage of words in each category relative to the total number of words in a text. This is equivalent to density scores, and it would be interesting to investigate whether other ways of controlling for text length are also beneficial for LIWC and other dictionary-style analyses. Other coding systems for narrative materials, however, use different rules for scoring. For these cases, we generally caution against adopting our current recommendations uncritically to other coding systems.}
 
 
 
-\subsubsection{Effect of correction type on gender differences in affiliation}
+\subsubsection{Effect of correction type on the gender difference in affiliation}
 \added{It is a well established finding that, after word count correction, women have higher motive scores in the implicit affiliation motive than men (Cohen's $d$ = 0.45, see meta-analysis by \nptextcite{drescher_MetaanalyticEvidenceHigher_2016} based on $k = 33$ primary studies). 
 For the power and the achievement motive, in contrast, the gender differences in the same meta-analysis were smaller and not significant (pow: $d$ = -0.19, $k = 15$; ach: $d$ = 0.14, $k = 13$).
-Based on the $k$ = 23 primary studies in the database which provide the subject's gender and do have variation in gender we (a) aimed to replicate the reported gender differences (female minus male), and (b) investigated the impact of the different ways of controlling for story length.
+Based on the $k$ = 23 primary studies in the database which report on the subject's gender and do have variation in gender, we (a) aimed to replicate the reported gender differences (female minus male), and (b) investigated the impact of the different ways of controlling for story length.
 We compared three different ways of correcting: OLS residuals and density scores as established procedures, and one of the recommended procedures, namely robust regression residuals. We ran fixed effects meta-analyses using the \emph{metafor} package \parencite{viechtbauer_conducting_2010}, with Hedge's $g$ as effect size measure. Note that due to a correction factor for small sample sizes, Hedge's $g$ results in slightly smaller effect sizes compared to Cohen's $d$. Table~\ref{tab:MA} reports the results.}
 
 \begin{table*}
-		\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, calculated as Hedge's $g$ (SE).}
+		\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, Calculated as Hedge's $g$ (SE).}
 		\label{tab:MA}
 		\footnotesize
 		\begin{tabularx}{\textwidth}{lrrr}
 		\toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:01 2019
+% Wed Dec  4 10:48:41 2019
 Correction & aff & ach & pow \\ 
   \hline
-Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & -0.13 (0.03, \emph{p} < .001) \\ 
-  OLS residuals & 0.39 (0.03, \emph{p} < .001) & 0.04 (0.03, \emph{p} = .210) & -0.13 (0.03, \emph{p} < .001) \\ 
+Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .282) & -0.13 (0.03, \emph{p} < .001) \\ 
+  OLS residuals & 0.39 (0.03, \emph{p} < .001) & 0.04 (0.03, \emph{p} = .211) & -0.13 (0.03, \emph{p} < .001) \\ 
   Robust residuals & 0.40 (0.03, \emph{p} < .001) & 0.04 (0.03, \emph{p} = .174) & -0.13 (0.03, \emph{p} < .001) \\ 
    \hline
 
@@ -673,19 +682,16 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 
 
 
-\added{These results replicate the published meta-analysis from \textcite{drescher_MetaanalyticEvidenceHigher_2016} very closely for all three motives. Focusing on the clearly existing gender difference in the affiliation motive, the recommended procedure with robust regression yielded the strongest effect size (though, only slightly larger than the OLS regression), while the discouraged density score showed a considerably smaller effect size. Even slight increases in effect size have the practical advantage of increasing the power to detect an existing effect. In the current case, for example a study with 60 participants in each group ($\alpha = .05$) would have a power of 71\% with robust residuals, 69\% with OLS residuals, and only 62\% with density scores. 
+\added{These results replicate the published meta-analysis from \textcite{drescher_MetaanalyticEvidenceHigher_2016} very closely for all three motives. Focusing on the clearly existing gender difference in the affiliation motive, the recommended procedure with robust regression yielded the strongest effect size (though, only slightly larger than the OLS regression), while the discouraged density score showed a considerably smaller effect size. Even slight increases in effect size have the practical advantage of increasing the power to detect an existing effect. In the current case, for example, a study with 60 participants in each group ($\alpha = .05$) would have a power of 71\% with robust residuals, 69\% with OLS residuals, and only 62\% with density scores. 
 Although this is only one specific case, we interpret this as an encouraging result for the validity of the recommended procedure.}
 
 \subsection{No Decrease in Motive Imagery or Story Length for Later Pictures in the PSE Task}
-Writing imaginative stories can be exhausting, and one could speculate that pictures that are administered later during the PSE task elicit shorter stories with less motive codings. For example, \textcite{smith_MethodologicalConsiderationsSteps_1992} suggested that responses to earlier pictures are more meaningful (although, not necessarily longer). In contrast, \textcite[][Table 7.1]{mcclelland_achievement_1953} explicitly ruled out such a decrease for later pictures for need for achievement using a Latin square design.
+Writing imaginative stories can be exhausting, and one could speculate that pictures that are administered later during the PSE task elicit shorter stories with fewer motive codings. For example, \textcite{smith_MethodologicalConsiderationsSteps_1992} suggested that responses to earlier pictures are more meaningful (although, not necessarily longer). In contrast, \textcite[][Table 7.1]{mcclelland_achievement_1953} explicitly ruled out such a decrease for later pictures for need for achievement using a Latin square design.
 
 In the current database, such a pattern could not be consistently found in a subset of studies that administered the pictures at random positions (i.e., not in a fixed order; $n$ = 7990 stories; see Figure~\ref{fig:picPosPlot}). 
 
 \begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-
-
-{\ttfamily\noindent\itshape\color{messagecolor}{\#\# Registered S3 methods overwritten by 'survival':\\\#\#\ \  method\ \ \ \ \ \  from \\\#\#\ \  nobs.coxph\ \  MuMIn\\\#\#\ \  nobs.survreg MuMIn}}\end{kframe}\begin{figure*}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure*}
 
 {\centering \includegraphics[width=.9\textwidth]{figure/picPosPlot-1} 
 
@@ -699,7 +705,7 @@ In the current database, such a pattern could not be consistently found in a sub
 
 Note that this descriptive plot to some extent confounds specific picture stimuli with picture position, as only some picture stimuli where located at positions 6, 7, and 8. For a formal test that controls for this counfound and the cross-classified data structure in general, we conducted mixed effect models with picture position as predictor, raw motive scores, sentence count, and word count as dependent variables, and random intercepts for \emph{pic\_id}, and \emph{person\_id}.\footnote{We had to remove random slopes for \emph{pic\_position} and random effects for \emph{study\_id} to achieve model convergence. Instead we added \emph{study\_id} as categorical fixed effect to control for mean level differences.} 
 
-Also in this analysis, no consistent decrease of motive imagery for later pictures could be found. In contrast, later picture positions showed a trend towards longer stories with more motive codings, resulting in positive effects of picture position on overall motive scores ($b$ = 0.03, \emph{SE} = 0.01, \emph{p} = .011), \emph{ach} motive scores ($b$ = 0.01, \emph{SE} = 0.01, \emph{p} = .175), \emph{pow} motive scores ($b$ = 0.05, \emph{SE} = 0.01, \emph{p} < .001), sentence counts ($b$ = 0.11, \emph{SE} = 0.01, \emph{p} < .001), or word counts ($b$ = 0.79, \emph{SE} = 0.14, \emph{p} < .001). Only for \emph{aff} scores a significant but small negative effect was found ($b$ = -0.03, \emph{SE} = 0.01, \emph{p} < .001). \added{This analysis on potential fatigue effects not necessarily generalizes to other types of text content analysis; but the research question is potentially equally relevant.}
+In this analysis, too, no consistent decrease of motive imagery for later pictures could be found. In contrast, later picture positions showed a trend towards longer stories with more motive codings, resulting in positive effects of picture position on overall motive scores ($b$ = 0.03, \emph{SE} = 0.01, \emph{p} = .011), \emph{ach} motive scores ($b$ = 0.01, \emph{SE} = 0.01, \emph{p} = .175), \emph{pow} motive scores ($b$ = 0.05, \emph{SE} = 0.01, \emph{p} < .001), sentence counts ($b$ = 0.11, \emph{SE} = 0.01, \emph{p} < .001), or word counts ($b$ = 0.80, \emph{SE} = 0.14, \emph{p} < .001). Only for \emph{aff} scores a significant but small negative effect was found ($b$ = -0.03, \emph{SE} = 0.01, \emph{p} < .001). \added{This analysis of potential fatigue effects does not necessarily generalize to other types of text content analysis; but the research question is potentially equally relevant.}
 
 \section{A Database of Pictures Used in PSEs}
 
@@ -723,45 +729,45 @@ Descriptive picture pull statistics have been published for the six standard pic
 
 Here we present updated norms for German PSE stories, which are based on larger samples and sentence-wise coding without the 2nd-sentence rule. Sample sizes vary between pictures, depending on how often a picture has been used in the studies included in the database. Table~\ref{tab:norms} shows descriptive statistics for all pictures that had at least 50 stories, ordered by overall motive pull, which is computed as the sum of all three raw motive scores. \added{Furthermore, we present descriptive statistics for activity inhibition, which is computed by counting the frequency of the word ``not'' in each story, and is supposed to be a moderating factor in the expression of motives \parencite{langens_ActivityInhibition_2010}.}\footnote{Descriptive statistics for all pictures, including the new pictures, are at \url{https://osf.io/pqckn}.}
 
-\begin{table*}
+\begin{sidewaystable*}
 	\begin{threeparttable}
 		\caption{Means and Standard Deviations of Raw Motive Scores, Coded Without 2nd-Sentence Rule.}
 		\label{tab:norms}
-		\tiny
-		\begin{tabularx}{\textwidth}{rllllllr}
+		\small
+		\begin{tabularx}{\textwidth}{rlllllllr}
 		\toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Dec  4 09:58:02 2019
+% Wed Dec  4 10:48:42 2019
  & Pic ID & Aff & Ach & Pow & Overall & AI & WC & \emph{n} \\ 
   \hline
-  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.37 (0.66) & 84 (33) & 198 \\ 
-    2 & applause & \textbf{1.88} (1.47) & 0.81 (1.12) & \textbf{1.77} (1.53) & 4.47 (2.07) & 0.59 (0.91) & 90 (34) & 1195 \\ 
-    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 (3.00) & 1.06 (1.13) & 90 (33) & 141 \\ 
-    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 (2.70) & 0.95 (1.41) & 97 (62) &  83 \\ 
+  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.38 (0.67) & 84 (33) & 198 \\ 
+    2 & applause & \textbf{1.88} (1.47) & 0.81 (1.12) & \textbf{1.77} (1.53) & 4.47 (2.07) & 0.60 (0.92) & 90 (34) & 1195 \\ 
+    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 (3.00) & 1.06 (1.14) & 90 (33) & 141 \\ 
+    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 (2.70) & 0.98 (1.41) & 98 (69) &  83 \\ 
     5 & beachcombers & 0.62 (1.10) & 0.14 (0.50) & \textbf{3.41} (1.87) & 4.17 (2.13) & 0.76 (0.97) & 97 (34) & 797 \\ 
-    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 (1.99) & 0.83 (0.96) & 96 (28) &  81 \\ 
-    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 (2.20) & 0.67 (0.87) & 86 (29) & 141 \\ 
-    8 & *nightclub scene & \textbf{2.39} (1.67) & 0.14 (0.41) & \textbf{1.08} (1.25) & 3.61 (2.07) & 0.57 (0.96) & 93 (37) & 2311 \\ 
-    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 (2.34) & 0.89 (1.22) & 92 (31) & 141 \\ 
-   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 (2.63) & 0.80 (1.08) & 94 (40) & 119 \\ 
-   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.72) & 3.41 (1.93) & 0.72 (1.10) & 94 (40) & 1854 \\ 
+    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 (1.99) & 0.86 (0.98) & 96 (28) &  81 \\ 
+    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 (2.20) & 0.67 (0.88) & 86 (29) & 141 \\ 
+    8 & *nightclub scene & \textbf{2.39} (1.67) & 0.14 (0.41) & \textbf{1.08} (1.25) & 3.61 (2.07) & 0.58 (0.96) & 93 (37) & 2311 \\ 
+    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 (2.34) & 0.90 (1.23) & 92 (31) & 141 \\ 
+   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 (2.63) & 0.89 (1.21) & 94 (40) & 119 \\ 
+   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.73) & 3.41 (1.94) & 0.73 (1.11) & 94 (41) & 1854 \\ 
    12 & newpic10 & \textbf{1.71} (1.22) & 0.68 (1.08) & \textbf{0.92} (1.05) & 3.32 (1.92) & 0.38 (0.65) & 87 (35) & 196 \\ 
-   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 (1.99) & 0.44 (0.75) & 85 (31) & 799 \\ 
-   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 (2.13) & 0.42 (0.86) & 107 (35) & 408 \\ 
-   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 (2.04) & 0.69 (1.01) & 91 (34) & 2331 \\ 
-   16 & *boxer & 0.34 (0.79) & \textbf{1.68} (1.38) & 0.81 (1.11) & 2.83 (1.98) & 0.67 (1.02) & 89 (37) & 1724 \\ 
-   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 (2.14) & 1.05 (1.34) & 99 (46) & 143 \\ 
-   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 (1.91) & 0.51 (0.87) & 91 (37) & 2316 \\ 
-   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 (2.41) & 0.68 (0.97) & 83 (34) & 196 \\ 
-   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 (2.11) & 0.39 (0.69) & 78 (34) & 200 \\ 
+   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 (1.99) & 0.45 (0.75) & 85 (31) & 799 \\ 
+   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 (2.13) & 0.42 (0.87) & 107 (35) & 408 \\ 
+   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 (2.04) & 0.69 (1.02) & 91 (34) & 2331 \\ 
+   16 & *boxer & 0.34 (0.79) & \textbf{1.68} (1.38) & 0.81 (1.11) & 2.83 (1.98) & 0.68 (1.02) & 89 (37) & 1724 \\ 
+   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 (2.14) & 1.06 (1.30) & 99 (46) & 143 \\ 
+   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 (1.91) & 0.52 (0.88) & 91 (37) & 2316 \\ 
+   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 (2.41) & 0.69 (0.98) & 83 (34) & 196 \\ 
+   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 (2.11) & 0.40 (0.70) & 78 (34) & 200 \\ 
    21 & lacrosse duel & 0.20 (0.47) & \textbf{1.95} (1.36) & 0.30 (0.52) & 2.44 (1.41) & 0.68 (0.97) & 92 (36) &  97 \\ 
    22 & neymar \& marcelo & 0.35 (0.79) & \textbf{1.20} (1.13) & \textbf{0.86} (1.11) & 2.41 (1.62) & 0.47 (0.71) & 59 (25) & 354 \\ 
-   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 (1.72) & 0.77 (1.11) & 94 (36) & 2612 \\ 
-   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 (1.85) & 0.78 (1.00) & 89 (40) & 125 \\ 
-   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 (1.75) & 0.97 (1.19) & 82 (35) & 202 \\ 
-   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 (1.97) & 0.82 (0.93) & 90 (43) & 123 \\ 
-   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 (1.87) & 0.47 (0.74) & 81 (44) & 111 \\ 
-   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 (1.10) & 0.38 (0.76) & 86 (27) &  95 \\ 
+   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 (1.72) & 0.78 (1.12) & 94 (36) & 2612 \\ 
+   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 (1.85) & 0.80 (1.12) & 89 (40) & 125 \\ 
+   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 (1.75) & 0.97 (1.20) & 82 (35) & 202 \\ 
+   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 (1.97) & 0.98 (1.07) & 90 (43) & 123 \\ 
+   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 (1.87) & 0.58 (0.95) & 81 (44) & 111 \\ 
+   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 (1.10) & 0.37 (0.76) & 86 (27) &  95 \\ 
    \hline
 
 		
@@ -770,10 +776,10 @@ Here we present updated norms for German PSE stories, which are based on larger 
 		\begin{tablenotes}[para,flushleft]
 			{\small
 			\vspace*{0.75em}
-			\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk. \emph{Activity Inhib.} = Activity Inhibibition. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
+			\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk.  \emph{AI} = Activity Inhibibition. \emph{WC} = word count. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
 	      \end{tablenotes}
 	  \end{threeparttable}
-\end{table*}
+\end{sidewaystable*}
 
 
 Pictures differ in their pull for multiple types of motive imagery. Some pictures are mostly monothematic, such as \emph{couple by river} or \emph{couple sitting opposite a woman} which almost exclusively elicit affiliation imagery. Other pictures elicit imagery from two (e.g., \emph{women in laboratory} for \emph{ach} and \emph{pow}), or three motives (e.g., \emph{applause} or \emph{trapeze artists}). The propensity of a picture to elicit imagery from multiple motives has also been termed \emph{cue ambiguity} \parencite{pang_ContentCodingMethods_2010,smith_MethodologicalConsiderationsSteps_1992,jacobs_MethodInvestigatingCue_1958}.
@@ -800,18 +806,18 @@ As we expect that the PSE database will grow over time, we put a version number 
 
 \section{Discussion}
 
-In this paper, we presented two databases: (a) A database of 183,408 sentences, nested in 26,389 PSE stories, provided by 4,570 participants, coded by experts using the Winter (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}, and (b) a database of 54 classic and new pictures that have been used in PSE research. Furthermore, we provided descriptive statistics on typical sentence and word counts, as well as analyses and recommendations for how to correct motive scores for story length. 
-We also explored how well different correction approaches approximate published gender differences in motive scores and found that by this criterion the robust regression approach performed best.
+In this paper, we presented two databases: (a) A database of 183,415 sentences, nested in 26,389 PSE stories, provided by 4,570 participants, coded by experts using the Winter (\citeyear{winter_ManualScoringMotive_1994}) \emph{Manual for scoring motive imagery in running text}, and (b) a database of 54 classic and new pictures that have been used in PSE research. Furthermore, we provided descriptive statistics on typical sentence and word counts, as well as analyses and recommendations for how to correct motive scores for story length. 
+\added{We also explored how well different correction approaches approximate published gender differences in motive scores and found that by this criterion the robust regression approach performed best.}
 Last but not least, we updated norm values for picture pulls.
 
 We see several potential scenarios for using these databases. The primary intention for creating the PSE story database was to provide a large training dataset for automatic text analysis. We want to emphasize that these expert-coded sentences go beyond a simple sentiment analysis (e.g., positive vs. negative product reviews) that can quite easily be implemented using dictionaries \parencite[e.g.,][]{feldman_TechniquesApplicationsSentiment_2013}. In contrast, coding implicit motives requires deep semantic processing, evaluating nuances in meaning, differentiating negations, hypothetical from actual actions, questions, and much more. To what extent mathematical text models or machine learning algorithms are able to replicate human codings in the Winter coding system is an open question (see, however, \nptextcite{schultheiss_are_2013} for a potential approach to automatic coding). In addition to supervised learning that attempts to approximate human codings, the dataset can also be used to infer structures using unsupervised learning methods, such as topic models and latent dirichlet allocation \parencite{blei_LatentDirichletAllocation_2003}.
 
 Another potential application lies in psychometric modeling. It has been argued that measurement models based on classical test theory violate assumed underlying processes in PSEs and therefore are not applicable \parencite{atkinson_studying_1981,hibbard_critique_2003,schultheiss_reliability_2008}. This large database allows testing and developing alternative measurement models that might provide more appropriate estimates of reliability and shed light on the response processes during a PSE task (see, for example, \nptextcite{tuerlinckx_measuring_2002,lang_DynamicThurstonianItem_2014,runge_ModelingMotiveActivation_2016,schultheiss_reliability_2008,schultheiss_implicit_2014}. We present the first large dataset that provides PSE motive codings at the sentence level, thus allowing to investigate within-story dynamics separately from between-story dynamics. This allows testing decade-old theories of motive dynamics with high statistical power. 
 
-We found no consistent evidence that later pictures elicit lower motive scores than earlier pictures. This result might seem at odds with the results of previous studies that actually did find an effect of consummatory strength, which leads to less motive expression in later pictures (\nptextcite{tuerlinckx_measuring_2002,lang_DynamicThurstonianItem_2014}; see \nptextcite{schultheiss_implicit_2014}, for a critique). Note, however, that these analyses tested a different model, where not the picture position per se was the predictor of motive expression. Instead the occurence of motive imagery in previous pictures was the predictor, which is assumed to decrease the probability of additional motive expressions due to satiation processes. This and other differences make the results hard to compare, and we encourage to use the current database to do a conceptual replication and extension of previous research on consummatory effects and dynamic processes of motive expression \parencite{atkinson_dynamics_1970}.
+We found no consistent evidence that later pictures elicit lower motive scores than earlier pictures. This result might seem at odds with the results of previous studies that actually did find an effect of consummatory strength, which leads to fewer motive codings in later pictures (\nptextcite{tuerlinckx_measuring_2002,lang_DynamicThurstonianItem_2014}; see \nptextcite{schultheiss_implicit_2014}, for a critique). Note, however, that these analyses tested a different model, in which not the picture position per se was the predictor of motive expression. Instead the occurence of motive imagery in previous pictures was the predictor, which is assumed to decrease the probability of additional motive expressions due to satiation processes. This and other differences make the results hard to compare, and we encourage to use the current database to do a conceptual replication and extension of previous research on consummatory effects and dynamic processes of motive expression \parencite{atkinson_dynamics_1970}.
 
 Finally, now a systematic (though indirect) investigation of differences between labs in coding style is possible. 
-Although all labs employed the same manual, effects such as coder drift \parencite{schultheiss_MeasuringImplicitMotives_2007} or intra-group dynamics (Jenkins, 2008) can lead to an evolution of idiosyncratic coding rules that let labs drift apart.
+Although all labs employed the same manual, effects such as coder drift \parencite{schultheiss_MeasuringImplicitMotives_2007} or intra-group dynamics (Jenkins, 2008) can lead to an evolution of idiosyncratic coding rules that lets labs drift apart.
 For a more direct test of intra- and inter-lab coding agreement, future studies should give the same text material to multiple coders of several labs and assess agreement by looking at both within-lab and between-lab variability (``multi-center evaluation''; see, for example, \nptextcite{dabbs_ReliabilitySalivaryTestosterone_1995}).
 
 The updated picture norms allow to select appropriate sets of pictures for a PSE. For example, it has been recommended to select pictures with a high motivational pull for the targeted motives \parencite{schultheiss_MeasuringImplicitMotives_2007,smith_MethodologicalConsiderationsSteps_1992}, but also some pull for other motives (``picture cue ambiguity'', \nptextcite{pang_ContentCodingMethods_2010}). Beyond ambiguity on the picture level, it has also been argued that ambiguity on the level of the picture \emph{set} is important for reliability and validity of a PSE \parencite{ramsay_SetAmbiguityKey_2013}. 
@@ -819,7 +825,7 @@ The updated picture norms allow to select appropriate sets of pictures for a PSE
 With the large collection of available pictures and their updated norms, such choices can be empirically informed. We encourage researchers who use a PSE to refer to the unique IDs of the picture database in their methods section. A common and standardized catalogue of PSE pictures enhances the replicability of studies, but also the reusability and interoperability of research results \parencite{wilkinson_FAIRGuidingPrinciples_2016}, as such clear identifiers allow the aggregation and reanalysis of datasets. 
 This picture database is intended to be a ``living document'' which is constantly updated with new pictures and updated norms. Therefore we suggest that researchers who use new pictures contact the first author of this paper if they want to add a new picture to the database. (Preferably pictures with a permissive license that allows reuse.) 
 
-An obvious limitation is that the presented databases, picture norms, and recommendations only apply to the Winter (\citeyear{winter_ManualScoringMotive_1994}) coding system, and strictly speaking only applied to PSE stories written in German. We recommend that such large data collections should also be done for other languages and other coding systems.
+An obvious limitation is that the presented databases, picture norms, and recommendations only apply to the Winter (\citeyear{winter_ManualScoringMotive_1994}) coding system, and strictly speaking only applies to PSE stories written in German. We recommend that such large data collections should also be done for other languages and other coding systems.
 
 To conclude, we hope that these two public databases are a helpful resource both for PSE researchers and more generally for researchers interested in text content analysis, and that they refuel interest in methodological and psychometric research about measuring implicit motives with Picture Story Exercises.
 

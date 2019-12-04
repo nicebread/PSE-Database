@@ -64,3 +64,8 @@ lme4_coef <- function(model, coef_name) {
 	return(res)
 }
 
+# exports the codebook in JSON format
+get_codebook_JSON <- function(PSE) {
+	library(codebook)
+	metadata_jsonld(PSE)
+}

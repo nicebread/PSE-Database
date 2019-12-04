@@ -6,7 +6,7 @@
 \begin{tabularx}{\textwidth}{llXX}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:10 2019
+% Mon Dec  2 14:51:44 2019
 Variable name & Data type & Comment & Values \\
   \hline
 row\_id & numeric & Unique row id &  \\
@@ -29,7 +29,9 @@ row\_id & numeric & Unique row id &  \\
   aff & numeric & Presence of affiliation/intimacy imagery & 0 (absent) or 1 (present) \\
   motclass & factor & Multiclass combination of aff, ach, and pow codings. All mixed codings are collapsed into the category 'mixed'. & none, ach, aff, pow, mixed \\
   motclassfull & factor & Multiclass combination of aff, ach, and pow codings with all possible combinations. & none, ach, aff, pow, achpow, affach, affpow, affachpow \\
-  text & character & The text of the sentence. &  \\
+  text & character & The text of the sentence (spell-checked). &  \\
+  text\_original & character & The orginal text of the sentence, as provided by the participants. &  \\
+  holdout & logical & Part of hold out set? (For future machine learning purposes) & TRUE / FALSE \\
    \hline
 
 \bottomrule
@@ -48,7 +50,7 @@ row\_id & numeric & Unique row id &  \\
 
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:10 2019
+% Mon Dec  2 14:51:44 2019
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\
   \hline
 BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de & CL & mostly students \\
@@ -57,26 +59,26 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
   FS\_MOCO & 1009 & 144 &   8 & eachSentence & Munich & fixed & 79\% & 2013 & de & CO & mostly non-students \\
   FS\_newpic & 275 &  53 &  30 & eachSentence & Munich & variable & - & 2016 & de & CO & mostly non-students \\
   FS\_TSST & 578 &  97 &   6 & 2nd\_sentence\_rule & Munich & fixed & 53\% & 2011-2012 & de & CL & students \\
-  JP & 3989 & 800 &   5 & eachSentence & Munich & variable & 50\% & 2016-2018 & de & CL \& CO & students \\
-  KJ & 671 & 112 &   6 & eachSentence & Erlangen & variable & 58\% & 2015 & de & CL & mostly non-students \\
-  LI & 1140 & 192 &   6 & eachSentence & Munich & fixed & 63\% & 2018-2019 & de & CO & mostly students \\
-  LS & 3330 & 555 &   6 & eachSentence & Munich & fixed & 70\% & 2018-2019 & de & CO & students and non-students \\
-  MK1 & 804 & 134 &   6 & eachSentence & Erlangen & variable & 59\% & 2015 & de & CL & N/A \\
-  MK2 & 600 & 100 &   6 & eachSentence & Erlangen & variable & 50\% & 2013 & de & CL & N/A \\
-  MK3 & 773 &  97 &   8 & eachSentence & Erlangen & variable & 45\% & 2015 & de & CL & N/A \\
-  MOJ & 149 &  26 &   6 & eachSentence & Munich & fixed & 100\% & 2016 & de & CL & mostly students \\
-  MQ & 486 &  81 &   6 & eachSentence & Munich & fixed & 88\% & 2012 & de & CO & students \\
-  NK & 811 & 118 &   7 & 2nd\_sentence\_rule & Munich & fixed & 84\% & 2015 & de & CO & mostly students \\
-  OCS\_Bp & 653 &  83 &   8 & eachSentence & Erlangen & variable & 51\% & 2013 & de & CL & mostly students \\
-  OCS\_smofee6 & 984 & 164 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 52\% & 2010 & de & CL & mostly students \\
-  OCS\_smofee7 & 930 & 155 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 51\% & 2011-2012 & de & CL & mostly students \\
-  OCS\_smofee8 & 888 & 148 &   6 & eachSentence & Erlangen & variable & 48\% & 2012 & de & CL & mostly students \\
-  OCS\_smofee9 & 893 & 149 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 52\% & 2012 & de & CL & mostly students \\
-  PMK & 1772 & 358 &   5 & eachSentence & Munich & fixed & 60\% & 2016-2017 & de & CO & students and non-students \\
-  RMH & 698 & 176 &   4 & eachSentence & Munich & fixed & 45\% & 2016 & de & CL & students \\
-  TC\_SNF6 & 676 & 136 &   5 & 2nd\_sentence\_rule & Trier & fixed & 72\% & 2015 & ch & CO & mostly non-students \\
-  TC\_SNF7 & 1211 & 202 &   6 & 2nd\_sentence\_rule & Trier & fixed & 87\% & 2016 & ch & CO & mostly students \\
-  TC\_TAI1 & 981 & 164 &   6 & 2nd\_sentence\_rule & Trier & fixed & 82\% & 2015 & ch & CO & students \\
+  JP & 3989 & 800 &   5 & eachSentence & Munich & variable & 50\% & 2016-2018 & DE & CL \& CO & students \\
+  KJ & 671 & 112 &   6 & eachSentence & Erlangen & variable & 58\% & 2015 & DE & CL & mostly non-students \\
+  LI & 1140 & 192 &   6 & eachSentence & Munich & fixed & 63\% & 2018-2019 & DE & CO & mostly students \\
+  LS & 3330 & 555 &   6 & eachSentence & Munich & fixed & 70\% & 2018-2019 & DE & CO & students and non-students \\
+  MK1 & 804 & 134 &   6 & eachSentence & Erlangen & variable & 59\% & 2015 & DE & CL & N/A \\
+  MK2 & 600 & 100 &   6 & eachSentence & Erlangen & variable & 50\% & 2013 & DE & CL & N/A \\
+  MK3 & 773 &  97 &   8 & eachSentence & Erlangen & variable & 45\% & 2015 & DE & CL & N/A \\
+  MOJ & 149 &  26 &   6 & eachSentence & Munich & fixed & 100\% & 2016 & DE & CL & mostly students \\
+  MQ & 486 &  81 &   6 & eachSentence & Munich & fixed & 88\% & 2012 & DE & CO & students \\
+  NK & 811 & 118 &   7 & 2nd\_sentence\_rule & Munich & fixed & 84\% & 2015 & DE & CO & mostly students \\
+  OCS\_Bp & 653 &  83 &   8 & eachSentence & Erlangen & variable & 51\% & 2013 & DE & CL & mostly students \\
+  OCS\_smofee6 & 984 & 164 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 52\% & 2010 & DE & CL & mostly students \\
+  OCS\_smofee7 & 930 & 155 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 51\% & 2011-2012 & DE & CL & mostly students \\
+  OCS\_smofee8 & 888 & 148 &   6 & eachSentence & Erlangen & variable & 48\% & 2012 & DE & CL & mostly students \\
+  OCS\_smofee9 & 893 & 149 &   6 & 2nd\_sentence\_rule & Erlangen & variable & 52\% & 2012 & DE & CL & mostly students \\
+  PMK & 1772 & 358 &   5 & eachSentence & Munich & fixed & 60\% & 2016-2017 & DE & CO & students and non-students \\
+  RMH & 698 & 176 &   4 & eachSentence & Munich & fixed & 45\% & 2016 & DE & CL & students \\
+  TC\_SNF6 & 676 & 136 &   5 & 2nd\_sentence\_rule & Trier & fixed & 72\% & 2015 & CH & CO & mostly non-students \\
+  TC\_SNF7 & 1211 & 202 &   6 & 2nd\_sentence\_rule & Trier & fixed & 87\% & 2016 & CH & CO & mostly students \\
+  TC\_TAI1 & 981 & 164 &   6 & 2nd\_sentence\_rule & Trier & fixed & 82\% & 2015 & CH & CO & students \\
    \hline
 
 
@@ -85,7 +87,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
+\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. DE = Germany, CH = Switzerland. \emph{students} in the \emph{Population} column are university students. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
     \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable*}
@@ -121,7 +123,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:11 2019
+% Mon Dec  2 14:51:44 2019
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\
   \hline
 der reporter im bild versucht sich einen eindruck vom leben der beschäftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
@@ -168,14 +170,14 @@ null & 58.7\% \\
 \begin{sidewaystable*}
 %\begin{table*}
 \begin{threeparttable}
-\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations on Person Level.}
+\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations at the Person Level.}
 \label{tab:descCor}
 \footnotesize
 %\begin{tabular}{lrrlllllllllllllllll}
 \begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:11 2019
+% Mon Dec  2 14:51:44 2019
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\
   \hline
 (1) Aff motive score & 1.13 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\
@@ -202,7 +204,7 @@ null & 58.7\% \\
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study on person level and then meta-analytically aggregated across studies.}
+\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study at the person level and then meta-analytically aggregated across studies.}
       \end{tablenotes}
   \end{threeparttable}
 %\end{table*}
@@ -254,14 +256,14 @@ null & 58.7\% \\
 \efloatseparator
  
 \begin{table*}
-\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, calculated as Hedge's $g$ (SE).}
+\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, Calculated as Hedge's $g$ (SE).}
 \label{tab:MA}
 \footnotesize
 \begin{tabularx}{\textwidth}{lrrr}
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:12 2019
+% Mon Dec  2 14:51:44 2019
 Correction & aff & ach & pow \\
   \hline
 Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & -0.13 (0.03, \emph{p} < .001) \\
@@ -274,45 +276,45 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 \end{table*}
 \efloatseparator
  
-\begin{table*}
+\begin{sidewaystable*}
 \begin{threeparttable}
 \caption{Means and Standard Deviations of Raw Motive Scores, Coded Without 2nd-Sentence Rule.}
 \label{tab:norms}
-\tiny
-\begin{tabularx}{\textwidth}{rllllllr}
+\small
+\begin{tabularx}{\textwidth}{rlllllllr}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Wed Nov 13 14:46:14 2019
- & Pic ID & Aff & Ach & Pow & Overall & AI & Word count & \emph{n} \\
+% Mon Dec  2 14:51:45 2019
+ & Pic ID & Aff & Ach & Pow & Overall & AI & WC & \emph{n} \\
   \hline
-  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.40 (0.70) & 84 (33) & 198 \\
+  1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.37 (0.66) & 84 (33) & 198 \\
     2 & applause & \textbf{1.88} (1.47) & 0.81 (1.12) & \textbf{1.77} (1.53) & 4.47 (2.07) & 0.59 (0.91) & 90 (34) & 1195 \\
-    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 (3.00) & 1.18 (1.17) & 90 (33) & 141 \\
-    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 (2.70) & 1.11 (1.46) & 97 (62) &  83 \\
-    5 & beachcombers & 0.62 (1.10) & 0.14 (0.50) & \textbf{3.41} (1.87) & 4.17 (2.13) & 0.75 (0.96) & 97 (34) & 797 \\
-    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 (1.99) & 0.89 (0.99) & 96 (28) &  81 \\
-    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 (2.20) & 0.66 (0.89) & 86 (29) & 141 \\
+    3 & sorrow & \textbf{2.48} (2.03) & 0.16 (0.61) & \textbf{1.65} (1.58) & 4.28 (3.00) & 1.06 (1.13) & 90 (33) & 141 \\
+    4 & bicycle race & 0.13 (0.46) & \textbf{3.31} (1.99) & \textbf{0.80} (1.00) & 4.24 (2.70) & 0.95 (1.41) & 97 (62) &  83 \\
+    5 & beachcombers & 0.62 (1.10) & 0.14 (0.50) & \textbf{3.41} (1.87) & 4.17 (2.13) & 0.76 (0.97) & 97 (34) & 797 \\
+    6 & three people & \textbf{3.26} (1.84) & 0.02 (0.22) & 0.69 (1.02) & 3.98 (1.99) & 0.83 (0.96) & 96 (28) &  81 \\
+    7 & soccer duel & 0.13 (0.36) & \textbf{2.42} (1.63) & \textbf{1.16} (1.36) & 3.70 (2.20) & 0.67 (0.87) & 86 (29) & 141 \\
     8 & *nightclub scene & \textbf{2.39} (1.67) & 0.14 (0.41) & \textbf{1.08} (1.25) & 3.61 (2.07) & 0.57 (0.96) & 93 (37) & 2311 \\
-    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 (2.34) & 0.98 (1.31) & 92 (31) & 141 \\
-   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 (2.63) & 0.91 (1.19) & 94 (40) & 119 \\
-   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.72) & 3.41 (1.93) & 0.72 (1.11) & 94 (40) & 1854 \\
-   12 & newpic10 & \textbf{1.71} (1.22) & 0.68 (1.08) & \textbf{0.92} (1.05) & 3.32 (1.92) & 0.35 (0.59) & 87 (35) & 196 \\
-   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 (1.99) & 0.44 (0.74) & 85 (31) & 799 \\
-   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 (2.13) & 0.38 (0.80) & 107 (35) & 408 \\
-   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 (2.04) & 0.69 (1.02) & 91 (34) & 2331 \\
+    9 & burglar & \textbf{2.04} (1.76) & 0.15 (0.46) & \textbf{1.25} (1.48) & 3.44 (2.34) & 0.89 (1.22) & 92 (31) & 141 \\
+   10 & woman & \textbf{1.56} (1.62) & 0.16 (0.70) & \textbf{1.71} (1.51) & 3.44 (2.63) & 0.80 (1.08) & 94 (40) & 119 \\
+   11 & *couple by river & \textbf{3.03} (1.80) & 0.03 (0.25) & 0.34 (0.72) & 3.41 (1.93) & 0.72 (1.10) & 94 (40) & 1854 \\
+   12 & newpic10 & \textbf{1.71} (1.22) & 0.68 (1.08) & \textbf{0.92} (1.05) & 3.32 (1.92) & 0.38 (0.65) & 87 (35) & 196 \\
+   13 & kennedy nixon & 0.10 (0.38) & \textbf{1.30} (1.33) & \textbf{1.82} (1.43) & 3.22 (1.99) & 0.44 (0.75) & 85 (31) & 799 \\
+   14 & architect at desk & \textbf{2.23} (1.67) & 0.48 (0.81) & 0.49 (0.84) & 3.20 (2.13) & 0.42 (0.86) & 107 (35) & 408 \\
+   15 & *women in laboratory & 0.34 (0.77) & \textbf{1.51} (1.26) & \textbf{1.28} (1.31) & 3.13 (2.04) & 0.69 (1.01) & 91 (34) & 2331 \\
    16 & *boxer & 0.34 (0.79) & \textbf{1.68} (1.38) & 0.81 (1.11) & 2.83 (1.98) & 0.67 (1.02) & 89 (37) & 1724 \\
-   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 (2.14) & 1.01 (1.29) & 99 (46) & 143 \\
-   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 (1.91) & 0.52 (0.87) & 91 (37) & 2316 \\
-   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 (2.41) & 0.65 (0.95) & 83 (34) & 196 \\
-   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 (2.11) & 0.41 (0.74) & 78 (34) & 200 \\
-   21 & lacrosse duel & 0.20 (0.47) & \textbf{1.95} (1.36) & 0.30 (0.52) & 2.44 (1.41) & 0.73 (0.98) & 92 (36) &  97 \\
-   22 & neymar \& marcelo & 0.35 (0.79) & \textbf{1.20} (1.13) & \textbf{0.86} (1.11) & 2.41 (1.62) & 0.50 (0.73) & 59 (25) & 354 \\
-   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 (1.72) & 0.78 (1.12) & 94 (36) & 2612 \\
-   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 (1.85) & 0.79 (1.08) & 89 (40) & 125 \\
-   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 (1.75) & 0.98 (1.18) & 82 (35) & 202 \\
-   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 (1.97) & 0.93 (1.05) & 90 (43) & 123 \\
-   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 (1.87) & 0.59 (0.90) & 81 (44) & 111 \\
-   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 (1.10) & 0.36 (0.73) & 86 (27) &  95 \\
+   17 & violin & \textbf{0.98} (1.12) & 0.76 (1.03) & \textbf{1.05} (1.15) & 2.79 (2.14) & 1.05 (1.34) & 99 (46) & 143 \\
+   18 & *trapeze artists & 0.73 (1.11) & \textbf{1.15} (1.14) & \textbf{0.84} (1.02) & 2.72 (1.91) & 0.51 (0.87) & 91 (37) & 2316 \\
+   19 & newpic12 & 0.55 (0.94) & 0.82 (1.11) & \textbf{1.27} (1.51) & 2.63 (2.41) & 0.68 (0.97) & 83 (34) & 196 \\
+   20 & newpic22 & 0.46 (0.81) & \textbf{1.53} (1.48) & 0.51 (0.88) & 2.50 (2.11) & 0.39 (0.69) & 78 (34) & 200 \\
+   21 & lacrosse duel & 0.20 (0.47) & \textbf{1.95} (1.36) & 0.30 (0.52) & 2.44 (1.41) & 0.68 (0.97) & 92 (36) &  97 \\
+   22 & neymar \& marcelo & 0.35 (0.79) & \textbf{1.20} (1.13) & \textbf{0.86} (1.11) & 2.41 (1.62) & 0.47 (0.71) & 59 (25) & 354 \\
+   23 & *ship captain & 0.47 (0.89) & 0.20 (0.53) & \textbf{1.56} (1.39) & 2.23 (1.72) & 0.77 (1.11) & 94 (36) & 2612 \\
+   24 & group & 0.85 (1.23) & 0.20 (0.55) & \textbf{1.13} (1.15) & 2.18 (1.85) & 0.78 (1.00) & 89 (40) & 125 \\
+   25 & newpic1 & 0.49 (0.84) & \textbf{0.85} (1.09) & \textbf{0.82} (1.03) & 2.16 (1.75) & 0.97 (1.19) & 82 (35) & 202 \\
+   26 & window & 0.94 (1.41) & 0.11 (0.34) & 0.72 (1.15) & 1.78 (1.97) & 0.82 (0.93) & 90 (43) & 123 \\
+   27 & canyon & 0.68 (0.96) & 0.19 (0.48) & 0.89 (1.27) & 1.76 (1.87) & 0.47 (0.74) & 81 (44) & 111 \\
+   28 & men on ship & 0.08 (0.35) & 0.31 (0.62) & \textbf{0.79} (0.78) & 1.18 (1.10) & 0.38 (0.76) & 86 (27) &  95 \\
    \hline
 
 
@@ -321,7 +323,7 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk. \emph{Activity Inhib.} = Activity Inhibibition. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
+\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk. \emph{AI} = Activity Inhibibition. \emph{WC} = word count. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
       \end{tablenotes}
   \end{threeparttable}
-\end{table*}
+\end{sidewaystable*}

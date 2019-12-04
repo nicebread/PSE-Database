@@ -249,4 +249,4 @@ person.gt50.each <- person %>% filter(study_id != "FS_newpic", scoring_type == "
 #save.image("processed_data/1-Descriptives.RData")	
 save(story, story.gt50, file="processed_data/story.RData")
 save(person, person.gt50.each, person.desc, file="processed_data/person.RData")
-save(tab.study.desc2, person.gt50.each, sentenceCountByPic, file="processed_data/Descriptives.RData")
+save(tab.study.desc2, person.gt50.each, demosentences, sentenceCountByPic, tab.mot.dat, file="processed_data/Descriptives.RData")

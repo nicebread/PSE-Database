@@ -1,19 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'AMC-Database.blg'
-[39] biber-darwin:315> INFO - === Wed Nov 13, 2019, 14:48:05
-[57] Biber.pm:375> INFO - Reading 'AMC-Database.bcf'
-[181] Biber.pm:905> INFO - Found 55 citekeys in bib section 0
-[205] Biber.pm:4196> INFO - Processing section 0
-[206] Utils.pm:75> INFO - Globbing data source 'Zotero.bib'
-[206] Utils.pm:91> INFO - Globbed data source 'Zotero.bib' to Zotero.bib
-[220] Biber.pm:4373> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
-[442] bibtex.pm:1462> INFO - LaTeX decoding ...
-[5908] bibtex.pm:1281> INFO - Found BibTeX data source 'Zotero.bib'
-[6170] Utils.pm:300> WARN - Possible typo (case mismatch) between datasource keys: 'klasnja_MicrorandomizedTrialsExperimental_2015' and 'klasnja_MicroRandomizedTrialsExperimental_2015' in file 'Zotero.bib'
-[6804] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6804] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6804] Biber.pm:4024> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[6804] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[6897] bbl.pm:648> INFO - Writing 'AMC-Database.bbl' with encoding 'UTF-8'
-[6995] bbl.pm:751> INFO - Output to AMC-Database.bbl
-[6995] Biber.pm:110> INFO - WARNINGS: 1
+[54] biber-darwin:315> INFO - === Mon Dec  2, 2019, 14:42:03
+[80] Biber.pm:375> INFO - Reading 'AMC-Database.bcf'
+[309] Biber.pm:905> INFO - Found 56 citekeys in bib section 0
+[394] Biber.pm:4196> INFO - Processing section 0
+[394] Utils.pm:75> INFO - Globbing data source 'Zotero.bib'
+[395] Utils.pm:91> INFO - Globbed data source 'Zotero.bib' to Zotero.bib
+[419] Biber.pm:4373> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
+[757] bibtex.pm:1462> INFO - LaTeX decoding ...
+[10968] bibtex.pm:1281> INFO - Found BibTeX data source 'Zotero.bib'
+[11358] Utils.pm:300> WARN - Possible typo (case mismatch) between datasource keys: 'klasnja_MicrorandomizedTrialsExperimental_2015' and 'klasnja_MicroRandomizedTrialsExperimental_2015' in file 'Zotero.bib'
+[12166] Utils.pm:300> WARN - I didn't find a database entry for 'schultheiss_ImplicitMotivesShow_inpress' (section 0)
+[12454] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12454] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12454] Biber.pm:4024> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[12454] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[12566] bbl.pm:648> INFO - Writing 'AMC-Database.bbl' with encoding 'UTF-8'
+[12684] bbl.pm:751> INFO - Output to AMC-Database.bbl
+[12684] Biber.pm:110> INFO - WARNINGS: 2

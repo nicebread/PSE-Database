@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.13)  13 NOV 2019 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.2)  2 DEC 2019 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1647,30 +1647,30 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 (./AMC-Database.aux)
 \openout1 = `AMC-Database.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 233.
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 233.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 244.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-33.
+44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 233.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
-3.
+LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
+4.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1764,13 +1764,20 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'AMC-Database.bbl' found.
- (./AMC-Database.bbl)
-Package biblatex Info: Reference section=0 on input line 233.
-Package biblatex Info: Reference segment=0 on input line 233.
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 233.
+ (./AMC-Database.bbl
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                schultheiss_ImplicitMotivesShow_inpress
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 244.
+Package biblatex Info: Reference segment=0 on input line 244.
+\AtBeginShipoutBox=\box76
+Package hyperref Info: Link coloring ON on input line 244.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/refcount.sty
@@ -1781,64 +1788,64 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count494
 )
-LaTeX Info: Redefining \ref on input line 233.
-LaTeX Info: Redefining \pageref on input line 233.
-LaTeX Info: Redefining \nameref on input line 233.
+LaTeX Info: Redefining \ref on input line 244.
+LaTeX Info: Redefining \pageref on input line 244.
+LaTeX Info: Redefining \nameref on input line 244.
 
 (./AMC-Database.out) (./AMC-Database.out)
 \@outlinefile=\write7
 \openout7 = `AMC-Database.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-33.
+44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-33.
+44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-233.
+244.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-233.
+244.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 233.
+(Font)              <12> on input line 244.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 233.
+(Font)              <8> on input line 244.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 233.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 233
+(Font)              <6> on input line 244.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 244
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 233
+LaTeX Font Info:    Trying to load font information for U+msb on input line 244
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-233.
+244.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-233.
+244.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1846,96 +1853,111 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 235.
+Package xcolor Warning: Incompatible color definition on input line 246.
 
 
-Package xcolor Warning: Incompatible color definition on input line 235.
+Package xcolor Warning: Incompatible color definition on input line 246.
 
 [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 237.
+(Font)              <10> on input line 248.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 237.
+(Font)              <7> on input line 248.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 237.
+(Font)              <5> on input line 248.
  [3]
 
-Package xcolor Warning: Incompatible color definition on input line 239.
+Package xcolor Warning: Incompatible color definition on input line 250.
+
+
+Package xcolor Warning: Incompatible color definition on input line 258.
 
 [4]
 \openout3 = `AMC-Database.ttt'.
 
  (AMC-Database.ttt)
 
-Package xcolor Warning: Incompatible color definition on input line 373.
+Package xcolor Warning: Incompatible color definition on input line 386.
+
+[5]
+
+Package xcolor Warning: Incompatible color definition on input line 390.
 
 
-Package xcolor Warning: Incompatible color definition on input line 377.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[5] [6] [7] [8] [9] [10]
+ [6]
+[7] [8] [9] [10]
 Underfull \vbox (badness 3635) has occurred while \output is active []
 
  [11]
-[12]
+
+Package xcolor Warning: Incompatible color definition on input line 599.
+
+
+Package xcolor Warning: Incompatible color definition on input line 599.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-03.
+ [12]
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+Package xcolor Warning: Incompatible color definition on input line 601.
+
+[13]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+16.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-613.
+626.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [14]
+)
+Underfull \vbox (badness 1107) has occurred while \output is active []
 
-Package xcolor Warning: Incompatible color definition on input line 641.
+ [14]
 
-
-Package xcolor Warning: Incompatible color definition on input line 643.
-
-
-Package xcolor Warning: Incompatible color definition on input line 651.
+Package xcolor Warning: Incompatible color definition on input line 653.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package xcolor Warning: Incompatible color definition on input line 655.
 
- [15]
+[15]
 
-Package xcolor Warning: Incompatible color definition on input line 676.
+Package xcolor Warning: Incompatible color definition on input line 663.
+
+
+Package xcolor Warning: Incompatible color definition on input line 688.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 
-Package xcolor Warning: Incompatible color definition on input line 684.
+Package xcolor Warning: Incompatible color definition on input line 696.
 
 \openout4 = `AMC-Database.fff'.
 
 (AMC-Database.fff)
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+Package xcolor Warning: Incompatible color definition on input line 710.
 
 [17]
 
-Package xcolor Warning: Incompatible color definition on input line 720.
+Package xcolor Warning: Incompatible color definition on input line 732.
 
+[18]
 
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
- [18]
-
-Package xcolor Warning: Incompatible color definition on input line 780.
+Package xcolor Warning: Incompatible color definition on input line 792.
 
 [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+Package xcolor Warning: Incompatible color definition on input line 812.
+
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
@@ -1943,623 +1965,100 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] [24] [25] [26] [27] AED endfloat: Processing end Figures and Tables
 [28] (./AMC-Database.ttt
-Underfull \hbox (badness 1590) in paragraph at lines 36--36
+Underfull \hbox (badness 1590) in paragraph at lines 38--38
 []|\T1/lmr/m/n/10 Munich, Er-lan-gen, Os-nabrueck,
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 36--36
+Underfull \hbox (badness 6808) in paragraph at lines 38--38
 []|\T1/lmr/m/n/10 Sentence num-ber within each
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 36--36
+Underfull \hbox (badness 4543) in paragraph at lines 38--38
 []|\T1/lmr/m/n/10 Presence of af-fil-i-a-tion/in-ti-macy
  []
 
 [29]
-Underfull \hbox (badness 10000) in alignment at lines 84--84
+Underfull \hbox (badness 10000) in alignment at lines 86--86
 [][][][][][][][][][][][][]
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 88.
+(Font)              <10.95> on input line 90.
 [30]
-Overfull \hbox (56.94113pt too wide) in paragraph at lines 111--111
+Overfull \hbox (56.94113pt too wide) in paragraph at lines 113--113
 |[][]
  []
 
 [31]
-Underfull \hbox (badness 1005) in paragraph at lines 143--143
+Underfull \hbox (badness 1005) in paragraph at lines 145--145
 \T1/lmr/m/n/10 einen ein-druck vom leben der
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 143--143
+Underfull \hbox (badness 1968) in paragraph at lines 145--145
 \T1/lmr/m/n/10 bei einem un-wet-ter über 100
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 143--143
+Underfull \hbox (badness 4229) in paragraph at lines 145--145
 \T1/lmr/m/n/10 aufgeregt der sache auf den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []|\T1/lmr/m/n/10 immerhin kön-nte das die
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 143--143
+Underfull \hbox (badness 4254) in paragraph at lines 145--145
 []|\T1/lmr/m/n/10 er möchte kurz eine minute
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
 \T1/lmr/m/n/10 aufmerk-samkeit der bei-den
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 143--143
+Underfull \hbox (badness 3471) in paragraph at lines 145--145
 \T1/lmr/m/n/10 bekannt für ihre gefährlichen
  []
 
 [32] [33]
-Underfull \hbox (badness 2181) in paragraph at lines 201--201
+Underfull \hbox (badness 2181) in paragraph at lines 203--203
 []|\T1/lmr/m/n/10 (3) Aff mo-tive score, sen-tence
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 201--201
+Underfull \hbox (badness 1194) in paragraph at lines 203--203
 []|\T1/lmr/m/n/10 (8) Ach mo-tive score, sen-tence
  []
 
 [34]
-Overfull \hbox (66.96945pt too wide) in paragraph at lines 214--253
+Overfull \hbox (66.96945pt too wide) in paragraph at lines 216--255
 [] 
  []
 
 [35]
-Underfull \hbox (badness 10000) in alignment at lines 273--273
+Underfull \hbox (badness 10000) in alignment at lines 275--275
 [][][][] 
  []
 
 [36]
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-./AMC-Database.ttt:320: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.320 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 320--320
-[][][][][][][][] 
+Underfull \hbox (badness 10000) in alignment at lines 322--322
+[][][][][][][][][] 
  []
 
 ) [37] (./AMC-Database.fff
-<figure/picPosPlot-1.pdf, id=538, 505.89pt x 252.945pt>
+<figure/picPosPlot-1.pdf, id=535, 505.89pt x 252.945pt>
 File: figure/picPosPlot-1.pdf Graphic file (type pdf)
 <use figure/picPosPlot-1.pdf>
 Package pdftex.def Info: figure/picPosPlot-1.pdf  used on input line 3.
 (pdftex.def)             Requested size: 407.66833pt x 203.83836pt.
  [38 <./figure/picPosPlot-1.pdf>]
-<demopics/demopic.pdf, id=549, 845.1575pt x 597.23125pt>
+<demopics/demopic.pdf, id=546, 845.1575pt x 597.23125pt>
 File: demopics/demopic.pdf Graphic file (type pdf)
 <use demopics/demopic.pdf>
 Package pdftex.def Info: demopics/demopic.pdf  used on input line 13.
@@ -2577,54 +2076,52 @@ Package pdftex.def Info: demopics/demopic.pdf  used on input line 13.
 
 
  <./demopics/demopic.pdf>]
-<figure/ternary-1.pdf, id=581, 505.89pt x 505.89pt>
+<figure/ternary-1.pdf, id=578, 505.89pt x 505.89pt>
 File: figure/ternary-1.pdf Graphic file (type pdf)
 <use figure/ternary-1.pdf>
 Package pdftex.def Info: figure/ternary-1.pdf  used on input line 22.
 (pdftex.def)             Requested size: 407.66833pt x 407.67673pt.
 ) [40 <./figure/ternary-1.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 833.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 833.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (./AMC-Database.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 833.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 833.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `AMC-Database.out' has not changed.
-(rerunfilecheck)             Checksum: 48ADCDD37658A8DE7A665C7386AB1AD9;1310.
+(rerunfilecheck)             Checksum: 0D05F0112AD78394DE1CAD2073524594;1309.
 Package logreq Info: Writing requests to 'AMC-Database.run.xml'.
 \openout1 = `AMC-Database.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44756 strings out of 492164
- 860892 string characters out of 6125317
- 1366823 words of memory out of 5000000
- 48237 multiletter control sequences out of 15000+600000
- 657343 words of font info for 114 fonts, out of 8000000 for 9000
+ 44755 strings out of 492164
+ 860882 string characters out of 6125318
+ 1356910 words of memory out of 5000000
+ 48238 multiletter control sequences out of 15000+600000
+ 653079 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,24n,112p,2252b,3983s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/t
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/t
 exmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2019/texmf-dist/fon
 ts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvi
 ps/lm/lm-mathsy.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/l
 mbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx6.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/lm/lmri7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
-tt12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on AMC-Database.pdf (40 pages, 6258480 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/lm/lmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/lm/lmtt8.pfb>
+Output written on AMC-Database.pdf (40 pages, 6206063 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
- 601 compressed objects within 7 object streams
+ 685 PDF objects out of 1000 (max. 8388607)
+ 592 compressed objects within 6 object streams
  169 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

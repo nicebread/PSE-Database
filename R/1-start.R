@@ -27,10 +27,10 @@ PSE_file <- "raw_data/PSE_0.2_redacted_data.tsv"
 
 # ensure integrity/correct version of file: MD5 checksum from 
 # 0.2 version of database.
-if (tools::md5sum(PSE_file) != "312140eb6d077880be8b15374eed6732") {
+if (tools::md5sum(PSE_file) != "c2d7df2191f9ccccf3058a3f34061eca") {
 	print("WARNING: checksum of data file does not match!")
 } else {
-	print("Integrity of data set verified by checksum.")
+	print("SUCCESS: Integrity of data set verified by checksum.")
 }
 
 # PSE is the database of stories and codings

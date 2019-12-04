@@ -6,7 +6,7 @@
 \begin{tabularx}{\textwidth}{llXX}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:44 2019
+% Wed Dec  4 09:58:00 2019
 Variable name & Data type & Comment & Values \\
   \hline
 row\_id & numeric & Unique row id &  \\
@@ -50,7 +50,7 @@ row\_id & numeric & Unique row id &  \\
 
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:44 2019
+% Wed Dec  4 09:58:00 2019
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\
   \hline
 BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de & CL & mostly students \\
@@ -87,7 +87,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. DE = Germany, CH = Switzerland. \emph{students} in the \emph{Population} column are university students. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8. Using the \emph{sdcMicro} package \parencite{templ_StatisticalDisclosureControl_2015}, age has been categorized and 112 age data points (i.e., 112/4322 = 2.6\%) have been set to a missing value to ensure a $k$-anonymity of $k=5$ within each study regarding the key variables age and gender.}
+\textit{Note.} $n$ = number of participants. Admin. = type of administration: CO = computer-written online, CL = computer-written in lab. de = Germany, ch = Switzerland. All PSEs were written in an individual setting, except study FS\_ErlSem which was in a group test setting. In study \emph{MK3} there was a longer break between pictures 1--4 and 5--8.}
     \end{tablenotes}
 \end{threeparttable}
 \end{sidewaystable*}
@@ -123,7 +123,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & de
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:44 2019
+% Wed Dec  4 09:58:00 2019
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\
   \hline
 der reporter im bild versucht sich einen eindruck vom leben der beschäftigten der schifffahrt in der vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
@@ -170,14 +170,14 @@ null & 58.7\% \\
 \begin{sidewaystable*}
 %\begin{table*}
 \begin{threeparttable}
-\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations at the Person Level.}
+\caption{Descriptive Statistics for Raw Motive Scores, Word Count, and Sentence Count per Picture Story, and Meta-analytically Aggregated Correlations on Person Level.}
 \label{tab:descCor}
 \footnotesize
 %\begin{tabular}{lrrlllllllllllllllll}
 \begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:44 2019
+% Wed Dec  4 09:58:01 2019
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\
   \hline
 (1) Aff motive score & 1.13 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\
@@ -204,7 +204,7 @@ null & 58.7\% \\
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study at the person level and then meta-analytically aggregated across studies.}
+\textit{Note.} Analyses in this table are based on 3332 persons, nested in 17 studies which did not apply the 2nd-sentence rule and did not use the new pictures. Mean and \emph{SD} are computed per picture story, as the number of pictures varies between studies. The correlations are computed within study on person level and then meta-analytically aggregated across studies.}
       \end{tablenotes}
   \end{threeparttable}
 %\end{table*}
@@ -256,14 +256,14 @@ null & 58.7\% \\
 \efloatseparator
  
 \begin{table*}
-\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, Calculated as Hedge's $g$ (SE).}
+\caption{Meta-Analysis for Gender Differences in Implicit Motive Scores, calculated as Hedge's $g$ (SE).}
 \label{tab:MA}
 \footnotesize
 \begin{tabularx}{\textwidth}{lrrr}
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:44 2019
+% Wed Dec  4 09:58:01 2019
 Correction & aff & ach & pow \\
   \hline
 Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & -0.13 (0.03, \emph{p} < .001) \\
@@ -276,15 +276,15 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 \end{table*}
 \efloatseparator
  
-\begin{sidewaystable*}
+\begin{table*}
 \begin{threeparttable}
 \caption{Means and Standard Deviations of Raw Motive Scores, Coded Without 2nd-Sentence Rule.}
 \label{tab:norms}
-\small
-\begin{tabularx}{\textwidth}{rlllllllr}
+\tiny
+\begin{tabularx}{\textwidth}{rllllllr}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Mon Dec  2 14:51:45 2019
+% Wed Dec  4 09:58:02 2019
  & Pic ID & Aff & Ach & Pow & Overall & AI & WC & \emph{n} \\
   \hline
   1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.37 (0.66) & 84 (33) & 198 \\
@@ -323,7 +323,7 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .278) & 
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk. \emph{AI} = Activity Inhibibition. \emph{WC} = word count. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
+\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk. \emph{Activity Inhib.} = Activity Inhibibition. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
       \end{tablenotes}
   \end{threeparttable}
-\end{sidewaystable*}
+\end{table*}

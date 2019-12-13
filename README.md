@@ -14,12 +14,14 @@ As we expect that the PSE database will grow over time, we put a version number 
 
 # PSE story database
 
-We provide a database of expert-coded German PSE stories. These stories have been coded with David Winter's 1994 "Manual for scoring motive imagery in running text" for the presence of implicit affiliation/intimacy, achievement, and power motives.
+We provide a database of expert-coded German PSE stories, stored in [/story_database](/story_database). These stories have been coded with David Winter's 1994 "Manual for scoring motive imagery in running text" for the presence of implicit affiliation/intimacy, achievement, and power motives.
+
+## Download links
 
 - Version 0.1: PSE database submitted for peer review (n = 152,908 sentences, nested in 21,941 stories provided by 3,832 participants) - this dataset version is not provided here
 - Version 0.2: PSE database for first revision (n = 183,415 sentences, nested in 26,389 stories provided by 4,570 participants)
-	- [Download TSV file](/story_database/PSE_0.2_redacted_data.tsv) - MD5 checksum: 3cbca6ab485f4b45331237800d0c426b
-	- [Download RData file](/story_database/PSE_0.2_redacted_data.RData) - MD5 checksum: 717919a9886f0877a9c1605783b8582e
+	- [Download TSV file](https://raw.githubusercontent.com/nicebread/PSE-Database/master/story_database/PSE_0.2_redacted_data.tsv) - MD5 checksum: 3cbca6ab485f4b45331237800d0c426b
+	- [Download RData file](https://raw.githubusercontent.com/nicebread/PSE-Database/master/story_database/PSE_0.2_redacted_data.RData) - MD5 checksum: 717919a9886f0877a9c1605783b8582e
 
 
 # PSE picture database

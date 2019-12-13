@@ -23,7 +23,7 @@ library(pwr)
 source("0-helpers.R")
 
 # load the central data file
-PSE_file <- "../database_releases/PSE_0.2_redacted_data.tsv"
+PSE_file <- "../story_database/PSE_0.2_redacted_data.tsv"
 
 # ensure integrity/correct version of file: MD5 checksum from 
 # 0.2 version of database.

@@ -26,7 +26,7 @@ We provide a database of expert-coded German PSE stories. These stories have bee
 
 A database of classic and new PSE picture stimuli. These files are stored on Open Science Framework: ([https://osf.io/dj8g9/](https://osf.io/dj8g9/)):
 
-![/picture_database/pse-pic-DB.jpg](PSE picture database)
+![PSE picture database](/picture_database/pse-pic-DB.jpg)
 
 # Codebook of the PSE story database
 

@@ -271,6 +271,45 @@
       \verb /Users/felix/Bibs und Backup/Zotero/storage/PSJURS2D/psycnet.apa.org.html
       \endverb
     \endentry
+    \entry{cramer_DefenseMechanismCard_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58f8223cf9f6318021f397e4f5528595}{%
+           family={Cramer},
+           familyi={C\bibinitperiod},
+           given={Phebe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58f8223cf9f6318021f397e4f5528595}
+      \strng{fullhash}{58f8223cf9f6318021f397e4f5528595}
+      \strng{bibnamehash}{58f8223cf9f6318021f397e4f5528595}
+      \strng{authorbibnamehash}{58f8223cf9f6318021f397e4f5528595}
+      \strng{authornamehash}{58f8223cf9f6318021f397e4f5528595}
+      \strng{authorfullhash}{58f8223cf9f6318021f397e4f5528595}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study investigates the question of whether different Thematic Apperception Test (TAT; Murray, 1943) cards are likely to prompt stories that are characterized by different defense mechanisms. This condition is known as card pull and refers to the probability that different TAT cards elicit different personality scores for the same variable. If so, the assessment of defense use would be importantly influenced by the TAT cards used in an assessment. TAT stories from 3 different community samples were examined (Ns = 91, 98, 121), using a statistical method developed by Stein et al (2014). The results indicated that different TAT cards pull for different defenses, as assessed by the Defense Mechanism Manual (DMM: Cramer, 1991b). However, the nature of card pull was not always consistent across samples. These dissimilarities could be due to group differences, or to the presence of different TAT cards used in the test battery, indicating that card pull is importantly determined by context.}
+      \field{day}{2}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{month}{1}
+      \field{title}{Defense Mechanism Card Pull in {{TAT}} Stories}
+      \field{volume}{99}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{15\bibrangedash 24}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/00223891.2016.1207080
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/SRD59N5S/00223891.2016.html
+      \endverb
+    \endentry
     \entry{czikmantori_ExperienceIntrinsicMotivation_2018}{unpublished}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f319221a899c02f9da5d39c535652eda}{%
@@ -384,33 +423,18 @@
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The reliability of salivary testosterone assays was evaluated by nine laboratories in four countries. Each laboratory used its own RIA procedures to assay samples from a set of 100 male and 100 female subjects. Agreement among the laboratories on mean scores was within the range reported by Read (Ann N Y Acad Sci 1993; 694: 161-76). Overall agreement on individual scores, as indicated by the intraclass correlation coefficient computed within subjects across laboratories, was r = 0.87 for men and r = 0.78 for women. Mean agreement between each laboratory and the combined set of all other laboratories (via Fisher's Z-transformation) was r = 0.61 for men and r = 0.58 for women. We take these latter values to be the best estimates of the average reliability of laboratories in their ordering of individual samples.}
       \field{day}{1}
-      \field{eprinttype}{pmid}
-      \field{issn}{0009-9147, 1530-8561}
       \field{journaltitle}{Clinical Chemistry}
       \field{langid}{english}
       \field{month}{11}
       \field{shorttitle}{Reliability of Salivary Testosterone Measurements}
       \field{title}{Reliability of Salivary Testosterone Measurements: {A} Multicenter Evaluation.}
-      \field{urlday}{16}
-      \field{urlmonth}{10}
-      \field{urlyear}{2018}
       \field{volume}{41}
       \field{year}{1995}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{1581\bibrangedash 1584}
       \range{pages}{4}
-      \verb{eprint}
-      \verb 7586546
-      \endverb
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/QJEBPSJB/Dabbs et al. - 1995 - Reliability of salivary testosterone measurements.pdf;/Users/felix/Bibs und Backup/Zotero/storage/UCPSMGCH/1581.html
-      \endverb
-      \verb{urlraw}
-      \verb http://clinchem.aaccjnls.org/content/41/11/1581
-      \endverb
-      \verb{url}
-      \verb http://clinchem.aaccjnls.org/content/41/11/1581
       \endverb
     \endentry
     \entry{drescher_MetaanalyticEvidenceHigher_2016}{article}{}
@@ -791,6 +815,34 @@
       \verb 10.1007/s40750-017-0075-y
       \endverb
       \keyw{Power motivation,Facial width-to-height ratio,Implicit motives,Organizational hormone effects,Picture story exercise,Puberty}
+    \endentry
+    \entry{jenkins_HandbookClinicalScoring_2008}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8d8d4bf3d25502c2203224b0495f6f52}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Sharon\bibnamedelima Rae},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \strng{fullhash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \strng{bibnamehash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \strng{authorbibnamehash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \strng{authornamehash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \strng{authorfullhash}{8d8d4bf3d25502c2203224b0495f6f52}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Contents: Preface. Part I: General Principles. S.R. Jenkins, Introduction: Why "Score" TATs, Anyway? S.R. Jenkins, Learning and Teaching Reliable Scoring Systems. S.R. Jenkins, Future Directions. Part II: The Research Summaries and Scoring Manuals. Perceptual-Cognitive. B. Chapman, Edith Weisskopf's Transcendence Index. E. Weisskopf, M. Prola, L. Perez, S.R. Jenkins, Edith Weisskopf's Transcendence Index Manual. C. Santa Maria, Richard Dana's Objective Scoring System. R. Dana, Objective Scoring System Manual. M. Leeper, L. Dobbs-Horn, S.R. Jenkins, Melvin Feffer's Interpersonal Decentering. M. Feffer, M. Leeper, L. Dobbs-Horn, S.R. Jenkins, L. Perez, Interpersonal Decentering Manual. B. Ritzler, The Picture Projection Test. B. Ritzler, The Picture Projection Test Manual. G.F. Ronan, M.S. Gibbs, L.Dreer, J.A. Lombardo, Personal Problem Solving System-- Revised. G.F. Ronan, M.S. Gibbs, Scoring Manual for Personal Problem Solving System-Revised. Part III: Psychodynamic. S. Ornduff, Reuben Fine's Scoring Scheme. S. Ornduff, Reuben Fine's Scoring Scheme Manual. R.R. Holt, Primary Process. R.R. Holt, Primary Process Manual. B.P. Karon, Pathogenesis. B.P. Karon, Pathogenesis Manual. S. Huprich, Oral Dependency. S. Huprich, Oral Dependency Manual, D.W. Harder, D.F. Greenwald, The Harder TAT Ambitious-Narcissistic Style Scale. D.W. Harder, D.F. Greenwald, The Harder TAT Ambitious-Narcissistic Style Scale Manual. F. Summers, Symbiosis. F. Summers, Symbiosis Manual. Part IV: Social-Emotional. B. Chapman, Singer and Wynne's Communication Deviance. A.D. Thomas, The TAT Affective Scale. A.D. Thomas, The TAT Affective Scale Manual. G. Costantino, R. Malgady, The TEMAS (Tell-Me-A-Story). H. Teglasi, C. Locraft, K. Felgenhauer, Empathy. H. Teglasi, C. Locraft, K. Felgenhauer, Scoring Manual for Empathy. D. Joubert, Adult Attachment Projective. M. Hoy-Watkins, V. Jenkins-Monroe, Contemporized Themes Concerning Blacks. M. Hoy-Watkins, Scoring Manual for Contemporized Themes Concerning Blacks. Part V: Needs-concerns. L. Chandler, Need-Threat Analysis. L. Chandler, Need-Threat Analysis Manual. D. Ephraim, George DeVos' Psychocultural Scoring. D. Ephraim, George DeVos' Psychocultural Scoring Manual.}
+      \field{title}{A Handbook of Clinical Scoring Systems for Thematic Apperceptive Techniques}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \keyw{Book,DjVu,Download,EPUB,Handbooks,Manuals as Topic,Portable Document Format,Score,Vii}
     \endentry
     \entry{john_measuring_2012}{article}{}
       \name{author}{3}{}{%
@@ -2107,7 +2159,7 @@
       \field{pages}{72\bibrangedash 81}
       \range{pages}{10}
     \endentry
-    \entry{schultheiss_ImplicitMotivesShow_inpress}{article}{}
+    \entry{schultheiss_ImplicitMotivesShow_2019}{article}{}
       \name{author}{8}{}{%
         {{un=1,uniquepart=given,hash=ce2d5208353a268cdd13010c0db6079d}{%
            family={Schultheiss},
@@ -2168,21 +2220,25 @@
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Digit ratio represents a marker of prenatal steroid hormone effects on the developing brain. In a dataset compiled from 4 studies (total N = 618), we examined relationships between 2nd and 4th digit lengths as assessed from participants' hands, implicit needs (n) for power, achievement, and affiliation, and activity inhibition (AI) as assessed from picture stories, and participant sex. We obtained robustly significant sex-dimorphic effects of nPower and AI on between-hand digit ratio differences and suggestive effects of nAchievement on average digit ratio. Women high in both nPower and AI had a male-typical negative digit ratio difference, whereas those high only in nPower had a particularly female-typical positive digit ratio difference. In women, nAchievement was positively associated with digit ratio; in men, it was negatively related. No effects emerged for nAffiliation. Thus, dispositional needs for power and achievement in adulthood appear to be shaped in part by the organizational effects of prenatal steroid exposure on brain development. (PsycINFO Database Record (c) 2018 APA, all rights reserved)}
+      \field{abstract}{Digit ratio represents a marker of prenatal steroid hormone effects on the developing brain. In a dataset compiled from 4 studies (total N = 618), we examined relationships between 2nd and 4th digit lengths as assessed from participants' hands, implicit needs (n) for power, achievement, and affiliation, and activity inhibition (AI) as assessed from picture stories, and participant sex. We obtained robustly significant sex-dimorphic effects of nPower and AI on between-hand digit ratio differences and suggestive effects of nAchievement on average digit ratio. Women high in both nPower and AI had a male-typical negative digit ratio difference, whereas those high only in nPower had a particularly female-typical positive digit ratio difference. In women, nAchievement was positively associated with digit ratio; in men, it was negatively related. No effects emerged for nAffiliation. Thus, dispositional needs for power and achievement in adulthood appear to be shaped in part by the organizational effects of prenatal steroid exposure on brain development. (PsycINFO Database Record (c) 2019 APA, all rights reserved)}
       \field{issn}{2333-8121(Electronic),2333-8113(Print)}
       \field{journaltitle}{Motivation Science}
       \field{title}{Implicit Motives Show Sex-Dimorphic Associations with Digit Ratio}
-      \field{year}{in press}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{326\bibrangedash 342}
+      \range{pages}{17}
       \verb{doi}
       \verb 10.1037/mot0000122
       \endverb
       \verb{file}
-      \verb /Users/felix/Bibs und Backup/Zotero/storage/E75594SE/2018-57957-001.html
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/6IS3EWVI/Schultheiss et al. - 2019 - Implicit motives show sex-dimorphic associations w.pdf;/Users/felix/Bibs und Backup/Zotero/storage/2788YZD5/2018-57957-001.html
       \endverb
-      \keyw{Motivation,Achievement,Test Construction,Interpersonal Control,Human Sex Differences,Hormones,Affiliation Motivation,Behavioral Inhibition,Brain Development,Exposure,Prenatal Development,Prenatal Exposure,Steroids}
+      \keyw{Achievement,Affiliation Motivation,Behavioral Inhibition,Brain Development,Exposure,Hormones,Human Sex Differences,Interpersonal Control,Motivation,Prenatal Development,Prenatal Exposure,Steroids,Test Construction}
     \endentry
     \entry{schultheiss_implicit_2014}{article}{}
       \name{author}{2}{}{%
@@ -2358,6 +2414,127 @@
       \verb 10.1017/CBO9780511527937.038
       \endverb
       \keyw{Interrater Reliability,Scoring (Testing),Statistical Analysis,*Content Analysis,*Conversation,*Methodology,Data Collection}
+    \endentry
+    \entry{stein_SCORSStimulusCharacteristics_2014}{article}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=7bed92c88f0859f33016b49ed3ae06ce}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Michelle\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=acbb77957ac6a1aa114c67af0ba65031}{%
+           family={Slavin-Mulford},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Jenelle},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=136c3ea2340eb0bf6b5e577dddefafa5}{%
+           family={Siefert},
+           familyi={S\bibinitperiod},
+           given={Caleb\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8fa6fa2cefac0d7cb3b3116b0d3ff28}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Samuel\bibnamedelima Justin},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9fe54e7900df03910ad3f4bc6c02f2}{%
+           family={Renna},
+           familyi={R\bibinitperiod},
+           given={Megan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5ba03b499bad700b61d8c96d6fe1c02}{%
+           family={Malone},
+           familyi={M\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a39b426b61fa74dd6dfba198322b9d4}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Iruma},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dde6d4f517be3c558e239a1631290aba}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{209ceeefb81ec8f62154e631b8804cb0}
+      \strng{fullhash}{54408cfb97ec1796e881b857cf6d0759}
+      \strng{bibnamehash}{d9fad20cbaa2e388780e178f3e316f46}
+      \strng{authorbibnamehash}{d9fad20cbaa2e388780e178f3e316f46}
+      \strng{authornamehash}{209ceeefb81ec8f62154e631b8804cb0}
+      \strng{authorfullhash}{54408cfb97ec1796e881b857cf6d0759}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has been surprisingly little research into the stimulus properties of the Thematic Apperception Test Cards (TAT; Murray, 1943). This study used the Social Cognition and Object Relations Scale–{}Global Rating Method (SCORS–{}G; Stein, Hilsenroth, Slavin-Mulford, \& Pinsker, 2011; Westen, 1995) to explore the stimulus properties of select TAT cards in a clinical sample. The SCORS–{}G is a theoretically based and empirically validated measure of object relations that has widely been used in TAT research. A sample of 80 patients referred for psychological assessment at a large Northeastern hospital were administered the TAT (Cards 1, 2, 3BM, 4, 13MF, 12M, and 14) as part of their assessment battery. Trained raters scored the narratives using the SCORS–{}G. The SCORS–{}G ratings were analyzed to determine the nature and degree of object representation ``pull'' both across and within the TAT cards. The results showed that Cards 3BM and 13MF exhibited the greatest card pull for negative pathological object representations, and Card 2 displayed the highest card pull for adaptive and mature object representations. Both clinical and research related implications are discussed.}
+      \field{day}{4}
+      \field{journaltitle}{Journal of Personality Assessment}
+      \field{month}{5}
+      \field{title}{{{SCORS}}–{{G Stimulus Characteristics}} of {{Select Thematic Apperception Test Cards}}}
+      \field{volume}{96}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{339\bibrangedash 349}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/00223891.2013.823440
+      \endverb
+      \verb{file}
+      \verb /Users/felix/Bibs und Backup/Zotero/storage/A9S6R6UQ/00223891.2013.html
+      \endverb
+    \endentry
+    \entry{stein_SocialCognitionObject_2017}{book}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=1cbc67c419b9c8210d2be7ae0df6f9c5}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=acbb77957ac6a1aa114c67af0ba65031}{%
+           family={Slavin-Mulford},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Jenelle},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \strng{fullhash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \strng{bibnamehash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \strng{authorbibnamehash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \strng{authornamehash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \strng{authorfullhash}{87ac2144c1c98722c7d3011cfdb2f82b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Social Cognition and Object Relations Scale-Global Rating Method (SCORS-G) is a clinician rated measure that can be used to code various forms of narrative material. It is comprised of eight dimensions which are scored using a seven-point Likert scale, where lower scores are indicative of more pathological aspects of object representations and higher scores are suggestive of more mature and adaptive functioning. The volume is a comprehensive reference on the 1) validity and reliability of the SCORS-G rating system; 2) in depth review of the empirical literature; 3) administration and intricacies of scoring; and 4) the implications and clinical utility of the system across settings and disciplines for clinicians and researchers.}
+      \field{day}{14}
+      \field{edition}{1}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{pagetotal}{276}
+      \field{shorttitle}{The {{Social Cognition}} and {{Object Relations Scale}}-{{Global Rating Method}} ({{SCORS}}-{{G}})}
+      \field{title}{The {{Social Cognition}} and {{Object Relations Scale}}-{{Global Rating Method}} ({{SCORS}}-{{G}}): {{A}} Comprehensive Guide for Clinicians and Researchers}
+      \field{year}{2017}
+      \field{dateera}{ce}
     \endentry
     \entry{tabachnick_UsingMultivariateStatistics_2013}{book}{}
       \name{author}{2}{}{%

@@ -23,13 +23,12 @@ library(pwr)
 source("0-helpers.R")
 
 # load the central data file
-PSE_file <- "../story_database/PSE_0.2_redacted_data.tsv"
+PSE_file <- "../story_database/PSE_1.0_redacted_data.tsv"
 
 # ensure integrity/correct version of file: MD5 checksum from 
 # 0.2 version of database.
-if (tools::md5sum(PSE_file) != "3cbca6ab485f4b45331237800d0c426b") {
-	print("ERROR: checksum of data file does not match!")
-	stop();
+if (tools::md5sum(PSE_file) != "9acc8e74a45e2651a96ceb371b227ade") {
+	warning("ERROR: checksum of data file does not match!")
 } else {
 	print("SUCCESS: Integrity of data set verified by checksum.")
 }

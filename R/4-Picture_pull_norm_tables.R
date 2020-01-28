@@ -140,6 +140,14 @@ colnames(wikitable) <- c("Pic ID", "Aff", "Ach", "Pow", "Overall", "Activity Inh
 
 kable(wikitable, format="markdown")	
 
+# export as xlsx (also for OSF project)
+OSF_table <- pics %>% 
+	arrange(-overall.mean) %>%  
+	select(pic_id, aff.mean, aff.sd, ach.mean, ach.sd, pow.mean, pow.sd, overall.mean, overall.sd, sc.mean, sc.sd, wc.mean, wc.sd, AI.mean, AI.sd, n.stories)
+	
+OSF_table[, -1] <- round(OSF_table[, -1], 2)	
+export(OSF_table, file="export/picture_pull_norm_table.xlsx")
+
 # ---------------------------------------------------------------------
 # Compare norms to Schultheiss norms (not printed in paper)
 # FIXME: ATTENTION: THE NUMBERS GOT MIXED UP HERE; NEEDS REVISION
@@ -206,5 +214,12 @@ ternary.plot <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=
 	labs(x="ACH", y="AFF", z="POW") + theme_rgbw()
 ternary.plot
 
-save(t1dat, ternary.plot, tab.norm, file="processed_data/picture_norms.RData")	
+ternary.plot.BW <- ggtern(data=t1dat, aes(x=ach.norm, y=aff.norm, z=pow.norm, size=overall.mean)) + 
+	geom_point(color="gray60") + 
+	geom_text(aes(x=ach.label, y=aff.label, z=pow.label, label=picNumber), hjust=0.5, size=3, color="black") + 
+	labs(x="ACH", y="AFF", z="POW") + theme_bw() + theme_arrowsmall()
+ternary.plot.BW
+
+
+save(t1dat, ternary.plot, ternary.plot.BW, tab.norm, file="processed_data/picture_norms.RData")	
 

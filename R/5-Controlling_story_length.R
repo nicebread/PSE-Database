@@ -106,7 +106,7 @@ CA.pow <- CA.MLM("pow.sum", data=person)
 
 save(CA.aff, CA.ach, CA.pow, file="processed_data/CAs.RData")
 
-
+stop();  # no Bayesian computations in standard run
 
 ## ======================================================================
 ## Bayesian approach (4c):

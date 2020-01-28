@@ -1,0 +1,174 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+  "name": "Database of Expert-Coded German PSE Stories",
+	"version": "0.2.0",
+	"schemaVersion":"Psych-DS 0.2.0",
+	"author":[
+			{
+				"@type": "Person", 
+				"givenName": "Felix D.", 
+				"familyName": "Schönbrodt",
+				"name": "Felix D. Schönbrodt",
+				"sameAs": "https://orcid.org/0000-0002-8282-3910",
+				"email": "felix.schoenbrodt@psy.lmu.de", 
+				"affiliation": {
+					"@type": "Organization",
+					"name": "Ludwig-Maximilians-Universität München, Germany"
+				}
+			},
+			{"@type": "Person", "name": "Hagemeyer, B."},
+			{"@type": "Person", "name": "Brandstätter, V."},
+			{"@type": "Person", "name": "Czikmantori, T."},
+			{"@type": "Person", "name": "Gröpel, P."},
+			{"@type": "Person", "name": "Hennecke, M."},
+			{"@type": "Person", "name": "Israel, L. S. F."},
+			{"@type": "Person", "name": "Janson, K."},
+			{"@type": "Person", "name": "Kemper, N."},
+			{"@type": "Person", "name": "Köllner, M."},
+			{"@type": "Person", "name": "Kopp, P. M."},
+			{"@type": "Person", "name": "Mojzisch, A."},
+			{"@type": "Person", "name": "Müller-Hotop, R."},
+			{"@type": "Person", "name": "Prüfer, J."},
+			{"@type": "Person", "name": "Quirin, M."},
+			{"@type": "Person", "name": "Scheidemann, B."},
+			{"@type": "Person", "name": "Schiestel, L."},
+			{"@type": "Person", "name": "Schulz-Hardt, S."},
+			{"@type": "Person", "name": "Sust, L."},
+			{"@type": "Person", "name": "Zygar, C."},
+			{"@type": "Person", "name": "Schultheiss, O. C."}
+		],
+	
+		"url": "TODO",
+  "description": "A database of expert-coded German PSE stories. These stories have been coded with David Winter's 1994 \"Manual for scoring motive imagery in running text\" for the presence of implicit affiliation/intimacy, achievement, and power motives.",
+  "datePublished": "2019-12-20",
+  "keywords": ["implicit motives", "picture story exercise", "PSE", "Winter coding system", "affiliation", "achievement", "power"],
+  "temporalCoverage": "2010:2019",
+	"spatialCoverage": "Germany, Switzerland",
+  "license": "CC-BY4.0",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "row_id",
+      "description": "Consecutive unique ID for each row"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "study_id",
+      "description": "Identifier for the original study/data set"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "coding_lab",
+      "description": "Lab where the coders were trained",
+      "levels": ["Munich", "Erlangen", "Osnabrueck", "Trier"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "scoring_type",
+      "description": "Second sentence rule applied?",
+      "levels": ["eachSentence", "2nd_sentence_rule"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "participant_id",
+      "description": "Unique person identifier"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "gender",
+      "description": "Gender (m=male, f=female, NA=missing/other)",
+      "levels": ["m", "f", "NA"]
+    },
+    {
+      "@type": "PropertyValue",      
+      "name": "age",
+      "description": "Age category",
+			"levels": ["age <= 25", "25 < age <= 35", "35 < age <= 45", "45 < age <= 55", "age > 55"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "USID",
+      "description": "Unique story identifier"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "UTID",
+      "description": "Unique text identifier (each sentence is one 'text')"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pic_id",
+			"description": "Unique picture ID; see https://osf.io/pqckn/"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pic_position",
+			"description": "Position of picture in PSE task. The number encodes the picture position of valid stories, and not the position of the presented picture (e.g., if the first story was empty, the second picture gets the position '1')."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pic_order",
+			"description": "Picture order in PSE task fixed for all participants, or variable?",
+			"levels": ["fixed, variable"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "unit",
+			"description": "Sentence number within each story"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "wc",
+			"description": "Word count (at sentence level)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sc",
+			"description": "Sentence count (at story level)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pow",
+			"description": "Presence of power imagery; 0 (absent) or 1 (present)"
+		},
+    {
+      "@type": "PropertyValue",
+      "name": "ach",
+			"description": "Presence of achievement imagery; 0 (absent) or 1 (present)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "aff",
+			"description": "Presence of affiliation/intimacy imagery; 0 (absent) or 1 (present)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "motclass",
+			"description": "Multiclass combination of aff, ach, and pow codings. All mixed codings are collapsed into the category 'mixed'.",
+      "levels": ["none", "ach", "aff", "pow", "mixed"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "motclassfull",
+			"description": "Multiclass combination of aff, ach, and pow codings with all possible combinations.",
+			"levels": ["none", "ach", "aff", "pow", "achpow", "affach", "affpow", "affachpow"]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text",
+			"description": "The text of the sentence (spell-checked)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_original",
+			"description": "The orginal text of the sentence, as provided by the participants."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "holdout",
+			"description": "Is this row part of the hold out set?",
+			"levels": ["FALSE", "TRUE"]
+    }
+  ]
+}

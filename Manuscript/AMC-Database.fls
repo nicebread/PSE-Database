@@ -1,4 +1,4 @@
-PWD /Users/felix/LMU/Research/1 - Konkret in Arbeit/AMC Project/AMC - Dataset publication/Manuscript
+PWD /Users/felix/LMU/Research/1 - Konkret in Arbeit/AMC Project/PSE Dataset publication/Manuscript
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -515,7 +515,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 OUTPUT AMC-Database.ttt
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm
@@ -565,7 +564,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb

@@ -37,3 +37,8 @@ rsconnect/
 
 # All files starting with an underscore
 _*
+
+# do not add PsychArchives release
+PsychArchives*
+
+PSE_1.0_redacted_data.tsv

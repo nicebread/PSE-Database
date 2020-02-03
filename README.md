@@ -2,25 +2,18 @@
 
 This repository shares two openly available databases and the fully reproducible R code for the paper Schönbrodt et al. (2018): **Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms.** (for full citation, see below).
 
-# License and citation of the databases
-
-Both the database on coded PSE stories and the picture database ([https://osf.io/pqckn/](https://osf.io/pqckn/)) can be downloaded and reused freely under a CC-BY 4.0 license. 
-
-Please cite this publication if you use either database in your work ([BibTex](CITATION.bib)): 
-
-Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar, C., & Schultheiss, O. C. (2019). Measuring implicit motives with the Picture Story Exercise (PSE): Databases of expert-coded german stories, pictures, and updated picture norms.
 
 # PSE story database
 
-We provide a database of expert-coded German PSE stories. These stories have been scored sentence-wise with David Winter's 1994 "Manual for scoring motive imagery in running text" for the presence of implicit affiliation/intimacy, achievement, and power motives.
+We provide a database of 183,415 German sentences, nested in 26,389 stories provided by 4,570 participants, which have been coded by experts using Winter's (1994) coding system for the implicit affiliation/intimacy, achievement, and power motives. 
 
 As we expect that the PSE database will grow or change over time, we put a version number on it and archive old versions. **We urge researchers to always refer to the specific version number and the specific doi when the database is used in order to ensure reproducibility.**
 
-## Download links
+The story dataset is hosted on the PsychArchives repository: [http://dx.doi.org/10.23668/psycharchives.2738](http://dx.doi.org/10.23668/psycharchives.2738).
 
-The story dataset is hosted on the PsychArchives repository:
+The reference for the database is:
 
-- **Version 0.2**: PSE database for second revision (n = 183,415 sentences, nested in 26,389 stories provided by 4,570 participants): TODO doi + LINK
+Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar-Hoffmann, C., Schultheiss, O. C. (2020). Database of Expert-Coded German PSE Stories. PsychArchives. https://doi.org/10.23668/PSYCHARCHIVES.2738
 
 
 # PSE picture database
@@ -30,6 +23,16 @@ A database of classic and new PSE picture stimuli. These files are stored on Ope
 ![PSE picture database](/picture_database/pse-pic-DB.jpg)
 
 The project also contains [norm values](https://osf.io/pqckn/wiki/Norm%20values%20for%20each%20picture/) for all pictures.
+
+# License and citation of the databases
+
+Both the database on coded PSE stories and the picture database ([https://osf.io/pqckn/](https://osf.io/pqckn/)) can be downloaded and reused freely under a CC-BY 4.0 license. 
+
+Please cite this publication if you use either database in your work ([BibTex](CITATION.bib)): 
+
+Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar-Hoffmann, C., & Schultheiss, O. C. (2019). Measuring implicit motives with the Picture Story Exercise (PSE): Databases of expert-coded german stories, pictures, and updated picture norms. *Journal of Personality Assessment*.
+
+
 
 # Codebook of the PSE story database
 
@@ -63,7 +66,7 @@ Note that in study *MK3* there was a longer break between pictures 1--4 and 5--8
 
 # How to reproduce the analyses for the paper
 
-The R code in folder [/R](/R) accesses the PSE database and computes all descriptive and inferential statistics reported in the paper. The folder and data file structure follows the [Psych-DS](https://github.com/psych-ds/psych-DS) standard. You need to download the story database from PsyArchives and place the file in the /story_database subfolder.
+The R code in folder [/R](/R) accesses the PSE database and computes all descriptive and inferential statistics reported in the paper. The folder and data file structure follows the [Psych-DS](https://github.com/psych-ds/psych-DS) standard. **You need to download the story database (i.e., the file "PSE_1.0_redacted_data.tsv") from PsyArchives and place the file in the /raw_data subfolder**.
 
 - subfolders [/raw_data](/R/raw_data) and [/story_database](/story_database) contain the current PSE database, and the codebook table.
 - subfolder [/processed_data](/R/cache) stores intermediate data objects generated by the scripts. These can safely be deleted; they are useful when you directly start with a later script without computing all previous steps. No cache invalidation check is performed, so take care with cached objects.
@@ -74,5 +77,4 @@ The file [AMC-Database.Rnw](/Manuscript/AMC-Database.Rnw) in folder [Manuscript]
 
 # Full Reference
 
-Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar, C., Schultheiss, O. C. (2018). Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms.
-
+Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar-Hoffmann, C., Schultheiss, O. C. (2018). Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms. *Journal of Personality Assessment*.

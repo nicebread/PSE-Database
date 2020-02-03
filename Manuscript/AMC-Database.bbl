@@ -60,7 +60,7 @@
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/HFCFC6TN/ContentServer.html
       \endverb
-      \keyw{Motivation,Personality Measures,PERSONALITY,Theories,study of personality in motivational psychology}
+      \keyw{Motivation,PERSONALITY,Personality Measures,study of personality in motivational psychology,Theories}
     \endentry
     \entry{atkinson_dynamics_1970}{book}{}
       \name{author}{2}{}{%
@@ -632,7 +632,7 @@
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/DMV3TQT9/Hibbard - 2003 - A critique of Lilienfeld et al.'s (2000) 'The scie.pdf
       \endverb
-      \keyw{test reliability,test validity,Thematic Apperception Test,Projective Techniques,Human Figures Drawing,Rorschach Test,human figure drawings}
+      \keyw{human figure drawings,Human Figures Drawing,Projective Techniques,Rorschach Test,test reliability,test validity,Thematic Apperception Test}
     \endentry
     \entry{jacobs_MethodInvestigatingCue_1958}{incollection}{}
       \name{author}{2}{}{%
@@ -814,7 +814,7 @@
       \verb{doi}
       \verb 10.1007/s40750-017-0075-y
       \endverb
-      \keyw{Power motivation,Facial width-to-height ratio,Implicit motives,Organizational hormone effects,Picture story exercise,Puberty}
+      \keyw{Facial width-to-height ratio,Implicit motives,Organizational hormone effects,Picture story exercise,Power motivation,Puberty}
     \endentry
     \entry{jenkins_HandbookClinicalScoring_2008}{book}{}
       \name{author}{1}{}{%
@@ -1076,7 +1076,7 @@
       \verb{url}
       \verb http://d-nb.info/1079385363
       \endverb
-      \keyw{Motivation,implicit motives,Emotionsausdruck,facial expression of emotion,Gefühlsausdruck,Hochschulschrift,implicit learning,Implizite Motive,Implizites Lernen,instrumental conditioning,Instrumentelles Konditionieren,Konditionierung,Machtmotiv,power motive}
+      \keyw{Emotionsausdruck,facial expression of emotion,Gefühlsausdruck,Hochschulschrift,implicit learning,implicit motives,Implizite Motive,Implizites Lernen,instrumental conditioning,Instrumentelles Konditionieren,Konditionierung,Machtmotiv,Motivation,power motive}
     \endentry
     \entry{kordik_ImplicitNeedAffiliation_2012}{article}{}
       \name{author}{3}{}{%
@@ -1130,7 +1130,7 @@
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/3PNLCYU8/S0092656612000839.html
       \endverb
-      \keyw{Affiliation motive,EMG,Implicit motives,Affect,Corrugator supercilii,Facial expressions of emotion,Neutral facial expression}
+      \keyw{Affect,Affiliation motive,Corrugator supercilii,EMG,Facial expressions of emotion,Implicit motives,Neutral facial expression}
     \endentry
     \entry{lang_DynamicThurstonianItem_2014}{article}{}
       \name{author}{1}{}{%
@@ -1815,7 +1815,7 @@
       \verb{doi}
       \verb 10.1007/s11031-012-9339-9
       \endverb
-      \keyw{Methodology,Achievement,Picture story exercise,Implicit motivation,Motive assessment}
+      \keyw{Achievement,Implicit motivation,Methodology,Motive assessment,Picture story exercise}
     \endentry
     \entry{runge_ModelingMotiveActivation_2016}{article}{useprefix=true}
       \name{author}{6}{}{%
@@ -1887,7 +1887,175 @@
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/8JCM8XJG/2017-10577-004.html
       \endverb
-      \keyw{Motivation,Models,Measurement,Item Response Theory}
+      \keyw{Item Response Theory,Measurement,Models,Motivation}
+    \endentry
+    \entry{schonbrodt_DatabaseExpertcodedGerman_2020}{article}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=bf8333f15cbb22f1bd3d000e0e5a7d5d}{%
+           family={Schönbrodt},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c874c43781571d76efae015342e372dd}{%
+           family={Hagemeyer},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dae98beb9577b5e695d9f6819cb36108}{%
+           family={Brandstätter},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f319221a899c02f9da5d39c535652eda}{%
+           family={Czikmantori},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6843f2c0ff3bbf7d82d5783f5e603f}{%
+           family={Gröpel},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28de265192a44605f7719688b5b0ad3b}{%
+           family={Hennecke},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa9a9a3de229342038813adac4738980}{%
+           family={Israel},
+           familyi={I\bibinitperiod},
+           given={L.\bibnamedelimi S.\bibnamedelimi F.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c0a383299fa7c44eebbc7bc668d2cbb}{%
+           family={Janson},
+           familyi={J\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07e010a2808b3db4f6f83d149665f66f}{%
+           family={Kemper},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7158494043d8a165191c1f7ce20fd286}{%
+           family={Köllner},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a16336af7a2d137af7a11a178166daf0}{%
+           family={Kopp},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4e976d29d2498011f13352605b39dad}{%
+           family={Mojzisch},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26ab4948cbb9708108fd7b6754b46263}{%
+           family={Müller-Hotop},
+           familyi={M\bibinithyphendelim H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27c2cb00d9c5f249fd74e058ec554108}{%
+           family={Prüfer},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80ec3d8b562ec5336723b54564f4446f}{%
+           family={Quirin},
+           familyi={Q\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=745e56518ba3e512def0c44f05ea94ae}{%
+           family={Scheidemann},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e5e98ad8882ae65f90a34d9fe6c415d}{%
+           family={Schiestel},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a88c0718bced31b1778e9ca1a0046cb5}{%
+           family={Schulz-Hardt},
+           familyi={S\bibinithyphendelim H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=151a843fcdcafd46224ff5cb315d69a3}{%
+           family={Sust},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0e81eef120d6399b43f3224bb15bc2c}{%
+           family={Zygar},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db75caa6c93881a7606a386697add54a}{%
+           family={Schultheiss},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editora}{2}{}{%
+        {{hash=e437ec2e1be9bb6abf575aa136801cab}{%
+           family={(ZPID)},
+           familyi={(\bibinitperiod},
+           given={Leibniz\bibnamedelimb Institut\bibnamedelimb Für\bibnamedelimb Psychologische\bibnamedelimb Information\bibnamedelimb Und\bibnamedelima Dokumentation},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e437ec2e1be9bb6abf575aa136801cab}{%
+           family={(ZPID)},
+           familyi={(\bibinitperiod},
+           given={Leibniz\bibnamedelimb Institut\bibnamedelimb Für\bibnamedelimb Psychologische\bibnamedelimb Information\bibnamedelimb Und\bibnamedelima Dokumentation},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d09db9e1ecd6117e2f76dfa2b8a40cb1}
+      \strng{fullhash}{f86c4ed0e38a0a135eb3b934261a985a}
+      \strng{bibnamehash}{74fe3d12e79010be7d7fdfc5aaa8460b}
+      \strng{authorbibnamehash}{74fe3d12e79010be7d7fdfc5aaa8460b}
+      \strng{authornamehash}{d09db9e1ecd6117e2f76dfa2b8a40cb1}
+      \strng{authorfullhash}{f86c4ed0e38a0a135eb3b934261a985a}
+      \strng{editorabibnamehash}{c111785f8872b018e7117aada6aba08b}
+      \strng{editoranamehash}{c111785f8872b018e7117aada6aba08b}
+      \strng{editorafullhash}{c111785f8872b018e7117aada6aba08b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dataset for: Schönbrodt, F. D., Hagemeyer, B., Brandstätter, V., Czikmantori, T., Gröpel, P., Hennecke, M., Israel, L. S. F., Janson, K., Kemper, N., Köllner, M., Kopp, P. M., Mojzisch, A., Müller-Hotop, R., Prüfer, J., Quirin, M., Scheidemann, B., Schiestel, L., Schulz-Hardt, S., Sust, L., Zygar, C., Schultheiss, O. C. (2018). Measuring Implicit Motives With the Picture Story Exercise (PSE): Databases of Expert-Coded German Stories, Pictures, and Updated Picture Norms.}
+      \field{editoratype}{collaborator}
+      \field{journaltitle}{PsychArchives}
+      \field{title}{Database of Expert-Coded {{German PSE}} Stories}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.23668/PSYCHARCHIVES.2738
+      \endverb
+      \keyw{150,database,implicit motives,machine learning,manual coding,picture story exercise,pictures}
     \endentry
     \entry{schultheiss_are_2013}{article}{}
       \name{author}{1}{}{%
@@ -2107,7 +2275,7 @@
       \field{dateera}{ce}
       \field{pages}{322\bibrangedash 344}
       \range{pages}{23}
-      \keyw{Motivation,Personality,Personality Measures,Test Reliability,Test Validity,analytic design,assessment,differential validity,implicit motivational needs,implicit motive measures,implicit motives,measurement,motive scores,Book,reliability}
+      \keyw{analytic design,assessment,Book,differential validity,implicit motivational needs,implicit motive measures,implicit motives,measurement,Motivation,motive scores,Personality,Personality Measures,reliability,Test Reliability,Test Validity}
     \endentry
     \entry{schultheiss_AreImplicitExplicit_2009}{article}{}
       \name{author}{4}{}{%
@@ -2361,7 +2529,7 @@
       \field{title}{Motivation and Personality: {{Handbook}} of Thematic Content Analysis}
       \field{year}{1992}
       \field{dateera}{ce}
-      \keyw{Motivation,Personality Measures,examines content analysis in relation to personality assessment & motivation,Content Analysis (Test)}
+      \keyw{Content Analysis (Test),examines content analysis in relation to personality assessment & motivation,Motivation,Personality Measures}
     \endentry
     \entry{smith_MethodologicalConsiderationsSteps_1992}{incollection}{}
       \name{author}{3}{ul=2}{%
@@ -2413,7 +2581,7 @@
       \verb{doi}
       \verb 10.1017/CBO9780511527937.038
       \endverb
-      \keyw{Interrater Reliability,Scoring (Testing),Statistical Analysis,*Content Analysis,*Conversation,*Methodology,Data Collection}
+      \keyw{*Content Analysis,*Conversation,*Methodology,Data Collection,Interrater Reliability,Scoring (Testing),Statistical Analysis}
     \endentry
     \entry{stein_SCORSStimulusCharacteristics_2014}{article}{}
       \name{author}{8}{}{%
@@ -3185,7 +3353,7 @@
       \verb{file}
       \verb /Users/felix/Bibs und Backup/Zotero/storage/DRKBZK5L/1991-98189-014.html
       \endverb
-      \keyw{Personality Measures,Achievement Motivation,Intimacy,Imagery,Scoring (Testing),Interpersonal Control,Affiliation Motivation,Verbal Communication}
+      \keyw{Achievement Motivation,Affiliation Motivation,Imagery,Interpersonal Control,Intimacy,Personality Measures,Scoring (Testing),Verbal Communication}
     \endentry
     \entry{yu_RobustLinearRegression_2014}{article}{}
       \name{author}{3}{}{%

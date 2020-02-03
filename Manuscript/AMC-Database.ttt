@@ -6,7 +6,7 @@
 \begin{tabularx}{\textwidth}{llXX}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:44 2020
+% Mon Feb  3 07:47:12 2020
 Variable name & Data type & Comment & Values \\
   \hline
 row\_id & numeric & Unique row id &  \\
@@ -50,7 +50,7 @@ row\_id & numeric & Unique row id &  \\
 
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:44 2020
+% Mon Feb  3 07:47:13 2020
 Study ID & \# stories & n & \# pic & Scoring type & Coding lab & Pic. order & \% female & Date & Location & Admin. & Population \\
   \hline
 BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & DE & CL & mostly students \\
@@ -123,7 +123,7 @@ BS & 814 & 144 &   6 & eachSentence & Osnabrueck & fixed & 84\% & 2014-2015 & DE
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:44 2020
+% Mon Feb  3 07:47:13 2020
 Text (original) & Text (translation) & ach & aff & pow & motclassfull \\
   \hline
 Der Reporter im Bild versucht sich einen Eindruck vom Leben der Beschäftigten der Schiffahrt in der Vergangenheit zu machen. & The reporter in this picture is trying to get a sense of how ship employees lived in the past. &   0 &   0 &   0 & null \\
@@ -177,7 +177,7 @@ null & 58.7\% \\
 \begin{tabularx}{\textwidth}{Xrrlllllllllllllllll}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:44 2020
+% Mon Feb  3 07:47:13 2020
  & Mean & SD & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) \\
   \hline
 (1) Aff motive score & 1.14 & 0.73 & - & .87 & .90 & .73 & .68 & .22 & .06 & .09 & -.06 & -.05 & .24 & -.04 & .03 & -.03 & -.04 & .50 & .44 \\
@@ -263,7 +263,7 @@ null & 58.7\% \\
 \toprule
 
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:44 2020
+% Mon Feb  3 07:47:14 2020
 Correction & aff & ach & pow \\
   \hline
 Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .282) & -0.13 (0.03, \emph{p} < .001) \\
@@ -284,7 +284,7 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .282) & 
 \begin{tabularx}{\textwidth}{rlllllllr}
 \toprule
 % latex table generated in R 3.6.1 by xtable 1.8-4 package
-% Tue Jan 28 08:06:46 2020
+% Mon Feb  3 07:47:16 2020
  & Pic ID & Aff & Ach & Pow & Overall & AI & WC & \emph{n} \\
   \hline
   1 & newpic9 & 0.77 (1.01) & \textbf{1.82} (1.27) & \textbf{2.11} (1.46) & 4.70 (2.31) & 0.38 (0.67) & 84 (33) & 198 \\
@@ -323,7 +323,7 @@ Density scores & 0.36 (0.03, \emph{p} < .001) & -0.04 (0.03, \emph{p} = .282) & 
 \begin{tablenotes}[para,flushleft]
 {\small
 \vspace*{0.75em}
-\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk.  \emph{AI} = Activity Inhibibition. \emph{WC} = word count. The actual pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
+\textit{Note.} \emph{Overall} is the sum of all three motive categories (aff + ach + pow). Pictures are ordered along their overall motive pull. Bold motive scores indicate that $\geq$ 50\% of participants responded with at least one motive score to the picture. Pictures of the ``standard six'' set are marked with an asterisk.  \emph{AI} = Activity Inhibibition. \emph{WC} = word count. The actual pictures and norms for more pictures are provided in an OSF project (\url{https://osf.io/pqckn/}).}
       \end{tablenotes}
   \end{threeparttable}
 \end{sidewaystable*}
